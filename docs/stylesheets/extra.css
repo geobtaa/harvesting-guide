@@ -1,0 +1,11 @@
+.md-header, .md-tabs { 
+  background-color: #0a4c7b;
+}
+
+/* Hide main nav title */
+label[for="__drawer"] {
+    display: none;
+}
+.md-nav__list>*:first-child {
+    margin-top: 0;
+}

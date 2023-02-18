@@ -1,0 +1,18 @@
+site_name: BTAA-GIN Harvesting Guide
+theme: 
+    name: readthedocs
+    highlightjs: true
+    logo: images/btaa-logo-white.png
+
+plugins:
+  - search
+  - mkdocs-jupyter
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - abbr
+  - tables
+  - attr_list
+  - md_in_html
