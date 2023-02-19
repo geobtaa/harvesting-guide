@@ -1,17 +1,20 @@
-# Welcome to MkDocs
+# Home
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+The BTAA Geoportal holds metadata records that point to geospatial data, maps, aerial imagery, web services, and websites hosted online by external organizations.
 
-## Commands
+The most common way of obtaining this metadata is to programmatically harvest it from an organization's website. These websites may be in the form of a data portal, a static page, or custom platform.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Due to the variation of how the websites are structured, we have written several different Python harvesting scripts. 
 
-## Project layout
+Here are the main categories:
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## HTML parsing
+
+If a data portal or website does not have an API, we may be able to parse the HTML pages to obtain the metadata needed to create GeoBlacklight schema records.
+
+
+## API
+
+DCAT enabled portals: ArcGIS Open Data Portals (HUB), Socrata portals, and some others share metadata in the DCAT standard.
+
+CKAN / DKAN portals: This application uses a custom metadata schema for their API.
