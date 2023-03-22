@@ -16,3 +16,4 @@ markdown_extensions:
   - tables
   - attr_list
   - md_in_html
+  - admonition

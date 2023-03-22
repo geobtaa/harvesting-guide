@@ -1,0 +1,39 @@
+{
+ "geoblacklight_version": "1.0",
+ "dc_identifier_s": "669cfb43-a931-4036-b0d1-1d6494a76939",
+ "dc_title_s": "LiDAR-Derived Breaklines (QL1) for Florence County, WI 2019",
+ "dc_description_s": "This data represents LiDAR-derived breaklines (QL1) in Florence County, Wisconsin in 2019. Hydro breaklines maintain the definition of water-related features in an elevation model (QL1 – high resolution data with 8 points per square meter). They are used to capture linear discontinuities in the surface, lake shorelines, single-line drains for small rivers, and double-line drains for large rivers.",
+ "dc_rights_s": "Public",
+ "dct_provenance_s": "WisconsinView",
+ "layer_id_s": "",
+ "layer_slug_s": "669cfb43-a931-4036-b0d1-1d6494a76939",
+ "layer_geom_type_s": "Line",
+"layer_modified_dt": "2022-01-22T20:12:43Z",
+ "dc_format_s": "Shapefile",
+ "dc_language_s": "English",
+ "dct_isPartOf_sm": [
+  "Wisconsin Elevation Data"
+ ],
+ "dc_creator_sm": [
+  "U.S. Geological Survey"
+ ],
+ "dc_publisher_sm": "",
+ "dc_type_s": "Dataset",
+ "dc_subject_sm": [
+  "Elevation"
+ ],
+ "dct_spatial_sm": [
+  ""
+ ],
+ "dct_temporal_sm": [
+  "2019"
+ ],
+ "solr_year_i": 2019,
+ "dct_issued_s": "",
+ "dct_references_s": "{\"http://schema.org/url\":\"https://www.sco.wisc.edu/data/elevationlidar/\",\"http://schema.org/downloadUrl\":[{\"url\": \"https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Florence/Florence_2019_3DEP_Delivery/WI_Florence_QL1_USGS_2019/Florence_QL1_breaklines/Florence_QL1_Breaklines_SHP.zip\", \"label\": \"Shapefile\"},{\"url\":\"https://bin.ssec.wisc.edu/pub/wisconsinview/lidar/Florence/Florence_2019_3DEP_Delivery/WI_Florence_QL1_USGS_2019/Florence_QL1_breaklines/Florence_QL1_Breaklines.gdb.zip\",\"label\": \"Geodatabase\"}],\"http://www.isotc211.org/schemas/2005/gmd/\":\"https://gisdata.wisc.edu/public/metadata/Florence_LIDAR_USGS_2019.xml\"}",
+ "solr_geom": "ENVELOPE(-88.68421375,-88.05822859,46.02121159,45.7130394)",
+ "thumbnail_path_ss": "",
+ "uw_supplemental_s": "",
+ "uw_notice_s": "",
+ "uw_deprioritize_item_b": false
+}
