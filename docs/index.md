@@ -26,6 +26,6 @@ This Harvesting Guide is structured in four sections as described by the [Diáta
 
 > *"Explanation is discussion that clarifies and illuminates a particular topic. Explanation is understanding-oriented."* [https://diataxis.fr/explanation/](https://diataxis.fr/explanation/)
 
-	
+
 
 
