@@ -9,3 +9,8 @@ label[for="__drawer"] {
 .md-nav__list>*:first-child {
     margin-top: 0;
 }
+
+increase header size and fonts.md-header__topic  {
+  font-size: 1.5em; 
+  line-height: 2em;
+  }

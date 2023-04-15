@@ -6,6 +6,14 @@ This site provides guidance on harvesting metadata for the [BTAA Geoportal](http
 
 The BTAA Geoportal holds metadata records that point to geospatial data, maps, aerial imagery, web services, and websites hosted online by external organizations. The most common way of obtaining this metadata is to programmatically harvest it from an organization's website. These websites may be in the form of a data portal, a static page, or custom platform. Due to the many variations in how the different websites are structured, we have several workflows for obtaining the metadata.
 
+## Who is this guide for?
+
+
+
+## Getting Started
+
+This Guide has all of the necessary files to run the tutorials as well as Jupyter Notebooks for running the Recipes. Make a fork or new branch of the Main Branch to get started.
+
 ## Structure
 
 This Harvesting Guide is structured in four sections as described by the [Diátaxis framework:](https://diataxis.fr)
@@ -26,6 +34,15 @@ This Harvesting Guide is structured in four sections as described by the [Diáta
 
 > *"Explanation is discussion that clarifies and illuminates a particular topic. Explanation is understanding-oriented."* [https://diataxis.fr/explanation/](https://diataxis.fr/explanation/)
 
+## Credits
+
+This guide was prepared by **Alexander Danielson** and **Karen Majewicz** in April 2023.  It also contains code contributed by **Melinda Kernik ** and alumni BTAA graduate research assistants, including:
+
+* Ziying (Gene) Cheng - (2020-2022)
+* Yijing (Zoey) Zhou - (2020-2021)
+* Emily Ruetz (2018-2020)
+* Andrew Smith (2017-2019)
+* Lewei Hi (2017)
 
 
 

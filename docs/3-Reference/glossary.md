@@ -1,6 +1,10 @@
+### APIs
+
 ### Pandas DataFrame 
 
-Pandas DataFrame is a 2-dimensional table-like data structure that is used for data manipulation and analysis. It is a powerful tool for handling and processing structured data. A DataFrame has rows and columns, similar to a spreadsheet. It can contain heterogeneous data types and can be indexed and sliced in various ways. It is part of the Pandas library and provides powerful features for data analysis and manipulation. [https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html?highlight=dataframe#pandas-dataframe]((https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html?highlight=dataframe#pandas-dataframe).).
+Pandas DataFrame is a 2-dimensional table-like data structure that is used for data manipulation and analysis. It is a powerful tool for handling and processing structured data. A DataFrame has rows and columns, similar to a spreadsheet. It can contain heterogeneous data types and can be indexed and sliced in various ways. It is part of the Pandas library and provides powerful features for data analysis and manipulation. 
+
+https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html?highlight=dataframe#pandas-dataframe.
 
 ### Python List 
 

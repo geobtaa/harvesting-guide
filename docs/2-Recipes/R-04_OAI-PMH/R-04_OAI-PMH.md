@@ -1,6 +1,6 @@
-# Illinois Library Digital Collections
+## Harvest via OAI-PMH
 
-Using OAI-PMH
+Using Illinois Library Digital Collections as example
 
 Steps:
 

@@ -1,19 +1,75 @@
-site_name: BTAA-GIN Harvesting Guide
+site_name: GeoBTAA Harvesting Guide
 theme: 
-    name: readthedocs
-    highlightjs: true
-    logo: images/btaa-logo-white.png
-
+      name: material
+      highlightjs: true
+      logo: images/btaa-logo-white.png
+      features:
+            - navigation.indexes
+            - navigation.instant
+            - navigation.tabs
+            - navigation.tabs.sticky
+            - navigation.tracking
+            - navigation.sections
+            - navigation.expand
+            - navigation.path
+            - navigation.prune
+            - toc.follow
 plugins:
-  - search
-  - mkdocs-jupyter
+      - search
+      - table-reader
+      - mkdocs-jupyter
 
 extra_css:
-  - stylesheets/extra.css
+      - stylesheets/extra.css
 
 markdown_extensions:
-  - abbr
-  - tables
-  - attr_list
-  - md_in_html
-  - admonition
+      - abbr
+      - tables
+      - attr_list
+      - md_in_html
+      - admonition
+      - pymdownx.critic
+      - pymdownx.caret
+      - pymdownx.keys
+      - pymdownx.mark
+      - pymdownx.tilde
+      - pymdownx.details
+      - pymdownx.superfences
+      - pymdownx.snippets
+      - pymdownx.emoji:
+            emoji_index: !!python/name:materialx.emoji.twemoji
+            emoji_generator: !!python/name:materialx.emoji.to_svg
+            options:
+                  custom_icons:
+                        - overrides/.icons
+      - pymdownx.tabbed:
+            alternate_style: true 
+            slugify: !!python/object/apply:pymdownx.slugs.slugify
+                  kwds:
+                        case: lower
+      - toc:
+              toc_depth: 2
+              permalink: true
+
+
+nav:
+      - 'Home': 'index.md'
+      - Tutorials:
+            - 'Jupyter Notebook' : '1-Tutorials/jupyter-notebook.ipynb'
+      - Recipes:
+            - '2-Recipes/index.md'
+            - Common APIs:
+                  - 'ArcGIS Hubs': '2-Recipes/R-01_arcgis-hubs/R-01_arcgis-hubs.ipynb'
+                  - 'Socrata': '2-Recipes/R-02_socrata/R-02_socrata.ipynb'
+                  - 'CKAN': '2-Recipes/R-03_ckan/R-03_ckan.ipynb'
+                  - 'OAI-PMH': '2-Recipes/R-04_OAI-PMH/R-04_OAI-PMH.md'
+                  - 'IIIF Manifests': '2-Recipes/R-05_IIIF/R-05_IIIF.ipynb'
+                  - 'MODS Metadata': '2-Recipes/R-06_MODS/R-06_MODS.ipynb'
+                  - 'OpenGeoMetadata': '2-Recipes/R-07_OpenGeoMetadata/R-07_OpenGeoMetadata.ipynb'    
+            - Custom Sites:
+                  - 'PASDA': '2-Recipes/R-08_08a-01_pasda/R-08_08a-01_pasda.ipynb'
+                  - 'UMedia': '2-Recipes/R-09_05d-01-umedia/R-09_05d-01_umedia.ipynb'
+
+            
+            
+      
