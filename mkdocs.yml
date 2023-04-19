@@ -52,23 +52,23 @@ markdown_extensions:
               permalink: true
 
 
-nav:
-      - 'Home': 'index.md'
-      - Tutorials:
-            - 'Jupyter Notebook' : '1-Tutorials/jupyter-notebook.ipynb'
-      - Recipes:
-            - '2-Recipes/index.md'
-            - Common APIs:
-                  - 'ArcGIS Hubs': '2-Recipes/R-01_arcgis-hubs/R-01_arcgis-hubs.ipynb'
-                  - 'Socrata': '2-Recipes/R-02_socrata/R-02_socrata.ipynb'
-                  - 'CKAN': '2-Recipes/R-03_ckan/R-03_ckan.ipynb'
-                  - 'OAI-PMH': '2-Recipes/R-04_OAI-PMH/R-04_OAI-PMH.md'
-                  - 'IIIF Manifests': '2-Recipes/R-05_IIIF/R-05_IIIF.ipynb'
-                  - 'MODS Metadata': '2-Recipes/R-06_MODS/R-06_MODS.ipynb'
-                  - 'OpenGeoMetadata': '2-Recipes/R-07_OpenGeoMetadata/R-07_OpenGeoMetadata.ipynb'    
-            - Custom Sites:
-                  - 'PASDA': '2-Recipes/R-08_08a-01_pasda/R-08_08a-01_pasda.ipynb'
-                  - 'UMedia': '2-Recipes/R-09_05d-01-umedia/R-09_05d-01_umedia.ipynb'
+# nav:
+#       - 'Home': 'index.md'
+#       - Tutorials:
+#             - 'Jupyter Notebook' : '1-Tutorials/jupyter-notebook.ipynb'
+#       - Recipes:
+#             - '2-Recipes/index.md'
+#             - Common APIs:
+#                   - 'ArcGIS Hubs': '2-Recipes/R-01_arcgis-hubs/R-01_arcgis-hubs.ipynb'
+#                   - 'Socrata': '2-Recipes/R-02_socrata/R-02_socrata.ipynb'
+#                   - 'CKAN': '2-Recipes/R-03_ckan/R-03_ckan.ipynb'
+#                   - 'OAI-PMH': '2-Recipes/R-04_OAI-PMH/R-04_OAI-PMH.md'
+#                   - 'IIIF Manifests': '2-Recipes/R-05_IIIF/R-05_IIIF.ipynb'
+#                   - 'MODS Metadata': '2-Recipes/R-06_MODS/R-06_MODS.ipynb'
+#                   - 'OpenGeoMetadata': '2-Recipes/R-07_OpenGeoMetadata/R-07_OpenGeoMetadata.ipynb'    
+#             - Custom Sites:
+#                   - 'PASDA': '2-Recipes/R-08_08a-01_pasda/R-08_08a-01_pasda.ipynb'
+#                   - 'UMedia': '2-Recipes/R-09_05d-01-umedia/R-09_05d-01_umedia.ipynb'
 
             
             
