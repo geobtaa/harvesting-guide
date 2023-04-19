@@ -1,0 +1,7 @@
+ArcGIS 1.0,"https://desktop.arcgis.com/en/arcmap/10.3/manage-data/metadata/the-arcgis-metadata-format.htm also gives info about ISO 19139, FGDC, and others",,,,,,,
+DCAT,https://www.w3.org/TR/vocab-dcat-2/ and https://geobtaa.github.io/metadata/harvestGuide/#dcat-harvesting for our process,,,,,,,
+Dublin Core,https://www.dublincore.org/specifications/dublin-core/dcmi-terms/,,,,,,,
+FGDC,"https://www.fgdc.gov/dataandservices/fgdcmeta#:~:text=The%20FGDC%20metadata%20standard%20is,overall%20structure%20to%20the%20standard.",,,,,,,
+ISO 19139,https://www.iso.org/standard/67253.html Paper about encoding rules and how it has changed,,,,,,,
+MARC,https://www.loc.gov/marc/,,,,,,,
+MODS,https://www.loc.gov/standards/mods/mods-overview.html,,,,,,,
