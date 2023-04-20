@@ -1,6 +1,7 @@
 site_name: GeoBTAA Harvesting Guide
 theme: 
       name: material
+      custom_dir: overrides
       highlightjs: true
       logo: images/btaa-logo-white.png
       features:
@@ -10,14 +11,16 @@ theme:
             - navigation.tabs.sticky
             - navigation.tracking
             - navigation.sections
-            - navigation.expand
+#             - navigation.expand
             - navigation.path
             - navigation.prune
             - toc.follow
+            - toc.integrate
 plugins:
       - search
       - table-reader
-      - mkdocs-jupyter
+#       - mkdocs-jupyter:
+#             include_source: True
 
 extra_css:
       - stylesheets/extra.css
@@ -28,13 +31,19 @@ markdown_extensions:
       - attr_list
       - md_in_html
       - admonition
+      - footnotes
       - pymdownx.critic
       - pymdownx.caret
       - pymdownx.keys
       - pymdownx.mark
       - pymdownx.tilde
       - pymdownx.details
-      - pymdownx.superfences
+      - pymdownx.superfences:
+            custom_fences:
+                  - name: mermaid
+                    class: mermaid
+                    format: !!python/name:pymdownx.superfences.fence_code_format
+                    showSequenceNumbers: true
       - pymdownx.snippets
       - pymdownx.emoji:
             emoji_index: !!python/name:materialx.emoji.twemoji
@@ -52,23 +61,16 @@ markdown_extensions:
               permalink: true
 
 
-# nav:
-#       - 'Home': 'index.md'
-#       - Tutorials:
-#             - 'Jupyter Notebook' : '1-Tutorials/jupyter-notebook.ipynb'
-#       - Recipes:
-#             - '2-Recipes/index.md'
-#             - Common APIs:
-#                   - 'ArcGIS Hubs': '2-Recipes/R-01_arcgis-hubs/R-01_arcgis-hubs.ipynb'
-#                   - 'Socrata': '2-Recipes/R-02_socrata/R-02_socrata.ipynb'
-#                   - 'CKAN': '2-Recipes/R-03_ckan/R-03_ckan.ipynb'
-#                   - 'OAI-PMH': '2-Recipes/R-04_OAI-PMH/R-04_OAI-PMH.md'
-#                   - 'IIIF Manifests': '2-Recipes/R-05_IIIF/R-05_IIIF.ipynb'
-#                   - 'MODS Metadata': '2-Recipes/R-06_MODS/R-06_MODS.ipynb'
-#                   - 'OpenGeoMetadata': '2-Recipes/R-07_OpenGeoMetadata/R-07_OpenGeoMetadata.ipynb'    
-#             - Custom Sites:
-#                   - 'PASDA': '2-Recipes/R-08_08a-01_pasda/R-08_08a-01_pasda.ipynb'
-#                   - 'UMedia': '2-Recipes/R-09_05d-01-umedia/R-09_05d-01_umedia.ipynb'
+nav:
+      - Home: 'index.md'
+      - Tutorials: '1-Tutorials/index.md'
+      - Recipes: '2-Recipes/index.md'
+      - Reference: '3-Reference/glossary.md'
+      - Explanation:
+            - 'Resource lifecycle': '4-Explanation/resource-lifecycle.md'
+            - 'About harvesting': '4-Explanation/about-harvesting.md'
+            - 'Purpose': '4-Explanation/purpose.md'
+            - 'Common data portals': '4-Explanation/data-portals.md'
 
             
             

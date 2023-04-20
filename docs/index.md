@@ -1,4 +1,9 @@
-# Home
+---
+hide:
+  - navigation
+  - toc
+---
+
 
 ## About
 
@@ -8,15 +13,17 @@ The BTAA Geoportal holds metadata records that point to geospatial data, maps, a
 
 ## Who is this guide for?
 
+This guide is primarily intended for the BTAA-GIN Product Manager and Graduate Research Assistants. However, anyone interested in batch metadata harvesting and processing may be able to find useful techniques presented here.
 
+## Download the workflow scripts
 
-## Getting Started
-
-This Guide has all of the necessary files to run the tutorials as well as Jupyter Notebooks for running the Recipes. Make a fork or new branch of the Main Branch to get started.
+This Guide is hosted in GitHub at [https://github.com/geobtaa/harvesting-guide](https://github.com/geobtaa/harvesting-guide) and has all of the necessary files to run the tutorials as well as Jupyter Notebooks for running the Recipes. Make a fork or new branch of the repository to get started.
 
 ## Structure
 
-This Harvesting Guide is structured in four sections as described by the [Diátaxis framework:](https://diataxis.fr)
+This Harvesting Guide is structured in four sections as described by the [Diátaxis framework:](https://diataxis.fr)[^1]
+[^1]: Procida, D. Diátaxis documentation framework. https://diataxis.fr/
+
 
 **1. Tutorials**: The Tutorial section contains short, easy to complete exercises to help someone get the basics of running and writing scripts to harvest metadata.
 
