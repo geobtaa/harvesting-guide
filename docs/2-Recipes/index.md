@@ -1,6 +1,6 @@
 ---
 hide:
-   -navigation
+
 ---
 
 * These recipes are all in the form of Jupyter Notebooks.

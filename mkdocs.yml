@@ -64,7 +64,9 @@ markdown_extensions:
 nav:
       - Home: 'index.md'
       - Tutorials: '1-Tutorials/index.md'
-      - Recipes: '2-Recipes/index.md'
+      - Recipes: 
+            - 'Recipes': '2-Recipes/index.md'
+            - 'ArcGIS Hubs': '2-Recipes/R-01_arcgis-hubs/R-01_arcgis-hubs.md'
       - Reference: '3-Reference/glossary.md'
       - Explanation:
             - 'Resource lifecycle': '4-Explanation/resource-lifecycle.md'
