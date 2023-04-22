@@ -70,7 +70,7 @@ nav:
             - 'Socrata': '2-Recipes/R-02_socrata/R-02_socrata.md'
             - 'CKAN': '2-Recipes/R-03_ckan/R-03_ckan.md'
             - 'OAI-PMH': '2-Recipes/R-04_OAI-PMH/R-04_OAI-PMH.md'
-            - 'IIIF': '2-Recipes/R-04_OAI-PMH/R-04_OAI-PMH.md'
+            - 'IIIF': '2-Recipes/R-05_IIIF/R-05_iiif.md'
             
       
       - Reference: '3-Reference/glossary.md'
