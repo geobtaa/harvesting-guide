@@ -67,6 +67,9 @@ nav:
       - Recipes: 
             - 'Recipes': '2-Recipes/index.md'
             - 'ArcGIS Hubs': '2-Recipes/R-01_arcgis-hubs/R-01_arcgis-hubs.md'
+            - 'Socrata': '2-Recipes/R-02_socrata/R-02_socrata.md'
+            - 'CKAN': '2-Recipes/R-03_ckan/R-03_ckan.md'
+            - 'OAH-PMH': '2-Recipes/R-04_OAI-PMH/R-04_OAI-PMH.md'
       - Reference: '3-Reference/glossary.md'
       - Explanation:
             - 'Resource lifecycle': '4-Explanation/resource-lifecycle.md'
