@@ -6,7 +6,7 @@ This repository contains Jupyter Notebooks for harvesting metadata for the [BTAA
 
 The BTAA Geoportal holds metadata records that point to geospatial data, maps, aerial imagery, web services, and websites hosted online by external organizations. The most common way of obtaining this metadata is to programmatically harvest it from an organization's website. These websites may be in the form of a data portal, a static page, or custom platform. Due to the many variations in how the different websites are structured, we have several workflows for obtaining the metadata.
 
-## Who is these Notebooks for?
+## Who are these Notebooks for?
 
 They are primarily intended for the BTAA-GIN Product Manager and Graduate Research Assistants. However, anyone interested in batch metadata harvesting and processing may be able to find useful techniques presented here.
 
