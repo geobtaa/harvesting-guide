@@ -1,0 +1,1039 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+	<HEAD>
+		<title>Pennsylvania Spatial Data Access | Full Metadata</title>
+		<meta name="GENERATOR" content="Microsoft Visual Studio.NET 7.0">
+		<meta name="CODE_LANGUAGE" content="Visual Basic 7.0">
+		<meta name="vs_defaultClientScript" content="JavaScript">
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+	    <link rel="shortcut icon" href="http://maps.pasda.psu.edu/Images/favicon.ico" type="image/x-icon" />
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-41373351-5', 'psu.edu');
+          ga('send', 'pageview');
+
+        </script>
+</HEAD>
+	<body MS_POSITIONING="GridLayout">
+		<form method="post" action="./FullMetadataDisplay.aspx?file=SRBC_precip_raster9120.xml" id="Form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEzNDA3MDMyNjVkZCi1cbXMhfZI+elmwl4oTersdOt9nxHHv5HGNLdvg2y4" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="D999016F" />
+			<HTML>
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <SCRIPT type="text/javascript">
+
+      function fix(e) {
+        var par = e.parentNode;
+        e.id = "";
+        e.style.marginLeft = "0.42in";
+        var pos = e.innerText.indexOf("\n");
+        if (pos > 0) {
+          while (pos > 0) {
+            var t = e.childNodes(0);
+            var n = document.createElement("PRE");
+            var s = t.splitText(pos);
+            e.insertAdjacentElement("afterEnd", n);
+            n.appendChild(s);
+            n.style.marginLeft = "0.42in";
+            e = n;
+            pos = e.innerText.indexOf("\n");
+          }
+          var count = (par.children.length);
+          for (var i = 0; i < count; i++) {
+            e = par.children(i);
+            if (e.tagName == "PRE") {
+              pos = e.innerText.indexOf(">");
+              if (pos != 0) {
+                n = document.createElement("DD");
+                e.insertAdjacentElement("afterEnd", n);
+                n.innerText = e.innerText;
+                e.removeNode(true);
+              }
+            }
+          }
+          if (par.children.tags("PRE").length > 0) {
+            count = (par.children.length);
+            for (i = 0; i < count; i++) {
+              e = par.children(i);
+              if (e.tagName == "PRE") {
+                e.id = "";
+                if (i < (count-1)) {
+                  var e2 = par.children(i + 1);
+                  if (e2.tagName == "PRE") {
+                    e.insertAdjacentText("beforeEnd", e2.innerText+"\n");
+                    e2.removeNode(true);
+                    count = count-1;
+                    i = i-1;
+                  }
+                }
+              }
+            }
+          }
+        }
+        else {
+          n = document.createElement("DD");
+          par.appendChild(n);
+          n.innerText = e.innerText;
+          e.removeNode(true);
+        }
+      }
+
+    </SCRIPT>
+  </HEAD>
+  <BODY oncontextmenu="return true">
+    <A name="Top">
+    </A>
+    <H2>30 Year Average Precipitation, Susquehanna River Basin, 1991-2020</H2>
+    <UL>
+      <LI>
+        <A HREF="#Identification_Information">Identification_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Data_Quality_Information">Data_Quality_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Spatial_Data_Organization_Information">Spatial_Data_Organization_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Spatial_Reference_Information">Spatial_Reference_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Entity_and_Attribute_Information">Entity_and_Attribute_Information</A>
+      </LI>
+      <LI>Distribution_Information</LI>
+      <LI STYLE="margin-left:0.3in">
+        <A HREF="#ECA">
+                  Distributor 1</A>
+      </LI>
+      <LI>
+        <A HREF="#EAA">
+                  Distribution_Information 
+                </A>
+      </LI>
+      <LI>
+        <A HREF="#Metadata_Reference_Information">Metadata_Reference_Information</A>
+      </LI>
+    </UL>
+    <A name="Identification_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Identification_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Citation:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Citation_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Originator:</I>PRISM Climate Group at Oregon State University</DT>
+                  <DT>
+                    <I>Publication_Date:</I>20211029</DT>
+                  <DT>
+                    <I>Title:</I>
+                  </DT>
+                  <DD>30 Year Average Precipitation, Susquehanna River Basin, 1991-2020</DD>
+                  <DT>
+                    <I>Geospatial_Data_Presentation_Form:</I>maps and data</DT>
+                  <DT>
+                    <I>Publication_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Publication_Place:</I>Corvallis, OR, USA</DT>
+                      <DT>
+                        <I>Publisher:</I>PRISM Climate Group at Oregon State University</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Online_Linkage:</I>
+                    <A TARGET="viewer" HREF="prism.oregonstate.edu">prism.oregonstate.edu</A>
+                  </DT>
+                  <DT>
+                    <I>Online_Linkage:</I>
+                    <A TARGET="viewer" HREF="https://www.pasda.psu.edu/">https://www.pasda.psu.edu/</A>
+                  </DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Abstract:</I>
+                </DT>
+                <PRE>Monthly 30-year "normal" dataset covering the Susquehanna River Basin, averaged over the climatological period 1991-2020. Contains spatially gridded average total precipitation at 800m grid cell resolution. Distribution of the point measurements to the spatial grid was accomplished using the PRISM model, developed and applied by Dr. Christopher Daly of the PRISM Climate Group at Oregon State University. This dataset is available free-of-charge on the PRISM website.</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Purpose:</I>
+                </DT>
+                <PRE>Dataset modified to fit the needs of the Susquehanna River Basin Commission. Display and/or analysis requiring spatially distributed total precipitation for the climatological period 1991-2020.</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Supplemental_Information:</I>
+                </DT>
+                <PRE>There are many methods of interpolating climate from monitoring stations to grid points. Some provide estimates of acceptable accuracy in flat terrain, but few have been able to adequately explain the extreme, complex variations in climate that occur in mountainous regions. Significant progress in this area has been achieved through the development of PRISM (Parameter-elevation Regressions on Independent Slopes Model). PRISM is an analytical model that uses point data and an underlying grid such as a digital elevation model (DEM) or a 30 yr climatological average to generate gridded estimates of monthly or annual precipitation and temperature (as well as other climatic parameters). PRISM is well suited to regions with mountainous terrain, because it incorporates a conceptual framework that addresses the spatial scale and pattern of orographic processes. Grids were modeled on a monthly basis. Annual grids were produced by averaging (temperature, vapor pressure, vapor pressure deficit, and solar radiation) or summing (precipitation) the monthly grids.</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Time_Period_of_Content:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Time_Period_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Range_of_Dates/Times:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Beginning_Date:</I>19910101</DT>
+                      <DT>
+                        <I>Ending_Date:</I>20201231</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DIV>
+                <DT>
+                  <I>Currentness_Reference:</I>
+                </DT>
+                <PRE>observed</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Status:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Progress:</I>Complete</DT>
+              <DT>
+                <I>Maintenance_and_Update_Frequency:</I>As needed</DT>
+            </DL>
+          </DD>
+          <DT>
+            <I>Spatial_Domain:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Bounding_Coordinates:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>West_Bounding_Coordinate:</I>-79.025436</DT>
+                  <DT>
+                    <I>East_Bounding_Coordinate:</I>-74.444983</DT>
+                  <DT>
+                    <I>North_Bounding_Coordinate:</I>43.012368</DT>
+                  <DT>
+                    <I>South_Bounding_Coordinate:</I>39.505780</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Keywords:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Theme:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Theme_Keyword_Thesaurus:</I>PRISM Climate Group</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>30 year average</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>precipitation</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>inches</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Theme:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Theme_Keyword_Thesaurus:</I>ISO 19115 Topic Categories</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>climatologyMeteorologyAtmosphere</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Place:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Place_Keyword_Thesaurus:</I>US Census Bureau</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Pennsylvania</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Susquehanna River Basin</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>New York</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Maryland</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Access_Constraints:</I>Access pursuant to license agreement</DT>
+          <DIV>
+            <DT>
+              <I>Use_Constraints:</I>
+            </DT>
+            <PRE>Acknowledgement of the following agencies in products derived from these data: PRISM Climate Group at Oregon State University.SRBC: The Originator, Publisher, and Distributor exclude any and all express or implied warranties and make no warranty or representation with respect to the data files or accompanying documentation, including quality, performance, merchantability or fitness for a particular purpose. These data files and documentation are provided "as is" and the User assumes the entire risk as to their quality and performance. These data are not to be redistributed for commercial profit. Reproduction or redistribution of this digital dataset without permission of the Originator/Publisher is expressly forbidden. The Originator and Publisher should be clearly cited in any product derived from this data. Any modifications to this data must be described in any digital or hardcopy product derived from this data. The SRBC assumes no legal liability for the accuracy or completeness of the data for any use. In no event shall the SRBC have any liability whatsoever for payment of any consequential, incidental, indirect, special, or tort damages of any kind, including, but not limited to, any loss of profits arising out of use of or reliance on the geographic data.</PRE>
+          </DIV>
+          <DT>
+            <I>Point_of_Contact:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>PRISM Climate Group</DT>
+                      <DT>
+                        <I>Contact_Person:</I>Matthew Doggett</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>NACSE, 2001 Kelley Engr Center</PRE>
+                      </DIV>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>Oregon State University</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Corvallis</DT>
+                      <DT>
+                        <I>State_or_Province:</I>OR</DT>
+                      <DT>
+                        <I>Postal_Code:</I>97331</DT>
+                      <DT>
+                        <I>Country:</I>US</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>(541) 737-2531</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>doggett@nacse.org</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Native_Data_Set_Environment:</I>
+          </DT>
+          <DD> Version 6.2 (Build 9200) ; Esri ArcGIS 10.9.1.28388</DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Data_Quality_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Data_Quality_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Attribute_Accuracy:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Attribute_Accuracy_Report:</I>
+                </DT>
+                <PRE>All data were based on the same averaging period (1991-2020). Similar quality assurance procedures were used with all input data sets.</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DIV>
+            <DT>
+              <I>Logical_Consistency_Report:</I>
+            </DT>
+            <PRE>Point estimates originated from many federal, state, and local weather networks. A list of networks is available from https://www.prism.oregonstate.edu/documents/PRISM_datasets.pdf. All station data were subjected to quality control checks by the PRISM Climate Group at Oregon State University.</PRE>
+          </DIV>
+          <DIV>
+            <DT>
+              <I>Completeness_Report:</I>
+            </DT>
+            <PRE>This dataset is considered complete. Please view the logic section of this document for further information.</PRE>
+          </DIV>
+          <DT>
+            <I>Positional_Accuracy:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Horizontal_Positional_Accuracy:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Horizontal_Positional_Accuracy_Report:</I>
+                    </DT>
+                    <PRE>Accuracy of this data set is based on the original specification of the Defense Mapping Agency (DMA) 1 degree digital elevation models (DEM). The stated accuracy of the original DEMs are 130 m circular error with 90% probability.</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Lineage:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>PRISM Climate Group</DT>
+                          <DT>
+                            <I>Publication_Date:</I>20211029</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>United States Average Total Precipitation, 1991-2020 (800m; BIL)</DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>None</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_of_Dates/Times:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Beginning_Date:</I>19910101</DT>
+                              <DT>
+                                <I>Ending_Date:</I>20201231</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>publication date</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>PRISM Climate Group</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>Please view the logic section of this document for further information.</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>This data set was created via the PRISM modeling process. Please view the abstract section of this document for more information.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Source_Used_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>PRISM Climate Group</DD>
+                  <DT>
+                    <I>Process_Date:</I>20211029</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>Raster clipped to the Susquehanna River Basin and reprojected to SRBC Albers.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Process_Date:</I>20211206</DT>
+                  <DT>
+                    <I>Process_Contact:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Contact_Organization_Primary:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Contact_Organization:</I>Susquehanna River Basin Commission</DT>
+                              <DT>
+                                <I>Contact_Person:</I>Jeff Zimmerman</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Contact_Position:</I>GIS Developer</DT>
+                          <DT>
+                            <I>Contact_Address:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Address_Type:</I>mailing and physical</DT>
+                              <DIV>
+                                <DT>
+                                  <I>Address:</I>
+                                </DT>
+                                <PRE>4423 N. Front St.</PRE>
+                              </DIV>
+                              <DT>
+                                <I>City:</I>Harrisburg</DT>
+                              <DT>
+                                <I>State_or_Province:</I>PA</DT>
+                              <DT>
+                                <I>Postal_Code:</I>17110</DT>
+                              <DT>
+                                <I>Country:</I>US</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Contact_Voice_Telephone:</I>717-238-0423</DT>
+                          <DT>
+                            <I>Contact_Electronic_Mail_Address:</I>jzimmerman@srbc.net</DT>
+                          <DT>
+                            <I>Hours_of_Service:</I>M - F, 8 AM to 4 PM</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Spatial_Data_Organization_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Spatial_Data_Organization_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Direct_Spatial_Reference_Method:</I>Raster</DT>
+          <DT>
+            <I>Raster_Object_Information:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Raster_Object_Type:</I>Grid Cell</DT>
+              <DT>
+                <I>Row_Count:</I>473</DT>
+              <DT>
+                <I>Column_Count:</I>457</DT>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Spatial_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Spatial_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Horizontal_Coordinate_System_Definition:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Planar:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Map_Projection:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Albers_Conical_Equal_Area:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Standard_Parallel:</I>40.0</DT>
+                          <DT>
+                            <I>Standard_Parallel:</I>43.0</DT>
+                          <DT>
+                            <I>Longitude_of_Central_Meridian:</I>-77.0</DT>
+                          <DT>
+                            <I>Latitude_of_Projection_Origin:</I>39.0</DT>
+                          <DT>
+                            <I>False_Easting:</I>0.0</DT>
+                          <DT>
+                            <I>False_Northing:</I>0.0</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Planar_Coordinate_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Planar_Coordinate_Encoding_Method:</I>coordinate pair</DT>
+                      <DT>
+                        <I>Coordinate_Representation:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Abscissa_Resolution:</I>0.0000000035505376416722364</DT>
+                          <DT>
+                            <I>Ordinate_Resolution:</I>0.0000000035505376416722364</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Planar_Distance_Units:</I>meter</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Geodetic_Model:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Horizontal_Datum_Name:</I>D North American 1983</DT>
+                  <DT>
+                    <I>Ellipsoid_Name:</I>GRS 1980</DT>
+                  <DT>
+                    <I>Semi-major_Axis:</I>6378137.0</DT>
+                  <DT>
+                    <I>Denominator_of_Flattening_Ratio:</I>298.257222101</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Entity_and_Attribute_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Entity_and_Attribute_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>Raster data representing climate variables</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>Spatially gridded values</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>[1] Daly, C., Halbleib, M., Smith, J.I., Gibson, W.P., Doggett, M.K., Taylor, G.H., Curtis, J., and Pasteris, P.A. 2008. Physiographically-sensitive mapping of temperature and precipitation across the conterminous United States. International Journal of Climatology, 28: 2031-2064. [2] Daly, C., J.I. Smith, and K.V. Olson. 2015. Mapping atmospheric moisture climatologies across the conterminous United States. PloS ONE 10(10):e0141140. doi:10.1371/journal.pone.0141140.</DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>Average total precipitation (BIL format)</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Spatially gridded precipitation values</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>PRISM Climate Group</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Range_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_Domain_Minimum:</I>0</DT>
+                          <DT>
+                            <I>Range_Domain_Maximum:</I>55</DT>
+                          <DT>
+                            <I>Attribute_Units_of_Measure:</I>Inches</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A NAME="ECA">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Distribution_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Distributor:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>PRISM Climate Group</DT>
+                      <DT>
+                        <I>Contact_Person:</I>Matthew Doggett</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>NACSE, 2001 Kelley Engr Center</PRE>
+                      </DIV>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>Oregon State University</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Corvallis</DT>
+                      <DT>
+                        <I>State_or_Province:</I>OR</DT>
+                      <DT>
+                        <I>Postal_Code:</I>97331</DT>
+                      <DT>
+                        <I>Country:</I>US</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>(541) 737-2531</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>prism_orders@nacse.org</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DIV>
+            <DT>
+              <I>Distribution_Liability:</I>
+            </DT>
+            <PRE>none</PRE>
+          </DIV>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A NAME="EAA">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Distribution_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Distributor:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>Pennsylvania Spatial Data Access (PASDA)</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>115 Land and Water building</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>University Park</DT>
+                      <DT>
+                        <I>State_or_Province:</I>Pennsylvania</DT>
+                      <DT>
+                        <I>Postal_Code:</I>16802</DT>
+                      <DT>
+                        <I>Country:</I>United States</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>(814) 865 - 8792</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>pasda@psu.edu</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DIV>
+            <DT>
+              <I>Distribution_Liability:</I>
+            </DT>
+            <PRE>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</PRE>
+          </DIV>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Metadata_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Metadata_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Metadata_Date:</I>20230410</DT>
+          <DT>
+            <I>Metadata_Contact:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>PRISM Climate Group</DT>
+                      <DT>
+                        <I>Contact_Person:</I>Matthew Doggett</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>NACSE, 2001 Kelley Engr Center</PRE>
+                      </DIV>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>Oregon State University</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Corvallis</DT>
+                      <DT>
+                        <I>State_or_Province:</I>OR</DT>
+                      <DT>
+                        <I>Postal_Code:</I>97331</DT>
+                      <DT>
+                        <I>Country:</I>US</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>(541) 737-2531</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>doggett@nacse.org</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Metadata_Standard_Name:</I>FGDC Content Standard for Digital Geospatial Metadata</DT>
+          <DT>
+            <I>Metadata_Standard_Version:</I>FGDC-STD-001-1998</DT>
+          <DT>
+            <I>Metadata_Time_Convention:</I>local time</DT>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+  </BODY>
+</HTML>
+		</form>
+	</body>
+</HTML>

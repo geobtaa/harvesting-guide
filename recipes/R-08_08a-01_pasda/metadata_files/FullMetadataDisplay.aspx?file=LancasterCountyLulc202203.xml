@@ -1,0 +1,1719 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+	<HEAD>
+		<title>Pennsylvania Spatial Data Access | Full Metadata</title>
+		<meta name="GENERATOR" content="Microsoft Visual Studio.NET 7.0">
+		<meta name="CODE_LANGUAGE" content="Visual Basic 7.0">
+		<meta name="vs_defaultClientScript" content="JavaScript">
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+	    <link rel="shortcut icon" href="http://maps.pasda.psu.edu/Images/favicon.ico" type="image/x-icon" />
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-41373351-5', 'psu.edu');
+          ga('send', 'pageview');
+
+        </script>
+</HEAD>
+	<body MS_POSITIONING="GridLayout">
+		<form method="post" action="./FullMetadataDisplay.aspx?file=LancasterCountyLulc202203.xml" id="Form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEzNDA3MDMyNjVkZCi1cbXMhfZI+elmwl4oTersdOt9nxHHv5HGNLdvg2y4" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="D999016F" />
+			<HTML>
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <SCRIPT type="text/javascript">
+
+      function fix(e) {
+        var par = e.parentNode;
+        e.id = "";
+        e.style.marginLeft = "0.42in";
+        var pos = e.innerText.indexOf("\n");
+        if (pos > 0) {
+          while (pos > 0) {
+            var t = e.childNodes(0);
+            var n = document.createElement("PRE");
+            var s = t.splitText(pos);
+            e.insertAdjacentElement("afterEnd", n);
+            n.appendChild(s);
+            n.style.marginLeft = "0.42in";
+            e = n;
+            pos = e.innerText.indexOf("\n");
+          }
+          var count = (par.children.length);
+          for (var i = 0; i < count; i++) {
+            e = par.children(i);
+            if (e.tagName == "PRE") {
+              pos = e.innerText.indexOf(">");
+              if (pos != 0) {
+                n = document.createElement("DD");
+                e.insertAdjacentElement("afterEnd", n);
+                n.innerText = e.innerText;
+                e.removeNode(true);
+              }
+            }
+          }
+          if (par.children.tags("PRE").length > 0) {
+            count = (par.children.length);
+            for (i = 0; i < count; i++) {
+              e = par.children(i);
+              if (e.tagName == "PRE") {
+                e.id = "";
+                if (i < (count-1)) {
+                  var e2 = par.children(i + 1);
+                  if (e2.tagName == "PRE") {
+                    e.insertAdjacentText("beforeEnd", e2.innerText+"\n");
+                    e2.removeNode(true);
+                    count = count-1;
+                    i = i-1;
+                  }
+                }
+              }
+            }
+          }
+        }
+        else {
+          n = document.createElement("DD");
+          par.appendChild(n);
+          n.innerText = e.innerText;
+          e.removeNode(true);
+        }
+      }
+
+    </SCRIPT>
+  </HEAD>
+  <BODY oncontextmenu="return true">
+    <A name="Top">
+    </A>
+    <H2>Land Use Land Cover</H2>
+    <UL>
+      <LI>
+        <A HREF="#Identification_Information">Identification_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Spatial_Data_Organization_Information">Spatial_Data_Organization_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Spatial_Reference_Information">Spatial_Reference_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Entity_and_Attribute_Information">Entity_and_Attribute_Information</A>
+      </LI>
+      <LI>Distribution_Information</LI>
+      <LI STYLE="margin-left:0.3in">
+        <A HREF="#ECA">
+                  Distributor 1</A>
+      </LI>
+      <LI>
+        <A HREF="#EAA">
+                  Distribution_Information 
+                </A>
+      </LI>
+      <LI>
+        <A HREF="#Metadata_Reference_Information">Metadata_Reference_Information</A>
+      </LI>
+    </UL>
+    <A name="Identification_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Identification_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Citation:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Citation_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Originator:</I>Lancaster County GIS Department</DT>
+                  <DT>
+                    <I>Publication_Date:</I>202203</DT>
+                  <DT>
+                    <I>Title:</I>
+                  </DT>
+                  <DD>Land Use Land Cover</DD>
+                  <DT>
+                    <I>Edition:</I></DT>
+                  <DT>
+                    <I>Geospatial_Data_Presentation_Form:</I>vector digital data</DT>
+                  <DT>
+                    <I>Online_Linkage:</I>
+                    <A TARGET="viewer" HREF="http://www.pasda.psu.edu">http://www.pasda.psu.edu</A>
+                  </DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Abstract:</I>
+                </DT>
+                <PRE>Polygon coverage representing the predominant land use or land cover, as interpreted from aerial photography. Note: GDI delineated the land use boundaries using aerial photographs dated March 1993 and using a minimum mapping unit of one-half acre. Based on acquired aerial photography, subsequent updates have been made using aerial photos from: 1998, 2002, 2005, 2008, 2012, 2016, 2018. ADR compiled land use polygons for all surface water features. NWI wetlands areas were identified using boundaries from a Quad-based wetland coverage; the wetland boundaries were then delineated using the aerial photography. Land uses are categorized using the Modified Anderson Level II classification system. Quality control check plots were produced at 1"=250' scale the whole county. Planning Commission staff reviewed all of the check plots and forwarded comments and corrections to GDI. GDI made some of the corrections but did not make others, claiming that they were below the half-acre minimum mapping unit limit. Planning Commission staff has also made corrections where they have been found.</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Purpose:</I>
+                </DT>
+                <PRE>Data created for Lancaster County planning. Intended for illustration and demonstration purposes only.</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Time_Period_of_Content:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Time_Period_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Single_Date/Time:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Calendar_Date:</I>202203</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Status:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Progress:</I>Complete</DT>
+              <DT>
+                <I>Maintenance_and_Update_Frequency:</I>Irregular</DT>
+            </DL>
+          </DD>
+          <DT>
+            <I>Spatial_Domain:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Bounding_Coordinates:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>West_Bounding_Coordinate:</I>-76.727962</DT>
+                  <DT>
+                    <I>East_Bounding_Coordinate:</I>-75.864937</DT>
+                  <DT>
+                    <I>North_Bounding_Coordinate:</I>40.323400</DT>
+                  <DT>
+                    <I>South_Bounding_Coordinate:</I>39.714860</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Keywords:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Theme:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Theme_Keyword_Thesaurus:</I>ISO 19115 Topic Categories</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>land use</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>land cover</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>cover type</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>PlanningCadastre</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Access_Constraints:</I>None</DT>
+          <DIV>
+            <DT>
+              <I>Use_Constraints:</I>
+            </DT>
+            <PRE>For use at 1:2400 or smaller scale. For educational/demonstration purposes only. The Originator, Publisher and Distributor exclude any and all implied warranties and make no warranty or representation with respect to the data files or accompanying documentation, including quality, performance, merchantability or fitness for a particular purpose. These data files and documentation are provided 'as is' and the User assumes the entire risk as to their quality and performance These data are not to be redistributed for commercial profit. Reproduction or redistribution of this digital data set without permission of the Originator/Publisher is expressly forbidden. The Originator and Publisher should be clearly cited in any product derived from this data. Any modifications to this data must be described in any digital or hardcopy product derived from this data.</PRE>
+          </DIV>
+          <DT>
+            <I>Point_of_Contact:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>County of Lancaster</DT>
+                      <DT>
+                        <I>Contact_Person:</I>IT/GIS</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>150 N. Queen St., Suite 322</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Lancaster</DT>
+                      <DT>
+                        <I>State_or_Province:</I>PA</DT>
+                      <DT>
+                        <I>Postal_Code:</I>17603</DT>
+                      <DT>
+                        <I>Country:</I>United States</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>717-391-7550</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>ithelpdesk@co.lancaster.pa.us</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Native_Data_Set_Environment:</I>
+          </DT>
+          <DD>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.4.4000</DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Spatial_Data_Organization_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Spatial_Data_Organization_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Direct_Spatial_Reference_Method:</I>Vector</DT>
+          <DT>
+            <I>Point_and_Vector_Object_Information:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>SDTS_Terms_Description:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>SDTS_Point_and_Vector_Object_Type:</I>GT-polygon composed of chains</DT>
+                  <DT>
+                    <I>Point_and_Vector_Object_Count:</I>48192</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Spatial_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Spatial_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Horizontal_Coordinate_System_Definition:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Planar:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Map_Projection:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Map_Projection_Name:</I>Lambert Conformal Conic</DT>
+                      <DT>
+                        <I>Lambert_Conformal_Conic:</I>
+                      </DT>Lambert Conformal Conic<DD><DL><DT><I>Standard_Parallel:</I>39.93333333333333</DT><DT><I>Standard_Parallel:</I>40.96666666666667</DT><DT><I>Longitude_of_Central_Meridian:</I>-77.75</DT><DT><I>Latitude_of_Projection_Origin:</I>39.33333333333334</DT><DT><I>False_Easting:</I>1968500.0</DT><DT><I>False_Northing:</I>0.0</DT></DL></DD></DL>
+                  </DD>
+                  <DT>
+                    <I>Planar_Coordinate_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Planar_Coordinate_Encoding_Method:</I>coordinate pair</DT>
+                      <DT>
+                        <I>Coordinate_Representation:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Abscissa_Resolution:</I>0.000000026907964745248598</DT>
+                          <DT>
+                            <I>Ordinate_Resolution:</I>0.000000026907964745248598</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Geodetic_Model:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Horizontal_Datum_Name:</I>D North American 1983</DT>
+                  <DT>
+                    <I>Ellipsoid_Name:</I>GRS 1980</DT>
+                  <DT>
+                    <I>Semi-major_Axis:</I>6378137.0</DT>
+                  <DT>
+                    <I>Denominator_of_Flattening_Ratio:</I>298.257222101</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Entity_and_Attribute_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Entity_and_Attribute_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>LancasterCountyLULC</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>FID</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Internal feature number.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Esri</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>Sequential unique whole numbers that are automatically generated.</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>ID</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Modified Anderson Level II Landuse Code 111 through 770. </PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>111</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Residential less than 2 units per acre</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>112</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Residential 2.1 - 7 units per acre </PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>113</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Residential more than 7 units per acre </PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>114</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>farmsteads with outbuildings </PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>120</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Commercial and services</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>130</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Industrial </PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>140</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Transportation and utilities </PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>150</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Industrial and commercial complexes </PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>160</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Mixed urban or build up land (urban centers)</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>170</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>other (not fitting other category or cannot be interpreted) </PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>180</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Institutional (schools, hospitals, churches) </PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>190</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Recreational (park, campground) </PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>210</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Cropland and pasture </PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>211</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Cropland </PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>212</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Pasture</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>220</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Orchards/groves/vinyards/nurseries</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>230</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Large confined feeding operations </PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>240</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Other agriculture</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>310</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Herbaceous (open grassy areas with few trees or shrubs) </PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>320</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Shrub/brush </PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>330</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>mixed cover </PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>410</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Deciduous forest </PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>420</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Coniferous forest</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>430</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Mixed forest </PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>500</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Open water </PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>610</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Forested wetlands </PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>620</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Non-forested wetlands</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>730</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Sandy non-beach </PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>740</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Rock outcrops </PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>750</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Mines, quarries, pits, junk yards, landfills </PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>760</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Transitional (under construction)</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>770</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Mixed barren and vegetated (basic disturbed class)</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>NWI_CLASS</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>National Wetlands Inventory Classification</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>FLAG</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>COMMENTS</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>SHAPE</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Feature geometry.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>ESRI</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>Coordinates defining the features.</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>Editor</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>Edit_Date</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>SHAPE_area</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Area of feature in internal units squared.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Esri</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>Positive real numbers that are automatically generated.</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>SHAPE_len</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Overview_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Entity_and_Attribute_Overview:</I>
+                </DT>
+                <PRE>DESCRIPTION OF LAND USE/LAND COVER INTERPRETATION CODES
+Land Use Codes:
+ID, 100 Level (Residential)
+ID, 200+ Levels (Other)
+---------------National Wetlands Inventory Class (NWI_Class)
+Estuarine
+Palustrine
+Riverine
+Marine
+Lacustrine
+SourceLand Use Codes:
+100 Level
+111 Residential Less than 2 units per acre.
+112 Residential 2.1 to 7 units per acre (villages, neighborhoods, highway strip houses).
+113 Residential More than 7 units per acre (trailer parks, apartment buildings, condominiums, row homes).
+114 Farmsteads Farm houses, usually associated with and including, barns and outbuildings. (NOT including large, commercial-sized hog/chicken operations - #230). Agricultural production may or may not be active.
+120 Commercial and services Any apparent store, shop, mall, gas station or place of business where large-scale production is not occurring.
+130 Industrial Large buildings that may have production in process.
+140 Transportation and utilities Wide transportation corridors (including 4-lane divided highways), toll booth areas, highway departments, transmission stations, water towers/tanks, sewage treatment plants.
+150 Industrial and commercial complexes Large areas where there are many adjacent industrial plants and/or other businesses. Only used when unable to determine the exact use as either 120 or 130.
+160 Mixed urban or built-up land Densely developed land generally associated with urban centers. This category is often comprised of a mix of other developed land categories (i.e. 113, 120, 150, and 180) and is generally only used where development patterns are too complex to easily delineate separate developed land categories. For this project, this category will be rarely (if ever) used because the 300-scale photos appear to be sufficiently detailed to allow discrimination of separate categories.
+170 Other Areas whose land use does not fit into any particular category or can not be interpreted from the aerial photography.
+180 Institutional Schools, hospitals, or other institutional facilities. Churches and adjoining cemeteries. Stand-alone municipal buildings, including parking/storage areas for municipal equipment (i.e. snow plows). Also, stand-alone fire houses. Usually large buildings, surrounding access road with parking areas some landscaping, well-kept grounds.
+190 Recreational Active Recreation Parks (i.e. ball fields, playgrounds, tennis courts). Also campgrounds, golf courses, hunt clubs.
+Land Use Codes: 200+ Levels
+210 Cropland and pasture Any land that is in agricultural use. Fields with crops or tractor tracks and grassy areas that may have cattle grazing or paths made by cattle.
+211 Cropland
+212 Pasture
+220 Orchards/groves/vineyards/nurseries/other horticulture Trees/plants forming grid or regular patterns.
+230 Large Confined Feeding Operations Usually associated with a farmstead (114) these are commercial-sized buildings housing hog or chicken operations.
+240 Other agriculture
+310 Herbaceous Open, grassy areas with few tress or shrubs. Generally refers to ungrazed or uncontrolled grass land, but also includes very large lawns and large cemeteries not adjacent to a church.
+320 Shrub/brush Areas where shrubs, brush, and/or very small trees are present.
+330 Mixed cover Areas that are not forested but have a mixture of vegetation.
+410 Deciduous forest.
+420 Coniferous forest.
+430 Mixed forest.
+500 Open water (Hydrology polygons from ADR).
+610 Forested wetlands Wooded areas that appear to have very wet ground (location from NWI or TNC; linework by GDI).
+620 Non-forested wetlands Swamps, and areas that have substantially wet ground (location from NWI or TNC; linework by GDI).
+730 Sandy non-beach.
+740 Rock outcrops
+750 Mines/quarries/pits and junk yards/land fills.
+760 Transitional (under construction).
+770 Mixed barren and vegetated (basic disturbed class).
+Ecological System:
+Estuarine
+E1RB1  Estuarine, Subtidal, Rock Bottom, Bedrock
+E1RB2  Estuarine, Subtidal, Rock Bottom, Boulder
+E1UB1  Estuarine, Subtidal, Unconsolidated Bottom, Cobble/Gravel
+E1UB2  Estuarine, Subtidal, Unconsolidated Bottom, Sand
+E1UB3  Estuarine, Subtidal, Unconsolidated Bottom, Mud
+E1UB4  Estuarine, Subtidal, Unconsolidated Bottom, Organic
+E1AB1  Estuarine, Subtidal, Aquatic Bed, Submergent Algal
+E1AB2  Estuarine, Subtidal, Aquatic Bed, Submergent Vascular
+E1AB4  Estuarine, Subtidal, Aquatic Bed, Floating - Leaved
+E1AB5  Estuarine, Subtidal, Aquatic Bed, Floating
+E1AB6  Estuarine, Subtidal, Aquatic Bed, Unknown Submergent
+E1AB7  Estuarine, Subtidal, Aquatic Bed, Unknown Surface
+E1RF2  Estuarine, Subtidal, Reef, Mollusc
+E1RF3  Estuarine, Subtidal, Reef, Worm
+E1OW-  Estuarine, Subtidal, Open Water, Unknown Bottom
+E2AB1  Estuarine, Intertidal, Aquatic Bed, Submergent Algal
+E2AB2  Estuarine, Intertidal, Aquatic Bed, Submergent Vascular
+E2AB6  Estuarine, Intertidal, Aquatic Bed, Unknown Submergent
+E2AB7  Estuarine, Intertidal, Aquatic Bed, Unknown Surface
+E2RF2  Estuarine, Intertidal, Reef, Mollusc
+E2RF3  Estuarine, Intertidal, Reef, Worm
+E2FL1  Estuarine, Intertidal, Flat, Cobble/Gravel
+E2FL2  Estuarine, Intertidal, Flat, Sand
+E2FL3  Estuarine, Intertidal, Flat, Mud
+E2FL4  Estuarine, Intertidal, Flat, Organic
+E2FL5  Estuarine, Intertidal, Flat, Vegetated Pioneer
+E2FL6  Estuarine, Intertidal, Flat, Vegetated Non-pioneer
+E2SB1  Estuarine, Intertidal, Streambed, Cobble/Gravel
+E2SB2  Estuarine, Intertidal, Streambed, Sand
+E2SB3  Estuarine, Intertidal, Streambed, Mud
+E2SB4  Estuarine, Intertidal, Streambed, Organic
+E2RS1  Estuarine, Intertidal, Rocky Shore, Bedrock
+E2RS2  Estuarine, Intertidal, Rocky Shore, Boulder
+E2RS6  Estuarine, Intertidal, Rocky Shore, Vegetated Non-pioneer
+E2BB1  Estuarine, Intertidal, Beach/Bar, Cobble/Gravel
+E2BB2  Estuarine, Intertidal, Beach/Bar, Sand
+E2EM1  Estuarine, Intertidal, Emergent, Persistent
+E2EM2  Estuarine, Intertidal, Emergent, Nonpersistent
+E2EM3  Estuarine, Intertidal, Emergent, Narrow-leaved Nonpersistent
+E2EM4  Estuarine, Intertidal, Emergent, Broad-leaved Nonpersistent
+E2EM5  Estuarine, Intertidal, Emergent, Narrow-leaved Persistent
+E2EM6  Estuarine, Intertidal, Emergent, Broad-leaved Persistent
+E2SS1  Estuarine, Intertidal, Scrub/Shrub, Broad-leaved Deciduous
+E2SS3  Estuarine, Intertidal, Scrub/Shrub, Broad-leaved Evergreen
+E2SS4  Estuarine, Intertidal, Scrub/Shrub, Needle-leaved Evergreen
+E2SS5  Estuarine, Intertidal, Scrub/Shrub, Dead
+E2SS6  Estuarine, Intertidal, Scrub/Shrub, Deciduous
+E2SS7  Estuarine, Intertidal, Scrub/Shrub, Evergreen
+E2FO1  Estuarine, Intertidal, Forested, Broad-leaved Deciduous
+E2FO3  Estuarine, Intertidal, Forested, Broad-leaved Evergreen
+E2FO4  Estuarine, Intertidal, Forested, Needle-leaved Evergreen
+E2FO5  Estuarine, Intertidal, Forested, Dead
+E2FO6  Estuarine, Intertidal, Forested, Deciduous
+E2FO7  Estuarine, Intertidal, Forested, Evergreen
+Ecological System:
+Palustrine
+PRB1  Palustrine, No Ecological Subsystem, Rock Bottom, Bedrock
+PRB2  Palustrine, No Ecological Subsystem, Rock Bottom, Boulder
+PUB1  Palustrine, No Ecological Subsystem, Unconsolidated Bottom, Cobble/Gravel
+PUB2  Palustrine, No Ecological Subsystem, Unconsolidated Bottom, Sand
+PUB3  Palustrine, No Ecological Subsystem, Unconsolidated Bottom, Mud
+PUB4  Palustrine, No Ecological Subsystem, Unconsolidated Bottom, Organic
+PAB1  Palustrine, No Ecological Subsystem, Aquatic Bed, Submergent Algal
+PAB2  Palustrine, No Ecological Subsystem, Aquatic Bed, Submergent Vascular
+PAB3  Palustrine, No Ecological Subsystem, Aquatic Bed, Submergent Moss
+PAB4  Palustrine, No Ecological Subsystem, Aquatic Bed, Floating-leaved
+PAB5  Palustrine, No Ecological Subsystem, Aquatic Bed, Floating
+PAB6  Palustrine, No Ecological Subsystem, Aquatic Bed, Unknown Submergent
+PAB7  Palustrine, No Ecological Subsystem, Aquatic Bed, Unknown Surface
+PFL1  Palustrine, No Ecological Subsystem, Flat, Cobble/Gravel
+PFL2  Palustrine, No Ecological Subsystem, Flat, Sand
+PFL3  Palustrine, No Ecological Subsystem, Flat, Mud
+PFL4  Palustrine, No Ecological Subsystem, Flat, Organic
+PFL5  Palustrine, No Ecological Subsystem, Flat, Vegetated Pioneer
+PFL6  Palustrine, No Ecological Subsystem, Flat, Vegetated Non-pioneer
+PML1  Palustrine, No Ecological Subsystem, Moss/Lichen, Moss
+PML2  Palustrine, No Ecological Subsystem, Moss/Lichen, Lichen
+PEM1  Palustrine, No Ecological Subsystem, Emergent, Persistent
+PEM2  Palustrine, No Ecological Subsystem, Emergent, Nonpersistent
+PEM3  Palustrine, No Ecological Subsystem, Emergent, Narrow-leaved Nonpersistent
+PEM4  Palustrine, No Ecological Subsystem, Emergent, Broad-leaved Nonpersistent
+PEM5  Palustrine, No Ecological Subsystem, Emergent, Narrow-leaved Persistent
+PEM6  Palustrine, No Ecological Subsystem, Emergent, Broad-leaved Persistent
+PSS1  Palustrine, No Ecological Subsystem, Scrub/Shrub, Broad-leaved Deciduous
+PSS2  Palustrine, No Ecological Subsystem, Scrub/Shrub, Needle-leaved Deciduous
+PSS3  Palustrine, No Ecological Subsystem, Scrub/Shrub, Broad-leaved Evergreen
+PSS4  Palustrine, No Ecological Subsystem, Scrub/Shrub, Needle-leaved Evergreen
+PSS5  Palustrine, No Ecological Subsystem, Scrub/Shrub, Dead
+PSS6  Palustrine, No Ecological Subsystem, Scrub/Shrub, Deciduous
+PSS7  Palustrine, No Ecological Subsystem, Scrub/Shrub, Evergreen
+PFO1  Palustrine, No Ecological Subsystem, Forested, Broad-leaved Deciduous
+PFO2  Palustrine, No Ecological Subsystem, Forested, Needle-leaved Deciduous
+PFO3  Palustrine, No Ecological Subsystem, Forested, Broad-leaved Evergreen
+PFO4  Palustrine, No Ecological Subsystem, Forested, Needle-leaved Evergreen
+PFO5  Palustrine, No Ecological Subsystem, Forested, Dead
+PFO6  Palustrine, No Ecological Subsystem, Forested, Deciduous
+PFO7  Palustrine, No Ecological Subsystem, Forested, Evergreen
+POW-  Palustrine, No Ecological Subsystem, Open Water, Unknown Bottom
+Ecological System, Subsystem:
+Riverine, Tidal
+R1EM2  Riverine, Tidal, Emergent, Nonpersistent
+R1EM3  Riverine, Tidal, Emergent, Narrow-leaved Nonpersistent
+R1EM4  Riverine, Tidal, Emergent, Broad-leaved Nonpersistent
+R1RB1  Riverine, Tidal, Rock Bottom, Bedrock
+R1RB2  Riverine, Tidal, Rock Bottom, Bolder
+R1UB1  Riverine, Tidal, Unconsolidated Bottom, Cobble/Gravel
+R1UB2  Riverine, Tidal, Unconsolidated Bottom, Sand
+R1UB3  Riverine, Tidal, Unconsolidated Bottom, Mud
+R1UB4  Riverine, Tidal, Unconsolidated Bottom, Organic
+R1AB1  Riverine, Tidal, Aquatic Bed, Submergent Algal
+R1AB2  Riverine, Tidal, Aquatic Bed, Submergent Vascular
+R1AB3  Riverine, Tidal, Aquatic Bed, Submergent Moss
+R1AB4  Riverine, Tidal, Aquatic Bed, Floating - Leaved
+R1AB5  Riverine, Tidal, Aquatic Bed, Floating
+R1AB6  Riverine, Tidal, Aquatic Bed, Unknown Submergent
+R1AB7  Riverine, Tidal, Aquatic Bed, Unknown Surface
+R1FL1  Riverine, Tidal, Flat, Cobble/Gravel
+R1FL2  Riverine, Tidal, Flat, Sand
+R1FL3  Riverine, Tidal, Flat, Mud
+R1FL4  Riverine, Tidal, Flat, Organic
+R1FL5  Riverine, Tidal, Flat, Vegetated Pioneer
+R1FL6  Riverine, Tidal, Flat, Vegetated Non-pioneer
+R1SB1  Riverine, Tidal, Streambed, Cobble/Gravel
+R1SB2  Riverine, Tidal, Streambed, Sand
+R1SB3  Riverine, Tidal, Streambed, Mud
+R1SB4  Riverine, Tidal, Streambed, Organic
+R1RS1  Riverine, Tidal, Rocky Shore, Bedrock
+R1RS2  Riverine, Tidal, Rocky Shore, Boulder
+R1BB1  Riverine, Tidal, Beach/Bar, Cobble/Gravel
+R1BB2  Riverine, Tidal, Beach/Bar, Sand
+R1OW-  Riverine, Tidal, Open Water, Unknown Bottom
+Ecological System, Subsystem:
+Riverine, Lower Perennial
+R2EM2  Riverine, Lower Perennial, Emergent, Nonpersistent
+R2EM3  Riverine, Lower Perennial, Emergent, Narrow-leaved Nonpersistent
+R2EM4  Riverine, Lower Perennial, Emergent, Broad-leaved Nonpersistent
+R2RB1  Riverine, Lower Perennial, Rock Bottom, Bedrock
+R2RB2  Riverine, Lower Perennial, Rock Bottom, Bolder
+R2UB1  Riverine, Lower Perennial, Unconsolidated Bottom, Cobble/Gravel
+R2UB2  Riverine, Lower Perennial, Unconsolidated Bottom, Sand
+R2UB3  Riverine, Lower Perennial, Unconsolidated Bottom, Mud
+R2UB4  Riverine, Lower Perennial, Unconsolidated Bottom, Organic
+R2AB1  Riverine, Lower Perennial, Aquatic Bed, Submergent Algal
+R2AB2  Riverine, Lower Perennial, Aquatic Bed, Submergent Vascular
+R2AB3  Riverine, Lower Perennial, Aquatic Bed, Submergent Moss
+R2AB4  Riverine, Lower Perennial, Aquatic Bed, Floating - Leaved
+R2AB5  Riverine, Lower Perennial, Aquatic Bed, Floating
+R2AB6  Riverine, Lower Perennial, Aquatic Bed, Unknown Submergent
+R2AB7  Riverine, Lower Perennial, Aquatic Bed, Unknown Surface
+R2FL1  Riverine, Lower Perennial, Flat, Cobble/Gravel
+R2FL2  Riverine, Lower Perennial, Flat, Sand
+R2FL3  Riverine, Lower Perennial, Flat, Mud
+R2FL4  Riverine, Lower Perennial, Flat, Organic
+R2FL5  Riverine, Lower Perennial, Flat, Vegetated Pioneer
+R2FL6  Riverine, Lower Perennial, Flat, Vegetated Non-pioneer
+R2SB1  Riverine, Lower Perennial, Streambed, Cobble/Gravel
+R2SB2  Riverine, Lower Perennial, Streambed, Sand
+R2SB3  Riverine, Lower Perennial, Streambed, Mud
+R2SB4  Riverine, Lower Perennial, Streambed, Organic
+R2RS1  Riverine, Lower Perennial, Rocky Shore, Bedrock
+R2RS2  Riverine, Lower Perennial, Rocky Shore, Boulder
+R2BB1  Riverine, Lower Perennial, Beach/Bar, Cobble/Gravel
+R2BB2  Riverine, Lower Perennial, Beach/Bar, Sand
+R2OW-  Riverine, Lower Perennial, Open Water, Unknown Bottom
+Ecological System, Subsystem:
+Riverine, Upper Perennial
+R3EM2  Riverine, Upper Perennial, Emergent, Nonpersistent
+R3EM3  Riverine, Upper Perennial, Emergent, Narrow-leaved Nonpersistent
+R3EM4  Riverine, Upper Perennial, Emergent, Broad-leaved Nonpersistent
+R3RB1  Riverine, Upper Perennial, Rock Bottom, Bedrock
+R3RB2  Riverine, Upper Perennial, Rock Bottom, Bolder
+R3UB1  Riverine, Upper Perennial, Unconsolidated Bottom, Cobble/Gravel
+R3UB2  Riverine, Upper Perennial, Unconsolidated Bottom, Sand
+R3UB3  Riverine, Upper Perennial, Unconsolidated Bottom, Mud
+R3UB4  Riverine, Upper Perennial, Unconsolidated Bottom, Organic
+R3AB1  Riverine, Upper Perennial, Aquatic Bed, Submergent Algal
+R3AB2  Riverine, Upper Perennial, Aquatic Bed, Submergent Vascular
+R3AB3  Riverine, Upper Perennial, Aquatic Bed, Submergent Moss
+R3AB4  Riverine, Upper Perennial, Aquatic Bed, Floating - Leaved
+R3AB5  Riverine, Upper Perennial, Aquatic Bed, Floating
+R3AB6  Riverine, Upper Perennial, Aquatic Bed, Unknown Submergent
+R3AB7  Riverine, Upper Perennial, Aquatic Bed, Unknown Surface
+R3FL1  Riverine, Upper Perennial, Flat, Cobble/Gravel
+R3FL2  Riverine, Upper Perennial, Flat, Sand
+R3FL3  Riverine, Upper Perennial, Flat, Mud
+R3FL4  Riverine, Upper Perennial, Flat, Organic
+R3FL5  Riverine, Upper Perennial, Flat, Vegetated Pioneer
+R3FL6  Riverine, Upper Perennial, Flat, Vegetated Non-pioneer
+R3SB1  Riverine, Upper Perennial, Streambed, Cobble/Gravel
+R3SB2  Riverine, Upper Perennial, Streambed, Sand
+R3SB3  Riverine, Upper Perennial, Streambed, Mud
+R3SB4  Riverine, Upper Perennial, Streambed, Organic
+R3RS1  Riverine, Upper Perennial, Rocky Shore, Bedrock
+R3RS2  Riverine, Upper Perennial, Rocky Shore, Boulder
+R3BB1  Riverine, Upper Perennial, Beach/Bar, Cobble/Gravel
+R3BB2  Riverine, Upper Perennial, Beach/Bar, Sand
+R3OW-  Riverine, Upper Perennial, Open Water, Unknown Bottom
+Ecological System, Subsystem:
+Riverine, Intermittent
+R4EM2  Riverine, Intermittent, Emergent, Nonpersistent
+R4EM3  Riverine, Intermittent, Emergent, Narrow-leaved Nonpersistent
+R4EM4  Riverine, Intermittent, Emergent, Broad-leaved Nonpersistent
+R4RB1  Riverine, Intermittent, Rock Bottom, Bedrock
+R4RB2  Riverine, Intermittent, Rock Bottom, Bolder
+R4UB1  Riverine, Intermittent, Unconsolidated Bottom, Cobble/Gravel
+R4UB2  Riverine, Intermittent, Unconsolidated Bottom, Sand
+R4UB3  Riverine, Intermittent, Unconsolidated Bottom, Mud
+R4UB4  Riverine, Intermittent, Unconsolidated Bottom, Organic
+R4AB1  Riverine, Intermittent, Aquatic Bed, Submergent Algal
+R4AB2  Riverine, Intermittent, Aquatic Bed, Submergent Vascular
+R4AB3  Riverine, Intermittent, Aquatic Bed, Submergent Moss
+R4AB4  Riverine, Intermittent, Aquatic Bed, Floating - Leaved
+R4AB5  Riverine, Intermittent, Aquatic Bed, Floating
+R4AB6  Riverine, Intermittent, Aquatic Bed, Unknown Submergent
+R4AB7  Riverine, Intermittent, Aquatic Bed, Unknown Surface
+R4FL1  Riverine, Intermittent, Flat, Cobble/Gravel
+R4FL2  Riverine, Intermittent, Flat, Sand
+R4FL3  Riverine, Intermittent, Flat, Mud
+R4FL4  Riverine, Intermittent, Flat, Organic
+R4FL5  Riverine, Intermittent, Flat, Vegetated Pioneer
+R4FL6  Riverine, Intermittent, Flat, Vegetated Non-pioneer
+R4SB1  Riverine, Intermittent, Streambed, Cobble/Gravel
+R4SB2  Riverine, Intermittent, Streambed, Sand
+R4SB3  Riverine, Intermittent, Streambed, Mud
+R4SB4  Riverine, Intermittent, Streambed, Organic
+R4RS1  Riverine, Intermittent, Rocky Shore, Bedrock
+R4RS2  Riverine, Intermittent, Rocky Shore, Boulder
+R4BB1  Riverine, Intermittent, Beach/Bar, Cobble/Gravel
+R4BB2  Riverine, Intermittent, Beach/Bar, Sand
+R4OW-  Riverine, Intermittent, Open Water, Unknown Bottom
+Ecological System, Subsystem:
+Riverine, Unknown
+R5EM2  Riverine, Unknown Perennial, Emergent, Nonpersistent
+R5EM3  Riverine, Unknown Perennial, Emergent, Narrow-leaved Nonpersistent
+R5EM4  Riverine, Unknown Perennial, Emergent, Broad-leaved Nonpersistent
+R5RB1  Riverine, Unknown Perennial, Rock Bottom, Bedrock
+R5RB2  Riverine, Unknown Perennial, Rock Bottom, Bolder
+R5UB1  Riverine, Unknown Perennial, Unconsolidated Bottom, Cobble/Gravel
+R5UB2  Riverine, Unknown Perennial, Unconsolidated Bottom, Sand
+R5UB3  Riverine, Unknown Perennial, Unconsolidated Bottom, Mud
+R5UB4  Riverine, Unknown Perennial, Unconsolidated Bottom, Organic
+R5AB1  Riverine, Unknown Perennial, Aquatic Bed, Submergent Algal
+R5AB2  Riverine, Unknown Perennial, Aquatic Bed, Submergent Vascular
+R5AB3  Riverine, Unknown Perennial, Aquatic Bed, Submergent Moss
+R5AB4  Riverine, Unknown Perennial, Aquatic Bed, Floating - Leaved
+R5AB5  Riverine, Unknown Perennial, Aquatic Bed, Floating
+R5AB6  Riverine, Unknown Perennial, Aquatic Bed, Unknown Submergent
+R5AB7  Riverine, Unknown Perennial, Aquatic Bed, Unknown Surface
+R5FL1  Riverine, Unknown Perennial, Flat, Cobble/Gravel
+R5FL2  Riverine, Unknown Perennial, Flat, Sand
+R5FL3  Riverine, Unknown Perennial, Flat, Mud
+R5FL4  Riverine, Unknown Perennial, Flat, Organic
+R5FL5  Riverine, Unknown Perennial, Flat, Vegetated Pioneer
+R5FL6  Riverine, Unknown Perennial, Flat, Vegetated Non-pioneer
+R5SB1  Riverine, Unknown Perennial, Streambed, Cobble/Gravel
+R5SB2  Riverine, Unknown Perennial, Streambed, Sand
+R5SB3  Riverine, Unknown Perennial, Streambed, Mud
+R5SB4  Riverine, Unknown Perennial, Streambed, Organic
+R5RS1  Riverine, Unknown Perennial, Rocky Shore, Bedrock
+R5RS2  Riverine, Unknown Perennial, Rocky Shore, Boulder
+R5BB1  Riverine, Unknown Perennial, Beach/Bar, Cobble/Gravel
+R5BB2  Riverine, Unknown Perennial, Beach/Bar, Sand
+R5OW-  Riverine, Unknown Perennial, Open Water, Unknown Bottom
+Ecological System:
+Marine
+M1RB1  Marine, Subtidal, Rock Bottom, Bedrock
+M1RB2  Marine, Subtidal, Rock Bottom, Boulder
+M1UB1  Marine, Subtidal, Unconsolidated Bottom, Cobble/Gravel
+M1UB2  Marine, Subtidal, Unconsolidated Bottom, Sand
+M1UB3  Marine, Subtidal, Unconsolidated Bottom, Mud
+M1UB4  Marine, Subtidal, Unconsolidated Bottom, Organic
+M1AB1  Marine, Subtidal, Aquatic Bed, Submergent Algal
+M1AB2  Marine, Subtidal, Aquatic Bed, Submergent Vascular
+M1AB6  Marine, Subtidal, Aquatic Bed, Unknown Submergent
+M1RF1  Marine, Subtidal, Reef, Coral
+M1RF3  Marine, Subtidal, Reef, Worm
+M1OW-  Marine, Subtidal, Open Water, Unknown Bottom
+M2AB1  Marine, Intertidal, Aquatic Bed, Submergent Algal
+M2AB2  Marine, Intertidal, Aquatic Bed, Submergent Vascular
+M2AB6  Marine, Intertidal, Aquatic Bed, Unknown Submergent
+M2RF1  Marine, Intertidal, Reef, Coral
+M2RF3  Marine, Intertidal, Reef, Worm
+M2FL1  Marine, Intertidal, Flat, Cobble/Gravel
+M2FL2  Marine, Intertidal, Flat, Sand
+M2FL3  Marine, Intertidal, Flat, Mud
+M2FL6  Marine, Intertidal, Flat, Vegetated Non-pioneer
+M2RS1  Marine, Intertidal, Rocky Shore, Bedrock
+M2RS2  Marine, Intertidal, Rocky Shore, Boulder
+M2RS6  Marine, Intertidal, Rocky Shore, Vegetated Non-pioneer
+M2BB1  Marine, Intertidal, Beach/Bar, Cobble/Gravel
+M2BB2  Marine, Intertidal, Beach/Bar, SandEcological System:
+Lacustrine
+L1RB1  Lacustrine, Limnetic, Rock Bottom, Bedrock
+L1RB2  Lacustrine, Limnetic, Rock Bottom, Boulder
+L1UB1  Lacustrine, Limnetic, Unconsolidated Bottom, Cobble/Gravel
+L1UB2  Lacustrine, Limnetic, Unconsolidated Bottom, Sand
+L1UB3  Lacustrine, Limnetic, Unconsolidated Bottom, Mud
+L1UB4  Lacustrine, Limnetic, Unconsolidated Bottom, Organic
+L1AB1  Lacustrine, Limnetic, Aquatic Bed, Submergent Algal
+L1AB2  Lacustrine, Limnetic, Aquatic Bed, Submergent Vascular
+L1AB3  Lacustrine, Limnetic, Aquatic Bed, Submergent Moss
+L1AB4  Lacustrine, Limnetic, Aquatic Bed, Floating-leaved
+L1AB5  Lacustrine, Limnetic, Aquatic Bed, Floating
+L1AB6  Lacustrine, Limnetic, Aquatic Bed, Unknown Submergent
+L1AB7  Lacustrine, Limnetic, Aquatic Bed, Unknown Surface
+L1OW-  Lacustrine, Limnetic, Open Water, Unknown Bottom
+L2RB1  Lacustrine, Littoral, Rock Bottom, Bedrock
+L2RB2  Lacustrine, Littoral, Rock Bottom, Boulder
+L2UB1  Lacustrine, Littoral, Unconsolidated Bottom, Cobble/Gravel
+L2UB2  Lacustrine, Littoral, Unconsolidated Bottom, Sand
+L2UB3  Lacustrine, Littoral, Unconsolidated Bottom, Mud
+L2UB4  Lacustrine, Littoral, Unconsolidated Bottom, Organic
+L2AB1  Lacustrine, Littoral, Aquatic Bed, Submergent Algal
+L2AB2  Lacustrine, Littoral, Aquatic Bed, Submergent Vascular
+L2AB3  Lacustrine, Littoral, Aquatic Bed, Submergent Moss
+L2AB4  Lacustrine, Littoral, Aquatic Bed, Floating -leaved
+L2AB5  Lacustrine, Littoral, Aquatic Bed, Floating
+L2AB6  Lacustrine, Littoral, Aquatic Bed, Unknown Submergent
+L2AB7  Lacustrine, Littoral, Aquatic Bed, Unknown Surface
+L2FL1  Lacustrine, Littoral, Flat, Cobble/Gravel
+L2FL2  Lacustrine, Littoral, Flat, Sand
+L2FL3  Lacustrine, Littoral, Flat, Mud
+L2FL4  Lacustrine, Littoral, Flat, Organic
+L2FL5  Lacustrine, Littoral, Flat, Vegetated Pioneer
+L2FL6  Lacustrine, Littoral, Flat, Vegetated Non-pioneer
+L2RS1  Lacustrine, Littoral, Rocky Shale, Bedrock
+L2RS2  Lacustrine, Littoral, Rocky Shale, Boulder
+L2BB1  Lacustrine, Littoral, Beach/Bar, Cobble/Gravel
+L2BB2  Lacustrine, Littoral, Beach/Bar, Sand
+L2EM1  Lacustrine, Littoral, Emergent, Nonpersistent
+L2EM3  Lacustrine, Littoral, Emergent, Narrow-leaved Nonpersistent
+L2EM4  Lacustrine, Littoral, Emergent, Broad-leaved Nonpersistent
+L2OW-  Lacustrine, Littoral, Open Water, Unknown Bottom
+National Wetlands Inventory Class Source
+Source  1 = ADR
+2 = NWI
+3 = GDI
+4 = TNC 
+</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Entity_and_Attribute_Detail_Citation:</I>
+                </DT>
+                <PRE>Lancaster County GIS </PRE>
+              </DIV>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A NAME="ECA">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Distribution_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DIV>
+            <DT>
+              <I>Distribution_Liability:</I>
+            </DT>
+            <PRE>See access and use constraints information.</PRE>
+          </DIV>
+          <DT>
+            <I>Standard_Order_Process:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Digital_Form:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Digital_Transfer_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Format_Name:</I>SDE Feature Class</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Digital_Transfer_Option:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A NAME="EAA">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Distribution_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Distributor:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>Pennsylvania Spatial Data Access (PASDA)</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>115 Land and Water building</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>University Park</DT>
+                      <DT>
+                        <I>State_or_Province:</I>Pennsylvania</DT>
+                      <DT>
+                        <I>Postal_Code:</I>16802</DT>
+                      <DT>
+                        <I>Country:</I>United States</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>(814) 865 - 8792</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>pasda@psu.edu</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DIV>
+            <DT>
+              <I>Distribution_Liability:</I>
+            </DT>
+            <PRE>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</PRE>
+          </DIV>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Metadata_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Metadata_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Metadata_Date:</I>20220318</DT>
+          <DT>
+            <I>Metadata_Contact:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>County of Lancaster</DT>
+                      <DT>
+                        <I>Contact_Person:</I>IT/GIS</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>150 N. Queen St., Suite 322</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Lancaster</DT>
+                      <DT>
+                        <I>State_or_Province:</I>PA</DT>
+                      <DT>
+                        <I>Postal_Code:</I>17603</DT>
+                      <DT>
+                        <I>Country:</I>United States</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>717-391-7550</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>ithelpdesk@co.lancaster.pa.us</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Metadata_Standard_Name:</I>FGDC Content Standard for Digital Geospatial Metadata</DT>
+          <DT>
+            <I>Metadata_Standard_Version:</I>FGDC-STD-001-1998</DT>
+          <DT>
+            <I>Metadata_Time_Convention:</I>local time</DT>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+  </BODY>
+</HTML>
+		</form>
+	</body>
+</HTML>

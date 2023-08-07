@@ -1,0 +1,861 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+	<HEAD>
+		<title>Pennsylvania Spatial Data Access | Full Metadata</title>
+		<meta name="GENERATOR" content="Microsoft Visual Studio.NET 7.0">
+		<meta name="CODE_LANGUAGE" content="Visual Basic 7.0">
+		<meta name="vs_defaultClientScript" content="JavaScript">
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+	    <link rel="shortcut icon" href="http://maps.pasda.psu.edu/Images/favicon.ico" type="image/x-icon" />
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-41373351-5', 'psu.edu');
+          ga('send', 'pageview');
+
+        </script>
+</HEAD>
+	<body MS_POSITIONING="GridLayout">
+		<form method="post" action="./FullMetadataDisplay.aspx?file=USGS_LiDAR2017.xml" id="Form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEzNDA3MDMyNjVkZCi1cbXMhfZI+elmwl4oTersdOt9nxHHv5HGNLdvg2y4" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="D999016F" />
+			<HTML>
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <SCRIPT type="text/javascript">
+
+      function fix(e) {
+        var par = e.parentNode;
+        e.id = "";
+        e.style.marginLeft = "0.42in";
+        var pos = e.innerText.indexOf("\n");
+        if (pos > 0) {
+          while (pos > 0) {
+            var t = e.childNodes(0);
+            var n = document.createElement("PRE");
+            var s = t.splitText(pos);
+            e.insertAdjacentElement("afterEnd", n);
+            n.appendChild(s);
+            n.style.marginLeft = "0.42in";
+            e = n;
+            pos = e.innerText.indexOf("\n");
+          }
+          var count = (par.children.length);
+          for (var i = 0; i < count; i++) {
+            e = par.children(i);
+            if (e.tagName == "PRE") {
+              pos = e.innerText.indexOf(">");
+              if (pos != 0) {
+                n = document.createElement("DD");
+                e.insertAdjacentElement("afterEnd", n);
+                n.innerText = e.innerText;
+                e.removeNode(true);
+              }
+            }
+          }
+          if (par.children.tags("PRE").length > 0) {
+            count = (par.children.length);
+            for (i = 0; i < count; i++) {
+              e = par.children(i);
+              if (e.tagName == "PRE") {
+                e.id = "";
+                if (i < (count-1)) {
+                  var e2 = par.children(i + 1);
+                  if (e2.tagName == "PRE") {
+                    e.insertAdjacentText("beforeEnd", e2.innerText+"\n");
+                    e2.removeNode(true);
+                    count = count-1;
+                    i = i-1;
+                  }
+                }
+              }
+            }
+          }
+        }
+        else {
+          n = document.createElement("DD");
+          par.appendChild(n);
+          n.innerText = e.innerText;
+          e.removeNode(true);
+        }
+      }
+
+    </SCRIPT>
+  </HEAD>
+  <BODY oncontextmenu="return true">
+    <A name="Top">
+    </A>
+    <H2>South Central Pennsylvania 2017 QL2 LiDAR</H2>
+    <UL>
+      <LI>
+        <A HREF="#Identification_Information">Identification_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Data_Quality_Information">Data_Quality_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Spatial_Data_Organization_Information">Spatial_Data_Organization_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Spatial_Reference_Information">Spatial_Reference_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Entity_and_Attribute_Information">Entity_and_Attribute_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#EDA">
+                  Distribution_Information 
+                </A>
+      </LI>
+      <LI>
+        <A HREF="#Metadata_Reference_Information">Metadata_Reference_Information</A>
+      </LI>
+    </UL>
+    <A name="Identification_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Identification_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Citation:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Citation_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Originator:</I>Quantum Spatial, Inc.</DT>
+                  <DT>
+                    <I>Publication_Date:</I>20181026</DT>
+                  <DT>
+                    <I>Title:</I>
+                  </DT>
+                  <DD>South Central Pennsylvania 2017 QL2 LiDAR</DD>
+                  <DT>
+                    <I>Geospatial_Data_Presentation_Form:</I>Vector digital data</DT>
+                  <DT>
+                    <I>Online_Linkage:</I>
+                    <A TARGET="viewer" HREF="http://www.pasda.psu.edu/">http://www.pasda.psu.edu/</A>
+                  </DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Abstract:</I>
+                </DT>
+                <PRE>Geographic Extent: 13 counties in Pennsylvania, covering approximately 6,602 total square miles. Dataset Description: The South Central Pennsylvania 2017 QL2 LiDAR project called for the planning, acquisition, processing, and derivative products of lidar data to be collected at a nominal pulse spacing (NPS) of 0.7 meters. Project specifications are based on the U.S. Geological Survey National Geospatial Program Base LiDAR Specification, Version 1.2. The data were developed based on a horizontal projection/datum of NAD 1983 (2011), UTM Zone 18, meters and vertical datum of NAVD 1988 (GEOID 12B), meters. LiDAR data were delivered as processed Classified LAS 1.4 files formatted to 7,975 individual 1,500-meter x 1,500-meter tiles, as tiled intensity imagery, and as tiled bare earth DEMs; all tiled to the same 1,500-meter x 1,500-meter schema. Continuous breaklines were produced in Esri file geodatabase format. Ground Conditions: LiDAR was collected in fall 2017, while no snow was on the ground and rivers were at or below normal levels. In order to post process the LiDAR data to meet task order specifications and meet ASPRS vertical accuracy guidelines, Quantum Spatial, Inc. utilized a total of 150 ground control points that were used to calibrate the LiDAR to known ground locations established throughout the project area. An additional 245 independent accuracy checkpoints, 142 in Bare Earth and Urban landcovers (142 NVA points), 103 in Tall Weeds categories (103 VVA points), were used to assess the vertical accuracy of the data. These checkpoints were not used to calibrate or post process the data.</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Purpose:</I>
+                </DT>
+                <PRE>To acquire detailed surface elevation data for use in conservation planning, design, research, floodplain mapping, dam safety assessments and elevation modeling, etc. Classified LAS files are used to show the manually reviewed bare earth surface. This allows the user to create intensity images, breaklines and raster DEMs. The purpose of these LiDAR data was to produce high accuracy 3D hydro-flattened digital elevation models (DEMs) with a 1-meter cell size. These raw LiDAR point cloud data were used to create classified LiDAR LAS files, intensity images, 3D breaklines, and hydro-flattened DEMs as necessary.</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Supplemental_Information:</I>
+                </DT>
+                <PRE>USGS Contract No. G16PC00016, Task Order No. G17PD01254; CONTRACTOR: Quantum
+				Spatial, Inc.</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Time_Period_of_Content:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Time_Period_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Range_of_Dates/Times:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Beginning_Date:</I>20171121</DT>
+                      <DT>
+                        <I>Ending_Date:</I>20171221</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DIV>
+                <DT>
+                  <I>Currentness_Reference:</I>
+                </DT>
+                <PRE>ground condition</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Status:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Progress:</I>Complete</DT>
+              <DT>
+                <I>Maintenance_and_Update_Frequency:</I>None planned</DT>
+            </DL>
+          </DD>
+          <DT>
+            <I>Spatial_Domain:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Bounding_Coordinates:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>West_Bounding_Coordinate:</I>-78.10056682</DT>
+                  <DT>
+                    <I>East_Bounding_Coordinate:</I>-76.15029659</DT>
+                  <DT>
+                    <I>North_Bounding_Coordinate:</I>41.59758202</DT>
+                  <DT>
+                    <I>South_Bounding_Coordinate:</I>39.71890736</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Keywords:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Theme:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Theme_Keyword_Thesaurus:</I>ISO 19115 Topic Categories</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Model</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Tile Index</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>imageryBaseMapsEarthCover</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Place:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Place_Keyword_Thesaurus:</I>None</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Pennsylvania</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Adams County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Columbia County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Cumberland County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Franklin County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Juniata County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Lebanon County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Lycoming County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Mifflin County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Montour County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Northumberland County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Perry County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Snyder County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Union County</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Access_Constraints:</I>No restrictions apply to these data.</DT>
+          <DIV>
+            <DT>
+              <I>Use_Constraints:</I>
+            </DT>
+            <PRE>None. However, users should be aware that temporal changes may have occurred since
+			this dataset was collected and that some parts of these data may no longer represent
+			actual surface conditions. Users should not use these data for critical applications
+			without a full awareness of their limitations.</PRE>
+          </DIV>
+          <DT>
+            <I>Point_of_Contact:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>Quantum Spatial, Inc.</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Data_Quality_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Data_Quality_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DIV>
+            <DT>
+              <I>Logical_Consistency_Report:</I>
+            </DT>
+            <PRE>Data cover the entire area specified for this project.</PRE>
+          </DIV>
+          <DIV>
+            <DT>
+              <I>Completeness_Report:</I>
+            </DT>
+            <PRE>All files are inspected to ensure that they conform to the specified file naming
+			conventions, all files load in their correct geographic position, all files conform to
+			the project specifications for file standard and content.</PRE>
+          </DIV>
+          <DT>
+            <I>Lineage:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>Tile Index Creation: Tiles were created using a 0,0 origin point to ensure
+					proper divisibility of raster and image cells. A 1,500 meter x 1,500 meter tile
+					size was used as called for in the Task Order. Tile index was output in Esri
+					shapefile format. Tile names are derived from the US National Grid.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Process_Date:</I>2018</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Spatial_Data_Organization_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Spatial_Data_Organization_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Direct_Spatial_Reference_Method:</I>Vector</DT>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Spatial_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Spatial_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Horizontal_Coordinate_System_Definition:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Planar:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Grid_Coordinate_System:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Grid_Coordinate_System_Name:</I>Universal Transverse Mercator</DT>
+                      <DT>
+                        <I>Universal_Transverse_Mercator:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>UTM_Zone_Number:</I>18</DT>
+                          <DT>
+                            <I>Transverse_Mercator:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Scale_Factor_at_Central_Meridian:</I>0.9996</DT>
+                              <DT>
+                                <I>Longitude_of_Central_Meridian:</I>-75</DT>
+                              <DT>
+                                <I>Latitude_of_Projection_Origin:</I>0</DT>
+                              <DT>
+                                <I>False_Easting:</I>500000</DT>
+                              <DT>
+                                <I>False_Northing:</I>0</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Planar_Coordinate_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Planar_Coordinate_Encoding_Method:</I>coordinate pair</DT>
+                      <DT>
+                        <I>Coordinate_Representation:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Abscissa_Resolution:</I>0.01</DT>
+                          <DT>
+                            <I>Ordinate_Resolution:</I>0.01</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Planar_Distance_Units:</I>meters</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Geodetic_Model:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Horizontal_Datum_Name:</I>NAD 1983 (2011)</DT>
+                  <DT>
+                    <I>Ellipsoid_Name:</I>Geodetic Reference System 80</DT>
+                  <DT>
+                    <I>Semi-major_Axis:</I>6378137.0</DT>
+                  <DT>
+                    <I>Denominator_of_Flattening_Ratio:</I>298.257222101</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Vertical_Coordinate_System_Definition:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Altitude_System_Definition:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Altitude_Datum_Name:</I>NAVD 1988 (GEOID 12B)</DT>
+                  <DT>
+                    <I>Altitude_Resolution:</I>0.01</DT>
+                  <DT>
+                    <I>Altitude_Distance_Units:</I>meters</DT>
+                  <DT>
+                    <I>Altitude_Encoding_Method:</I>Explicit elevation coordinate included with horizontal coordinates</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Entity_and_Attribute_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Entity_and_Attribute_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>Polygons</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>On a map, a closed shape defined by a connected sequence of x,y coordinate
+					pairs, where the first and last coordinate pair are the same and all other pairs
+					are unique.</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>Esri GIS Dictionary
+					http://support.esri.com/en/knowledgebase/GISDictionary/term/polygon</DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>FID</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Internal feature number.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Esri</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>Sequential unique whole numbers that are automatically generated.</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>Shape</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Feature geometry.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Esri</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>Feature geometry - Polygon ZM</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>Name</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Tile name</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>LiDAR Data</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>Tile Names</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Overview_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Entity_and_Attribute_Overview:</I>
+                </DT>
+                <PRE>Polygons showing the boundary of the tiles.</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Entity_and_Attribute_Detail_Citation:</I>
+                </DT>
+                <PRE>More detail about the attributes of this data set can be found in the USGS
+				Contract: G16PC00016, Task Order Number: G17PD01254.</PRE>
+              </DIV>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A NAME="EDA">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Distribution_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Distributor:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>Pennsylvania Spatial Data Access (PASDA)</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>115 Land and Water Building</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>University Park</DT>
+                      <DT>
+                        <I>State_or_Province:</I>Pennsylvania</DT>
+                      <DT>
+                        <I>Postal_Code:</I>16802</DT>
+                      <DT>
+                        <I>Country:</I>United States</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>(814) 865 - 8792</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>pasda@psu.edu</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DIV>
+            <DT>
+              <I>Distribution_Liability:</I>
+            </DT>
+            <PRE>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</PRE>
+          </DIV>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Metadata_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Metadata_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Metadata_Date:</I>20181026</DT>
+          <DT>
+            <I>Metadata_Contact:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>Quantum Spatial</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>523 Wellington Way</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Lexington</DT>
+                      <DT>
+                        <I>State_or_Province:</I>KY</DT>
+                      <DT>
+                        <I>Postal_Code:</I>40503</DT>
+                      <DT>
+                        <I>Country:</I>USA</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>859-277-8700</DT>
+                  <DT>
+                    <I>Contact_Facsimile_Telephone:</I>859-277-8901</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>jbowen@quantumspatial.com</DT>
+                  <DT>
+                    <I>Hours_of_Service:</I>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</DT>
+                  <DT>
+                    <I>Contact Instructions:</I>
+                  </DT>
+                  <DIV>
+                    <PRE>If unable to reach the contact by telephone, please send an email. You
+					should get a response within 24 hours.</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Metadata_Standard_Name:</I>FGDC Content Standard for Digital Geospatial Metadata</DT>
+          <DT>
+            <I>Metadata_Standard_Version:</I>FGDC-STD-001-1998</DT>
+          <DT>
+            <I>Metadata_Access_Constraints:</I>None.</DT>
+          <DT>
+            <I>Metadata_Use_Constraints:</I>
+          </DT>
+          <DD>None.</DD>
+          <DT>
+            <I>Metadata_Security_Information:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Metadata_Security_Classification_System:</I>None.</DT>
+              <DT>
+                <I>Metadata_Security_Classification:</I>Unclassified</DT>
+              <DT>
+                <I>Metadata_Security_Handling_Description:</I>
+              </DT>
+              <DD>NONE</DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+  </BODY>
+</HTML>
+		</form>
+	</body>
+</HTML>

@@ -1,0 +1,609 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+	<HEAD>
+		<title>Pennsylvania Spatial Data Access | Full Metadata</title>
+		<meta name="GENERATOR" content="Microsoft Visual Studio.NET 7.0">
+		<meta name="CODE_LANGUAGE" content="Visual Basic 7.0">
+		<meta name="vs_defaultClientScript" content="JavaScript">
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+	    <link rel="shortcut icon" href="http://maps.pasda.psu.edu/Images/favicon.ico" type="image/x-icon" />
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-41373351-5', 'psu.edu');
+          ga('send', 'pageview');
+
+        </script>
+</HEAD>
+	<body MS_POSITIONING="GridLayout">
+		<form method="post" action="./FullMetadataDisplay.aspx?file=PAhazus.xml" id="Form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEzNDA3MDMyNjVkZCi1cbXMhfZI+elmwl4oTersdOt9nxHHv5HGNLdvg2y4" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="D999016F" />
+			<HTML>
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <SCRIPT type="text/javascript">
+
+      function fix(e) {
+        var par = e.parentNode;
+        e.id = "";
+        e.style.marginLeft = "0.42in";
+        var pos = e.innerText.indexOf("\n");
+        if (pos > 0) {
+          while (pos > 0) {
+            var t = e.childNodes(0);
+            var n = document.createElement("PRE");
+            var s = t.splitText(pos);
+            e.insertAdjacentElement("afterEnd", n);
+            n.appendChild(s);
+            n.style.marginLeft = "0.42in";
+            e = n;
+            pos = e.innerText.indexOf("\n");
+          }
+          var count = (par.children.length);
+          for (var i = 0; i < count; i++) {
+            e = par.children(i);
+            if (e.tagName == "PRE") {
+              pos = e.innerText.indexOf(">");
+              if (pos != 0) {
+                n = document.createElement("DD");
+                e.insertAdjacentElement("afterEnd", n);
+                n.innerText = e.innerText;
+                e.removeNode(true);
+              }
+            }
+          }
+          if (par.children.tags("PRE").length > 0) {
+            count = (par.children.length);
+            for (i = 0; i < count; i++) {
+              e = par.children(i);
+              if (e.tagName == "PRE") {
+                e.id = "";
+                if (i < (count-1)) {
+                  var e2 = par.children(i + 1);
+                  if (e2.tagName == "PRE") {
+                    e.insertAdjacentText("beforeEnd", e2.innerText+"\n");
+                    e2.removeNode(true);
+                    count = count-1;
+                    i = i-1;
+                  }
+                }
+              }
+            }
+          }
+        }
+        else {
+          n = document.createElement("DD");
+          par.appendChild(n);
+          n.innerText = e.innerText;
+          e.removeNode(true);
+        }
+      }
+
+    </SCRIPT>
+  </HEAD>
+  <BODY oncontextmenu="return true">
+    <A name="Top">
+    </A>
+    <H2>PA HAZUS</H2>
+    <UL>
+      <LI>
+        <A HREF="#Identification_Information">Identification_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Spatial_Data_Organization_Information">Spatial_Data_Organization_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Spatial_Reference_Information">Spatial_Reference_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Entity_and_Attribute_Information">Entity_and_Attribute_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#EHA">
+                  Distribution_Information 
+                </A>
+      </LI>
+      <LI>
+        <A HREF="#Metadata_Reference_Information">Metadata_Reference_Information</A>
+      </LI>
+    </UL>
+    <A name="Identification_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Identification_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Citation:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Citation_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Originator:</I>Pennsylvania Emergency Management Agency (PEMA)</DT>
+                  <DT>
+                    <I>Publication_Date:</I>2007</DT>
+                  <DT>
+                    <I>Title:</I>
+                  </DT>
+                  <DD>PA HAZUS</DD>
+                  <DT>
+                    <I>Geospatial_Data_Presentation_Form:</I>vector digital data</DT>
+                  <DT>
+                    <I>Online_Linkage:</I>
+                    <A TARGET="viewer" HREF="http://www.pasda.psu.edu/">http://www.pasda.psu.edu/</A>
+                  </DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Abstract:</I>
+                </DT>
+                <PRE>In 2006, PEMA completed a statewide study of a 100 year flood event using FEMA's HAZUS-MH risk analysis software.  In 2007, PEMA concluded a broader statewide study using the latest version of HAZUS-MH MR 2.0 that includes damage estimates for 10, 50, 100, 200 and 500 year flood events. The study computed damages in dollars for total economic loss, building and content damage, and other economic impacts. The study also estimated the number of damaged homes and the degree of damage to those homes.
+ 
+With these results, Statewide GIS shapefiles for economic losses and damaged homes were created for each flood scenario using ArcMap 9.1. These files can be displayed using ArcMap 9.0 or higher version - you do not need the HAZUS software to use them. They can be overlaid on other GIS maps (county, local roads, street maps, municipal maps, etc) to show the location and extent of potential flood damages for each of the flood severity levels.
+ 
+The Flood Study maps and information contained in these files can by used local emergency management agencies, GIS and planning departments, watershed organizations, and other interested parties for hazard identification and risk assessment, mitigation planning, and flood response training activities.  IT IS IMPORTANT TO NOTE: These files are estimates of damages and locations generated by the FEMA HAZUS flood analysis model. These files do not include all possible flood risk areas and are not based on actual past flood events. The data should not be used to determine regulated floodplain areas or the location of individual homes and buildings.
+ 
+The GIS files for the various flood events have been compressed (ZIP files) and can be downloaded from this webpage. The size of the files range from 4 MBs to 25 MBs - download time may be considerable depending on the speed of your Internet connection. Contained in each ZIP file are Pennsylvania Statewide Flood Study ARCGIS shapefiles generated with the HAZUS Multihazard Flood Risk Analysis program.
+ 
+The shapefiles represent all census blocks affected by each flood event. The economic loss layer shows total losses in thousands of dollars. The damaged homes layer shows the number of flood-affected residential structures. Additional information for each layer is contained in its attribute table which can be viewed and edited in ArcMap. The display can also be modified or enhanced by changing the layer's properties in ArcMap (change the display to "classified" and the number of classes to "10," for example).</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Purpose:</I>
+                </DT>
+                <PRE>Contained in this ZIP file are Pennsylvania Statewide Flood Study ARCGIS shapefiles generated with the HAZUS Multihazard Flood Risk Analysis program. Download the files to your computer and access the feature files directly using ArcMap or ArcCatalog. They were created in ArcMap 9.1 -- you do not need the HAZUS program installed on your computer to use and view them, they will project with ArcMap 9.1 or higher version. They may not work in older versions of ArcGIS (3.2 or 8.3 for example). The flood study from which these features were generated models each of the 5 different flood events. Only streams and rivers with a drainage basin area of 10 square miles or more were studied. This means smaller streams and the flood effects from them are not included in this study. These results only represent a basic starting point for local flood response activities and mitigation planning. More detailed and in-depth study will require use of FEMA's HAZUS MH Flood Module. Each feature displays the census blocks affected by the flood event studied. COUNTY LEVEL DATA Also included in this ZIP file is a Statewide County shapefile. County level HAZUS results can be selected from the Statewide HAZUS layer using the SELECT feature in ArcMap. Select the County of interest and then use SELECT BY LOCATION to identify the HAZUS census block data within that County ("select feature with centerpoint" in SELECTED COUNTY works best). ECONOMIC LOSSES The attribute tables for ECONOMIC LOSSES (ecloss) include Total Damage (in 1000's of dollars), Building Damage, Content Damage, and a host of other economic loss estimates, for each affected census block. Totals for these amounts can be calculated by right-clicking any column in the attribute table and selecting STATISTICS and reading the SUM total (again in 1000's of dollars). This layer is currently set to display TOTAL LOSSES. You can change how this information is displayed by right-clicking on the layer in your ArcMap table-of-contents and opening its PROPERTIES. Selecting Graduated Colors and number of classes in the display will help in displaying higher risk areas more graphically. From PROPERTIES you can also select another field to be displayed (Damages to Buildings or Content Damage, for example). DAMAGED HOMES This shapefile again displays the census block areas that contain flood damaged homes for each flood event scenario (10, 50, 100, 200 and 500 year floods). The attribute table includes total homes at risk, the total number damaged, substantially damaged homes, and homes by percent of damage for each of the affected census blocks. Totals for these amounts can be calculated by right-clicking any column in the attribute table and selecting STATISTICS and reading the SUM total (again in 1000's of dollars). You can change how this information is displayed by right-clicking on the layer in your ArcMap table-of-contents and opening its PROPERTIES. Selecting Graduated Colors and number of classes in the display will help in displaying higher risk areas more graphically. From PROPERTIES you can also select another field to be displayed. EXPORTING ATTRIBUTE TABLES Attribute tables can be exported out as DBF files using the OPTIONS button in the Attribute Table display. DBF files can be opened with MS Excel and resaved as spreadsheet files (.xls) for data manipulation, calculation and totalling, etc. HAZUS FLOOD STUDY EXPORT FILES If you are using the HAZUS MR2 risk analysis software, the original HAZUS studies for your county are available as export files. These study files can be imported directly into HAZUS for review and/or additional studies at the local level. These files are very large but they can be transfered over the Internet site, www.floodmaps.net - see contact information below if you are interested in acquiring the HAZUS base study export files for your county. If you have questions about these files or are interested in more information about HAZUS Flood Analysis software, contact the PEMA HAZUS Specialist at 717-651-2158.</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Time_Period_of_Content:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Time_Period_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Single_Date/Time:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Calendar_Date:</I>2007</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DIV>
+                <DT>
+                  <I>Currentness_Reference:</I>
+                </DT>
+                <PRE>publication date</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Status:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Progress:</I>Complete</DT>
+              <DT>
+                <I>Maintenance_and_Update_Frequency:</I>As needed</DT>
+            </DL>
+          </DD>
+          <DT>
+            <I>Spatial_Domain:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Bounding_Coordinates:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>West_Bounding_Coordinate:</I>-80.51934</DT>
+                  <DT>
+                    <I>East_Bounding_Coordinate:</I>-74.69392</DT>
+                  <DT>
+                    <I>North_Bounding_Coordinate:</I>42.26501</DT>
+                  <DT>
+                    <I>South_Bounding_Coordinate:</I>39.71987</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Keywords:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Theme:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Theme_Keyword_Thesaurus:</I>ISO 19115 Topic Categories</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>inlandWaters</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>flood</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Place:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Place_Keyword:</I>Pennsylvania</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Access_Constraints:</I>none</DT>
+          <DIV>
+            <DT>
+              <I>Use_Constraints:</I>
+            </DT>
+            <PRE>For educational/demonstration purposes only.  The Originator, Publisher and Distributor exclude any and all implied warranties and make no warranty or representation with respect to the data files or accompanying documentation, including quality, performance, merchantability or fitness for a particular purpose. These data files and documentation are provided 'as is' and the User assumes the entire risk as to their quality and performance.
+These data are not to be redistributed for commercial profit.  Reproduction or redistribution of this digital data set without permission of the Originator/Publisher is expressly forbidden.  The Originator and Publisher should be clearly cited in any product derived from this data.  Any modifications to this data must be described in any digital or hardcopy product derived from this data.</PRE>
+          </DIV>
+          <DT>
+            <I>Point_of_Contact:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Person_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Person:</I>PEMA HAZUS Specialist </DT>
+                      <DT>
+                        <I>Contact_Organization:</I> Pennsylvania Emergency Management Agency (PEMA)</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Position:</I>HAZUS Specialist </DT>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>717-651-2158</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>jyu@pa.gov</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Native_Data_Set_Environment:</I>
+          </DT>
+          <DD>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.2.1350</DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Spatial_Data_Organization_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Spatial_Data_Organization_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Direct_Spatial_Reference_Method:</I>Vector</DT>
+          <DT>
+            <I>Point_and_Vector_Object_Information:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>SDTS_Terms_Description:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>SDTS_Point_and_Vector_Object_Type:</I>G-polygon</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Spatial_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Spatial_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Horizontal_Coordinate_System_Definition:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Geographic:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Latitude_Resolution:</I>0.000000</DT>
+                  <DT>
+                    <I>Longitude_Resolution:</I>0.000000</DT>
+                  <DT>
+                    <I>Geographic_Coordinate_Units:</I>Decimal degrees</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Geodetic_Model:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Horizontal_Datum_Name:</I>North American Datum of 1983</DT>
+                  <DT>
+                    <I>Ellipsoid_Name:</I>Geodetic Reference System 80</DT>
+                  <DT>
+                    <I>Semi-major_Axis:</I>6378137.000000</DT>
+                  <DT>
+                    <I>Denominator_of_Flattening_Ratio:</I>298.257222</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Entity_and_Attribute_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Entity_and_Attribute_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>PAhazus</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A NAME="EHA">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Distribution_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Distributor:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>Pennsylvania Spatial Data Access (PASDA)</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>115 Land and Water building</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>University Park</DT>
+                      <DT>
+                        <I>State_or_Province:</I>Pennsylvania</DT>
+                      <DT>
+                        <I>Postal_Code:</I>16802</DT>
+                      <DT>
+                        <I>Country:</I>United States</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>(814) 865 - 8792</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>pasda@psu.edu</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Resource_Description:</I>Downloadable Data</DT>
+          <DIV>
+            <DT>
+              <I>Distribution_Liability:</I>
+            </DT>
+            <PRE>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</PRE>
+          </DIV>
+          <DT>
+            <I>Standard_Order_Process:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Digital_Form:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Digital_Transfer_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Transfer_Size:</I>0.000</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Metadata_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Metadata_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Metadata_Date:</I>2016</DT>
+          <DT>
+            <I>Metadata_Contact:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>Pennsylvania Spatial Data Access (PASDA)</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>115 Land and Water building</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>University Park</DT>
+                      <DT>
+                        <I>State_or_Province:</I>Pennsylvania</DT>
+                      <DT>
+                        <I>Postal_Code:</I>16802</DT>
+                      <DT>
+                        <I>Country:</I>United States</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>(814) 865 - 8792</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>pasda@psu.edu</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Metadata_Standard_Name:</I>FGDC Content Standards for Digital Geospatial Metadata</DT>
+          <DT>
+            <I>Metadata_Standard_Version:</I>FGDC-STD-001-1998</DT>
+          <DT>
+            <I>Metadata_Time_Convention:</I>local time</DT>
+          <DT>
+            <I>Metadata_Extensions:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Online_Linkage:</I>
+                <A TARGET="viewer" HREF="http://www.esri.com/metadata/esriprof80.html">http://www.esri.com/metadata/esriprof80.html</A>
+              </DT>
+              <DT>
+                <I>Profile_Name:</I>ESRI Metadata Profile</DT>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+  </BODY>
+</HTML>
+		</form>
+	</body>
+</HTML>

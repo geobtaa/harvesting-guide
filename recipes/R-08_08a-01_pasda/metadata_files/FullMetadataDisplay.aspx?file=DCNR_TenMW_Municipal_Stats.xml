@@ -1,0 +1,1146 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+	<HEAD>
+		<title>Pennsylvania Spatial Data Access | Full Metadata</title>
+		<meta name="GENERATOR" content="Microsoft Visual Studio.NET 7.0">
+		<meta name="CODE_LANGUAGE" content="Visual Basic 7.0">
+		<meta name="vs_defaultClientScript" content="JavaScript">
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+	    <link rel="shortcut icon" href="http://maps.pasda.psu.edu/Images/favicon.ico" type="image/x-icon" />
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-41373351-5', 'psu.edu');
+          ga('send', 'pageview');
+
+        </script>
+</HEAD>
+	<body MS_POSITIONING="GridLayout">
+		<form method="post" action="./FullMetadataDisplay.aspx?file=DCNR_TenMW_Municipal_Stats.xml" id="Form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEzNDA3MDMyNjVkZCi1cbXMhfZI+elmwl4oTersdOt9nxHHv5HGNLdvg2y4" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="D999016F" />
+			<HTML>
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <SCRIPT type="text/javascript">
+
+      function fix(e) {
+        var par = e.parentNode;
+        e.id = "";
+        e.style.marginLeft = "0.42in";
+        var pos = e.innerText.indexOf("\n");
+        if (pos > 0) {
+          while (pos > 0) {
+            var t = e.childNodes(0);
+            var n = document.createElement("PRE");
+            var s = t.splitText(pos);
+            e.insertAdjacentElement("afterEnd", n);
+            n.appendChild(s);
+            n.style.marginLeft = "0.42in";
+            e = n;
+            pos = e.innerText.indexOf("\n");
+          }
+          var count = (par.children.length);
+          for (var i = 0; i < count; i++) {
+            e = par.children(i);
+            if (e.tagName == "PRE") {
+              pos = e.innerText.indexOf(">");
+              if (pos != 0) {
+                n = document.createElement("DD");
+                e.insertAdjacentElement("afterEnd", n);
+                n.innerText = e.innerText;
+                e.removeNode(true);
+              }
+            }
+          }
+          if (par.children.tags("PRE").length > 0) {
+            count = (par.children.length);
+            for (i = 0; i < count; i++) {
+              e = par.children(i);
+              if (e.tagName == "PRE") {
+                e.id = "";
+                if (i < (count-1)) {
+                  var e2 = par.children(i + 1);
+                  if (e2.tagName == "PRE") {
+                    e.insertAdjacentText("beforeEnd", e2.innerText+"\n");
+                    e2.removeNode(true);
+                    count = count-1;
+                    i = i-1;
+                  }
+                }
+              }
+            }
+          }
+        }
+        else {
+          n = document.createElement("DD");
+          par.appendChild(n);
+          n.innerText = e.innerText;
+          e.removeNode(true);
+        }
+      }
+
+    </SCRIPT>
+  </HEAD>
+  <BODY oncontextmenu="return true">
+    <A name="Top">
+    </A>
+    <H2>Outdoor Recreation Access: 10-Minute Walk (Municipal Stats)</H2>
+    <UL>
+      <LI>
+        <A HREF="#Identification_Information">Identification_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Spatial_Data_Organization_Information">Spatial_Data_Organization_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Spatial_Reference_Information">Spatial_Reference_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Entity_and_Attribute_Information">Entity_and_Attribute_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#EAA">
+                  Distribution_Information 
+                </A>
+      </LI>
+      <LI>
+        <A HREF="#Metadata_Reference_Information">Metadata_Reference_Information</A>
+      </LI>
+    </UL>
+    <A name="Identification_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Identification_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Citation:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Citation_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Originator:</I>Pennsylvania Department of Conservation and Natural Resources</DT>
+                  <DT>
+                    <I>Publication_Date:</I>202003</DT>
+                  <DT>
+                    <I>Title:</I>
+                  </DT>
+                  <DD>Outdoor Recreation Access: 10-Minute Walk (Municipal Stats)</DD>
+                  <DT>
+                    <I>Geospatial_Data_Presentation_Form:</I>vector digital data</DT>
+                  <DT>
+                    <I>Online_Linkage:</I>
+                    <A TARGET="viewer" HREF="http://www.pasda.psu.edu/">http://www.pasda.psu.edu/</A>
+                  </DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Abstract:</I>
+                </DT>
+                <PRE>This dataset provides municipal-level summary statistics on who has 10-minute walk access to outdoor recreation in Pennsylvania and who doesn’t. The statistics derive from overlaying 2018 US Census block group data with the Outdoor Recreation Access: 10-Minute Walk layer. Statistics include overall number of citizens served as well as demographic breakdowns by age, income, race/ethnicity, and social vulnerability. The Trust for Public Land produced this dataset to support Pennsylvania’s 2020-2024 Statewide Comprehensive Outdoor Recreation Plan (SCORP). This dataset was financed in part by a grant from the Community Conservation Partnerships Program, Environmental Stewardship Fund, under the administration of the Pennsylvania Department of Conservation and Natural Resources, Bureau of Recreation and Conservation.</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Purpose:</I>
+                </DT>
+                <PRE>This dataset provides municipal-level summary statistics on who has 10-minute walk access to outdoor recreation in Pennsylvania and who doesn’t. The statistics derive from overlaying 2018 US Census block group data with the Outdoor Recreation Access: 10-Minute Walk layer. Statistics include overall number of citizens served as well as demographic breakdowns by age, income, race/ethnicity, and social vulnerability. The Trust for Public Land produced this dataset to support Pennsylvania’s 2020-2024 Statewide Comprehensive Outdoor Recreation Plan (SCORP). This dataset was financed in part by a grant from the Community Conservation Partnerships Program, Environmental Stewardship Fund, under the administration of the Pennsylvania Department of Conservation and Natural Resources, Bureau of Recreation and Conservation.</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Spatial_Domain:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Bounding_Coordinates:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>West_Bounding_Coordinate:</I>-81.049022</DT>
+                  <DT>
+                    <I>East_Bounding_Coordinate:</I>-74.146609</DT>
+                  <DT>
+                    <I>North_Bounding_Coordinate:</I>42.634227</DT>
+                  <DT>
+                    <I>South_Bounding_Coordinate:</I>38.996464</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Keywords:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Theme:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Theme_Keyword_Thesaurus:</I>None</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>parks</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>10-minute walk</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>outdoor recreation</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>access</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>statistics</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>municipalities</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Pennsylvania</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Access_Constraints:</I>None</DT>
+          <DIV>
+            <DT>
+              <I>Use_Constraints:</I>
+            </DT>
+            <PRE>You understand and agree, and will advise any third party to whom you give any or all of the data, that The Trust for Public Land is neither responsible nor liable for any viruses or other contamination of your system arising from use of The Trust for Public Land’s data nor for any delays, inaccuracies, errors or omissions arising out of the use of the data. The Trust for Public Land’s data is distributed and transmitted "as is" without warranties of any kind, either express or implied, including without limitation, warranties of title or implied warranties of merchantability or fitness for a particular purpose. The Trust for Public Land is not responsible for any claim of loss of profit or any special, direct, indirect, incidental, consequential, and/or punitive damages that may arise from the use of the data.</PRE>
+          </DIV>
+          <DT>
+            <I>Point_of_Contact:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Person_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Person:</I>Joshua VanBrakle</DT>
+                      <DT>
+                        <I>Contact_Organization:</I>Department of Conservation and Natural Resources</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>400 Market St, 5th Floor</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Harrisburg</DT>
+                      <DT>
+                        <I>State_or_Province:</I>Pennsylvania</DT>
+                      <DT>
+                        <I>Postal_Code:</I>17101-2301</DT>
+                      <DT>
+                        <I>Country:</I>United States</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>717.783.2654</DT>
+                  <DT>
+                    <I>Contact_Facsimile_Telephone:</I>717.787.9577</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>josvanbrak@pa.gov</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DIV>
+            <DT>
+              <I>Data_Set_Credit:</I>
+            </DT>
+            <PRE>The Trust for Public Land
+Pennsylvania Land Trust Association
+Pennsylvania Department of Conservation and Natural Resources</PRE>
+          </DIV>
+          <DT>
+            <I>Native_Data_Set_Environment:</I>
+          </DT>
+          <DD> Version 6.2 (Build 9200) ; Esri ArcGIS 10.3.1.4959</DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Spatial_Data_Organization_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Spatial_Data_Organization_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Direct_Spatial_Reference_Method:</I>Vector</DT>
+          <DT>
+            <I>Point_and_Vector_Object_Information:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>SDTS_Terms_Description:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>SDTS_Point_and_Vector_Object_Type:</I>GT-polygon composed of chains</DT>
+                  <DT>
+                    <I>Point_and_Vector_Object_Count:</I>2570</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Spatial_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Spatial_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Horizontal_Coordinate_System_Definition:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Planar:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Map_Projection:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Albers_Conical_Equal_Area:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Standard_Parallel:</I>20.0</DT>
+                          <DT>
+                            <I>Standard_Parallel:</I>60.0</DT>
+                          <DT>
+                            <I>Longitude_of_Central_Meridian:</I>-96.0</DT>
+                          <DT>
+                            <I>Latitude_of_Projection_Origin:</I>40.0</DT>
+                          <DT>
+                            <I>False_Easting:</I>0.0</DT>
+                          <DT>
+                            <I>False_Northing:</I>0.0</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Planar_Coordinate_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Planar_Coordinate_Encoding_Method:</I>coordinate pair</DT>
+                      <DT>
+                        <I>Coordinate_Representation:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Abscissa_Resolution:</I>0.0001</DT>
+                          <DT>
+                            <I>Ordinate_Resolution:</I>0.0001</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Planar_Distance_Units:</I>meter</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Geodetic_Model:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Horizontal_Datum_Name:</I>D North American 1983</DT>
+                  <DT>
+                    <I>Ellipsoid_Name:</I>GRS 1980</DT>
+                  <DT>
+                    <I>Semi-major_Axis:</I>6378137.0</DT>
+                  <DT>
+                    <I>Denominator_of_Flattening_Ratio:</I>298.257222101</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Entity_and_Attribute_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Entity_and_Attribute_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>TenMW_Municipal_Stats</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>OBJECTID</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Internal feature number.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Esri</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>Sequential unique whole numbers that are automatically generated.</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>Shape</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Feature geometry.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Esri</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>Coordinates defining the features.</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>COUNTY</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>MUNICIPAL</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>FIPS_MUN_C</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>FED_AID_UR</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>FIPS_COUNT</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>FIPS_MUN_P</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>FED_ID_NUM</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>CLASS_OF_M</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>Muni_Name</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>Muni_Type</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>M_Name_Com</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>CountyName</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>M_NameFull</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>PlaceFIPS</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>CNTYFIPS</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>TOTPOPSVD</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>KIDSVD</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>ADULTSVD</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>SENIORSVD</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>LWINHHSVD</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>MDINHHSVD</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>HINHHSVD</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>WHITESVD</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>BLACKSVD</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>AMINDSVD</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>ASIANSVD</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>PCFCISSVD</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>OTHRACSVD</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>RAC2UPSVD</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>HISPSVD</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>TOTPOP</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>KIDS</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>ADULTS</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>SENIORS</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>LWINHH</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>MDINHH</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>HINHH</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>TOTHH</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>WHITE</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>BLACK</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>AMIND</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>ASIAN</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>PCFCIS</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>OTHRAC</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>RAC2UP</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>HISP</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>Shape_Length</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Length of feature in internal units.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Esri</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>Positive real numbers that are automatically generated.</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>Shape_Area</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Area of feature in internal units squared.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Esri</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>Positive real numbers that are automatically generated.</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A NAME="EAA">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Distribution_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Distributor:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Person_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>Pennsylvania Spatial Data Access (PASDA)</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>115 Land and Water building </PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>University Park</DT>
+                      <DT>
+                        <I>State_or_Province:</I>Pennsylvania</DT>
+                      <DT>
+                        <I>Postal_Code:</I>16802</DT>
+                      <DT>
+                        <I>Country:</I>United States</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>(814) 865 - 8792</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>pasda@psu.edu</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Resource_Description:</I>Downloadable Data</DT>
+          <DIV>
+            <DT>
+              <I>Distribution_Liability:</I>
+            </DT>
+            <PRE>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</PRE>
+          </DIV>
+          <DT>
+            <I>Standard_Order_Process:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Digital_Form:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Digital_Transfer_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Transfer_Size:</I>7.210</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Metadata_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Metadata_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Metadata_Date:</I>20200324</DT>
+          <DT>
+            <I>Metadata_Contact:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>The Trust for Public Land</DT>
+                      <DT>
+                        <I>Contact_Person:</I>Emmalee Dolfi</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Position:</I>Senior Manager of Urban Analytics</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Metadata_Standard_Name:</I>FGDC Content Standard for Digital Geospatial Metadata</DT>
+          <DT>
+            <I>Metadata_Standard_Version:</I>FGDC-STD-001-1998</DT>
+          <DT>
+            <I>Metadata_Time_Convention:</I>local time</DT>
+          <DT>
+            <I>Metadata_Use_Constraints:</I>
+          </DT>
+          <DD>You understand and agree, and will advise any third party to whom you give any or all of the data, that The Trust for Public Land is neither responsible nor liable for any viruses or other contamination of your system arising from use of The Trust for Public Land’s data nor for any delays, inaccuracies, errors or omissions arising out of the use of the data. The Trust for Public Land’s data is distributed and transmitted "as is" without warranties of any kind, either express or implied, including without limitation, warranties of title or implied warranties of merchantability or fitness for a particular purpose. The Trust for Public Land is not responsible for any claim of loss of profit or any special, direct, indirect, incidental, consequential, and/or punitive damages that may arise from the use of the data. If you or any person to whom you make the data available are downloading or using the data for any visual output, attribution for same will be given in the following format: "This [document, map, diagram, report, etc.] was produced using data, in whole or in part, provided by The Trust for Public Land."</DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+  </BODY>
+</HTML>
+		</form>
+	</body>
+</HTML>

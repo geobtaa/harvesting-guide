@@ -1,0 +1,1582 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+	<HEAD>
+		<title>Pennsylvania Spatial Data Access | Full Metadata</title>
+		<meta name="GENERATOR" content="Microsoft Visual Studio.NET 7.0">
+		<meta name="CODE_LANGUAGE" content="Visual Basic 7.0">
+		<meta name="vs_defaultClientScript" content="JavaScript">
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+	    <link rel="shortcut icon" href="http://maps.pasda.psu.edu/Images/favicon.ico" type="image/x-icon" />
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-41373351-5', 'psu.edu');
+          ga('send', 'pageview');
+
+        </script>
+</HEAD>
+	<body MS_POSITIONING="GridLayout">
+		<form method="post" action="./FullMetadataDisplay.aspx?file=HuntingdonCounty_RoadCenterline202212.xml" id="Form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEzNDA3MDMyNjVkZCi1cbXMhfZI+elmwl4oTersdOt9nxHHv5HGNLdvg2y4" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="D999016F" />
+			<HTML>
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <SCRIPT type="text/javascript">
+
+      function fix(e) {
+        var par = e.parentNode;
+        e.id = "";
+        e.style.marginLeft = "0.42in";
+        var pos = e.innerText.indexOf("\n");
+        if (pos > 0) {
+          while (pos > 0) {
+            var t = e.childNodes(0);
+            var n = document.createElement("PRE");
+            var s = t.splitText(pos);
+            e.insertAdjacentElement("afterEnd", n);
+            n.appendChild(s);
+            n.style.marginLeft = "0.42in";
+            e = n;
+            pos = e.innerText.indexOf("\n");
+          }
+          var count = (par.children.length);
+          for (var i = 0; i < count; i++) {
+            e = par.children(i);
+            if (e.tagName == "PRE") {
+              pos = e.innerText.indexOf(">");
+              if (pos != 0) {
+                n = document.createElement("DD");
+                e.insertAdjacentElement("afterEnd", n);
+                n.innerText = e.innerText;
+                e.removeNode(true);
+              }
+            }
+          }
+          if (par.children.tags("PRE").length > 0) {
+            count = (par.children.length);
+            for (i = 0; i < count; i++) {
+              e = par.children(i);
+              if (e.tagName == "PRE") {
+                e.id = "";
+                if (i < (count-1)) {
+                  var e2 = par.children(i + 1);
+                  if (e2.tagName == "PRE") {
+                    e.insertAdjacentText("beforeEnd", e2.innerText+"\n");
+                    e2.removeNode(true);
+                    count = count-1;
+                    i = i-1;
+                  }
+                }
+              }
+            }
+          }
+        }
+        else {
+          n = document.createElement("DD");
+          par.appendChild(n);
+          n.innerText = e.innerText;
+          e.removeNode(true);
+        }
+      }
+
+    </SCRIPT>
+  </HEAD>
+  <BODY oncontextmenu="return true">
+    <A name="Top">
+    </A>
+    <H2>Huntingdon County - Roads</H2>
+    <UL>
+      <LI>
+        <A HREF="#Identification_Information">Identification_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Spatial_Data_Organization_Information">Spatial_Data_Organization_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Spatial_Reference_Information">Spatial_Reference_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Entity_and_Attribute_Information">Entity_and_Attribute_Information</A>
+      </LI>
+      <LI>Distribution_Information</LI>
+      <LI STYLE="margin-left:0.3in">
+        <A HREF="#ECA">
+                  Distributor 1</A>
+      </LI>
+      <LI>
+        <A HREF="#EAA">
+                  Distribution_Information 
+                </A>
+      </LI>
+      <LI>
+        <A HREF="#Metadata_Reference_Information">Metadata_Reference_Information</A>
+      </LI>
+    </UL>
+    <A name="Identification_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Identification_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Citation:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Citation_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Originator:</I>PennDOT, Pennslyvannia Department of Transportation</DT>
+                  <DT>
+                    <I>Publication_Date:</I>202212</DT>
+                  <DT>
+                    <I>Title:</I>
+                  </DT>
+                  <DD>Huntingdon County - Roads</DD>
+                  <DT>
+                    <I>Geospatial_Data_Presentation_Form:</I>vector digital data</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Abstract:</I>
+                </DT>
+                <PRE>"Roads" represents all offical road center lines in Huntingdon County, PA. These features represent all Huntingdon County roads: federal &amp; state, municipal &amp; borough, public &amp; private.The original data was derived from PennDOT road centerlines and expanded by the Huntingdon County Planning and Mapping departments. Currently the data is maintained and updated by the Mapping Department on a weekly basis, or at the county’s discretion. Beginning with December 2022 this data follows the NG911 schema.</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Purpose:</I>
+                </DT>
+                <PRE>"Roads" was created to support Huntingdon County, PA in its mission to serve government, public, and private entities. This layer is maintained by Huntingdon County Mapping Dept. for the county PSAP (Public Saftey Answering Point, 911) to assist in routing emergency service calls. "Roads" is also used by Huntingdon County offices to assist in day to day office/field work.</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Time_Period_of_Content:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Time_Period_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Single_Date/Time:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Calendar_Date:</I>202212</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DIV>
+                <DT>
+                  <I>Currentness_Reference:</I>
+                </DT>
+                <PRE>Huntingdon County, PA</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Status:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Progress:</I>Complete</DT>
+              <DT>
+                <I>Maintenance_and_Update_Frequency:</I>Weekly</DT>
+            </DL>
+          </DD>
+          <DT>
+            <I>Spatial_Domain:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Bounding_Coordinates:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>West_Bounding_Coordinate:</I>-78.257795</DT>
+                  <DT>
+                    <I>East_Bounding_Coordinate:</I>-77.677569</DT>
+                  <DT>
+                    <I>North_Bounding_Coordinate:</I>40.737230</DT>
+                  <DT>
+                    <I>South_Bounding_Coordinate:</I>40.060309</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Keywords:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Theme:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Theme_Keyword_Thesaurus:</I>None</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Roads</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Theme:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Theme_Keyword_Thesaurus:</I>ISO 19115 Topic Categories</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>structure</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>transportation</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Place:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Place_Keyword_Thesaurus:</I>None</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Huntingdon County, Pennsylvania</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Access_Constraints:</I>None</DT>
+          <DIV>
+            <DT>
+              <I>Use_Constraints:</I>
+            </DT>
+            <PRE>While every reasonable effort has been made to produce high-quality map data, Huntingdon County provides this information with the understanding it is not guaranteed to be accurate, correct, or complete, and conclusions drawn from such information are the responsibility of the user. Huntingdon County assumes no responsibility for actual or consequential damage incurred as a result of any user’s reliance on this data or information herein, even if Huntingdon County is advised of the possibility of such damage. The mapping information provided are not a survey and are not legally recorded, and are not intended to be used as such. Users are requested to notify Huntingdon County Mapping Department of any errors or discrepancies found in using the data. Huntingdon County is providing the data “as is”, without any guarantee of technical support. By using any of these applications or services you are accepting these terms.</PRE>
+          </DIV>
+          <DT>
+            <I>Point_of_Contact:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>Huntingdon County Local Government</DT>
+                      <DT>
+                        <I>Contact_Person:</I>Huntingdon County Mapping Department</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>233 Penn St.</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Huntingdon</DT>
+                      <DT>
+                        <I>State_or_Province:</I>PA</DT>
+                      <DT>
+                        <I>Postal_Code:</I>16652</DT>
+                      <DT>
+                        <I>Country:</I>US</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>(814) 643-2570</DT>
+                  <DT>
+                    <I>Contact_Facsimile_Telephone:</I>(814) 643-1790</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>mapping@huntingdoncounty.net</DT>
+                  <DT>
+                    <I>Hours_of_Service:</I>8:30 am to 4:30pm monday - friday</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DIV>
+            <DT>
+              <I>Data_Set_Credit:</I>
+            </DT>
+            <PRE>PennDOT, Huntingdon County Planning Department, Huntingdon County Mapping Department</PRE>
+          </DIV>
+          <DT>
+            <I>Native_Data_Set_Environment:</I>
+          </DT>
+          <DD> Version 6.2 (Build 9200) ; Esri ArcGIS 10.3.1.4959</DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Spatial_Data_Organization_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Spatial_Data_Organization_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Direct_Spatial_Reference_Method:</I>Vector</DT>
+          <DT>
+            <I>Point_and_Vector_Object_Information:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>SDTS_Terms_Description:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>SDTS_Point_and_Vector_Object_Type:</I>String</DT>
+                  <DT>
+                    <I>Point_and_Vector_Object_Count:</I>7194</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Spatial_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Spatial_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Horizontal_Coordinate_System_Definition:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Planar:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Map_Projection:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Map_Projection_Name:</I>NAD 1983 StatePlane Pennsylvania South FIPS 3702 Feet</DT>
+                      <DT>
+                        <I>Lambert_Conformal_Conic:</I>
+                      </DT>NAD 1983 StatePlane Pennsylvania South FIPS 3702 Feet<DD><DL><DT><I>Standard_Parallel:</I>39.93333333333333</DT><DT><I>Standard_Parallel:</I>40.96666666666667</DT><DT><I>Longitude_of_Central_Meridian:</I>-77.75</DT><DT><I>Latitude_of_Projection_Origin:</I>39.33333333333334</DT><DT><I>False_Easting:</I>1968500.0</DT><DT><I>False_Northing:</I>0.0</DT></DL></DD></DL>
+                  </DD>
+                  <DT>
+                    <I>Planar_Coordinate_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Planar_Coordinate_Encoding_Method:</I>coordinate pair</DT>
+                      <DT>
+                        <I>Coordinate_Representation:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Abscissa_Resolution:</I>0.000000026907964745248598</DT>
+                          <DT>
+                            <I>Ordinate_Resolution:</I>0.000000026907964745248598</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Planar_Distance_Units:</I>foot_us</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Geodetic_Model:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Horizontal_Datum_Name:</I>D North American 1983</DT>
+                  <DT>
+                    <I>Ellipsoid_Name:</I>GRS 1980</DT>
+                  <DT>
+                    <I>Semi-major_Axis:</I>6378137.0</DT>
+                  <DT>
+                    <I>Denominator_of_Flattening_Ratio:</I>298.257222101</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Entity_and_Attribute_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Entity_and_Attribute_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>Roads</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>FID</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Internal feature number.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Esri</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>Sequential unique whole numbers that are automatically generated.</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>Shape</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Feature geometry.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>ESRI</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>Coordinates defining the features.</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>PRIMNAME</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>The primary name for each road segment. </PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Huntingdon County Mapping Department</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>ALTNAME1</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Alternative spellings of the PRIMNAME. Names are capitalized and numbers are spelled out.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Huntingdon County Mapping Department</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>SECONDARY</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>The secondary name for the road segment, typically contains US and State Route names.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Huntingdon County Mapping Department</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>TWPNUM</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Township road number designations.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Huntingdon County Mapping Department</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>SRNUM</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>State route number designations.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Huntingdon County Mapping Department</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>CLASS</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Road class of street segments. Classes are broken down into federal, state, township, borough, private, forest, alley, and jeep trails.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Huntingdon County Mapping Department</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>MUNICIPALI</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>The municipality that the road segment is located in.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Huntingdon County Mapping Department</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>PREFIXDIR</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Prefix direction of road name.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Huntingdon County Mapping Department</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>STREETNAME</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Street name of road centerline.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Huntingdon County Mapping Department</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>STREETSUF</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Street suffix of road centerline.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Huntingdon County Mapping Department</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>POSTDIR</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Post direction of road centerline.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Huntingdon County Mapping Department</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>TYPE</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Same field as "Class". Uses abreviation of class field.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Huntingdon County Mapping Department</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>ORIENT</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>The general direction of the road, north-south(NS) or east-west (EW).</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Huntingdon County Mapping Dpartment</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>NAME</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Full road name of road centerline.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Huntingdon County Mapping Department</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>ADDRS_INTE</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Addressing interval scheme for use in assigning 911 addresses. </PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Huntingdon County Mapping Department</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>TO_RANGE</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Used in the 2001 readdressing to determine road range matching.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Huntingdon County Mapping Department</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>NAME2_</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Name of township or borough where the segment is located.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Huntingdon County Mapping Department</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>LFTLOW_ADD</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Road range, left side lowest value.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Huntingdon County Mapping Department</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>LFTHIGH_AD</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Road range, left side highest value.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Huntingdon County Mapping Department</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>RGTLOW_ADD</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Road range, right side lowest value.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Huntingdon County Mapping Department</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>RGTHIGH_AD</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Road range, right side highest value.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Huntingdon County Mapping Department</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>GRIDSTART</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Start value of the addressing grid, used to determine ranges for new roads.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Huntingdon County Mapping Department</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>GRIDEND</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>End value of the addressing grid, used to determine ranges for new roads.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Huntingdon County Mapping Department</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>RANGE</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Road range of the segment. Range is used to determine new address numbers.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Huntingdon County Mapping Department</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>REGION</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Addressing region, this was used in the 2001 readdressing to divide up work.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Huntingdon County Mapping Department</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>MUNIR</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>The municipality on the right of the road segment.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Huntingdon County Mapping Department</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>MUNIL</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>The municipality on the left of the road segment.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Huntingdon County Mapping Department</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>INTERVAL_</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Used in the 2001 readdressing.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Huntingdon County Mapping Department</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>COIN_</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Used in the 2001 readdressing.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Huntingdon County Mapping Department</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>ESN_lft</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Emergency service number on the left of the road segment. Values are based off the "EmergencyServiceZones" layer.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Huntingdon County Mapping Department</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>ESN_rgt</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Emergency service number on the right of the road segment. Values are based off the "EmergencyServiceZones" layer.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Huntingdon County Mapping Department</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>RTENUM</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>State Route number.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Huntingdon County Mapping Department</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>RuleID</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>Date_</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>created_us</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>created_da</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>last_edite</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>last_edi_1</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>LABEL</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Federal, State, and township number associated with road centerline.</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>JOIN_ID</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Unique join ID</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>Shape_Leng</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A NAME="ECA">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Distribution_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Distributor:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>Huntingdon County Local Government</DT>
+                      <DT>
+                        <I>Contact_Person:</I>Huntingdon County Mapping Department</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>233 Penn St.</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Huntingdon</DT>
+                      <DT>
+                        <I>State_or_Province:</I>PA</DT>
+                      <DT>
+                        <I>Postal_Code:</I>16652</DT>
+                      <DT>
+                        <I>Country:</I>US</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>(814) 643-2570</DT>
+                  <DT>
+                    <I>Contact_Facsimile_Telephone:</I>(814) 643-1790</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>mapping@huntingdoncounty.net</DT>
+                  <DT>
+                    <I>Hours_of_Service:</I>8:30 am to 4:30pm monday - friday</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DIV>
+            <DT>
+              <I>Distribution_Liability:</I>
+            </DT>
+            <PRE>Data contained in this product is considered public information and is free to use in products and publications. While every reasonable effort has been made to produce high-quality map data, Huntingdon County provides this information with the understanding it is not guaranteed to be accurate, correct, or complete, and conclusions drawn from such information are the responsibility of the user. Huntingdon County assumes no responsibility for actual or consequential damage incurred as a result of any user’s reliance on this data or information herein, even if Huntingdon County is advised of the possibility of such damage. The mapping information provided are not a survey and are not legally recorded, and are not intended to be used as such. Users are requested to notify Huntingdon County Mapping Department of any errors or discrepancies found in using the data. Huntingdon County is providing the data “as is”, without any guarantee of technical support. By using any of these applications or services you are accepting these terms.</PRE>
+          </DIV>
+          <DT>
+            <I>Standard_Order_Process:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Digital_Form:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Digital_Transfer_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Format_Name:</I>File Geodatabase Feature Class</DT>
+                      <DT>
+                        <I>Transfer_Size:</I>0.000</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Digital_Transfer_Option:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A NAME="EAA">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Distribution_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Distributor:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>Pennsylvania Spatial Data Access (PASDA)</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>115 Land and Water building</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>University Park</DT>
+                      <DT>
+                        <I>State_or_Province:</I>Pennsylvania</DT>
+                      <DT>
+                        <I>Postal_Code:</I>16802</DT>
+                      <DT>
+                        <I>Country:</I>United States</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>(814) 865 - 8792</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>pasda@psu.edu</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DIV>
+            <DT>
+              <I>Distribution_Liability:</I>
+            </DT>
+            <PRE>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</PRE>
+          </DIV>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Metadata_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Metadata_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Metadata_Date:</I>20221227</DT>
+          <DT>
+            <I>Metadata_Contact:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>Huntingdon County Local Government</DT>
+                      <DT>
+                        <I>Contact_Person:</I>Huntingdon County Mapping Department</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>233 Penn St.</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Huntingdon</DT>
+                      <DT>
+                        <I>State_or_Province:</I>PA</DT>
+                      <DT>
+                        <I>Postal_Code:</I>16652</DT>
+                      <DT>
+                        <I>Country:</I>US</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>(814) 643-2570</DT>
+                  <DT>
+                    <I>Contact_Facsimile_Telephone:</I>(814) 643-1790</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>mapping@huntingdoncounty.net</DT>
+                  <DT>
+                    <I>Hours_of_Service:</I>8:30 am to 4:30pm monday - friday</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Metadata_Standard_Name:</I>FGDC Content Standard for Digital Geospatial Metadata</DT>
+          <DT>
+            <I>Metadata_Standard_Version:</I>FGDC-STD-001-1998</DT>
+          <DT>
+            <I>Metadata_Time_Convention:</I>local time</DT>
+          <DT>
+            <I>Metadata_Use_Constraints:</I>
+          </DT>
+          <DD>While every reasonable effort has been made to produce high-quality metadata, Huntingdon County provides this information with the understanding it is not guaranteed to be accurate, correct, or complete, and conclusions drawn from such information are the responsibility of the user. Huntingdon County assumes no responsibility for actual or consequential damage incurred as a result of any user’s reliance on this data or information herein, even if Huntingdon County is advised of the possibility of such damage.</DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+  </BODY>
+</HTML>
+		</form>
+	</body>
+</HTML>

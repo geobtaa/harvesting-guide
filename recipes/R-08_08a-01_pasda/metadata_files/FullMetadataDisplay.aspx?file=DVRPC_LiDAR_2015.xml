@@ -1,0 +1,1362 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+	<HEAD>
+		<title>Pennsylvania Spatial Data Access | Full Metadata</title>
+		<meta name="GENERATOR" content="Microsoft Visual Studio.NET 7.0">
+		<meta name="CODE_LANGUAGE" content="Visual Basic 7.0">
+		<meta name="vs_defaultClientScript" content="JavaScript">
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+	    <link rel="shortcut icon" href="http://maps.pasda.psu.edu/Images/favicon.ico" type="image/x-icon" />
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-41373351-5', 'psu.edu');
+          ga('send', 'pageview');
+
+        </script>
+</HEAD>
+	<body MS_POSITIONING="GridLayout">
+		<form method="post" action="./FullMetadataDisplay.aspx?file=DVRPC_LiDAR_2015.xml" id="Form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEzNDA3MDMyNjVkZCi1cbXMhfZI+elmwl4oTersdOt9nxHHv5HGNLdvg2y4" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="D999016F" />
+			<HTML>
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <SCRIPT type="text/javascript">
+
+      function fix(e) {
+        var par = e.parentNode;
+        e.id = "";
+        e.style.marginLeft = "0.42in";
+        var pos = e.innerText.indexOf("\n");
+        if (pos > 0) {
+          while (pos > 0) {
+            var t = e.childNodes(0);
+            var n = document.createElement("PRE");
+            var s = t.splitText(pos);
+            e.insertAdjacentElement("afterEnd", n);
+            n.appendChild(s);
+            n.style.marginLeft = "0.42in";
+            e = n;
+            pos = e.innerText.indexOf("\n");
+          }
+          var count = (par.children.length);
+          for (var i = 0; i < count; i++) {
+            e = par.children(i);
+            if (e.tagName == "PRE") {
+              pos = e.innerText.indexOf(">");
+              if (pos != 0) {
+                n = document.createElement("DD");
+                e.insertAdjacentElement("afterEnd", n);
+                n.innerText = e.innerText;
+                e.removeNode(true);
+              }
+            }
+          }
+          if (par.children.tags("PRE").length > 0) {
+            count = (par.children.length);
+            for (i = 0; i < count; i++) {
+              e = par.children(i);
+              if (e.tagName == "PRE") {
+                e.id = "";
+                if (i < (count-1)) {
+                  var e2 = par.children(i + 1);
+                  if (e2.tagName == "PRE") {
+                    e.insertAdjacentText("beforeEnd", e2.innerText+"\n");
+                    e2.removeNode(true);
+                    count = count-1;
+                    i = i-1;
+                  }
+                }
+              }
+            }
+          }
+        }
+        else {
+          n = document.createElement("DD");
+          par.appendChild(n);
+          n.innerText = e.innerText;
+          e.removeNode(true);
+        }
+      }
+
+    </SCRIPT>
+  </HEAD>
+  <BODY oncontextmenu="return true">
+    <A name="Top">
+    </A>
+    <H2>DVRPC  2015 LiDAR</H2>
+    <UL>
+      <LI>
+        <A HREF="#Identification_Information">Identification_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Data_Quality_Information">Data_Quality_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Spatial_Data_Organization_Information">Spatial_Data_Organization_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Spatial_Reference_Information">Spatial_Reference_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Metadata_Reference_Information">Metadata_Reference_Information</A>
+      </LI>
+    </UL>
+    <A name="Identification_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Identification_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Citation:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Citation_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Originator:</I>Delaware Valley Regional Planning Commission</DT>
+                  <DT>
+                    <I>Publication_Date:</I>2016</DT>
+                  <DT>
+                    <I>Title:</I>
+                  </DT>
+                  <DD>DVRPC  2015 LiDAR</DD>
+                  <DT>
+                    <I>Geospatial_Data_Presentation_Form:</I>Lidar point cloud</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Abstract:</I>
+                </DT>
+                <PRE>Geographic Extent: Delaware Valley, covering approximately 3260 square miles over the Philadelphia Metro area, comprised of of 8 contiguous counties located in the states of Pennsylvania and New Jersey. Dataset Description: Delaware Valley 2015 LiDAR project called for the Planning, Acquisition, processing and derivative products of LIDAR data to be collected at a nominal pulse spacing (NPS) of 0.7 meter. Project specifications are based on the U.S. Geological Survey National Geospatial Program Base LIDAR Specification, Version 1.2. The data was developed based on a horizontal projection/datum of UTM Zone 18, NAD83 (2011), meters and vertical datum of NAVD1988 (GEOID12A), meters. LiDAR data was delivered in RAW flight line swath format, processed to create Classified LAS 1.4 Files formatted to 25 individual 1500 meter X 1500 meter tiles for the pilot (3752 individual 1500 meter X 1500 meter tiles for the entire project area), Bare Earth DEMs tiled to the same 1500 meter X 1500 meter tile schema, and Breaklines in Esri shapefile format. Ground Conditions: LiDAR was collected in spring of 2015, while no snow was on the ground and rivers were at or below normal levels. In order to post process the LiDAR data to meet task order specifications, Quantum Spatial established 76 calibration control points in order to calibrate the LIDAR to known ground locations established throughout the Delaware Valley project area. The accuracy of the data was checked with 91 NVA points and 70 VVA points (161 total QC checkpoints).</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Purpose:</I>
+                </DT>
+                <PRE>Classified LAS files are used to show the manually reviewed bare earth surface. This allows the user to create Breaklines and Raster DEMs. The purpose of these lidar data was to produce high accuracy 3D hydro-flattened Digital Elevation Model (DEM) with a 1-meter cell size. These raw lidar point cloud data were used to create classified lidar LAS files, 3D breaklines, and hydro-flattened DEMs as necessary.</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Supplemental_Information:</I>
+                </DT>
+                <PRE>
+			    USGS Contract: G10PC00026  Task Order Number: G15PD00316
+			    CONTRACTOR: Quantum Spatial
+			    Lidar data were acquired and calibrated by Quantum Spatial.
+			    All follow-on processing was completed by the prime contractor.
+			</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Time_Period_of_Content:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Time_Period_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Range_of_Dates/Times:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Beginning_Date:</I>20150412</DT>
+                      <DT>
+                        <I>Ending_Date:</I>20151125</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DIV>
+                <DT>
+                  <I>Currentness_Reference:</I>
+                </DT>
+                <PRE>ground condition</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Status:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Progress:</I>Complete</DT>
+              <DT>
+                <I>Maintenance_and_Update_Frequency:</I>None planned</DT>
+            </DL>
+          </DD>
+          <DT>
+            <I>Spatial_Domain:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Bounding_Coordinates:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>West_Bounding_Coordinate:</I>-75.7114343254321</DT>
+                  <DT>
+                    <I>East_Bounding_Coordinate:</I>-74.3752046076557</DT>
+                  <DT>
+                    <I>North_Bounding_Coordinate:</I>40.610171463261</DT>
+                  <DT>
+                    <I>South_Bounding_Coordinate:</I>39.502118241734</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Keywords:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Theme:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Theme_Keyword_Thesaurus:</I>None</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Elevation data</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Lidar</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Hydrology</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Place:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Place_Keyword_Thesaurus:</I>None</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Delaware Valley</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>New Jersey</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Burlington County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Camden County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Gloucester County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Mercer County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Pennsylvania</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Bucks County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Delaware County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Mercer County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Philadelphia Coutny</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Access_Constraints:</I>No restrictions apply to this data.</DT>
+          <DIV>
+            <DT>
+              <I>Use_Constraints:</I>
+            </DT>
+            <PRE>None. However, users should be aware that temporal changes may have occurred since this dataset was collected and that some parts of these data may no longer represent actual surface conditions. Users should not use these data for critical applications without a full awareness of its limitations. Acknowledgement of the U.S. Geological Survey would be appreciated for products derived from these data.</PRE>
+          </DIV>
+          <DT>
+            <I>Point_of_Contact:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>Quantum Spatial, Data Acquisition Department</DT>
+                      <DT>
+                        <I>Contact_Person:</I>Tobin Guthrie</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>523 Wellington Way</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Lexington</DT>
+                      <DT>
+                        <I>State_or_Province:</I>KY</DT>
+                      <DT>
+                        <I>Postal_Code:</I>40503</DT>
+                      <DT>
+                        <I>Country:</I>USA</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>859-277-8700</DT>
+                  <DT>
+                    <I>Contact_Facsimile_Telephone:</I>859-277-8901</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>tguthrie@quantumspatial.com</DT>
+                  <DT>
+                    <I>Hours_of_Service:</I>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</DT>
+                  <DT>
+                    <I>Contact Instructions:</I>
+                  </DT>
+                  <DIV>
+                    <PRE>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Native_Data_Set_Environment:</I>
+          </DT>
+          <DD>
+		    MicroStation Version 8; TerraScan Version 15; TerraModeler Version 15; GeoCue Version 2014.1.21.1; ESRI ArcGIS 10.2; Global Mapper 16; Leica Cloud Pro 1.2; Windows 7 Operating System 
+		    \\psihq_nx3200\Projects\26236_DVRPC_LiDAR\ 24.1 GB and  
+		    \\Matrix\LIDAR\26236_DVRPC\ 5.09 TB
+		</DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Data_Quality_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Data_Quality_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DIV>
+            <DT>
+              <I>Logical_Consistency_Report:</I>
+            </DT>
+            <PRE>Data cover the entire area specified for this project.</PRE>
+          </DIV>
+          <DIV>
+            <DT>
+              <I>Completeness_Report:</I>
+            </DT>
+            <PRE>
+			These raw LAS data files include all data points collected.
+		    No points have been removed or excluded.
+		    A visual qualitative assessment was performed to ensure data completeness.
+		    No void areas or missing data exist. The raw point cloud is of good quality and data passes Nonvegetated Vertical Accuracy specifications.
+		</PRE>
+          </DIV>
+          <DT>
+            <I>Positional_Accuracy:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Vertical_Positional_Accuracy:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Vertical_Positional_Accuracy_Report:</I>
+                    </DT>
+                    <PRE>
+					The specifications require that only raw Nonvegetated Vertical Accuracy (NVA) be computed for raw lidar point cloud swath files. The raw NVA was tested with 91 independent survey points distributed throughout the project area and located in open terrain. These checkpoints were not used in the calibration or post-processing of the lidar point cloud data. Specifications for this project require that the raw NVA be 19.6 cm or better AccuracyZ at 95 percent confidence level.
+					The specifications require that Nonvegetated Vertical Accuracy (NVA) be computed for DEM files. The NVA was tested with 91 independent survey points distributed throughout the project area and located in open terrain. These checkpoints were not used in the calibration or post-processing of the lidar point cloud data. Specifications for this project require that the NVA be 19.6 cm or better AccuracyZ at 95 percent confidence level.
+					The specifications require that Vegetated Vertical Accuracy (VVA) be computed for DEM files. The VVA was tested with 70 independent survey points distributed throughout the project area and located in vegetated terrain. These checkpoints were not used in the calibration or post-processing of the lidar point cloud data. Specifications for this project require that the VVA be 29.4 cm or better at the 95th percentile.
+				</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Quantitative_Vertical_Positional_Accuracy_Assessment:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Vertical_Positional_Accuracy_Value:</I>0.085</DT>
+                      <DIV>
+                        <DT>
+                          <I>Vertical_Positional_Accuracy_Explanation:</I>
+                        </DT>
+                        <PRE>
+						The raw NVA was tested using 91 independent survey points located in open terrain. The surveyed checkpoints were distributed throughout the project area and surveyed using GNSS procedures and methodologies that provide reliable and consistent results to meet the project's accuracy requirements. Please see the "Survey Accuracy Requirements" and "Field Methodology" sections in the Survey Report for more information. Elevations from the unclassified lidar surface were measured for the x,y location of each check point. Elevations interpolated from the unclassified lidar surface were then compared to the elevation values of the surveyed control. The RMSEz was computed to be 0.04 meters and AccuracyZ to be 0.085 meters. This meets the required AccuracyZ value of 19.6 cm raw NVA at 95 percent confidence level using (RMSEz * 1.9600) as defined by the National Standards for Spatial Data Accuracy (NSSDA); assessed and reported using National Digital Elevation Program (NDEP)/ASPRS Guidelines.
+					</PRE>
+                      </DIV>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Quantitative_Vertical_Positional_Accuracy_Assessment:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Vertical_Positional_Accuracy_Value:</I>0.081</DT>
+                      <DIV>
+                        <DT>
+                          <I>Vertical_Positional_Accuracy_Explanation:</I>
+                        </DT>
+                        <PRE>
+						The NVA was tested using 91 independent survey points located in open terrain. The surveyed checkpoints were distributed throughout the project area and surveyed using GNSS procedures and methodologies that provide reliable and consistent results to meet the project's accuracy requirements. Please see the "Survey Accuracy Requirements" and "Field Methodology" sections in the Survey Report for more information. Elevations from the DEM surface were measured for the x,y location of each check point. Elevations interpolated from the DEM surface were then compared to the elevation values of the surveyed control. The RMSEz was computed to be 0.041 meters and AccuracyZ to be 0.081 meters. This meets the required AccuracyZ value of 19.6 cm NVA at 95 percent confidence level using (RMSEz * 1.9600) as defined by the National Standards for Spatial Data Accuracy (NSSDA); assessed and reported using National Digital Elevation Program (NDEP)/ASPRS Guidelines.
+					</PRE>
+                      </DIV>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Quantitative_Vertical_Positional_Accuracy_Assessment:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Vertical_Positional_Accuracy_Value:</I>0.263</DT>
+                      <DIV>
+                        <DT>
+                          <I>Vertical_Positional_Accuracy_Explanation:</I>
+                        </DT>
+                        <PRE>
+						The VVA was tested using 70 independent survey points located in vegetated terrain. The surveyed checkpoints were distributed throughout the project area and surveyed using GNSS procedures and methodologies that provide reliable and consistent results to meet the project's accuracy requirements. Please see the "Survey Accuracy Requirements" and "Field Methodology" sections in the Survey Report for more information. Elevations from the DEM surface were measured for the x,y location of each check point. Elevations interpolated from the DEM surface were then compared to the elevation values of the surveyed control. The VVA was computed to be 0.263 meters. This meets the required value of 29.4 cm VVA at 95th percentile level using the 95th percentile of the absolute value of all vertical errors in all combined vegetation classes as defined by the National Standards for Spatial Data Accuracy (NSSDA); assessed and reported using National Digital Elevation Program (NDEP)/ASPRS Guidelines.
+					</PRE>
+                      </DIV>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Lineage:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>Quantum Spatial</DT>
+                          <DT>
+                            <I>Publication_Date:</I>2015</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>Control Survey Report: Delaware Valley Ortho and Lidar Task Order</DD>
+                          <DT>
+                            <I>Geospatial_Data_Presentation_Form:</I>vector digital data and tabular data</DT>
+                          <DT>
+                            <I>Publication_Information:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Publication_Place:</I>Lexington, KY</DT>
+                              <DT>
+                                <I>Publisher:</I>Quantum Spatial</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>CD-ROM</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Single_Date/Time:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Calendar_Date:</I>2015</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>ground condition</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>DE_Valley_2015_LiDAR_ctrl</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>This data source was used (along with the airborne GPS/IMU Data) to aid in the georeferencing of the lidar point cloud data.</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>Quantum Spatial</DT>
+                          <DT>
+                            <I>Publication_Date:</I>2015</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>Lidar RAW Data for Delaware Valley 2015</DD>
+                          <DT>
+                            <I>Geospatial_Data_Presentation_Form:</I>lidar data</DT>
+                          <DT>
+                            <I>Publication_Information:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Publication_Place:</I>Quantum Spatial</DT>
+                              <DT>
+                                <I>Publisher:</I>2015</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>online</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_of_Dates/Times:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Beginning_Date:</I>20150412</DT>
+                              <DT>
+                                <I>Ending_Date:</I>20151125</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>ground condition</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>DE_Valley_2015_LiDAR_Data</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>This data source was used to populate the lidar point cloud data.</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>
+			Lidar Pre-Processing: Airborne GPS and IMU data were merged to develop a Single Best Estimate (SBET) of the lidar system trajectory for each lift. Lidar ranging data were initially calibrated using previous best parameters for this instrument and aircraft. Relative calibration was evaluated using advanced plane-matching analysis and parameter corrections derived. This was repeated iteratively until residual errors between overlapping swaths, across all project lifts, was reduced to 2 cm or less. Data were then block adjusted to match surveyed calibration control. Raw data NVA were checked using independently surveyed checkpoints. Swath overage points were identified and tagged within each swath file.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Source_Used_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>DE_Valley_2015_LiDAR_gnd_ctrl</DD>
+                  <DT>
+                    <I>Process_Date:</I>2015</DT>
+                  <DT>
+                    <I>Source_Produced_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>LiDAR datasets with USGS classifications
+				</DD>
+                  <DT>
+                    <I>Process_Contact:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Contact_Organization_Primary:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Contact_Organization:</I>Quantum Spatial</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Contact_Address:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Address_Type:</I>mailing and physical</DT>
+                              <DIV>
+                                <DT>
+                                  <I>Address:</I>
+                                </DT>
+                                <PRE>523 Wellington Way</PRE>
+                              </DIV>
+                              <DT>
+                                <I>City:</I>Lexington</DT>
+                              <DT>
+                                <I>State_or_Province:</I>KY</DT>
+                              <DT>
+                                <I>Postal_Code:</I>40503</DT>
+                              <DT>
+                                <I>Country:</I>USA</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Contact_Voice_Telephone:</I>859-277-8700</DT>
+                          <DT>
+                            <I>Contact_Facsimile_Telephone:</I>859-277-8901</DT>
+                          <DT>
+                            <I>Hours_of_Service:</I>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</DT>
+                          <DT>
+                            <I>Contact Instructions:</I>
+                          </DT>
+                          <DIV>
+                            <PRE>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>
+			Lidar Post-Processing: The calibrated and controlled lidar swaths were processed using automatic point classification routines in proprietary software. These routines operate against the entire collection (all swaths, all lifts), eliminating character differences between files. Data were then distributed as virtual tiles to experienced lidar analysts for localized automatic classification, manual editing, and peer-based QC checks. Supervisory QC monitoring of work in progress and completed editing ensured consistency of classification character and adherence to project requirements across the entire project area.
+			All classification tags are stored in the original swath files.
+			After completion of classification and final QC approval, the NVA and VVA for the project are calculated. Sample areas for each land cover type present in the project area were extracted and forwarded to the client, along with the results of the accuracy tests. Upon acceptance, the complete classified lidar swath files were delivered to the client.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Source_Used_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>DE_Valley_2015_LiDAR_ctrl</DD>
+                  <DT>
+                    <I>Source_Used_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>DE_Valley_2015_LiDAR_Data</DD>
+                  <DT>
+                    <I>Process_Date:</I>2015</DT>
+                  <DT>
+                    <I>Source_Produced_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>DE_Valley_2015_LiDAR_Data</DD>
+                  <DT>
+                    <I>Process_Contact:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Contact_Organization_Primary:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Contact_Organization:</I>Quantum Spatial</DT>
+                              <DT>
+                                <I>Contact_Person:</I>Paul Bishop</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Contact_Address:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Address_Type:</I>mailing and physical</DT>
+                              <DIV>
+                                <DT>
+                                  <I>Address:</I>
+                                </DT>
+                                <PRE>523 Wellington Way</PRE>
+                              </DIV>
+                              <DT>
+                                <I>City:</I>Lexington</DT>
+                              <DT>
+                                <I>State_or_Province:</I>KY</DT>
+                              <DT>
+                                <I>Postal_Code:</I>40503</DT>
+                              <DT>
+                                <I>Country:</I>USA</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Contact_Voice_Telephone:</I>859-277-8700</DT>
+                          <DT>
+                            <I>Contact_Facsimile_Telephone:</I>859-277-8901</DT>
+                          <DT>
+                            <I>Contact_Electronic_Mail_Address:</I>pbishop@quantumspatial.com</DT>
+                          <DT>
+                            <I>Hours_of_Service:</I>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</DT>
+                          <DT>
+                            <I>Contact Instructions:</I>
+                          </DT>
+                          <DIV>
+                            <PRE>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>
+			Classified LAS Processing: The bare earth surface is then manually reviewed to ensure correct classification on the Class 2 (Ground) points.  After the bare-earth surface is finalized, it is then used to generate all hydro-breaklines through heads-up digitization.
+			All ground (ASPRS Class 2) LiDAR data inside of the Lake Pond and Double Line Drain hydro flattening breaklines were then classified to water (ASPRS Class 9) using TerraScan macro functionality.  A buffer of 1 meter was also used around each hydro-flattened feature to classify these ground (ASPRS Class 2) points to Ignored ground (ASPRS Class 10).  All Lake Pond Island and Double Line Drain Island features were checked to ensure that the ground (ASPRS Class 2) points were reclassified to the correct classification after the automated classification was completed.  All bridge decks were classified to Class 17.
+			All overlap data was processed through automated functionality provided by TerraScan to classify the overlapping flight line data to approved classes by USGS.  The overlap data was identified using the Overlap Flag, per LAS 1.4 specifications.
+			All data was manually reviewed and any remaining artifacts removed using functionality provided by TerraScan and TerraModeler.  Global Mapper us used as a final check of the bare earth dataset.  GeoCue was then used to create the deliverable industry-standard LAS files for both the All Point Cloud Data and the Bare Earth.  Quantum Spatial proprietary software was used to perform final statistical analysis of the classes in the LAS files, on a per tile level to verify final classification metrics and full LAS header information.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Source_Used_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>DE_Valley_2015_LiDAR_ctrl</DD>
+                  <DT>
+                    <I>Source_Used_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>DE_Valley_2015_LiDAR_Data</DD>
+                  <DT>
+                    <I>Process_Date:</I>2015</DT>
+                  <DT>
+                    <I>Source_Produced_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>Classified LAS</DD>
+                  <DT>
+                    <I>Process_Contact:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Contact_Organization_Primary:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Contact_Organization:</I>Quantum Spatial</DT>
+                              <DT>
+                                <I>Contact_Person:</I>Paul Bishop</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Contact_Address:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Address_Type:</I>mailing and physical</DT>
+                              <DIV>
+                                <DT>
+                                  <I>Address:</I>
+                                </DT>
+                                <PRE>523 Wellington Way</PRE>
+                              </DIV>
+                              <DT>
+                                <I>City:</I>Lexington</DT>
+                              <DT>
+                                <I>State_or_Province:</I>KY</DT>
+                              <DT>
+                                <I>Postal_Code:</I>40503</DT>
+                              <DT>
+                                <I>Country:</I>USA</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Contact_Voice_Telephone:</I>859-277-8700</DT>
+                          <DT>
+                            <I>Contact_Facsimile_Telephone:</I>859-277-8901</DT>
+                          <DT>
+                            <I>Contact_Electronic_Mail_Address:</I>pbishop@quantumspatial.com</DT>
+                          <DT>
+                            <I>Hours_of_Service:</I>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</DT>
+                          <DT>
+                            <I>Contact Instructions:</I>
+                          </DT>
+                          <DIV>
+                            <PRE>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>
+			        Hydro Flattened Breakline Processing: 
+			        Class 2 LiDAR was used to create a bare earth surface model.  The surface model was then used to heads-up digitize 2D breaklines of inland streams and rivers with a 30 meter nominal width and Inland Ponds and Lakes of 2 acres or greater surface area.
+			        Elevation values were assigned to all Inland Ponds and Lakes, Inland Pond and Lake Islands, Inland Stream and River Islands, using TerraModeler functionality.
+			        Elevation values were assigned to all Inland streams and rivers using Quantum Spatial proprietary software.
+			        All ground (ASPRS Class 2) LiDAR data inside of the collected inland breaklines were then classified to water (ASPRS Class 9) using TerraScan macro functionality.  A buffer of 1 meter was also used around each hydro-flattened feature.  These points were moved from ground (ASPRS Class 2) to Ignored Ground (ASPRS Class 10).
+			        The breakline files were then translated to ESRI File-Geodatabase format using ESRI conversion tools.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Source_Used_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>DE_Valley_2015_LiDAR_ctrl</DD>
+                  <DT>
+                    <I>Source_Used_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>DE_Valley_2015_LiDAR_Data</DD>
+                  <DT>
+                    <I>Process_Date:</I>2015</DT>
+                  <DT>
+                    <I>Source_Produced_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>Hydro Flattened Breaklines</DD>
+                  <DT>
+                    <I>Process_Contact:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Contact_Organization_Primary:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Contact_Organization:</I>Quantum Spatial</DT>
+                              <DT>
+                                <I>Contact_Person:</I>Paul Bishop</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Contact_Address:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Address_Type:</I>mailing and physical</DT>
+                              <DIV>
+                                <DT>
+                                  <I>Address:</I>
+                                </DT>
+                                <PRE>523 Wellington Way</PRE>
+                              </DIV>
+                              <DT>
+                                <I>City:</I>Lexington</DT>
+                              <DT>
+                                <I>State_or_Province:</I>KY</DT>
+                              <DT>
+                                <I>Postal_Code:</I>40503</DT>
+                              <DT>
+                                <I>Country:</I>USA</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Contact_Voice_Telephone:</I>859-277-8700</DT>
+                          <DT>
+                            <I>Contact_Facsimile_Telephone:</I>859-277-8901</DT>
+                          <DT>
+                            <I>Contact_Electronic_Mail_Address:</I>pbishop@quantumspatial.com</DT>
+                          <DT>
+                            <I>Hours_of_Service:</I>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</DT>
+                          <DT>
+                            <I>Contact Instructions:</I>
+                          </DT>
+                          <DIV>
+                            <PRE>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>
+			        Hydro Flattened Raster DEM Process: 
+			        Class 2 LiDAR in conjunction with the hydro breaklines were used to create a 1 meter Raster DEM.  Using automated scripting routines within ArcMap, an ERDAS Imagine IMG file was created for each tile.  Each surface is reviewed using Global Mapper to check for any surface anomalies or incorrect elevations found within the surface. 
+				</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Source_Used_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>DE_Valley_2015_LiDAR_ctrl</DD>
+                  <DT>
+                    <I>Source_Used_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>DE_Valley_2015_LiDAR_Data</DD>
+                  <DT>
+                    <I>Process_Date:</I>2015</DT>
+                  <DT>
+                    <I>Source_Produced_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>Hydro Flattened Raster DEMs</DD>
+                  <DT>
+                    <I>Process_Contact:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Contact_Organization_Primary:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Contact_Organization:</I>Quantum Spatial</DT>
+                              <DT>
+                                <I>Contact_Person:</I>Paul Bishop</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Contact_Address:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Address_Type:</I>mailing and physical</DT>
+                              <DIV>
+                                <DT>
+                                  <I>Address:</I>
+                                </DT>
+                                <PRE>523 Wellington Way</PRE>
+                              </DIV>
+                              <DT>
+                                <I>City:</I>Lexington</DT>
+                              <DT>
+                                <I>State_or_Province:</I>KY</DT>
+                              <DT>
+                                <I>Postal_Code:</I>40503</DT>
+                              <DT>
+                                <I>Country:</I>USA</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Contact_Voice_Telephone:</I>859-277-8700</DT>
+                          <DT>
+                            <I>Contact_Facsimile_Telephone:</I>859-277-8901</DT>
+                          <DT>
+                            <I>Contact_Electronic_Mail_Address:</I>pbishop@quantumspatial.com</DT>
+                          <DT>
+                            <I>Hours_of_Service:</I>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</DT>
+                          <DT>
+                            <I>Contact Instructions:</I>
+                          </DT>
+                          <DIV>
+                            <PRE>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Spatial_Data_Organization_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Spatial_Data_Organization_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Direct_Spatial_Reference_Method:</I>Point</DT>
+          <DT>
+            <I>Point_and_Vector_Object_Information:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>SDTS_Terms_Description:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>SDTS_Point_and_Vector_Object_Type:</I>Point</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Spatial_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Spatial_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Horizontal_Coordinate_System_Definition:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Planar:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Grid_Coordinate_System:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Grid_Coordinate_System_Name:</I>Universal Transverse Mercator</DT>
+                      <DT>
+                        <I>Universal_Transverse_Mercator:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>UTM_Zone_Number:</I>18</DT>
+                          <DT>
+                            <I>Transverse_Mercator:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Scale_Factor_at_Central_Meridian:</I>0.9996</DT>
+                              <DT>
+                                <I>Longitude_of_Central_Meridian:</I>-75.0</DT>
+                              <DT>
+                                <I>Latitude_of_Projection_Origin:</I>0.0</DT>
+                              <DT>
+                                <I>False_Easting:</I>500000.0</DT>
+                              <DT>
+                                <I>False_Northing:</I>0.0</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Planar_Coordinate_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Planar_Coordinate_Encoding_Method:</I>coordinate pair</DT>
+                      <DT>
+                        <I>Coordinate_Representation:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Abscissa_Resolution:</I>0.01</DT>
+                          <DT>
+                            <I>Ordinate_Resolution:</I>0.01</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Planar_Distance_Units:</I>meter</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Geodetic_Model:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Horizontal_Datum_Name:</I>North American Datum of 1983 (2011)</DT>
+                  <DT>
+                    <I>Ellipsoid_Name:</I>Geodetic Reference System 80</DT>
+                  <DT>
+                    <I>Semi-major_Axis:</I>6378137</DT>
+                  <DT>
+                    <I>Denominator_of_Flattening_Ratio:</I>298.257222101</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Vertical_Coordinate_System_Definition:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Altitude_System_Definition:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Altitude_Datum_Name:</I>North American Vertical Datum of 1988 (Geoid 12A)</DT>
+                  <DT>
+                    <I>Altitude_Resolution:</I>0.01</DT>
+                  <DT>
+                    <I>Altitude_Distance_Units:</I>meters</DT>
+                  <DT>
+                    <I>Altitude_Encoding_Method:</I>Explicit elevation coordinate included with horizontal coordinates</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Metadata_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Metadata_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Metadata_Date:</I>20160506</DT>
+          <DT>
+            <I>Metadata_Contact:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>Quantum Spatial</DT>
+                      <DT>
+                        <I>Contact_Person:</I>Sarah Zibart</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>523 Wellington Way</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Lexington</DT>
+                      <DT>
+                        <I>State_or_Province:</I>KY</DT>
+                      <DT>
+                        <I>Postal_Code:</I>40503</DT>
+                      <DT>
+                        <I>Country:</I>USA</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>859-277-8700</DT>
+                  <DT>
+                    <I>Contact_Facsimile_Telephone:</I>859-277-8901</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>szibart@quantumspatial.com</DT>
+                  <DT>
+                    <I>Hours_of_Service:</I>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</DT>
+                  <DT>
+                    <I>Contact Instructions:</I>
+                  </DT>
+                  <DIV>
+                    <PRE>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Metadata_Standard_Name:</I>FGDC Content Standard for Digital Geospatial Metadata</DT>
+          <DT>
+            <I>Metadata_Standard_Version:</I>FGDC-STD-001-1998</DT>
+          <DT>
+            <I>Metadata_Access_Constraints:</I>None.</DT>
+          <DT>
+            <I>Metadata_Use_Constraints:</I>
+          </DT>
+          <DD>None.</DD>
+          <DT>
+            <I>Metadata_Security_Information:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Metadata_Security_Classification_System:</I>None.</DT>
+              <DT>
+                <I>Metadata_Security_Classification:</I>Unclassified</DT>
+              <DT>
+                <I>Metadata_Security_Handling_Description:</I>
+              </DT>
+              <DD>NONE</DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+  </BODY>
+</HTML>
+		</form>
+	</body>
+</HTML>

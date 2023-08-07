@@ -1,0 +1,1579 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+	<HEAD>
+		<title>Pennsylvania Spatial Data Access | Full Metadata</title>
+		<meta name="GENERATOR" content="Microsoft Visual Studio.NET 7.0">
+		<meta name="CODE_LANGUAGE" content="Visual Basic 7.0">
+		<meta name="vs_defaultClientScript" content="JavaScript">
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+	    <link rel="shortcut icon" href="http://maps.pasda.psu.edu/Images/favicon.ico" type="image/x-icon" />
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-41373351-5', 'psu.edu');
+          ga('send', 'pageview');
+
+        </script>
+</HEAD>
+	<body MS_POSITIONING="GridLayout">
+		<form method="post" action="./FullMetadataDisplay.aspx?file=sub_west_SRBC.xml" id="Form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEzNDA3MDMyNjVkZCi1cbXMhfZI+elmwl4oTersdOt9nxHHv5HGNLdvg2y4" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="D999016F" />
+			<HTML>
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <SCRIPT type="text/javascript">
+
+      function fix(e) {
+        var par = e.parentNode;
+        e.id = "";
+        e.style.marginLeft = "0.42in";
+        var pos = e.innerText.indexOf("\n");
+        if (pos > 0) {
+          while (pos > 0) {
+            var t = e.childNodes(0);
+            var n = document.createElement("PRE");
+            var s = t.splitText(pos);
+            e.insertAdjacentElement("afterEnd", n);
+            n.appendChild(s);
+            n.style.marginLeft = "0.42in";
+            e = n;
+            pos = e.innerText.indexOf("\n");
+          }
+          var count = (par.children.length);
+          for (var i = 0; i < count; i++) {
+            e = par.children(i);
+            if (e.tagName == "PRE") {
+              pos = e.innerText.indexOf(">");
+              if (pos != 0) {
+                n = document.createElement("DD");
+                e.insertAdjacentElement("afterEnd", n);
+                n.innerText = e.innerText;
+                e.removeNode(true);
+              }
+            }
+          }
+          if (par.children.tags("PRE").length > 0) {
+            count = (par.children.length);
+            for (i = 0; i < count; i++) {
+              e = par.children(i);
+              if (e.tagName == "PRE") {
+                e.id = "";
+                if (i < (count-1)) {
+                  var e2 = par.children(i + 1);
+                  if (e2.tagName == "PRE") {
+                    e.insertAdjacentText("beforeEnd", e2.innerText+"\n");
+                    e2.removeNode(true);
+                    count = count-1;
+                    i = i-1;
+                  }
+                }
+              }
+            }
+          }
+        }
+        else {
+          n = document.createElement("DD");
+          par.appendChild(n);
+          n.innerText = e.innerText;
+          e.removeNode(true);
+        }
+      }
+
+    </SCRIPT>
+  </HEAD>
+  <BODY oncontextmenu="return true">
+    <A name="Top">
+    </A>
+    <H2>West Branch Susquehanna Subbasin</H2>
+    <UL>
+      <LI>
+        <A HREF="#Identification_Information">Identification_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Data_Quality_Information">Data_Quality_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Spatial_Data_Organization_Information">Spatial_Data_Organization_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Spatial_Reference_Information">Spatial_Reference_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Entity_and_Attribute_Information">Entity_and_Attribute_Information</A>
+      </LI>
+      <LI>Distribution_Information</LI>
+      <LI STYLE="margin-left:0.3in">
+        <A HREF="#EPA">
+                  Distributor 1</A>
+      </LI>
+      <LI>
+        <A HREF="#EAA">
+                  Distribution_Information 
+                </A>
+      </LI>
+      <LI>
+        <A HREF="#Metadata_Reference_Information">Metadata_Reference_Information</A>
+      </LI>
+    </UL>
+    <A name="Identification_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Identification_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Citation:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Citation_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Originator:</I>SRBC</DT>
+                  <DT>
+                    <I>Publication_Date:</I>20060417</DT>
+                  <DT>
+                    <I>Title:</I>
+                  </DT>
+                  <DD>West Branch Susquehanna Subbasin</DD>
+                  <DT>
+                    <I>Geospatial_Data_Presentation_Form:</I>vector digital data</DT>
+                  <DT>
+                    <I>Publication_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Publication_Place:</I>Harrisburg, PA</DT>
+                      <DT>
+                        <I>Publisher:</I>SRBC</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Online_Linkage:</I>
+                    <A TARGET="viewer" HREF="http://www.pasda.psu.edu">http://www.pasda.psu.edu</A>
+                  </DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Abstract:</I>
+                </DT>
+                <PRE>Polygon shapefile of the West Branch Susquehanna Subbasin.  This file was created from the 2006 subbasin.shp SRBC dataset.</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Purpose:</I>
+                </DT>
+                <PRE>Dataset developed to fit the needs of the Susquehanna River Basin Commission and is intended for educational display purposes only.</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Supplemental_Information:</I>
+                </DT>
+                <PRE>Largest scale to be used when displaying the data- 1:24,000</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Time_Period_of_Content:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Time_Period_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Single_Date/Time:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Calendar_Date:</I>20060417</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DIV>
+                <DT>
+                  <I>Currentness_Reference:</I>
+                </DT>
+                <PRE>ground condition</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Status:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Progress:</I>Complete</DT>
+              <DT>
+                <I>Maintenance_and_Update_Frequency:</I>As needed</DT>
+            </DL>
+          </DD>
+          <DT>
+            <I>Spatial_Domain:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Bounding_Coordinates:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>West_Bounding_Coordinate:</I>-78.949997</DT>
+                  <DT>
+                    <I>East_Bounding_Coordinate:</I>-76.207493</DT>
+                  <DT>
+                    <I>North_Bounding_Coordinate:</I>41.931584</DT>
+                  <DT>
+                    <I>South_Bounding_Coordinate:</I>40.449385</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Keywords:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Theme:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Theme_Keyword_Thesaurus:</I>ISO Metadata Standard 19115.3</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>watershed</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>drainage basin</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>inlandWaters</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>subbasin</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Place:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Place_Keyword:</I>Pennsylvania</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Susquehanna River Basin</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>West Branch Susquehanna Subbasin</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Access_Constraints:</I>No access constraints, dataset is available for public use.</DT>
+          <DIV>
+            <DT>
+              <I>Use_Constraints:</I>
+            </DT>
+            <PRE>
+For educational/demonstration purposes only.  The Originator, Publisher, and Distributor exclude any and all implied warranties and make no warranty or representation with respect to the data files or accompanying documentation, including quality, performance, merchantability or fitness for a particular purpose. These data files and documentation are provided "as is" and the User assumes the entire risk as to their quality and performance.
+These data are not to be redistributed for commercial profit.  Reproduction or redistribution of this digital dataset without permission of the Originator/Publisher is expressly forbidden.  The Originator and Publisher should be clearly cited in any product derived from this data.  Any modifications to this data must be described in any digital or hardcopy product derived from this data.
+</PRE>
+          </DIV>
+          <DT>
+            <I>Point_of_Contact:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Person_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Person:</I>Brydon H. Lidle, III</DT>
+                      <DT>
+                        <I>Contact_Organization:</I>Susquehanna River Basin Commission (SRBC)</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Position:</I>Section Chief, Information Technology and GIS</DT>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>1721 North Front Street</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Harrisburg</DT>
+                      <DT>
+                        <I>State_or_Province:</I>PA</DT>
+                      <DT>
+                        <I>Postal_Code:</I>17102-2391</DT>
+                      <DT>
+                        <I>Country:</I>USA</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>717-238-0423</DT>
+                  <DT>
+                    <I>Contact_Facsimile_Telephone:</I>717-238-2436</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>blidle@srbc.net</DT>
+                  <DT>
+                    <I>Hours_of_Service:</I>M - F, 8 AM to 4 PM</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Native_Data_Set_Environment:</I>
+          </DT>
+          <DD>Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 4; ESRI ArcCatalog 9.0.0.535</DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Data_Quality_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Data_Quality_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Attribute_Accuracy:</I>
+          </DT>
+          <DD>
+            <DL>
+            </DL>
+          </DD>
+          <DIV>
+            <DT>
+              <I>Logical_Consistency_Report:</I>
+            </DT>
+            <PRE>This dataset was taken from 2006 subbasin dataset</PRE>
+          </DIV>
+          <DIV>
+            <DT>
+              <I>Completeness_Report:</I>
+            </DT>
+            <PRE>Dataset includes the complete coverage of the West Branch Susquehanna Subbasin.</PRE>
+          </DIV>
+          <DT>
+            <I>Positional_Accuracy:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Horizontal_Positional_Accuracy:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Horizontal_Positional_Accuracy_Report:</I>
+                    </DT>
+                    <PRE>Positional accuracy corresponds to the accuracy of the source materials.</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Lineage:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>SRBC</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>SRBC delineated watershed topographic maps</DD>
+                          <DT>
+                            <I>Other_Citation_Details:</I>
+                          </DT>
+                          <DD>1:24,000 scale topo maps from USGS with watershed lines drawn by hand by SRBC staff.</DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Scale_Denominator:</I>24000</DT>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>paper maps</DT>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>topographic maps</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>Subbasin divide between Upper Susq. and Chemung Subbasins</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>SRBC</DT>
+                          <DT>
+                            <I>Publication_Date:</I>20060401</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>Watersheds of the Susquehanna River Basin at Aprrox. 1:24,000 Scale</DD>
+                          <DT>
+                            <I>Geospatial_Data_Presentation_Form:</I>vector digital data</DT>
+                          <DT>
+                            <I>Publication_Information:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Publication_Place:</I>Harrisburg, PA</DT>
+                              <DT>
+                                <I>Publisher:</I>SRBC</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Scale_Denominator:</I>24000</DT>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>shapefile</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Single_Date/Time:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Calendar_Date:</I>20060401</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>ground condition</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>wshed24k</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>1:24,000 scale watersheds were dissolved into the 6 subbasins.</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>SRBC</DT>
+                          <DT>
+                            <I>Publication_Date:</I>20060417</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>Subbasins of the Susquehanna River Basin</DD>
+                          <DT>
+                            <I>Geospatial_Data_Presentation_Form:</I>vector digital data</DT>
+                          <DT>
+                            <I>Publication_Information:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Publication_Place:</I>Harrisburg, PA</DT>
+                              <DT>
+                                <I>Publisher:</I>SRBC</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Scale_Denominator:</I>24000</DT>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>shapefile</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Single_Date/Time:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Calendar_Date:</I>20060417</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>ground condition</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>subbasin</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>Iindividual subbasins were selected from this dataset and made into separate shapefiles.</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>
+Please see wshed24k metadata for process steps for that dataset.
+
+Corrected watershed lines along the Upper Susq. and Chemung Subbasins in order to match the boundary line to the SRBC delineated subbasin line that exists on 1:24,000 scale USGS topographic maps.
+</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Source_Used_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>topographic maps</DD>
+                  <DT>
+                    <I>Process_Date:</I>20060412</DT>
+                  <DT>
+                    <I>Process_Contact:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Contact_Person_Primary:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Contact_Person:</I>Jeff Zimmerman, Jr.</DT>
+                              <DT>
+                                <I>Contact_Organization:</I>SRBC</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Contact_Position:</I>GIS Specialist</DT>
+                          <DT>
+                            <I>Contact_Voice_Telephone:</I>717-238-0425</DT>
+                          <DT>
+                            <I>Contact_Electronic_Mail_Address:</I>jzimmerman@srbc.net</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>Added field "Subbasin" to wshd24k.shp.  Populated field according to which subbasin each watershed was located in based on the original subbasin dataset.  Dissolved wshed24k based on the "Subbasin" field.  Updated Area, Perimeter, and SQM fields in the new subbasin dataset.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Source_Used_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>wshed24k</DD>
+                  <DT>
+                    <I>Process_Date:</I>20060413</DT>
+                  <DT>
+                    <I>Source_Produced_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>subbasin</DD>
+                  <DT>
+                    <I>Process_Contact:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Contact_Person_Primary:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Contact_Person:</I>Jeff Zimmerman, Jr.</DT>
+                              <DT>
+                                <I>Contact_Organization:</I>SRBC</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Contact_Position:</I>GIS Specialist</DT>
+                          <DT>
+                            <I>Contact_Voice_Telephone:</I>717-238-0425</DT>
+                          <DT>
+                            <I>Contact_Electronic_Mail_Address:</I>jzimmerman@srbc.net</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>West Branch Susquehanna Subbasin was selected from the 2006 subbasin.shp and exported as a new shapefile</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Source_Used_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>subbasin</DD>
+                  <DT>
+                    <I>Process_Date:</I>20060417</DT>
+                  <DT>
+                    <I>Source_Produced_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>sub_west.shp</DD>
+                  <DT>
+                    <I>Process_Contact:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Contact_Person_Primary:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Contact_Person:</I>Jeff Zimmerman, Jr.</DT>
+                              <DT>
+                                <I>Contact_Organization:</I>SRBC</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Contact_Position:</I>GIS Specialist</DT>
+                          <DT>
+                            <I>Contact_Voice_Telephone:</I>717-238-0425</DT>
+                          <DT>
+                            <I>Contact_Electronic_Mail_Address:</I>jzimmerman@srbc.net</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>Dataset copied.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Source_Used_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>L:\srbcgis\data\hydro\wsheds\sub_west</DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Spatial_Data_Organization_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Spatial_Data_Organization_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Direct_Spatial_Reference_Method:</I>Vector</DT>
+          <DT>
+            <I>Point_and_Vector_Object_Information:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>SDTS_Terms_Description:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>SDTS_Point_and_Vector_Object_Type:</I>G-polygon</DT>
+                  <DT>
+                    <I>Point_and_Vector_Object_Count:</I>1</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Spatial_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Spatial_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Horizontal_Coordinate_System_Definition:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Planar:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Map_Projection:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Map_Projection_Name:</I>Albers Conical Equal Area</DT>
+                      <DT>
+                        <I>Albers_Conical_Equal_Area:</I>
+                      </DT>Albers Conical Equal Area<DD><DL><DT><I>Standard_Parallel:</I>40.000000</DT><DT><I>Standard_Parallel:</I>43.000000</DT><DT><I>Longitude_of_Central_Meridian:</I>-77.000000</DT><DT><I>Latitude_of_Projection_Origin:</I>39.000000</DT><DT><I>False_Easting:</I>0.000000</DT><DT><I>False_Northing:</I>0.000000</DT></DL></DD></DL>
+                  </DD>
+                  <DT>
+                    <I>Planar_Coordinate_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Planar_Coordinate_Encoding_Method:</I>coordinate pair</DT>
+                      <DT>
+                        <I>Coordinate_Representation:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Abscissa_Resolution:</I>0.000512</DT>
+                          <DT>
+                            <I>Ordinate_Resolution:</I>0.000512</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Planar_Distance_Units:</I>meters</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Geodetic_Model:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Horizontal_Datum_Name:</I>North American Datum of 1983</DT>
+                  <DT>
+                    <I>Ellipsoid_Name:</I>Geodetic Reference System 80</DT>
+                  <DT>
+                    <I>Semi-major_Axis:</I>6378137.000000</DT>
+                  <DT>
+                    <I>Denominator_of_Flattening_Ratio:</I>298.257222</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Entity_and_Attribute_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Entity_and_Attribute_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>sub_west</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>FID</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Internal feature number.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>ESRI</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>Sequential unique whole numbers that are automatically generated.</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>Shape</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Feature geometry.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>ESRI</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>Coordinates defining the features.</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>SUBBASIN</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Subbasin Number</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>SRBC</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>1</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Upper Susquehanna Subbasin</PRE>
+                          </DIV>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition_Source:</I>
+                            </DT>
+                            <PRE>SRBC</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>2</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Chemung Subbasin</PRE>
+                          </DIV>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition_Source:</I>
+                            </DT>
+                            <PRE>SRBC</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>3</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Middle Susquehanna Subbasin</PRE>
+                          </DIV>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition_Source:</I>
+                            </DT>
+                            <PRE>SRBC</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>4</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>West Branch Susquehanna Subbasin</PRE>
+                          </DIV>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition_Source:</I>
+                            </DT>
+                            <PRE>SRBC</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>5</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Juniata Subbasin</PRE>
+                          </DIV>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition_Source:</I>
+                            </DT>
+                            <PRE>SRBC</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>6</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Lower Susquehanna Subbasin</PRE>
+                          </DIV>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition_Source:</I>
+                            </DT>
+                            <PRE>SRBC</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>NAME</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Subbasin Name</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>SRBC</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>AREA</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Area in Square Meters</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>SRBC</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>PERIMETER</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Perimeter in Meters</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>SRBC</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>SQM</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Area in Square Miles</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>SRBC</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A NAME="EPA">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Distribution_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Distributor:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>Susquehanna River Basin Commission</DT>
+                      <DT>
+                        <I>Contact_Person:</I>Brydon H. Lidle, III</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Position:</I>Section Chief, Information Technology and GIS</DT>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>1721 North Front Street</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Harrisburg</DT>
+                      <DT>
+                        <I>State_or_Province:</I>PA</DT>
+                      <DT>
+                        <I>Postal_Code:</I>17102-2391</DT>
+                      <DT>
+                        <I>Country:</I>USA</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>717-238-0423</DT>
+                  <DT>
+                    <I>Contact_Facsimile_Telephone:</I>717-238-2436</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>blidle@srbc.net</DT>
+                  <DT>
+                    <I>Hours_of_Service:</I>M - F, 8 AM to 4 PM</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Resource_Description:</I>Downloadable Data</DT>
+          <DIV>
+            <DT>
+              <I>Distribution_Liability:</I>
+            </DT>
+            <PRE>Please see Access &amp; Use Constraints in the Identification section of this document.</PRE>
+          </DIV>
+          <DT>
+            <I>Standard_Order_Process:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Digital_Form:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Digital_Transfer_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Transfer_Size:</I>56.740</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A NAME="EAA">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Distribution_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Distributor:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>Pennsylvania Spatial Data Access (PASDA) </DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>115 Land and Water building</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>University Park</DT>
+                      <DT>
+                        <I>State_or_Province:</I>Pennsylvania</DT>
+                      <DT>
+                        <I>Postal_Code:</I>16802</DT>
+                      <DT>
+                        <I>Country:</I>United States</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>(814) 865 - 8792 </DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>pasda@psu.edu </DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DIV>
+            <DT>
+              <I>Distribution_Liability:</I>
+            </DT>
+            <PRE>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.
+</PRE>
+          </DIV>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Metadata_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Metadata_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Metadata_Date:</I>20060518</DT>
+          <DT>
+            <I>Metadata_Review_Date:</I>20060417</DT>
+          <DT>
+            <I>Metadata_Future_Review_Date:</I>None planned</DT>
+          <DT>
+            <I>Metadata_Contact:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Person_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Person:</I>Jeff Zimmerman, Jr.</DT>
+                      <DT>
+                        <I>Contact_Organization:</I>SRBC</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Position:</I>GIS Specialist</DT>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>REQUIRED: The mailing and/or physical address for the organization or individual.</DT>
+                      <DT>
+                        <I>City:</I>REQUIRED: The city of the address.</DT>
+                      <DT>
+                        <I>State_or_Province:</I>REQUIRED: The state or province of the address.</DT>
+                      <DT>
+                        <I>Postal_Code:</I>REQUIRED: The ZIP or other postal code of the address.</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>717-238-0425</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>jzimmerman@srbc.net</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Metadata_Standard_Name:</I>FGDC Content Standards for Digital Geospatial Metadata</DT>
+          <DT>
+            <I>Metadata_Standard_Version:</I>FGDC-STD-001-1998</DT>
+          <DT>
+            <I>Metadata_Time_Convention:</I>local time</DT>
+          <DT>
+            <I>Metadata_Access_Constraints:</I>There are no access constraints for this metadata document.</DT>
+          <DT>
+            <I>Metadata_Use_Constraints:</I>
+          </DT>
+          <DD>There are no use constraints for this metadata document.</DD>
+          <DT>
+            <I>Metadata_Extensions:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Online_Linkage:</I>
+                <A TARGET="viewer" HREF=""></A>
+              </DT>
+              <DT>
+                <I>Profile_Name:</I>ESRI Metadata Profile</DT>
+            </DL>
+          </DD>
+          <DT>
+            <I>Metadata_Extensions:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Online_Linkage:</I>
+                <A TARGET="viewer" HREF=""></A>
+              </DT>
+              <DT>
+                <I>Profile_Name:</I>ESRI Metadata Profile</DT>
+            </DL>
+          </DD>
+          <DT>
+            <I>Metadata_Extensions:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Online_Linkage:</I>
+                <A TARGET="viewer" HREF=""></A>
+              </DT>
+              <DT>
+                <I>Profile_Name:</I>ESRI Metadata Profile</DT>
+            </DL>
+          </DD>
+          <DT>
+            <I>Metadata_Extensions:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Online_Linkage:</I>
+                <A TARGET="viewer" HREF=""></A>
+              </DT>
+              <DT>
+                <I>Profile_Name:</I>ESRI Metadata Profile</DT>
+            </DL>
+          </DD>
+          <DT>
+            <I>Metadata_Extensions:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Online_Linkage:</I>
+                <A TARGET="viewer" HREF=""></A>
+              </DT>
+              <DT>
+                <I>Profile_Name:</I>ESRI Metadata Profile</DT>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+  </BODY>
+</HTML>
+		</form>
+	</body>
+</HTML>

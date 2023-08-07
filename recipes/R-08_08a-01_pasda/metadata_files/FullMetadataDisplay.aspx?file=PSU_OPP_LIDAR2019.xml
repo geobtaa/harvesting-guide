@@ -1,0 +1,1194 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+	<HEAD>
+		<title>Pennsylvania Spatial Data Access | Full Metadata</title>
+		<meta name="GENERATOR" content="Microsoft Visual Studio.NET 7.0">
+		<meta name="CODE_LANGUAGE" content="Visual Basic 7.0">
+		<meta name="vs_defaultClientScript" content="JavaScript">
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+	    <link rel="shortcut icon" href="http://maps.pasda.psu.edu/Images/favicon.ico" type="image/x-icon" />
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-41373351-5', 'psu.edu');
+          ga('send', 'pageview');
+
+        </script>
+</HEAD>
+	<body MS_POSITIONING="GridLayout">
+		<form method="post" action="./FullMetadataDisplay.aspx?file=PSU_OPP_LIDAR2019.xml" id="Form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEzNDA3MDMyNjVkZCi1cbXMhfZI+elmwl4oTersdOt9nxHHv5HGNLdvg2y4" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="D999016F" />
+			<HTML>
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <SCRIPT type="text/javascript">
+
+      function fix(e) {
+        var par = e.parentNode;
+        e.id = "";
+        e.style.marginLeft = "0.42in";
+        var pos = e.innerText.indexOf("\n");
+        if (pos > 0) {
+          while (pos > 0) {
+            var t = e.childNodes(0);
+            var n = document.createElement("PRE");
+            var s = t.splitText(pos);
+            e.insertAdjacentElement("afterEnd", n);
+            n.appendChild(s);
+            n.style.marginLeft = "0.42in";
+            e = n;
+            pos = e.innerText.indexOf("\n");
+          }
+          var count = (par.children.length);
+          for (var i = 0; i < count; i++) {
+            e = par.children(i);
+            if (e.tagName == "PRE") {
+              pos = e.innerText.indexOf(">");
+              if (pos != 0) {
+                n = document.createElement("DD");
+                e.insertAdjacentElement("afterEnd", n);
+                n.innerText = e.innerText;
+                e.removeNode(true);
+              }
+            }
+          }
+          if (par.children.tags("PRE").length > 0) {
+            count = (par.children.length);
+            for (i = 0; i < count; i++) {
+              e = par.children(i);
+              if (e.tagName == "PRE") {
+                e.id = "";
+                if (i < (count-1)) {
+                  var e2 = par.children(i + 1);
+                  if (e2.tagName == "PRE") {
+                    e.insertAdjacentText("beforeEnd", e2.innerText+"\n");
+                    e2.removeNode(true);
+                    count = count-1;
+                    i = i-1;
+                  }
+                }
+              }
+            }
+          }
+        }
+        else {
+          n = document.createElement("DD");
+          par.appendChild(n);
+          n.innerText = e.innerText;
+          e.removeNode(true);
+        }
+      }
+
+    </SCRIPT>
+  </HEAD>
+  <BODY oncontextmenu="return true">
+    <A name="Top">
+    </A>
+    <H2>Penn State Campus LiDAR</H2>
+    <UL>
+      <LI>
+        <A HREF="#Identification_Information">Identification_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Data_Quality_Information">Data_Quality_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Spatial_Data_Organization_Information">Spatial_Data_Organization_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Spatial_Reference_Information">Spatial_Reference_Information</A>
+      </LI>
+      <LI>Distribution_Information</LI>
+      <LI STYLE="margin-left:0.3in">
+        <A HREF="#EPA">
+                  Distributor 1</A>
+      </LI>
+      <LI>
+        <A HREF="#EAA">
+                  Distribution_Information 
+                </A>
+      </LI>
+      <LI>
+        <A HREF="#Metadata_Reference_Information">Metadata_Reference_Information</A>
+      </LI>
+    </UL>
+    <A name="Identification_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Identification_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Citation:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Citation_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Originator:</I>Penn State Office of Physical Plant</DT>
+                  <DT>
+                    <I>Publication_Date:</I>2019</DT>
+                  <DT>
+                    <I>Title:</I>
+                  </DT>
+                  <DD>Penn State Campus LiDAR</DD>
+                  <DT>
+                    <I>Geospatial_Data_Presentation_Form:</I>project level data</DT>
+                  <DT>
+                    <I>Online_Linkage:</I>
+                    <A TARGET="viewer" HREF="http://www.pasda.psu.edu">http://www.pasda.psu.edu</A>
+                  </DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Abstract:</I>
+                </DT>
+                <PRE>LiDAR and related products for the Penn State University Park Campus 2019. In April of 2019 Woolpert obtained new aerial LiDAR covering the entire project area (+/- 45 sq. miles). The aerial LiDAR was collected during leaf-off conditions at a point density average of 0.5-meter with products comprised of LAS (ground and above ground points) and DEM in IMG format (contains ground only points). The LiDAR and DEM is delivered using 1,250’ x 1,250' tiles (matches the ortho tiling system). Adjacent flight lines overlap by an average of 25 percent. LiDAR was collected with a Leica ALS80 LiDAR System. The LiDAR data was produced in the Pennsylvania State Plane NAD83 (2011), NAVD 88 Geoid12B in units of Survey Foot. Ground conditions: Water at normal levels; no unusual inundation; no snow; leaf off.</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Purpose:</I>
+                </DT>
+                <PRE>Produce elevation products for the Penn State University.</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Time_Period_of_Content:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Time_Period_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Single_Date/Time:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Calendar_Date:</I>20190403</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DIV>
+                <DT>
+                  <I>Currentness_Reference:</I>
+                </DT>
+                <PRE>ground condition</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Status:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Progress:</I>Complete</DT>
+              <DT>
+                <I>Maintenance_and_Update_Frequency:</I>As needed</DT>
+            </DL>
+          </DD>
+          <DT>
+            <I>Spatial_Domain:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Bounding_Coordinates:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>West_Bounding_Coordinate:</I>-77.925423</DT>
+                  <DT>
+                    <I>East_Bounding_Coordinate:</I>-77.762630</DT>
+                  <DT>
+                    <I>North_Bounding_Coordinate:</I>40.893989</DT>
+                  <DT>
+                    <I>South_Bounding_Coordinate:</I>40.742899</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Keywords:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Theme:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Theme_Keyword_Thesaurus:</I>ISO 19115 Topic Categories</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>LiDAR</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>imageryBaseMapsEarthCover</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Place:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Place_Keyword_Thesaurus:</I>None</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>United States</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Pennsylvania</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Penn State University</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Access_Constraints:</I>This data set is in the public domain, and the recipient may not assert any proprietary rights thereto nor represent it to any one as other than a data set produced by Woolpert for the T3GS/PENN State University 0.5M LiDAR.</DT>
+          <DIV>
+            <DT>
+              <I>Use_Constraints:</I>
+            </DT>
+            <PRE>This data is for planning purposes only and should not be used for legal or cadastral purposes. This data set is provided "as-is" without warranty of any kind, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose.  User must assume responsiblity for determining the suitability of these data for their purposes. Users should be aware that temporal changes may have occurred since this data set was collected and some parts of this data may no longer represent actual surface conditions.  Users should not use this data for critical applications without a full awareness of it's limitations.
+
+The user shall indemnify, save harmless, and, if requested, defend the Commonwealth, the University, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation.
+
+The University excludes any and all implied warranties, including warranties or merchantability and fitness for a particular purpose.
+
+The University makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance.
+
+The University will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.
+
+The USER is granted permission to translate and add value to the FILES for the use of the FILES on its computer hardware; provided, however, that the USER annually notify the University of any customizing or value-adding work done.</PRE>
+          </DIV>
+          <DT>
+            <I>Point_of_Contact:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>Penn State - Office of Physical Plant</DT>
+                      <DT>
+                        <I>Contact_Person:</I>John Richendrfer</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical address</DT>
+                      <DT>
+                        <I>City:</I>University Park</DT>
+                      <DT>
+                        <I>State_or_Province:</I>Pennsylvania</DT>
+                      <DT>
+                        <I>Postal_Code:</I>16802</DT>
+                      <DT>
+                        <I>Country:</I>United States</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>jdr20@psu.edu</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Security_Information:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Security_Classification_System:</I>Unclassified</DT>
+              <DT>
+                <I>Security_Classification:</I>Unclassified</DT>
+              <DT>
+                <I>Security_Handling_Description:</I>Unclassified</DT>
+            </DL>
+          </DD>
+          <DT>
+            <I>Native_Data_Set_Environment:</I>
+          </DT>
+          <DD>Microsoft Windows 7 Version 6.1 (Build 7600); ArcMap 10.3; ArcCatalog 10.3; TerraScan ver. 16.01; TerraModeler ver. 16.01; Geocue 2014.1.21; LP360 2015.1.</DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Data_Quality_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Data_Quality_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DIV>
+            <DT>
+              <I>Logical_Consistency_Report:</I>
+            </DT>
+            <PRE>All formatted data are validated using commercial GIS software to ensure proper formatting and loading prior to delivery.</PRE>
+          </DIV>
+          <DIV>
+            <DT>
+              <I>Completeness_Report:</I>
+            </DT>
+            <PRE>The LiDAR data is visually inspected for completeness to ensure there are no gaps between flight lines.</PRE>
+          </DIV>
+          <DT>
+            <I>Positional_Accuracy:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Horizontal_Positional_Accuracy:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Horizontal_Positional_Accuracy_Report:</I>
+                    </DT>
+                    <PRE>Produced to meet 1.18 US Feet horizontal accuracy at 95 percent confidence level.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Quantitative_Horizontal_Positional_Accuracy_Assessment:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Horizontal_Positional_Accuracy_Value:</I>1.18 US Feet horizontal accuracy</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Vertical_Positional_Accuracy:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Vertical_Positional_Accuracy_Report:</I>
+                    </DT>
+                    <PRE>LAS data covering the Penn State University 0.5M LiDAR AOI was compared to survey control points to determine the vertical accuracy of the LAS. LAS Vertical Accuracy produced to meet 0.111 US feet vertical accuracy at a 95 percent confidence level, derived according to NSSDA, in open terrain using 0.057 US feet (RMSEz) x 1.96000 as defined by the National Standards for Spatial Data Accuracy (NSSDA); assessed and reported using National Digital Elevation Program (NDEP)/ASPRS Guidelines.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Quantitative_Vertical_Positional_Accuracy_Assessment:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Vertical_Positional_Accuracy_Value:</I>0.111 feet</DT>
+                      <DIV>
+                        <DT>
+                          <I>Vertical_Positional_Accuracy_Explanation:</I>
+                        </DT>
+                        <PRE>Tested 0.111 feet vertical accuracy at 95 percent confidence level.</PRE>
+                      </DIV>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Lineage:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>Using the ALS80 Light Detection And Ranging (LiDAR) system, 21 (twenty-one) flight lines of high density data, at a nominal pulse spacing (NPS) of 0.5 meter, were collected for T3GS/PENN State University 0.5M LiDAR (approximately 45 square miles). Multiple returns were recorded for each laser pulse along with an intensity value for each return. One (1) mission was flown on April 4, 2019. A single airborne global positioning system (GPS) base station was used in support of the LiDAR data acquisition. Twenty(20) ground control points were surveyed through static methods. The geoid used to reduce satellite derived elevations to orthometric heights was Geoid12B. All data for the task order is referenced to the NAD83 (2011) Pennsylvania State Plane; NAVD88 in U.S. Feet. Airborne GPS data was differentially processed and integrated with the post processed IMU data to derive a smoothed best estimate of trajectory (SBET). The SBET was used to reduce the LiDAR slant range measurements to a raw reflective surface for each flight line. The coverage was classified to extract a bare earth digital elevation model (DEM) and separate last returns. In addition to the LAS deliverables, elevation data was delivered in the DEM IMG format.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Process_Date:</I>20190404</DT>
+                  <DT>
+                    <I>Process_Time:</I>1200</DT>
+                  <DT>
+                    <I>Process_Contact:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Contact_Organization_Primary:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Contact_Organization:</I>Woolpert, Inc.</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Contact_Position:</I>Geospatial Services</DT>
+                          <DT>
+                            <I>Contact_Address:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Address_Type:</I>mailing and physical address</DT>
+                              <DIV>
+                                <DT>
+                                  <I>Address:</I>
+                                </DT>
+                                <PRE>4454 Idea Center Blvd.</PRE>
+                              </DIV>
+                              <DT>
+                                <I>City:</I>Dayton</DT>
+                              <DT>
+                                <I>State_or_Province:</I>OH</DT>
+                              <DT>
+                                <I>Postal_Code:</I>45430</DT>
+                              <DT>
+                                <I>Country:</I>USA</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Contact_Voice_Telephone:</I>(937) 461-5660</DT>
+                          <DT>
+                            <I>Contact_Facsimile_Telephone:</I>(937) 461-0743</DT>
+                          <DT>
+                            <I>Hours_of_Service:</I>8:00 a.m. to 5:00 p.m. Eastern Time</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>The ALS80 calibration and system performance is verified on a periodic basis using Woolpert's calibration range. The calibration range consists of a large building and runway. The edges of the building and control points along the runway have been located using conventional survey methods. Inertial measurement unit (IMU) misalignment angles and horizontal accuracy are calculated by comparing the position of the building edges between opposing flight lines. The scanner scale factor and vertical accuracy is calculated through comparison of LiDAR data against control points along the runway. Field calibration is performed on all flight lines to refine the IMU misalignment angles. IMU misalignment angles are calculated from the relative displacement of features within the overlap region of adjacent (and opposing) flight lines. The raw LiDAR data is reduced using the refined misalignment angles.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Process_Date:</I>2019</DT>
+                  <DT>
+                    <I>Process_Time:</I>1200</DT>
+                  <DT>
+                    <I>Process_Contact:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Contact_Organization_Primary:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Contact_Organization:</I>Woolpert, Inc.</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Contact_Position:</I>Geospatial Services</DT>
+                          <DT>
+                            <I>Contact_Address:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Address_Type:</I>mailing and physical address</DT>
+                              <DIV>
+                                <DT>
+                                  <I>Address:</I>
+                                </DT>
+                                <PRE>4454 Idea Center Blvd.</PRE>
+                              </DIV>
+                              <DT>
+                                <I>City:</I>Dayton</DT>
+                              <DT>
+                                <I>State_or_Province:</I>OH</DT>
+                              <DT>
+                                <I>Postal_Code:</I>45430</DT>
+                              <DT>
+                                <I>Country:</I>USA</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Contact_Voice_Telephone:</I>(937) 461-5660</DT>
+                          <DT>
+                            <I>Contact_Facsimile_Telephone:</I>(937) 461-0743</DT>
+                          <DT>
+                            <I>Hours_of_Service:</I>8:00 a.m. to 5:00 p.m. Eastern Time</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>Once the data acquisition and GPS processing phases are complete, the LiDAR data was processed immediately to verify the coverage had no voids. The GPS and IMU data was post processed using differential and Kalman filter algorithms to derive a best estimate of trajectory. The quality of the solution was verified to be consistent with the accuracy requirements of the project.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Process_Date:</I>20190404</DT>
+                  <DT>
+                    <I>Process_Time:</I>1200</DT>
+                  <DT>
+                    <I>Process_Contact:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Contact_Organization_Primary:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Contact_Organization:</I>Woolpert, Inc.</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Contact_Position:</I>Geospatial Services</DT>
+                          <DT>
+                            <I>Contact_Address:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Address_Type:</I>mailing and physical address</DT>
+                              <DIV>
+                                <DT>
+                                  <I>Address:</I>
+                                </DT>
+                                <PRE>4454 Idea Center Blvd.</PRE>
+                              </DIV>
+                              <DT>
+                                <I>City:</I>Dayton</DT>
+                              <DT>
+                                <I>State_or_Province:</I>OH</DT>
+                              <DT>
+                                <I>Postal_Code:</I>45430</DT>
+                              <DT>
+                                <I>Country:</I>USA</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Contact_Voice_Telephone:</I>(937) 461-5660</DT>
+                          <DT>
+                            <I>Contact_Facsimile_Telephone:</I>(937) 461-0743</DT>
+                          <DT>
+                            <I>Hours_of_Service:</I>8:00 a.m. to 5:00 p.m. Eastern Time</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>The individual flight lines were inspected to ensure the systematic and residual errors have been identified and removed. Then, the flight lines were compared to adjacent flight lines for any mismatches to obtain a homogenous coverage throughout the project area. The point cloud underwent a classification process to determine bare-earth points and non-ground points utilizing "first and only" as well as "last of many" LiDAR returns. This process determined Default  points (Class 1), Bare-Earth points (Class 2), Low Vegetation (Class 3), Medium Vegetation (Class 4), High Vegetation (Class 5), Buildings (Class 6), Noise (Class 7, Overlap Default (Class 17), Overlap Ground (Class 18) . The bare-earth (Class 2 - Ground) LiDAR points underwent a manual QA/QC step to verify that artifacts have been removed from the bare-earth surface. The surveyed ground control points are used to perform the accuracy checks and statistical analysis of the LiDAR dataset.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Process_Date:</I>20190404</DT>
+                  <DT>
+                    <I>Process_Time:</I>1200</DT>
+                  <DT>
+                    <I>Process_Contact:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Contact_Organization_Primary:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Contact_Organization:</I>Woolpert, Inc.</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Contact_Position:</I>Geospatial Services</DT>
+                          <DT>
+                            <I>Contact_Address:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Address_Type:</I>mailing and physical address</DT>
+                              <DIV>
+                                <DT>
+                                  <I>Address:</I>
+                                </DT>
+                                <PRE>4454 Idea Center Blvd.</PRE>
+                              </DIV>
+                              <DT>
+                                <I>City:</I>Dayton</DT>
+                              <DT>
+                                <I>State_or_Province:</I>OH</DT>
+                              <DT>
+                                <I>Postal_Code:</I>45430</DT>
+                              <DT>
+                                <I>Country:</I>USA</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Contact_Voice_Telephone:</I>(937) 461-5660</DT>
+                          <DT>
+                            <I>Contact_Facsimile_Telephone:</I>(937) 461-0743</DT>
+                          <DT>
+                            <I>Hours_of_Service:</I>8:00 a.m. to 5:00 p.m. Eastern Time</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Cloud_Cover:</I>0</DT>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Spatial_Data_Organization_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Spatial_Data_Organization_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Direct_Spatial_Reference_Method:</I>Point</DT>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Spatial_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Spatial_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Horizontal_Coordinate_System_Definition:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Planar:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Map_Projection:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Lambert_Conformal_Conic:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Standard_Parallel:</I>40.88333333333333</DT>
+                          <DT>
+                            <I>Standard_Parallel:</I>41.95</DT>
+                          <DT>
+                            <I>Longitude_of_Central_Meridian:</I>-77.75</DT>
+                          <DT>
+                            <I>Latitude_of_Projection_Origin:</I>40.16666666666666</DT>
+                          <DT>
+                            <I>False_Easting:</I>1968500.0</DT>
+                          <DT>
+                            <I>False_Northing:</I>0.0</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Planar_Coordinate_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Planar_Coordinate_Encoding_Method:</I>coordinate pair</DT>
+                      <DT>
+                        <I>Coordinate_Representation:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Abscissa_Resolution:</I>0.000000026822588594654923</DT>
+                          <DT>
+                            <I>Ordinate_Resolution:</I>0.000000026822588594654923</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Planar_Distance_Units:</I>foot_us</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Geodetic_Model:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Horizontal_Datum_Name:</I>D NAD 1983 2011</DT>
+                  <DT>
+                    <I>Ellipsoid_Name:</I>GRS 1980</DT>
+                  <DT>
+                    <I>Semi-major_Axis:</I>6378137.0</DT>
+                  <DT>
+                    <I>Denominator_of_Flattening_Ratio:</I>298.257222101</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Vertical_Coordinate_System_Definition:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Altitude_System_Definition:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Altitude_Datum_Name:</I>North American Vertical Datum of 1988</DT>
+                  <DT>
+                    <I>Altitude_Resolution:</I>0.000100</DT>
+                  <DT>
+                    <I>Altitude_Distance_Units:</I>Survey Feet</DT>
+                  <DT>
+                    <I>Altitude_Encoding_Method:</I>Explicit elevation coordinate included with horizontal coordinates</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A NAME="EPA">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Distribution_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Distributor:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>T3 Global Solutions, Inc.</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Position:</I>Project Manager</DT>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>10 Emerson Lane Suite 808 </PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Bridgeville</DT>
+                      <DT>
+                        <I>State_or_Province:</I>PA </DT>
+                      <DT>
+                        <I>Postal_Code:</I>15017 </DT>
+                      <DT>
+                        <I>Country:</I>USA</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>(412) 221 2003</DT>
+                  <DT>
+                    <I>Contact_Facsimile_Telephone:</I>(412)  221 2004</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Resource_Description:</I>Downloadable Data</DT>
+          <DIV>
+            <DT>
+              <I>Distribution_Liability:</I>
+            </DT>
+            <PRE>Woolpert prepared the original data as set forth in the Scope of Services, in accordance with reasonable care and due diligence as set forth in this Agreement, however, due to the easily alterable nature of electronic media, files, documents, and other deliverables, Woolpert, Inc. makes no warranties, either expressed or implied, with respect to the accuracy, completeness, merchantability, or fitness for any particular purpose, including, but not limited to, use of any/all data as described within this metadata file, by any user of this data. Any use will be at the end-user's sole risk.</PRE>
+          </DIV>
+          <DT>
+            <I>Standard_Order_Process:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Digital_Form:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Digital_Transfer_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Format_Name:</I>LAS</DT>
+                      <DT>
+                        <I>Format_Version_Number:</I>1.2</DT>
+                      <DIV>
+                        <DT>
+                          <I>Format_Specification:</I>
+                        </DT>
+                        <PRE>ASPRS</PRE>
+                      </DIV>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Digital_Transfer_Option:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Online_Option:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Computer_Contact_Information:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Network_Address:</I>
+                              </DT>
+                              <DD>
+                                <DL>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="Unknown">Unknown</A>
+                                  </DT>
+                                </DL>
+                              </DD>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Offline_Option:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Offline_Media:</I>Unknown</DT>
+                          <DT>
+                            <I>Recording_Format:</I>Digital</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Fees:</I>Unknown</DT>
+            </DL>
+          </DD>
+          <DT>
+            <I>Available_Time_Period:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Time_Period_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Single_Date/Time:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Calendar_Date:</I>unknown</DT>
+                      <DT>
+                        <I>Time of Day:</I>unknown</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A NAME="EAA">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Distribution_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Distributor:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>Pennsylvania Spatial Data Access (PASDA)</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>115 Land and Water Building</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>University Park</DT>
+                      <DT>
+                        <I>State_or_Province:</I>Pennsylvania</DT>
+                      <DT>
+                        <I>Postal_Code:</I>16802</DT>
+                      <DT>
+                        <I>Country:</I>United States</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>(814) 865 - 8792</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>pasda@psu.edu</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DIV>
+            <DT>
+              <I>Distribution_Liability:</I>
+            </DT>
+            <PRE>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</PRE>
+          </DIV>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Metadata_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Metadata_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Metadata_Date:</I>20190614</DT>
+          <DT>
+            <I>Metadata_Contact:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>T3 Global Solutions, Inc.</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Position:</I>Project Manager</DT>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>10 Emerson Lane Suite 808 </PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Bridgeville</DT>
+                      <DT>
+                        <I>State_or_Province:</I>PA </DT>
+                      <DT>
+                        <I>Postal_Code:</I>15017 </DT>
+                      <DT>
+                        <I>Country:</I>USA</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>(412) 221 2003</DT>
+                  <DT>
+                    <I>Contact_Facsimile_Telephone:</I>(412)  221 2004</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Metadata_Standard_Name:</I>FGDC Content Standards for Digital Geospatial Metadata</DT>
+          <DT>
+            <I>Metadata_Standard_Version:</I>FGDC-STD-001-1998</DT>
+          <DT>
+            <I>Metadata_Time_Convention:</I>local time</DT>
+          <DT>
+            <I>Metadata_Security_Information:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Metadata_Security_Classification_System:</I>Unclassified</DT>
+              <DT>
+                <I>Metadata_Security_Classification:</I>Unclassified</DT>
+              <DT>
+                <I>Metadata_Security_Handling_Description:</I>
+              </DT>
+              <DD>Unclassified</DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+  </BODY>
+</HTML>
+		</form>
+	</body>
+</HTML>

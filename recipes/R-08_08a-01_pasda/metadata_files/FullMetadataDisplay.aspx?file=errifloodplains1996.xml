@@ -1,0 +1,1104 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+	<HEAD>
+		<title>Pennsylvania Spatial Data Access | Full Metadata</title>
+		<meta name="GENERATOR" content="Microsoft Visual Studio.NET 7.0">
+		<meta name="CODE_LANGUAGE" content="Visual Basic 7.0">
+		<meta name="vs_defaultClientScript" content="JavaScript">
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+	    <link rel="shortcut icon" href="http://maps.pasda.psu.edu/Images/favicon.ico" type="image/x-icon" />
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-41373351-5', 'psu.edu');
+          ga('send', 'pageview');
+
+        </script>
+</HEAD>
+	<body MS_POSITIONING="GridLayout">
+		<form method="post" action="./FullMetadataDisplay.aspx?file=errifloodplains1996.xml" id="Form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEzNDA3MDMyNjVkZCi1cbXMhfZI+elmwl4oTersdOt9nxHHv5HGNLdvg2y4" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="D999016F" />
+			<HTML>
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <SCRIPT type="text/javascript">
+
+      function fix(e) {
+        var par = e.parentNode;
+        e.id = "";
+        e.style.marginLeft = "0.42in";
+        var pos = e.innerText.indexOf("\n");
+        if (pos > 0) {
+          while (pos > 0) {
+            var t = e.childNodes(0);
+            var n = document.createElement("PRE");
+            var s = t.splitText(pos);
+            e.insertAdjacentElement("afterEnd", n);
+            n.appendChild(s);
+            n.style.marginLeft = "0.42in";
+            e = n;
+            pos = e.innerText.indexOf("\n");
+          }
+          var count = (par.children.length);
+          for (var i = 0; i < count; i++) {
+            e = par.children(i);
+            if (e.tagName == "PRE") {
+              pos = e.innerText.indexOf(">");
+              if (pos != 0) {
+                n = document.createElement("DD");
+                e.insertAdjacentElement("afterEnd", n);
+                n.innerText = e.innerText;
+                e.removeNode(true);
+              }
+            }
+          }
+          if (par.children.tags("PRE").length > 0) {
+            count = (par.children.length);
+            for (i = 0; i < count; i++) {
+              e = par.children(i);
+              if (e.tagName == "PRE") {
+                e.id = "";
+                if (i < (count-1)) {
+                  var e2 = par.children(i + 1);
+                  if (e2.tagName == "PRE") {
+                    e.insertAdjacentText("beforeEnd", e2.innerText+"\n");
+                    e2.removeNode(true);
+                    count = count-1;
+                    i = i-1;
+                  }
+                }
+              }
+            }
+          }
+        }
+        else {
+          n = document.createElement("DD");
+          par.appendChild(n);
+          n.innerText = e.innerText;
+          e.removeNode(true);
+        }
+      }
+
+    </SCRIPT>
+  </HEAD>
+  <BODY oncontextmenu="return true">
+    <A name="Top">
+    </A>
+    <H2>Floodplains of Pennsylvania</H2>
+    <UL>
+      <LI>
+        <A HREF="#Identification_Information">Identification_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Data_Quality_Information">Data_Quality_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Spatial_Data_Organization_Information">Spatial_Data_Organization_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Spatial_Reference_Information">Spatial_Reference_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Entity_and_Attribute_Information">Entity_and_Attribute_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#EDA">
+                  Distribution_Information 
+                </A>
+      </LI>
+      <LI>
+        <A HREF="#Metadata_Reference_Information">Metadata_Reference_Information</A>
+      </LI>
+    </UL>
+    <A name="Identification_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Identification_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Citation:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Citation_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Originator:</I>Office of Remote Sensing for Earth Resources, Penn State University</DT>
+                  <DT>
+                    <I>Publication_Date:</I>199609</DT>
+                  <DT>
+                    <I>Title:</I>
+                  </DT>
+                  <DD>Floodplains of Pennsylvania</DD>
+                  <DT>
+                    <I>Geospatial_Data_Presentation_Form:</I>vector digital data</DT>
+                  <DT>
+                    <I>Publication_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Publication_Place:</I>Harrisburg, Pennsylvania</DT>
+                      <DT>
+                        <I>Publisher:</I>Pennsylvania Department of Environmental Protection</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Online_Linkage:</I>
+                    <A TARGET="viewer" HREF="ftp://www.pasda.psu.edu/pub/pasda/floodpln/floodpln.zip">ftp://www.pasda.psu.edu/pub/pasda/floodpln/floodpln.zip</A>
+                  </DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Abstract:</I>
+                </DT>
+                <PRE>In an effort to expedite the permit review process for Water
+Obstruction and Encroachment Applications, the Pennsylvania Department of
+Environmental Protection has initiated a plan to replace hard-copy maps
+with digital GIS sets. The project is referred to as the 105 Spatial Data
+System /8105SDS/9
+Pennsylvania river floodplains and coastal floodplains are two of many
+spatial data sets that were used in the 105SDS project. As a result of work
+completed by Law Environmental, Inc. on the statewide low-level radioactive
+waste siting project, DEP received two coverages depicting river and
+coastal floodplains. However, due to the process used in constructing these
+data sets, there were many areas throughout the state in which floodplains
+were not digitized. The primary purpose of this task was to complete the
+digital floodplain mapping in these areas.</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Purpose:</I>
+                </DT>
+                <PRE>INTENDED USE OF DATA; Created to do permit reviews for Water Obstruction and Encroachment Applications. LIMITATIONS OF DATA; Due to the nature of transferring the floodplains from the Federal Emergency Management Agency maps to our plotted 1:24000 scale maps this coverage should be considered to be the "best representation" of the data but not as accurate as, for example, a map of Global Positioning System's floodplain coordinates.</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Supplemental_Information:</I>
+                </DT>
+                <PRE>1. The Law Environmental coverage was brought into workstation ARC/INFO.
+Plots were made using this coverage, Pennsylvania Department of
+Transportation roads, streams and municipal boundaries. Each plot was 3
+quadrangle sheets (7.5 minute by 7.5 minute) large at 1:24000 scale.
+2. The Law Environmental coverage was then clipped into 8 regions (using
+the Pennsylvania Department of Transportation county coverage as a
+guideline) for manageability reasons. Then each region was copied to
+single precision and exported (with the "n" option) and then
+transferred for import into PC ARC/INFO.
+3. The available Federal Emergency Management Agency Flood Insurance Rate
+Map/Federal Hazard Boundary maps were used to transfer the remaining
+floodplains onto the above mentioned plots and were then digitized directly
+into the Law Environmental regional coverage.
+4. Once digitizing was finished the coverages were exported and transfered
+back to the workstation where they were imported, cleaned and then edited
+(in ARCedit) to remove any dangles and any other digitizing errors.
+Usually the coverages were cleaned again and if not cleaned then they were
+built.
+5. Labels were created (createlabels), and then the coverage was built
+again.
+6. The item maptype was added to the .pat file and the floodplains were
+then coded with their corresponding code. Some minor editing was done at
+this step such as removing boundaries between floodplains with the same
+code. Maptype codes reflect the level of detail of the original source map
+higher values mean more detail.
+7. When each coverage was finished some quality measurements were done. The
+Pennsylvania Department of Transportation streams were brought up in the
+background to double check the floodplain accuracy.
+8. Coverages were built again. When the top 4 regions were complete they
+were joined together same with the bottom 4 regions. The coverages were
+cleaned and the boundaries between the regions were removed as well as
+making sure all the border floodplains matched.
+9. When the top and bottom halves were finished the two were joined
+together and the boundary running through the middle of the state was
+removed. The coverage was built, and the command unsplit (ARCedit) was
+run to remove pseudonodes. The command createlabels was run to update the
+label-ids in the .pat file and then the coverage was built one last time.</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Time_Period_of_Content:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Time_Period_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Single_Date/Time:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Calendar_Date:</I>1995</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DIV>
+                <DT>
+                  <I>Currentness_Reference:</I>
+                </DT>
+                <PRE>publication date</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Status:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Progress:</I>In work</DT>
+              <DT>
+                <I>Maintenance_and_Update_Frequency:</I>As needed</DT>
+            </DL>
+          </DD>
+          <DT>
+            <I>Spatial_Domain:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Bounding_Coordinates:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>West_Bounding_Coordinate:</I>
+-80.519585</DT>
+                  <DT>
+                    <I>East_Bounding_Coordinate:</I>
+-74.690014</DT>
+                  <DT>
+                    <I>North_Bounding_Coordinate:</I>
+42.263659</DT>
+                  <DT>
+                    <I>South_Bounding_Coordinate:</I>
+39.719891</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Keywords:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Theme:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Theme_Keyword_Thesaurus:</I>ISO 19115 Topic Categories</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>inlandWaters</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Place:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Place_Keyword_Thesaurus:</I>none</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Pennsylvania</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Access_Constraints:</I>none</DT>
+          <DIV>
+            <DT>
+              <I>Use_Constraints:</I>
+            </DT>
+            <PRE>This dataset contains errors that are an artifact of the
+interpretation, source material and conversion process.  The data and
+documentation are provided "as is."  PADEP makes no warranty or
+representation, either express or implied, with respect to the data or
+accompanying documentation, including its quality, performance or accuracy.
+The PADEP will not be liable for any direct, indirect, special,
+incidental, or consequential damages arising out of the use or inability to
+use the data or any accompanying documentation.  The PADEP is working to
+correct errors.  Users discovering errors or making corrections to the data
+are requested to report such errors to the PADEP at maproom@psu.edu.</PRE>
+          </DIV>
+          <DT>
+            <I>Point_of_Contact:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Person_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Person:</I>Barry Evans</DT>
+                      <DT>
+                        <I>Contact_Organization:</I>Environmental Resources Research Institute</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>Land and Water Research</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>University Park</DT>
+                      <DT>
+                        <I>State_or_Province:</I>PA</DT>
+                      <DT>
+                        <I>Postal_Code:</I>16802</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>814-863-3531</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>bme1@psu.edu</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Native_Data_Set_Environment:</I>
+          </DT>
+          <DD>Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 3; ESRI ArcCatalog 8.2.0.700</DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Data_Quality_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Data_Quality_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Lineage:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>Dataset copied.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Source_Used_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>Server=pasdaserve1.erri.psu.edu; Service=5151/tcp; Database=sde; User=sde; Version=SDE.DEFAULT</DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>Metadata imported.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Source_Used_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>E:\UCI\ERRIFloodplains1996.xml</DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Spatial_Data_Organization_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Spatial_Data_Organization_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Direct_Spatial_Reference_Method:</I>Vector</DT>
+          <DT>
+            <I>Point_and_Vector_Object_Information:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>SDTS_Terms_Description:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>SDTS_Point_and_Vector_Object_Type:</I>G-polygon</DT>
+                  <DT>
+                    <I>Point_and_Vector_Object_Count:</I>8732</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Spatial_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Spatial_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Horizontal_Coordinate_System_Definition:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Geographic:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Latitude_Resolution:</I>0.000000</DT>
+                  <DT>
+                    <I>Longitude_Resolution:</I>0.000000</DT>
+                  <DT>
+                    <I>Geographic_Coordinate_Units:</I>Decimal degrees</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Geodetic_Model:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Horizontal_Datum_Name:</I>North American Datum of 1983</DT>
+                  <DT>
+                    <I>Ellipsoid_Name:</I>Geodetic Reference System 80</DT>
+                  <DT>
+                    <I>Semi-major_Axis:</I>6378137.000000</DT>
+                  <DT>
+                    <I>Denominator_of_Flattening_Ratio:</I>298.257222</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Vertical_Coordinate_System_Definition:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Altitude_System_Definition:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Altitude_Resolution:</I>1.000000</DT>
+                  <DT>
+                    <I>Altitude_Encoding_Method:</I>Explicit elevation coordinate included with horizontal coordinates</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Entity_and_Attribute_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Entity_and_Attribute_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>
+SDE.SDE.ERRI_Floodplains_1996</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>Polygon attribute table</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>FEMA FIRM and Federal Hazard Boundary maps
+and other digital data sources.</DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>OBJECTID</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Area of polygon/region in square coverage units.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Computed</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Positive real numbers</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Area of polygon</PRE>
+                          </DIV>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition_Source:</I>
+                            </DT>
+                            <PRE>computed</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>SDE.SDE.ERRI_Floodplains_1996.AREA</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Perimeter of polygon/region in square coverage units.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Computed</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Positive real numbers</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>perimeter</PRE>
+                          </DIV>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition_Source:</I>
+                            </DT>
+                            <PRE>computed</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>PERIMETER</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Internal feature number.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Computed</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Sequential unique positive integer</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>number of the feature</PRE>
+                          </DIV>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition_Source:</I>
+                            </DT>
+                            <PRE>computed</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>FLOODPLN_</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Identifies level of quality of source maps.  Based on
+level of detail and quality of hydrogeologic modeling of source maps.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>FEMA FIRM</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Positive integer 1 to 5</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Higher numbers denote better quality mapping</PRE>
+                          </DIV>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition_Source:</I>
+                            </DT>
+                            <PRE>ERRI</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>FLOODPLN_ID</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Standard Flood Hazard Area (SFHA) floodplain
+designation</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>FEMA FIRM</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>0</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Area located outside SHFA</PRE>
+                          </DIV>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition_Source:</I>
+                            </DT>
+                            <PRE>ERRI</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>1</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Area located inside SHFA</PRE>
+                          </DIV>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition_Source:</I>
+                            </DT>
+                            <PRE>ERRI</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>MAPTYPE</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>FLOODPLAIN</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>SHAPE</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Feature geometry.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>ESRI</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>Coordinates defining the features.</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>SE_ROW_ID</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>SHAPE..Area()</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>SHAPE..Length()</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A NAME="EDA">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Distribution_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Distributor:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>Pennsylvania Spatial Data Access (PASDA)</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>115 Land and Water building</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>University Park</DT>
+                      <DT>
+                        <I>State_or_Province:</I>Pennsylvania</DT>
+                      <DT>
+                        <I>Postal_Code:</I>16802</DT>
+                      <DT>
+                        <I>Country:</I>United States</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>(814) 865 - 8792</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>pasda@psu.edu</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DIV>
+            <DT>
+              <I>Distribution_Liability:</I>
+            </DT>
+            <PRE>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</PRE>
+          </DIV>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Metadata_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Metadata_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Metadata_Date:</I>20060205</DT>
+          <DT>
+            <I>Metadata_Contact:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>Pennsylvania Spatial Data Access (PASDA)</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>115 Land and Water research building</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>University Park</DT>
+                      <DT>
+                        <I>State_or_Province:</I>Pennsylvania</DT>
+                      <DT>
+                        <I>Postal_Code:</I>16802</DT>
+                      <DT>
+                        <I>Country:</I>United States</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>814-865-8792</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>pasda@psu.edu</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Metadata_Standard_Name:</I>FGDC Content Standards for Digital Geospatial Metadata</DT>
+          <DT>
+            <I>Metadata_Standard_Version:</I>FGDC-STD-001-1998</DT>
+          <DT>
+            <I>Metadata_Time_Convention:</I>local time</DT>
+          <DT>
+            <I>Metadata_Extensions:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Online_Linkage:</I>
+                <A TARGET="viewer" HREF="http://www.esri.com/metadata/esriprof80.html">http://www.esri.com/metadata/esriprof80.html</A>
+              </DT>
+              <DT>
+                <I>Profile_Name:</I>ESRI Metadata Profile</DT>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+  </BODY>
+</HTML>
+		</form>
+	</body>
+</HTML>

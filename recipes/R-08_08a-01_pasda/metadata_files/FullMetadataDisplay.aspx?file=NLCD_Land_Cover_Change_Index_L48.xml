@@ -1,0 +1,1667 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+	<HEAD>
+		<title>Pennsylvania Spatial Data Access | Full Metadata</title>
+		<meta name="GENERATOR" content="Microsoft Visual Studio.NET 7.0">
+		<meta name="CODE_LANGUAGE" content="Visual Basic 7.0">
+		<meta name="vs_defaultClientScript" content="JavaScript">
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+	    <link rel="shortcut icon" href="http://maps.pasda.psu.edu/Images/favicon.ico" type="image/x-icon" />
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-41373351-5', 'psu.edu');
+          ga('send', 'pageview');
+
+        </script>
+</HEAD>
+	<body MS_POSITIONING="GridLayout">
+		<form method="post" action="./FullMetadataDisplay.aspx?file=NLCD_Land_Cover_Change_Index_L48.xml" id="Form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEzNDA3MDMyNjVkZCi1cbXMhfZI+elmwl4oTersdOt9nxHHv5HGNLdvg2y4" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="D999016F" />
+			<HTML>
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <SCRIPT type="text/javascript">
+
+      function fix(e) {
+        var par = e.parentNode;
+        e.id = "";
+        e.style.marginLeft = "0.42in";
+        var pos = e.innerText.indexOf("\n");
+        if (pos > 0) {
+          while (pos > 0) {
+            var t = e.childNodes(0);
+            var n = document.createElement("PRE");
+            var s = t.splitText(pos);
+            e.insertAdjacentElement("afterEnd", n);
+            n.appendChild(s);
+            n.style.marginLeft = "0.42in";
+            e = n;
+            pos = e.innerText.indexOf("\n");
+          }
+          var count = (par.children.length);
+          for (var i = 0; i < count; i++) {
+            e = par.children(i);
+            if (e.tagName == "PRE") {
+              pos = e.innerText.indexOf(">");
+              if (pos != 0) {
+                n = document.createElement("DD");
+                e.insertAdjacentElement("afterEnd", n);
+                n.innerText = e.innerText;
+                e.removeNode(true);
+              }
+            }
+          }
+          if (par.children.tags("PRE").length > 0) {
+            count = (par.children.length);
+            for (i = 0; i < count; i++) {
+              e = par.children(i);
+              if (e.tagName == "PRE") {
+                e.id = "";
+                if (i < (count-1)) {
+                  var e2 = par.children(i + 1);
+                  if (e2.tagName == "PRE") {
+                    e.insertAdjacentText("beforeEnd", e2.innerText+"\n");
+                    e2.removeNode(true);
+                    count = count-1;
+                    i = i-1;
+                  }
+                }
+              }
+            }
+          }
+        }
+        else {
+          n = document.createElement("DD");
+          par.appendChild(n);
+          n.innerText = e.innerText;
+          e.removeNode(true);
+        }
+      }
+
+    </SCRIPT>
+  </HEAD>
+  <BODY oncontextmenu="return true">
+    <A name="Top">
+    </A>
+    <H2>NLCD Land Cover Change Index Conterminous United States</H2>
+    <UL>
+      <LI>
+        <A HREF="#Identification_Information">Identification_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Data_Quality_Information">Data_Quality_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Spatial_Data_Organization_Information">Spatial_Data_Organization_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Spatial_Reference_Information">Spatial_Reference_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Entity_and_Attribute_Information">Entity_and_Attribute_Information</A>
+      </LI>
+      <LI>Distribution_Information</LI>
+      <LI STYLE="margin-left:0.3in">
+        <A HREF="#EFA">
+                  Distributor 1</A>
+      </LI>
+      <LI>
+        <A HREF="#EAA">
+                  Distribution_Information 
+                </A>
+      </LI>
+      <LI>
+        <A HREF="#Metadata_Reference_Information">Metadata_Reference_Information</A>
+      </LI>
+    </UL>
+    <A name="Identification_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Identification_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Citation:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Citation_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Originator:</I>U.S. Geological Survey</DT>
+                  <DT>
+                    <I>Publication_Date:</I>201901</DT>
+                  <DT>
+                    <I>Title:</I>
+                  </DT>
+                  <DD>NLCD Land Cover Change Index Conterminous United States</DD>
+                  <DT>
+                    <I>Geospatial_Data_Presentation_Form:</I>remote-sensing image</DT>
+                  <DT>
+                    <I>Series_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Series_Name:</I>None</DT>
+                      <DT>
+                        <I>Issue_Identification:</I>None</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Publication_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Publication_Place:</I>Sioux Falls, SD</DT>
+                      <DT>
+                        <I>Publisher:</I>U.S. Geological Survey</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Other_Citation_Details:</I>
+                  </DT>
+                  <DD>References: Yang, L., et al. (2018). "A new generation of the United States National Land Cover Database: Requirements, research priorities, design, and implementation strategies." ISPRS Journal of Photogrammetry and Remote Sensing 146: 108-123.</DD>
+                  <DT>
+                    <I>Online_Linkage:</I>
+                    <A TARGET="viewer" HREF="http://www.pasda.psu.edu/uci/DataSummary.aspx?dataset=3143">http://www.pasda.psu.edu/uci/DataSummary.aspx?dataset=3143</A>
+                  </DT>
+                  <DT>
+                    <I>Online_Linkage:</I>
+                    <A TARGET="viewer" HREF="https://doi.org/10.5066/P937PN4Z">https://doi.org/10.5066/P937PN4Z</A>
+                  </DT>
+                  <DT>
+                    <I>Online_Linkage:</I>
+                    <A TARGET="viewer" HREF="https://www.mrlc.gov/data">https://www.mrlc.gov/data</A>
+                  </DT>
+                  <DT>
+                    <I>Online_Linkage:</I>
+                    <A TARGET="viewer" HREF="https://www.mrlc.gov/data-services-page">https://www.mrlc.gov/data-services-page</A>
+                  </DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Abstract:</I>
+                </DT>
+                <PRE>The U.S. Geological Survey (USGS), in partnership with several federal agencies, has developed and released four National Land Cover Database (NLCD) products over the past two decades: NLCD 1992, 2001, 2006, and 2011. These products provide spatially explicit and reliable information on the Nation’s land cover and land cover change. To continue the legacy of NLCD and further establish a long-term monitoring capability for the Nation’s land resources, the USGS has designed a new generation of NLCD products named NLCD 2016. The NLCD 2016 design aims to provide innovative, consistent, and robust methodologies for production of a multi-temporal land cover and land cover change database from 2001 to 2016 at 2–3-year intervals. Comprehensive research was conducted and resulted in developed strategies for NLCD 2016: a streamlined process for assembling and preprocessing Landsat imagery and geospatial ancillary datasets; a multi-source integrated training data development and decision-tree based land cover classifications; a temporally, spectrally, and spatially integrated land cover change analysis strategy; a hierarchical theme-based post-classification and integration protocol for generating land cover and change products; a continuous fields biophysical parameters modeling method; and an automated scripted operational system for the NLCD 2016 production. The performance of the developed strategies and methods were tested in twenty World Reference System-2 path/rows throughout the conterminous U.S. An overall agreement ranging from 71% to 97% between land cover classification and reference data was achieved for all tested areas and all years. Results from this study confirm the robustness of this comprehensive and highly automated procedure for NLCD 2016 operational mapping. Questions about the NLCD 2016 land cover product can be directed to the NLCD 2016 land cover mapping team at USGS EROS, Sioux Falls, SD (605) 594-6151 or mrlc@usgs.gov. See included spatial metadata for more details.</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Purpose:</I>
+                </DT>
+                <PRE>The goal of this project is to provide the Nation with complete, current, and consistent public domain information on its land use and land cover.</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Supplemental_Information:</I>
+                </DT>
+                <PRE>Corner Coordinates (center of pixel, projection meters)
+Upper Left Corner:  -2493045 meters(X),  3310005 meters(Y)
+Lower Right Corner: 2342655 meters(X),  177285 meters(Y)</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Time_Period_of_Content:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Time_Period_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Range_of_Dates/Times:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Beginning_Date:</I>2001</DT>
+                      <DT>
+                        <I>Ending_Date:</I>2016</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DIV>
+                <DT>
+                  <I>Currentness_Reference:</I>
+                </DT>
+                <PRE>ground condition</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Status:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Progress:</I>In work</DT>
+              <DT>
+                <I>Maintenance_and_Update_Frequency:</I>Every 2-3 years</DT>
+            </DL>
+          </DD>
+          <DT>
+            <I>Spatial_Domain:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Bounding_Coordinates:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>West_Bounding_Coordinate:</I>-130.2328</DT>
+                  <DT>
+                    <I>East_Bounding_Coordinate:</I>-63.6722</DT>
+                  <DT>
+                    <I>North_Bounding_Coordinate:</I>52.8510</DT>
+                  <DT>
+                    <I>South_Bounding_Coordinate:</I>21.7423</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Keywords:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Theme:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Theme_Keyword_Thesaurus:</I>ISO 19115 Topic Category</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>biota</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>biota</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Theme:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Theme_Keyword_Thesaurus:</I>NGDA Portfolio Themes</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>NGDA</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>National Geospatial Data Asset</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Land Use Land Cover Theme</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Theme:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Theme_Keyword_Thesaurus:</I>None</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Land cover</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Image processing</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>GIS</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>U.S. Geological Survey (USGS)</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>digital spatial data</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Theme:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Theme_Keyword_Thesaurus:</I>U.S. Department of Commerce, 1995, (Countries, dependencies, areas of special sovereignty, and their principal administrative divisions, Federal Information Processing Standard 10-4):  Washington, D.C., National Institute of Standards and Technology</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>United States</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>U.S.</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>US</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Place:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Place_Keyword_Thesaurus:</I>None</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>None</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Access_Constraints:</I>None</DT>
+          <DIV>
+            <DT>
+              <I>Use_Constraints:</I>
+            </DT>
+            <PRE>None</PRE>
+          </DIV>
+          <DT>
+            <I>Point_of_Contact:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>U.S. Geological Survey</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Position:</I>Customer Service Representative</DT>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>47914 252nd Street</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Sioux Falls</DT>
+                      <DT>
+                        <I>State_or_Province:</I>SD</DT>
+                      <DT>
+                        <I>Postal_Code:</I>57198-0001</DT>
+                      <DT>
+                        <I>Country:</I>USA</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>605/594-6151</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>custserv@usgs.gov</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DIV>
+            <DT>
+              <I>Data_Set_Credit:</I>
+            </DT>
+            <PRE>U.S. Geological Survey</PRE>
+          </DIV>
+          <DT>
+            <I>Security_Information:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Security_Classification_System:</I>None</DT>
+              <DT>
+                <I>Security_Classification:</I>Unclassified</DT>
+              <DT>
+                <I>Security_Handling_Description:</I>N/A</DT>
+            </DL>
+          </DD>
+          <DT>
+            <I>Native_Data_Set_Environment:</I>
+          </DT>
+          <DD>Microsoft Windows 10; ESRI ArcCatalog 10.5.1</DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Data_Quality_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Data_Quality_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Attribute_Accuracy:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Attribute_Accuracy_Report:</I>
+                </DT>
+                <PRE>A formal accuracy assessment has not been conducted for NLCD 2016 Land Cover, NLCD 2016 Land Cover Change, or NLCD 2016 Impervious Surface products.</PRE>
+              </DIV>
+              <DT>
+                <I>Quantitative_Attribute_Accuracy_Assessment:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Accuracy_Value:</I>Unknown</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Accuracy_Explanation:</I>
+                    </DT>
+                    <PRE>This document and the described land cover map are considered "provisional" until a formal accuracy assessment is completed.  The U.S. Geological Survey can make no guarantee as to the accuracy or completeness of this information, and it is provided with the understanding that it is not guaranteed to be correct or complete. Conclusions drawn from this information are the responsibility of the user.</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DIV>
+            <DT>
+              <I>Logical_Consistency_Report:</I>
+            </DT>
+            <PRE>The NLCD 2016 final seamless products include: 1) NLCD 2016 Land Cover; 2) NLCD 2016 Impervious Surface; 3) NLCD 2016 Land Cover Change Index.</PRE>
+          </DIV>
+          <DIV>
+            <DT>
+              <I>Completeness_Report:</I>
+            </DT>
+            <PRE>This NLCD product is the version dated January, 2019.</PRE>
+          </DIV>
+          <DT>
+            <I>Positional_Accuracy:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Horizontal_Positional_Accuracy:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Horizontal_Positional_Accuracy_Report:</I>
+                    </DT>
+                    <PRE>N/A</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Vertical_Positional_Accuracy:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Vertical_Positional_Accuracy_Report:</I>
+                    </DT>
+                    <PRE>N/A</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Lineage:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>   
+The NLCD 2016 Land Cover Change Index is a raster image with an accompanying look-up table that describes the land cover change represented by each index. Previous releases of NLCD land cover covered one target year, and a land cover change index was compiled of change from every class in the previous target year to every class in the current one – for example from 2006 to 2011 or from 2001 to 2006. 
+
+NLCD 2016 Land Cover spans not one but seven target years: 2001, 2003, 2006, 2008, 2011, 2013, and 2016. Rather than compiling six land cover change index products (one for each pair of adjacent target years), there is a single NLCD 2016 Land Cover Change Index product whose pixel values indicate land cover changes that occurred at least once between 2001 and 2016. Each assigned image value represents either “No Change” (Index number 1) or one of the changes described below. 
+
+Index number 2 identifies pixels that have changed from any land cover class to Water, or from Water to any other land cover class, between any two adjacent target years. Indices 5, 7, 8, 10, and 21 are similar identifiers of change from or to a single land cover class.
+
+Index 3 identifies changes from any land cover class to any of the four Urban land cover classes, or from any of those four classes to any other land cover class, between any two adjacent target years. Index 11 similarly identifies changes from or to any of the three Forest classes.
+
+Index 4 narrowly identifies changes only between Herbaceous Wetland and Woody Wetland. Similarly, Index 6 identifies changes only between Cultivated Crops and Hay / Pasture.
+
+Index 9 meets a special requirement of shrubland research to discriminate where change occurs on persistent shrublands verses change on  transitional shrubland areas such as regenerating forests.
+
+Pixel /Index Value	Description
+1	No Change
+2	Change from or to Water 
+3	Change from or to any of the four Urban classes (open space; low, medium, and high intensity)
+4	Change from Herbaceous Wetland to Woody Wetland, or vice versa
+5	Change from or to Herbaceous Wetland
+6	Change from Cultivated Crops to Hay / Pasture, or vice versa
+7	Change from or to Cultivated Crops
+8	Change from or to Hay / Pasture
+9	Persistent Grassland and Shrubland change. This change index attempts to identify changes to persistent Grassland and Shrubland areas, and to separate them from transitional shrubland areas such as regenerating forests.
+10	Change from or to Barren
+11	Change from or to any of the three Forest classes (Evergreen, Deciduous, and Mixed)
+12	Change from or to Woody Wetland
+
+Identifying the specific changes from one target year’s land cover class to another, and the specific target years when the changes occurred, both require analysis of the land cover data itself.
+		</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Source_Used_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>Landsat ETM, Landsat TM, DEM, USGS/EROS</DD>
+                  <DT>
+                    <I>Process_Date:</I>2016</DT>
+                  <DT>
+                    <I>Source_Produced_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>USGS National Land Cover Database</DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Spatial_Data_Organization_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Spatial_Data_Organization_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Direct_Spatial_Reference_Method:</I>Raster</DT>
+          <DT>
+            <I>Raster_Object_Information:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Raster_Object_Type:</I>Grid Cell</DT>
+              <DT>
+                <I>Row_Count:</I>104424</DT>
+              <DT>
+                <I>Column_Count:</I>161190</DT>
+              <DT>
+                <I>Vertical_Count:</I>1</DT>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Spatial_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Spatial_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Horizontal_Coordinate_System_Definition:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Planar:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Map_Projection:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Map_Projection_Name:</I>Albers Conical Equal Area</DT>
+                      <DT>
+                        <I>Albers_Conical_Equal_Area:</I>
+                      </DT>Albers Conical Equal Area<DD><DL><DT><I>Standard_Parallel:</I>29.5</DT><DT><I>Standard_Parallel:</I>45.5</DT><DT><I>Longitude_of_Central_Meridian:</I>-96.0</DT><DT><I>Latitude_of_Projection_Origin:</I>23.0</DT><DT><I>False_Easting:</I>0.0</DT><DT><I>False_Northing:</I>0.0</DT></DL></DD></DL>
+                  </DD>
+                  <DT>
+                    <I>Planar_Coordinate_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Planar_Coordinate_Encoding_Method:</I>row and column</DT>
+                      <DT>
+                        <I>Coordinate_Representation:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Abscissa_Resolution:</I>30.0</DT>
+                          <DT>
+                            <I>Ordinate_Resolution:</I>30.0</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Planar_Distance_Units:</I>meters</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Geodetic_Model:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Horizontal_Datum_Name:</I>WGS_1984</DT>
+                  <DT>
+                    <I>Ellipsoid_Name:</I>WGS 84</DT>
+                  <DT>
+                    <I>Semi-major_Axis:</I>6378137.0</DT>
+                  <DT>
+                    <I>Denominator_of_Flattening_Ratio:</I>298.257223563</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Entity_and_Attribute_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Entity_and_Attribute_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>None</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>NLCD Land Cover Change Layer</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>National Land Cover Database</DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>ObjectID</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Internal feature number</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>ESRI</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>Sequential unique whole numbers that are automatically generated.</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>Count</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>A nominal integer value that designates the number of pixels that have each value in the file; histogram column in ERDAS Imagine raster attributes table</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>ESRI</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>Integer</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>Value</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Land Cover Change Class Code Value.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>NLCD Legend Land Cover Change Class Descriptions</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>1</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>No Change</PRE>
+                          </DIV>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition_Source:</I>
+                            </DT>
+                            <PRE>NLCD Legend Land Cover Change Class Descriptions</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>2</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Change from or to Water</PRE>
+                          </DIV>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition_Source:</I>
+                            </DT>
+                            <PRE>NLCD Legend Land Cover Change Class Descriptions</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>3</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Change from or to any of the four Urban classes (open space; low, medium, and high intensity)</PRE>
+                          </DIV>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition_Source:</I>
+                            </DT>
+                            <PRE>NLCD Legend Land Cover Change Class Descriptions</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>4</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Change from Herbaceous Wetland to Woody Wetland, or vice versa</PRE>
+                          </DIV>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition_Source:</I>
+                            </DT>
+                            <PRE>NLCD Legend Land Cover Change Class Descriptions</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>5</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Change from or to Herbaceous Wetland</PRE>
+                          </DIV>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition_Source:</I>
+                            </DT>
+                            <PRE>NLCD Legend Land Cover Change Class Descriptions</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>6</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Change from Cultivated Crops to Hay / Pasture, or vice versa</PRE>
+                          </DIV>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition_Source:</I>
+                            </DT>
+                            <PRE>NLCD Legend Land Cover Change Class Descriptions</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>7</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Change from or to Cultivated Crops</PRE>
+                          </DIV>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition_Source:</I>
+                            </DT>
+                            <PRE>NLCD Legend Land Cover Change Class Descriptions</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>8</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Change from or to Hay / Pasture</PRE>
+                          </DIV>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition_Source:</I>
+                            </DT>
+                            <PRE>NLCD Legend Land Cover Change Class Descriptions</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>9</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Persistent Grassland and Shrubland change. This change index attempts to identify changes to persistent Grassland and Shrubland areas verses transitional shrubland areas such as regenerating forests.</PRE>
+                          </DIV>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition_Source:</I>
+                            </DT>
+                            <PRE>NLCD Legend Land Cover Change Class Descriptions</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>10</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Change from or to Barren</PRE>
+                          </DIV>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition_Source:</I>
+                            </DT>
+                            <PRE>NLCD Legend Land Cover Change Class Descriptions</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>11</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Change from or to any of the three Forest classes (Evergreen, Deciduous, and Mixed)</PRE>
+                          </DIV>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition_Source:</I>
+                            </DT>
+                            <PRE>NLCD Legend Land Cover Change Class Descriptions</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>12</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Change from or to Woody Wetland</PRE>
+                          </DIV>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition_Source:</I>
+                            </DT>
+                            <PRE>NLCD Legend Land Cover Change Class Descriptions</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>Red</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Red color code for RGB. The value is arbitrarily assigned by the display software package, unless defined by user.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>NLCD</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Range_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_Domain_Minimum:</I>0</DT>
+                          <DT>
+                            <I>Range_Domain_Maximum:</I>100</DT>
+                          <DT>
+                            <I>Attribute_Units_of_Measure:</I>Percentage</DT>
+                          <DT>
+                            <I>Attribute_Measurement_Resolution:</I>0.1</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>Green</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Green color code for RGB. The value is arbitrarily assigned by the display software package, unless defined by user.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>NLCD</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Range_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_Domain_Minimum:</I>0</DT>
+                          <DT>
+                            <I>Range_Domain_Maximum:</I>100</DT>
+                          <DT>
+                            <I>Attribute_Units_of_Measure:</I>Percentage</DT>
+                          <DT>
+                            <I>Attribute_Measurement_Resolution:</I>0.1</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>Blue</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Blue color code for RGB. The value is arbitrarily assigned by the display software package, unless defined by user.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>NLCD</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Range_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_Domain_Minimum:</I>0</DT>
+                          <DT>
+                            <I>Range_Domain_Maximum:</I>100</DT>
+                          <DT>
+                            <I>Attribute_Units_of_Measure:</I>Percentage</DT>
+                          <DT>
+                            <I>Attribute_Measurement_Resolution:</I>0.1</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>Opacity</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>A measure of how opaque, or solid, a color is displayed in a layer.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>NLCD</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Range_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_Domain_Minimum:</I>0</DT>
+                          <DT>
+                            <I>Range_Domain_Maximum:</I>100</DT>
+                          <DT>
+                            <I>Attribute_Units_of_Measure:</I>Percentage</DT>
+                          <DT>
+                            <I>Attribute_Measurement_Resolution:</I>0.1</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Overview_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Entity_and_Attribute_Overview:</I>
+                </DT>
+                <PRE>Land Cover Class RGB Color Value Table</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Entity_and_Attribute_Detail_Citation:</I>
+                </DT>
+                <PRE>Attributes defined by USGS and ESRI.
+Value Red            Green           Blue
+0     0.00000000000  0.00000000000  0.00000000000
+11    0.27843137255  0.41960784314  0.62745098039
+12    0.81960784314  0.86666666667  0.97647058824
+21    0.86666666667  0.78823529412  0.78823529412
+22    0.84705882353  0.57647058824  0.50980392157
+23    0.92941176471  0.00000000000  0.00000000000
+24    0.66666666667  0.00000000000  0.00000000000
+31    0.69803921569  0.67843137255  0.63921568628
+41    0.40784313726  0.66666666667  0.38823529412
+42    0.10980392157  0.38823529412  0.18823529412
+43    0.70980392157  0.78823529412  0.55686274510
+51    0.64705882353  0.54901960784  0.18823529412
+52    0.80000000000  0.72941176471  0.48627450980
+71    0.88627450980  0.88627450980  0.75686274510
+72    0.78823529412  0.78823529412  0.46666666667
+73    0.60000000000  0.75686274510  0.27843137255
+74    0.46666666667  0.67843137255  0.57647058824
+81    0.85882352941  0.84705882353  0.23921568628
+82    0.66666666667  0.43921568628  0.15686274510
+90    0.72941176471  0.84705882353  0.91764705882
+95    0.43921568628  0.63921568628  0.72941176471</PRE>
+              </DIV>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A NAME="EFA">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Distribution_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Distributor:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>U.S. Geological Survey</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Position:</I>Customer Service Representative</DT>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>47914 252nd Street</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Sioux Falls</DT>
+                      <DT>
+                        <I>State_or_Province:</I>SD</DT>
+                      <DT>
+                        <I>Postal_Code:</I>57198-0001</DT>
+                      <DT>
+                        <I>Country:</I>USA</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>605/594-6151</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>custserv@usgs.gov</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DIV>
+            <DT>
+              <I>Distribution_Liability:</I>
+            </DT>
+            <PRE>Although these data have been processed successfully on a computer system at the USGS, no warranty expressed or implied is made by the USGS regarding the use of the data on any other system, nor does the act of distribution constitute any such warranty.  Data may have been compiled from various outside sources.  Spatial information may not meet National Map Accuracy Standards.  This information may be updated without notification. The USGS shall not be liable for any activity involving these data, installation, fitness of the data for a particular purpose, its use, or analyses results.</PRE>
+          </DIV>
+          <DT>
+            <I>Standard_Order_Process:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Digital_Form:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Digital_Transfer_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Format_Name:</I>ERDAS</DT>
+                      <DT>
+                        <I>Format_Version_Number:</I>Imagine 2016</DT>
+                      <DIV>
+                        <DT>
+                          <I>Format_Specification:</I>
+                        </DT>
+                        <PRE>.img</PRE>
+                      </DIV>
+                      <DT>
+                        <I>Transfer_Size:</I>1012.0</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Digital_Transfer_Option:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Online_Option:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Computer_Contact_Information:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Network_Address:</I>
+                              </DT>
+                              <DD>
+                                <DL>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="https://www.mrlc.gov">https://www.mrlc.gov</A>
+                                  </DT>
+                                </DL>
+                              </DD>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Fees:</I>None</DT>
+            </DL>
+          </DD>
+          <DT>
+            <I>Technical_Prerequisites:</I>
+          </DT>
+          <DD>ESRI ArcMap Suite and/or Arc/Info software, and supporting operating systems.</DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A NAME="EAA">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Distribution_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Distributor:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>Pennsylvania Spatial Data Access (PASDA)</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>115 Land and Water building</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>University Park</DT>
+                      <DT>
+                        <I>State_or_Province:</I>Pennsylvania</DT>
+                      <DT>
+                        <I>Postal_Code:</I>16802</DT>
+                      <DT>
+                        <I>Country:</I>United States</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>(814) 865 - 8792</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>pasda@psu.edu</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DIV>
+            <DT>
+              <I>Distribution_Liability:</I>
+            </DT>
+            <PRE>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</PRE>
+          </DIV>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Metadata_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Metadata_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Metadata_Date:</I>20181206</DT>
+          <DT>
+            <I>Metadata_Contact:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>U.S. Geological Survey</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Position:</I>Customer Services Representative</DT>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>47914 252nd Street</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Sioux Falls</DT>
+                      <DT>
+                        <I>State_or_Province:</I>SD</DT>
+                      <DT>
+                        <I>Postal_Code:</I>57198-0001</DT>
+                      <DT>
+                        <I>Country:</I>USA</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>605/594-6151</DT>
+                  <DT>
+                    <I>Contact_Facsimile_Telephone:</I>605/594-6589</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>custserv@usgs.gov</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Metadata_Standard_Name:</I>FGDC Content Standard for Digital Geospatial Metadata</DT>
+          <DT>
+            <I>Metadata_Standard_Version:</I>FGDC-STD-001-1998</DT>
+          <DT>
+            <I>Metadata_Time_Convention:</I>local time</DT>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+  </BODY>
+</HTML>
+		</form>
+	</body>
+</HTML>

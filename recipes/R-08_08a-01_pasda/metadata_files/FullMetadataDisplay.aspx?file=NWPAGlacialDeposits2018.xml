@@ -1,0 +1,2009 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+	<HEAD>
+		<title>Pennsylvania Spatial Data Access | Full Metadata</title>
+		<meta name="GENERATOR" content="Microsoft Visual Studio.NET 7.0">
+		<meta name="CODE_LANGUAGE" content="Visual Basic 7.0">
+		<meta name="vs_defaultClientScript" content="JavaScript">
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+	    <link rel="shortcut icon" href="http://maps.pasda.psu.edu/Images/favicon.ico" type="image/x-icon" />
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-41373351-5', 'psu.edu');
+          ga('send', 'pageview');
+
+        </script>
+</HEAD>
+	<body MS_POSITIONING="GridLayout">
+		<form method="post" action="./FullMetadataDisplay.aspx?file=NWPAGlacialDeposits2018.xml" id="Form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEzNDA3MDMyNjVkZCi1cbXMhfZI+elmwl4oTersdOt9nxHHv5HGNLdvg2y4" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="D999016F" />
+			<HTML>
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <SCRIPT type="text/javascript">
+
+      function fix(e) {
+        var par = e.parentNode;
+        e.id = "";
+        e.style.marginLeft = "0.42in";
+        var pos = e.innerText.indexOf("\n");
+        if (pos > 0) {
+          while (pos > 0) {
+            var t = e.childNodes(0);
+            var n = document.createElement("PRE");
+            var s = t.splitText(pos);
+            e.insertAdjacentElement("afterEnd", n);
+            n.appendChild(s);
+            n.style.marginLeft = "0.42in";
+            e = n;
+            pos = e.innerText.indexOf("\n");
+          }
+          var count = (par.children.length);
+          for (var i = 0; i < count; i++) {
+            e = par.children(i);
+            if (e.tagName == "PRE") {
+              pos = e.innerText.indexOf(">");
+              if (pos != 0) {
+                n = document.createElement("DD");
+                e.insertAdjacentElement("afterEnd", n);
+                n.innerText = e.innerText;
+                e.removeNode(true);
+              }
+            }
+          }
+          if (par.children.tags("PRE").length > 0) {
+            count = (par.children.length);
+            for (i = 0; i < count; i++) {
+              e = par.children(i);
+              if (e.tagName == "PRE") {
+                e.id = "";
+                if (i < (count-1)) {
+                  var e2 = par.children(i + 1);
+                  if (e2.tagName == "PRE") {
+                    e.insertAdjacentText("beforeEnd", e2.innerText+"\n");
+                    e2.removeNode(true);
+                    count = count-1;
+                    i = i-1;
+                  }
+                }
+              }
+            }
+          }
+        }
+        else {
+          n = document.createElement("DD");
+          par.appendChild(n);
+          n.innerText = e.innerText;
+          e.removeNode(true);
+        }
+      }
+
+    </SCRIPT>
+  </HEAD>
+  <BODY oncontextmenu="return true">
+    <A name="Top">
+    </A>
+    <H2>Glacial Deposits of Northwestern Pennsylvania</H2>
+    <UL>
+      <LI>
+        <A HREF="#Identification_Information">Identification_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Data_Quality_Information">Data_Quality_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Spatial_Data_Organization_Information">Spatial_Data_Organization_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Spatial_Reference_Information">Spatial_Reference_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Entity_and_Attribute_Information">Entity_and_Attribute_Information</A>
+      </LI>
+      <LI>Distribution_Information</LI>
+      <LI STYLE="margin-left:0.3in">
+        <A HREF="#EJA">
+                  Distributor 1</A>
+      </LI>
+      <LI>
+        <A HREF="#EAA">
+                  Distribution_Information 
+                </A>
+      </LI>
+      <LI>
+        <A HREF="#Metadata_Reference_Information">Metadata_Reference_Information</A>
+      </LI>
+    </UL>
+    <A name="Identification_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Identification_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Citation:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Citation_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Originator:</I>Allegheny College</DT>
+                  <DT>
+                    <I>Publication_Date:</I>201802</DT>
+                  <DT>
+                    <I>Title:</I>
+                  </DT>
+                  <DD>Glacial Deposits of Northwestern Pennsylvania</DD>
+                  <DT>
+                    <I>Edition:</I>1.0</DT>
+                  <DT>
+                    <I>Geospatial_Data_Presentation_Form:</I>vector digital data</DT>
+                  <DT>
+                    <I>Online_Linkage:</I>
+                    <A TARGET="viewer" HREF="http://www.pasda.psu.edu/">http://www.pasda.psu.edu/</A>
+                  </DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Abstract:</I>
+                </DT>
+                <PRE>Digitized regional surficial geology map for northwestern Pennsylvania. The complete citation for the paper map is: Map of the Glacial Deposits of Northwestern Pennsylvania by V.C. Shepps, J.B. Droste, and R.F. Sitler under the supervision of G.W.White, 1959, Bulletin G-32, Pennsylvania Geologic Survey. The original map was published at a scale of 1:125,000. Three counties are fully covered by these deposits and mapped (Crawford, Erie, and Mercer); five more are partially covered and mapped (Beaver, Butler, Lawrence, Warren, and Venango). 
+This GIS dataset shows the areal distribution of 14 distinct glacial deposits from the Pleistocene Epoch and Recent stream alluvium and/or bedrock exposures. All mapping activity and lithologic interpretations were made by the original authors of the map (Shepps et al., 1959); the authors of this electronic geospatial resource (Shaffer et al., 2005) have only provided digital transfer of the map features and attributes and documentation of the process.
+</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Purpose:</I>
+                </DT>
+                <PRE>This dataset identifies the distribution of surficial unconsolidated sediments (glacial deposits and stream alluvium) in northwestern PA. This map is the only published comprehensive regional surficial geologic map available for the region. The original map was digitized to provide an electronic version for GIS work. Potential users should read the Supplemental Information Section (below) to determine the appropriate scale for using these data. More detailed surficial geologic maps may exist within the mapped area in either paper or electronic format. Researchers are encouraged to check with the U.S. Geological Survey, Pennsylvania Geologic Survey, PASDA, and/or Geology Departments at local universities and colleges for other maps.</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Supplemental_Information:</I>
+                </DT>
+                <PRE>This data set is not intended to be used for detailed or site-specific analyses, nor are they intended to be used at any scale finer than 1:125,000 (for example, use at 1:24,000 scale is inappropriate).</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Time_Period_of_Content:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Time_Period_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Single_Date/Time:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Calendar_Date:</I>201802</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DIV>
+                <DT>
+                  <I>Currentness_Reference:</I>
+                </DT>
+                <PRE>publication date</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Status:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Progress:</I>Complete</DT>
+              <DT>
+                <I>Maintenance_and_Update_Frequency:</I>As needed</DT>
+            </DL>
+          </DD>
+          <DT>
+            <I>Spatial_Domain:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Bounding_Coordinates:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>West_Bounding_Coordinate:</I>-80.529940</DT>
+                  <DT>
+                    <I>East_Bounding_Coordinate:</I>-79.035010</DT>
+                  <DT>
+                    <I>North_Bounding_Coordinate:</I>42.275313</DT>
+                  <DT>
+                    <I>South_Bounding_Coordinate:</I>40.703260</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Keywords:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Theme:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Theme_Keyword_Thesaurus:</I>ISO 19115 Topic Categories</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>geology</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>surficial</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>glacial</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>sediment</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>geologic</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>moraine</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>till</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>outwash</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>alluvium</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>kame</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>esker</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>geoscientificinformation</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Place:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Place_Keyword:</I>Pennsylvania</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Beaver</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Butler</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Crawford</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Erie</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Forest</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Lawrence</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Mercer</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Venango</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Warren</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Appalachian Plateau</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Temporal:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Temporal_Keyword:</I>Quaternary</DT>
+                  <DT>
+                    <I>Temporal_Keyword:</I>Pleistocene</DT>
+                  <DT>
+                    <I>Temporal_Keyword:</I>Illinoian</DT>
+                  <DT>
+                    <I>Temporal_Keyword:</I>Wisconsin</DT>
+                  <DT>
+                    <I>Temporal_Keyword:</I>Cenozoic</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Access_Constraints:</I>None.</DT>
+          <DIV>
+            <DT>
+              <I>Use_Constraints:</I>
+            </DT>
+            <PRE>The data for glacial deposits may be used provided that credit for the original (unaltered) data set is given to Allegheny College.  Users shall clearly indicate the source of the data.  Users who modify the data in any way are obligated to describe the types of modifications they have made, including modifications to hard-copy maps.  Users are not to misrepresent the Allegheny College data set, nor to imply that changes they (users) have made were approved by Allegheny College.
+
+This data set contains errors that are an artifact of the interpretation, source material, and conversion process.  The data and documentation are provided "as is".  The data set was created at a scale of 1:125,000; application of this data set should be at a scale equal to or smaller than the source scale.
+
+Allegheny College makes no warranty of representation, either express or implied, with respect to the data or accompanying documentation, including its quality, performance, or accuracy.  Allegheny College will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the user or inability to use the data or any accompanying documentation.  Users discovering errors or making corrections to the data are requested to report such errors to the Allegheny College GIS Laboratory Manager at chris.shaffer@allegheny.edu.</PRE>
+          </DIV>
+          <DT>
+            <I>Point_of_Contact:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Person_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Person:</I>Christopher L. Shaffer</DT>
+                      <DT>
+                        <I>Contact_Organization:</I>Allegheny College</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Position:</I>GIS Laboratory Manager</DT>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>520 N. Main St., Box E</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Meadville</DT>
+                      <DT>
+                        <I>State_or_Province:</I>PA</DT>
+                      <DT>
+                        <I>Postal_Code:</I>16335</DT>
+                      <DT>
+                        <I>Country:</I>United States</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>814-332-2719</DT>
+                  <DT>
+                    <I>Contact_Facsimile_Telephone:</I>814-332-2789</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>chris.shaffer@allegheny.edu</DT>
+                  <DT>
+                    <I>Hours_of_Service:</I>8:00 am - 5:00 pm, Monday through Friday</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DIV>
+            <DT>
+              <I>Data_Set_Credit:</I>
+            </DT>
+            <PRE>Contacts between lithologic units and associated attribute information are from the "Map of Glacial Deposits of Northwestern Pennsylvania" (Shepps et al., 1959).  General digital work (digitizing, attributing, and proofing) is as follows: French Creek Watershed Research Program (FCWRP) students Christina L. Baldy, David P. Stainbrook, Cody L. Switzer, and Jesse D. Thompson.  Specific digital work (transforming, adjusting, and documenting) and project oversight is as follows: Christopher L. Shaffer, GIS Laboratory Manager, Allegheny College and Rachel O'Brien, Associate Professor of Geology, Allegheny College.</PRE>
+          </DIV>
+          <DT>
+            <I>Native_Data_Set_Environment:</I>
+          </DT>
+          <DD>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3000</DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Data_Quality_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Data_Quality_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Attribute_Accuracy:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Attribute_Accuracy_Report:</I>
+                </DT>
+                <PRE>The published glacial deposits map (Shepps et al., 1959) is the basis for the polygon attributes.  Allegheny College visually compared assigned attributes against the published source map.  Based on this review, the attributes are believed to be accurate.</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DIV>
+            <DT>
+              <I>Logical_Consistency_Report:</I>
+            </DT>
+            <PRE>Complete chain-node topology is present.  The data set was checked for polygon closure, erroneous or duplicate arcs, incorrect intersections, overshoots and undershoots, label errors, and node errors.</PRE>
+          </DIV>
+          <DIV>
+            <DT>
+              <I>Completeness_Report:</I>
+            </DT>
+            <PRE>The data set represents regional surficial geology of northwestern Pennsylvania.  Contacts between lithologic units and attributes have been assigned to represent the published glacial deposits map (Shepps et al., 1959).  No changes or updates have been made in the compilation process.</PRE>
+          </DIV>
+          <DT>
+            <I>Positional_Accuracy:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Horizontal_Positional_Accuracy:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Horizontal_Positional_Accuracy_Report:</I>
+                    </DT>
+                    <PRE>The horizontal positional accuracy of the data set is that of the 1959 "Map of the Glacial Deposits of Northwestern Pennsylvania", which was compiled and published at a scale of 1:125,000.  The base map on which the 1959 map was compiled was derived from U.S. Geologic Survey topographic quadrangles.  No scale for the topographic base map was provided by Shepps et al., 1959.</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Lineage:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>V.C. Shepps, G.W. White, J.B. Droste, and R.F. Sitler</DT>
+                          <DT>
+                            <I>Publication_Date:</I>1959</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>Glacial Geology of Northwestern Pennsylvania</DD>
+                          <DT>
+                            <I>Publication_Information:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Publication_Place:</I>Harrisburg, PA</DT>
+                              <DT>
+                                <I>Publisher:</I>Topographic and Geologic Survey</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Other_Citation_Details:</I>
+                          </DT>
+                          <DD>Pennsylvania Geological Survey Bulletin G-32</DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Scale_Denominator:</I>125,000</DT>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>paper</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Single_Date/Time:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Calendar_Date:</I>1959</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>publication date</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>Shepps et al., 1959</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>Spatial extent and nature of glacial deposits as published on Plate 1, Bulletin G-32.</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>The following processing steps were completed by four Allegheny College students as part of the French Creek Watershed Research Program (FCWRP) during the summer of 2005.  Support for this work was provided by the National Science Foundation's Course, Curriculum, and Laboratory Improvement Program under grant DUE-0126808.  The base map for the glacial deposits data set is the published "Map of Glacial Deposits of Northwestern Pennsylvania" by Shepps et al., 1959.
+
+First, a hard-copy version of the Shepps et al., 1959 map was divided into northern and southern sections in order that it could be digitized on a 36" x 48", high accuracy Summagrid V digitizing tablet.  Next, the northern section of the map was placed on the digitizing tablet and four registration points were identified using latitude and longitude lines near the edges of the map.  ARC/INFO Workstation 9.1 software was then used to digitize the four registration points, the boundaries of the study area, and all contacts between lithologic units.  In addition, unique arc-ids were assigned to both the boundaries of the study area and contact lines.  Once completed, this process was repeated for the southern section of the map.
+
+After both sections of the map were digitized, the coverages were cleaned and arc-node topology was generated.  Next, the coverages were edited in order to correct node errors (overshoots and undershoots) and unassigned or incorrectly assigned arc-ids.  To ensure digitizing accuracy, 42" x 36" printouts of the digitized coverages were visually compared to the Shepps et al., 1959 map and digitizing errors were identified and corrected.  Once both coverages were deemed error free, they were transformed from digitizer (inches) units into Universal Transverse Mercator (meter) units.  After transformation, the error in horizontal accuracy far exceeded National Map Accuracy Standards for source maps at a scale of 1:125,000.  It was determined that the registration error (&gt; 500 meters) was due to inaccuracies in the published latitude and longitude lines near the edge of the map.  Instead of re-digitizing the entire map, a solution was developed.
+
+The following solution was developed and completed by the Allegheny College GIS Laboratory Manager.  Using latitude and longitude intersections, based on U.S. Geologic Survey topographic quadrangles within the original Shepps, et al., 1959 map, 16 new registration points were identified on both the northern and southern sections of the map.  These new registration points and the boundaries of the study areas were digitized into two, new coverages and transformed into UTM coordinates.  After transformation, the horizontal errors for the northern and southern sections of the map were 0.018 inches (56.127 meters) and 0.019 inches (59.401 meters) respectively.  These errors in horizontal accuracy are less than those required by the National Map Accuracy Standards for maps at a scale of 1:125,000.
+
+The Spatial Adjustment tool within ArcGIS 9.1 was then used to align the coverages containing the lithologic contact lines (RMS &gt;500m) with the coverages containing the 16 registration points and boundaries of the study areas (RMS &lt;63m).  First, both coverages were converted into geodatabase feature classes using ArcCatalog, so that they could be edited using ArcMap.  Next, the arcs within the feature class containing lithologic contact lines were aligned to the arcs in the feature class containing 16 registration points and study area boundaries using the rubber-sheet method of adjustment.  After adjusting, the arcs within the northern and southern portions of the map were merged together to create a new feature class containing all lithologic contacts within the study area.  After merging, the boundary line between the northern and southern sections of the map was removed and the new feature class was converted back into a coverage using ArcCatalog.
+
+After adjusting the data, the coverage was edited and cleaned using ARC/INFO Workstation 9.1 software in order to remove topological errors.  Next, polygon topology was generated and label points were created for each polygon within the coverage.  A unique label-id scheme was then developed in order assign each lithologic unit within the map a unique-id.  Using the label-id scheme, the label points within the coverage were then attributed accordingly.  After attributing, a large printout of the attributed coverage was visually compared to the original Shepps et al., 1959 map.  Label errors such as polygons with missing or multiple label points and attribute errors such as incorrect label-ids were identified and corrected.  Once all label errors were corrected, additional items such as glacial deposit code, epoch, epoch code, stage, stage code, unit, unit code, symbol, symbol code, description, material, and topography were added to the polygon attribute table.  These attribute items were designed to mimic that of the legend on Shepps, et al., 1959 map.  Values for the new attribute items were then attributed accordingly and polygon topology was re-built.  Finally, the attributes were visually verified to ensure accuracy and completeness and the coverage was exported as an ArcInfo export file (glacdepo_nwpa.e00).
+
+On May 24, 2010 the coverage was migrated to geodatabase format in preparation of sharing with the Pennsylvania Spatial Data Access (PASDA) Clearinghouse.  Using ArcGIS Desktop 9.3.1 the coverage polygon feature class containing lithologic contacts was exported to a file geodatabase polygon feature class and the AREA, PERIMETER, GLACDEPO_NWPA, and GLACDEPO_NWPA_ID fields were eliminated.  The metadata was then updated to reflect this change.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Source_Used_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>Shepps et al., 1959</DD>
+                  <DT>
+                    <I>Process_Date:</I>Summer 2005</DT>
+                  <DT>
+                    <I>Process_Contact:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Contact_Person_Primary:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Contact_Person:</I>Christopher L. Shaffer</DT>
+                              <DT>
+                                <I>Contact_Organization:</I>Allegheny College</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Contact_Position:</I>GIS Laboratory Manager</DT>
+                          <DT>
+                            <I>Contact_Address:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Address_Type:</I>mailing address</DT>
+                              <DIV>
+                                <DT>
+                                  <I>Address:</I>
+                                </DT>
+                                <PRE>520 N. Main St., Box E</PRE>
+                              </DIV>
+                              <DT>
+                                <I>City:</I>Meadville</DT>
+                              <DT>
+                                <I>State_or_Province:</I>PA</DT>
+                              <DT>
+                                <I>Postal_Code:</I>16335</DT>
+                              <DT>
+                                <I>Country:</I>United States</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Contact_Voice_Telephone:</I>814-332-2719</DT>
+                          <DT>
+                            <I>Contact_Facsimile_Telephone:</I>814-332-2789</DT>
+                          <DT>
+                            <I>Contact_Electronic_Mail_Address:</I>chris.shaffer@allegheny.edu</DT>
+                          <DT>
+                            <I>Hours_of_Service:</I>8:00 am - 5:00 pm, Monday through Friday</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Spatial_Data_Organization_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Spatial_Data_Organization_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Direct_Spatial_Reference_Method:</I>Vector</DT>
+          <DT>
+            <I>Point_and_Vector_Object_Information:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>SDTS_Terms_Description:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>SDTS_Point_and_Vector_Object_Type:</I>G-polygon</DT>
+                  <DT>
+                    <I>Point_and_Vector_Object_Count:</I>1595</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>SDTS_Terms_Description:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>SDTS_Point_and_Vector_Object_Type:</I>Label point</DT>
+                  <DT>
+                    <I>Point_and_Vector_Object_Count:</I>1595</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>SDTS_Terms_Description:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>SDTS_Point_and_Vector_Object_Type:</I>GT-polygon composed of chains</DT>
+                  <DT>
+                    <I>Point_and_Vector_Object_Count:</I>1595</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>SDTS_Terms_Description:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>SDTS_Point_and_Vector_Object_Type:</I>Point</DT>
+                  <DT>
+                    <I>Point_and_Vector_Object_Count:</I>0</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Spatial_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Spatial_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Horizontal_Coordinate_System_Definition:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Planar:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Grid_Coordinate_System:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Grid_Coordinate_System_Name:</I>Universal Transverse Mercator</DT>
+                      <DT>
+                        <I>Universal_Transverse_Mercator:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>UTM_Zone_Number:</I>17</DT>
+                          <DT>
+                            <I>Transverse_Mercator:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Scale_Factor_at_Central_Meridian:</I>0.999600</DT>
+                              <DT>
+                                <I>Longitude_of_Central_Meridian:</I>-81.000000</DT>
+                              <DT>
+                                <I>Latitude_of_Projection_Origin:</I>0.000000</DT>
+                              <DT>
+                                <I>False_Easting:</I>500000.000000</DT>
+                              <DT>
+                                <I>False_Northing:</I>0.000000</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Planar_Coordinate_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Planar_Coordinate_Encoding_Method:</I>coordinate pair</DT>
+                      <DT>
+                        <I>Coordinate_Representation:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Abscissa_Resolution:</I>0.000100</DT>
+                          <DT>
+                            <I>Ordinate_Resolution:</I>0.000100</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Planar_Distance_Units:</I>meters</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Geodetic_Model:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Horizontal_Datum_Name:</I>North American Datum of 1983</DT>
+                  <DT>
+                    <I>Ellipsoid_Name:</I>Geodetic Reference System 80</DT>
+                  <DT>
+                    <I>Semi-major_Axis:</I>6378137.000000</DT>
+                  <DT>
+                    <I>Denominator_of_Flattening_Ratio:</I>298.257222</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Entity_and_Attribute_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Entity_and_Attribute_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>Polygons</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>The polygons in this data set represent lithologic units.</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>Allegheny College</DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>FID</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Internal feature number.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>ESRI</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>Sequential unique whole numbers that are automatically generated.</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>Shape</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Feature geometry.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>ESRI</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>Coordinates defining the features.</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>GLADEPCODE</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>A unique 8-digit code assigned to each mapped unit. The code is a combination of four sets of numbers (EPOCODE, STACODE, UNICODE, SYMCODE).</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Allegheny College</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>EPOCODE</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>A unique 2-digit code that represents the age of the mapped unit at the Epoch scale.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Allegheny College</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>EPOCH</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>The name of the Epoch for each mapped unit.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Allegheny College</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>PLEISTOCENE</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Recent or Pre-Pleistocene</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>STACODE</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>A unique 2-digit code that represents the age of the mapped unit at the glacial scale.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Allegheny College</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>STAGE</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>The name of the stage for each mapped unit.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Allegheny College</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>ILLONOIAN</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>ILLONOIAN or WISCONSIN</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>WISCONSIN</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>&lt;Null&gt;</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>UNICODE</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>A unique 2-digit code that represents the type of surficial deposit mapped.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Allegheny College</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>UNIT</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>The name of each mapped unit as it appears on the Shepps et al., 1959 source map.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Allegheny College</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Ashtabula Till</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Hiram Till</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Inner Phase</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Kent Till</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Lavery Till</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Outer Phase</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Undifferentiated</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Undifferentiated members of units above</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>SYMCODE</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>A unique 2-digit code that represents each map symbol.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Allegheny College</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>SYMBOL</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>The assigned symbol for each map unit as it appears on the Shepps et al., 1959 source map.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Allegheny College</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>am</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>hgm</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>hm</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>ii</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>io</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>k</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>kcm</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>kflm</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>kgm</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>km</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>lgm</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>lm</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>ol</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>ud</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>DESCRIPTIO</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>MATERIAL</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>A brief description of lithologic and textural information. This appears under the heading of "Character of Material" on the Shepps et al., 1959 source map.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Allegheny College</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Bedded sand, silt, and clay; sand and gravel</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Rare patches of thin weathered till over bedrock; scattered erratics</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Sand and gravel</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Thin, discontinuous weathered till blanket</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Till (loam becoming sandy loam toward the east and southeast)</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Till (loam)</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Till (sandy loam)</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Till (silt)</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Till (silty clay to clay)</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Till (silty clay)</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>&lt;Null&gt;</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>TOPOGRAPHY</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>A brief description of landforms. This appears under the heading of "Topography" on the Shepps et al., 1959 source map.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Allegheny College</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Distinctly constructional except in Illonoian areas. Knobby; commonly in the form of ridges, terraces, or isolated mounds; kame moraines intimately mixed with end moraines</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Erosional; similar to non-glaciated area, but slightly less "rugged"</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Erosional; similar to non-glaciated area, but slightly less "rugged", rare slightly constructional patches</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Flat to gently undulating; local poorly drained areas</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Generally smooth to gently undulating; commonly nearly level or gently sloping downstream</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Level to gently undulating</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Smooth to gently undulating; undrained areas very rare</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Somewhat undulating; locally constructional; undrained areas rare</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Strongly constructional; knob and kettle topography; numerous undrained depressions</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Undulating; locally constructional; scattered undrained depressions; very week at places</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>&lt;Null&gt;</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>Shape_Leng</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>Shape_Area</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Area of feature in internal units squared.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>ESRI</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>Positive real numbers that are automatically generated.</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A NAME="EJA">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Distribution_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Distributor:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Person_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing address</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Resource_Description:</I>Downloadable Data</DT>
+          <DIV>
+            <DT>
+              <I>Distribution_Liability:</I>
+            </DT>
+            <PRE>These data files and documentation are provided "as is," and the user assumes the entire risk as to their quality and performance. 
+
+Allegheny College makes no guarantee or warranty concerning the accuracy of information contained in the geographic data or accompanying documentation.  Allegheny College further makes no warrantees, either expressed or implied, as to any other matter whatsoever, including, without limitation, the completeness or condition of the product, or its fitness for any particular purpose.  The burden for determining fitness for use lies entirely with the user. 
+
+Allegheny College makes no warranty, expressed or implied, regarding the use of the data files or accompanying documentation on any other computer system, nor does the act of distribution constitute any such warranty. 
+
+The user shall save the Allegheny College harmless from any suits, claims, or actions arising out of the use of or any defect in the data files or accompanying documentation. 
+
+Allegheny College assumes no legal liability for the accuracy, completeness, or usefulness of the data files and accompanying documentation.  In no event shall Allegheny College have any liability whatsoever for payment of any consequential, incidental, indirect, special, or tort damages of any kind, including, but not limited to, any loss of profits arising out of use of or reliance on the geographic data. 
+
+Not for commercial resale.</PRE>
+          </DIV>
+          <DT>
+            <I>Standard_Order_Process:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Digital_Form:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Digital_Transfer_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Format_Name:</I>File Geodatabase</DT>
+                      <DT>
+                        <I>Format_Version_Number:</I>9.3.1</DT>
+                      <DT>
+                        <I>Transfer_Size:</I>2.78 MB</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Digital_Transfer_Option:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Online_Option:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Computer_Contact_Information:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Network_Address:</I>
+                              </DT>
+                              <DD>
+                                <DL>
+                                </DL>
+                              </DD>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Fees:</I>Free</DT>
+            </DL>
+          </DD>
+          <DT>
+            <I>Available_Time_Period:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Time_Period_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Single_Date/Time:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Calendar_Date:</I>201802</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A NAME="EAA">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Distribution_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Distributor:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>Pennsylvania Spatial Data Access (PASDA)</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>115 Land and Water building</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>University Park</DT>
+                      <DT>
+                        <I>State_or_Province:</I>Pennsylvania</DT>
+                      <DT>
+                        <I>Postal_Code:</I>16802</DT>
+                      <DT>
+                        <I>Country:</I>United States</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>(814) 865 - 8792</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>pasda@psu.edu</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DIV>
+            <DT>
+              <I>Distribution_Liability:</I>
+            </DT>
+            <PRE>    The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.
+</PRE>
+          </DIV>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Metadata_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Metadata_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Metadata_Date:</I>20100526</DT>
+          <DT>
+            <I>Metadata_Review_Date:</I>201802</DT>
+          <DT>
+            <I>Metadata_Contact:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Person_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Person:</I>Christopher L. Shaffer</DT>
+                      <DT>
+                        <I>Contact_Organization:</I>Allegheny College</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Position:</I>GIS Laboratory Manager</DT>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>520 N. Main St., Box E</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Meadville</DT>
+                      <DT>
+                        <I>State_or_Province:</I>PA</DT>
+                      <DT>
+                        <I>Postal_Code:</I>16335</DT>
+                      <DT>
+                        <I>Country:</I>United States</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>814-332-2719</DT>
+                  <DT>
+                    <I>Contact_Facsimile_Telephone:</I>814-332-2789</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>chris.shaffer@allegheny.edu</DT>
+                  <DT>
+                    <I>Hours_of_Service:</I>8:00 am - 5:00 pm, Monday through Friday</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Metadata_Standard_Name:</I>FGDC Content Standards for Digital Geospatial Metadata</DT>
+          <DT>
+            <I>Metadata_Standard_Version:</I>FGDC-STD-001-1998</DT>
+          <DT>
+            <I>Metadata_Time_Convention:</I>local time</DT>
+          <DT>
+            <I>Metadata_Extensions:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Online_Linkage:</I>
+                <A TARGET="viewer" HREF=""></A>
+              </DT>
+              <DT>
+                <I>Profile_Name:</I>ESRI Metadata Profile</DT>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+  </BODY>
+</HTML>
+		</form>
+	</body>
+</HTML>

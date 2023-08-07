@@ -1,0 +1,1186 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+	<HEAD>
+		<title>Pennsylvania Spatial Data Access | Full Metadata</title>
+		<meta name="GENERATOR" content="Microsoft Visual Studio.NET 7.0">
+		<meta name="CODE_LANGUAGE" content="Visual Basic 7.0">
+		<meta name="vs_defaultClientScript" content="JavaScript">
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+	    <link rel="shortcut icon" href="http://maps.pasda.psu.edu/Images/favicon.ico" type="image/x-icon" />
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-41373351-5', 'psu.edu');
+          ga('send', 'pageview');
+
+        </script>
+</HEAD>
+	<body MS_POSITIONING="GridLayout">
+		<form method="post" action="./FullMetadataDisplay.aspx?file=PAMAP_DEM.xml" id="Form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEzNDA3MDMyNjVkZCi1cbXMhfZI+elmwl4oTersdOt9nxHHv5HGNLdvg2y4" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="D999016F" />
+			<HTML>
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <SCRIPT type="text/javascript">
+
+      function fix(e) {
+        var par = e.parentNode;
+        e.id = "";
+        e.style.marginLeft = "0.42in";
+        var pos = e.innerText.indexOf("\n");
+        if (pos > 0) {
+          while (pos > 0) {
+            var t = e.childNodes(0);
+            var n = document.createElement("PRE");
+            var s = t.splitText(pos);
+            e.insertAdjacentElement("afterEnd", n);
+            n.appendChild(s);
+            n.style.marginLeft = "0.42in";
+            e = n;
+            pos = e.innerText.indexOf("\n");
+          }
+          var count = (par.children.length);
+          for (var i = 0; i < count; i++) {
+            e = par.children(i);
+            if (e.tagName == "PRE") {
+              pos = e.innerText.indexOf(">");
+              if (pos != 0) {
+                n = document.createElement("DD");
+                e.insertAdjacentElement("afterEnd", n);
+                n.innerText = e.innerText;
+                e.removeNode(true);
+              }
+            }
+          }
+          if (par.children.tags("PRE").length > 0) {
+            count = (par.children.length);
+            for (i = 0; i < count; i++) {
+              e = par.children(i);
+              if (e.tagName == "PRE") {
+                e.id = "";
+                if (i < (count-1)) {
+                  var e2 = par.children(i + 1);
+                  if (e2.tagName == "PRE") {
+                    e.insertAdjacentText("beforeEnd", e2.innerText+"\n");
+                    e2.removeNode(true);
+                    count = count-1;
+                    i = i-1;
+                  }
+                }
+              }
+            }
+          }
+        }
+        else {
+          n = document.createElement("DD");
+          par.appendChild(n);
+          n.innerText = e.innerText;
+          e.removeNode(true);
+        }
+      }
+
+    </SCRIPT>
+  </HEAD>
+  <BODY oncontextmenu="return true">
+    <A name="Top">
+    </A>
+    <H2>PAMAP Program 3.2 ft Digital Elevation Model of Pennsylvania</H2>
+    <UL>
+      <LI>
+        <A HREF="#Identification_Information">Identification_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Data_Quality_Information">Data_Quality_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Spatial_Data_Organization_Information">Spatial_Data_Organization_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Spatial_Reference_Information">Spatial_Reference_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Entity_and_Attribute_Information">Entity_and_Attribute_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#ENA">
+                  Distribution_Information 
+                </A>
+      </LI>
+      <LI>
+        <A HREF="#Metadata_Reference_Information">Metadata_Reference_Information</A>
+      </LI>
+    </UL>
+    <A name="Identification_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Identification_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Citation:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Citation_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Originator:</I>PAMAP Program, PA Department of Conservation and Natural Resources, Bureau of Topographic and Geologic Survey</DT>
+                  <DT>
+                    <I>Publication_Date:</I>20061213</DT>
+                  <DT>
+                    <I>Title:</I>
+                  </DT>
+                  <DD>PAMAP Program 3.2 ft Digital Elevation Model of Pennsylvania</DD>
+                  <DT>
+                    <I>Geospatial_Data_Presentation_Form:</I>remote-sensing image</DT>
+                  <DT>
+                    <I>Publication_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Publication_Place:</I>Middletown, PA</DT>
+                      <DT>
+                        <I>Publisher:</I>PAMAP Program, PA Department of Conservation and Natural Resources, Bureau of Topographic and Geologic Survey</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Online_Linkage:</I>
+                    <A TARGET="viewer" HREF="http://www.pasda.psu.edu">http://www.pasda.psu.edu</A>
+                  </DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Abstract:</I>
+                </DT>
+                <PRE>This dataset, produced by the PAMAP Program, consists of a raster digital elevation model with a horizontal ground resolution of 3.2 feet.  The model was constructed from PAMAP LiDAR (Light Detection and Ranging) elevation points. PAMAP data are organized into blocks, which do not have gaps or overlaps, that represent 10,000 feet by 10,000 feet on the ground. The coordinate system for blocks in the northern half of the state is Pennsylvania State Plane North (datum:NAD83, units: feet); blocks in the southern half of the state are in Pennsylvania State Plane South. A block name is formed by concatenating the first four digits of the State Plane northing and easting defining the block's northwest corner, the State identifier "PA", and the State Plane zone designator "N" or "S" (e.g. 45001210PAS).</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Purpose:</I>
+                </DT>
+                <PRE>General-purpose aerial topographic survey of the Commonwealth of Pennsylvania. Topographic data are useful for a variety of scientific and resource management applications such as hydrologic modeling, resource monitoring, mapping, global change research, and landscape visualization.</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Time_Period_of_Content:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Time_Period_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Range_of_Dates/Times:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Beginning_Date:</I>20060321</DT>
+                      <DT>
+                        <I>Ending_Date:</I>20060502</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DIV>
+                <DT>
+                  <I>Currentness_Reference:</I>
+                </DT>
+                <PRE>ground condition</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Status:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Progress:</I>Complete</DT>
+              <DT>
+                <I>Maintenance_and_Update_Frequency:</I>Unknown</DT>
+            </DL>
+          </DD>
+          <DT>
+            <I>Spatial_Domain:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Bounding_Coordinates:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>West_Bounding_Coordinate:</I>-76.073628</DT>
+                  <DT>
+                    <I>East_Bounding_Coordinate:</I>-76.036594</DT>
+                  <DT>
+                    <I>North_Bounding_Coordinate:</I>41.197361</DT>
+                  <DT>
+                    <I>South_Bounding_Coordinate:</I>41.169383</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Keywords:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Theme:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Theme_Keyword_Thesaurus:</I>ISO 19115 Topic Categories</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>DEM</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>topography</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>LiDAR</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>raster grid</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>imageryBaseMapsEarthCover</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Place:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Place_Keyword_Thesaurus:</I>None</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Pennsylvania</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Access_Constraints:</I>None</DT>
+          <DIV>
+            <DT>
+              <I>Use_Constraints:</I>
+            </DT>
+            <PRE>The Originator, Publisher and Distributor exclude any and all implied warranties and make no warranty or representation with respect to the data files or accompanying documentation, including quality, performance, merchantability or fitness for a particular purpose. These data files and documentation are provided 'as is' and the User assumes the entire risk as to their quality and performance.  The Originator and Publisher, as indicated in the metadata, should be clearly cited in any product derived from this data. Any modifications to this data must be described in any digital or hardcopy product derived from this data.</PRE>
+          </DIV>
+          <DT>
+            <I>Point_of_Contact:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Person_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>PAMAP Program, PA Department of Conservation and Natural Resources, Bureau of Topographic and Geologic Survey</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Position:</I>Director</DT>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>PAMAP Program</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Middletown</DT>
+                      <DT>
+                        <I>State_or_Province:</I>PA</DT>
+                      <DT>
+                        <I>Postal_Code:</I>17057</DT>
+                      <DT>
+                        <I>Country:</I>USA</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>(717) 702-2053</DT>
+                  <DT>
+                    <I>Hours_of_Service:</I>0800-1630</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DIV>
+            <DT>
+              <I>Data_Set_Credit:</I>
+            </DT>
+            <PRE>PAMAP Program, Bureau of Topographic and Geologic Survey, PA Department of Conservation and Natural Resources</PRE>
+          </DIV>
+          <DT>
+            <I>Native_Data_Set_Environment:</I>
+          </DT>
+          <DD>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.2.5.1450</DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Data_Quality_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Data_Quality_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Attribute_Accuracy:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Attribute_Accuracy_Report:</I>
+                </DT>
+                <PRE>The accuracy of the ground control is confirmed by the evaluation of the results of the analytical bundle adjustment.  The residuals of the final adjustment ensured compliance with NSSDA standards.  The Pre Adjustment Gross Error Detection Statistical Test (Data Snooping, with a confidence level of 99.9%) have been applied to all observations included in the aerial triangulations. To detect small gross errors, during Adjustment Robust Estimators were used with the same confidence level and a power of the test of 1-beta=0.2. Systematic errors were eliminated through self calibration and through Additional Parameters. Their numerical stability, statistical significance, internal and external reliability were checked using Student-t test with the same confidence level and Variance/Co-variance analysis. Finally, the arrived variance factor C was submitted to a Chi-square test against the pre-adjustment variance factor using a confidence level 99.9%.  
+
+During the scanning of the original aerial film, the image histogram for each frame is carefully examined to ensure that the image has been scanned so that the minimum and maximum brightness values are captured to eliminate any loss of detail due to saturation of dark or light areas.  
+
+The LiDAR flying height, field of view, laser repetition rate, aircraft speed, and the maximum baseline distances from the aerial platform to the ground based GPS stations have been fine tuned to ensure an RMSEz of the processed data at the 18.5 cm level for the base earth surface as required by the FEMA guidelines.
+
+See the PAMAP Technical Proposal dated January 11, 2006 for further QA/QC procedures.
+</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DIV>
+            <DT>
+              <I>Logical_Consistency_Report:</I>
+            </DT>
+            <PRE>All files are inspected by the Production Manager to ensure that they conform to the specified file naming conventions, all files load in their correct geographic position, all files conform to the project specifications for file standard and content.</PRE>
+          </DIV>
+          <DIV>
+            <DT>
+              <I>Completeness_Report:</I>
+            </DT>
+            <PRE>All files are visually inspected for completeness to ensure that no gaps or misplacement exists in the data.  The files have been checked to ensure that the boundary and the content has been covered in its entirety.</PRE>
+          </DIV>
+          <DT>
+            <I>Positional_Accuracy:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Horizontal_Positional_Accuracy:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Horizontal_Positional_Accuracy_Report:</I>
+                    </DT>
+                    <PRE>The horizontal accuracy standard follows the NSSDA-1998 standard.  The maximum permissible RMSE for 95% of the horizontal check points for the mapping product is 5 feet or better.</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Vertical_Positional_Accuracy:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Vertical_Positional_Accuracy_Report:</I>
+                    </DT>
+                    <PRE>The vertical accuracy will meet the requirements of NSSDA at the 95% confidence interval (1.96 x RMSE).</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Lineage:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>RETTEW Associates, Inc.</DT>
+                          <DT>
+                            <I>Publication_Date:</I>20060424</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>GPS Photo Control Survey</DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>CD-ROM</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Single_Date/Time:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Calendar_Date:</I>20060424</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>ground condition</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>GPS Ground Control</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>GPS control points are used to support the acquisition of the imagery and LiDAR data.  Photo identifiable ground control points (panels) based on the control plan are utilized in the analytical aerotriangulation process.  A number of "blind-point" panels were established and used during the QA/QC check of the orthophotos, LiDAR data and contour information.  All horizontal and vertical control was prepared under the supervision of licensed Professional Land Surveyors.</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>Photo Science, Inc.</DT>
+                          <DT>
+                            <I>Publication_Date:</I>20050411</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>Color Aerial Photography</DD>
+                          <DT>
+                            <I>Geospatial_Data_Presentation_Form:</I>remote-sensing image</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Scale_Denominator:</I>19200</DT>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>filmstrip</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_of_Dates/Times:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Beginning_Date:</I>20050409</DT>
+                              <DT>
+                                <I>Ending_Date:</I>20050411</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>ground condition</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>Aerial Photography</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>Color aerial photography to be used in the creation of digital orthophotos, breaklines, and topographic contours.</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>Photo Science, Inc.</DT>
+                          <DT>
+                            <I>Publication_Date:</I>20060502</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>LiDAR</DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>disc</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_of_Dates/Times:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Beginning_Date:</I>20060321</DT>
+                              <DT>
+                                <I>Ending_Date:</I>20060502</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>Raw LiDAR</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>LiDAR elevation data used in the creation of the terrain surface.</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>Horizontal and Vertical control points were acquired utilizing GPS collection techniques.  All control was prepared under the supervision of licensed Professional Land Surveyors.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Process_Date:</I>20060424</DT>
+                  <DT>
+                    <I>Source_Produced_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>GPS Ground Control</DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>Aerial photography utilizing airborne GPS techniques was acquired with 60% forward overlap and 30% sidelap at an altitude of 9600' AMT producing a negative scale of 1" = 1600'.  Aerial photography was exposed on color negative aerial film.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Process_Date:</I>20050411</DT>
+                  <DT>
+                    <I>Source_Produced_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>Aerial Photography</DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>Softcopy aerotriangulation utilizes the GPS ground control, airborne GPS data, and image coordinate measurements which are run through bundle block adjustment software computing the exterior orientation parameters for each image of the photogrammetric project.  The original aerial film was scanned utilizing a precision photogrammetric scanner at a resolution of 12.5 microns.  Using these scans the aerotriangulation process employs a rigorous mathematical model which detects measurement errors, and corrects for systematic image distorion, film shrikage, atmospheric refraction and camera lens distortions.  The final bundle adjustment results are inspected to ensure that the RMSE meets the required 1 part in 10000.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Source_Used_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>GPS Ground Control</DD>
+                  <DT>
+                    <I>Source_Used_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>Aerial Photography</DD>
+                  <DT>
+                    <I>Process_Date:</I>20051206</DT>
+                  <DT>
+                    <I>Source_Produced_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>Analytical Aerotriangulation</DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>LiDAR collection and processing generally adhered to FEMA Guidelines and Specifications for Flood Hazard Mapping Partners, Appendix A: Guidance for Aerial Mapping &amp; Surveying, Section A.8: Airborne Light Detection and Ranging (LiDAR) Surveys.  Raw LiDAR data was collected using a sensor equipped with an airborne GPS/IMU system.  Flight lines with a 30% sidelap were flown with a nominal average LiDAR point spacing of 1.4 meters using a 43 degree field of view (full angle) at a laser pulse rate of 40.6 kHz.  The raw LiDAR data is processed and filtered to remove LiDAR points on elevated features such as vegetation, buildings, cars, etc. in order to create a bare earth surface meeting the accuracies required for orthophoto and contour generation.  </PRE>
+                  </DIV>
+                  <DT>
+                    <I>Source_Used_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>Raw LiDAR</DD>
+                  <DT>
+                    <I>Source_Used_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>GPS Ground Control</DD>
+                  <DT>
+                    <I>Process_Date:</I>20061114</DT>
+                  <DT>
+                    <I>Source_Produced_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>Processed LiDAR</DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>To supplement the LiDAR data, photogrammetrically compiled breaklines are collected along various planimetric features and significant breaks in grade.  The elevation values for the breaklines were populated from the LiDAR data maintaining the horizontal position as captured photogrammetrically.  The processed LiDAR data is combined and integrated with these breaklines to generate a final terrain surface of the project area.  This surface was then used to support the accurate generation of the orthophotos and 2' contours.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Source_Used_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>Aerial Photography</DD>
+                  <DT>
+                    <I>Source_Used_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>Analytical Aerotriangulation</DD>
+                  <DT>
+                    <I>Source_Used_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>Processed LiDAR</DD>
+                  <DT>
+                    <I>Process_Date:</I>20061127</DT>
+                  <DT>
+                    <I>Source_Produced_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>DEM</DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>The final terrain surface was used in creating an ASCII point grid.  The ASCII grid file contains the X, Y, and Z coordinates and is output with a 3.2 feet (approximately 1 meter) spacing between points.  The ASCII grid is converted to an ESRI raster grid and then into GeoTIFF format.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Source_Used_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>DEM</DD>
+                  <DT>
+                    <I>Process_Date:</I>20061127</DT>
+                  <DT>
+                    <I>Source_Produced_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>ESRI Raster Grid</DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>Metadata imported.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Source_Used_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>K:\billk\metadata\723_Luzerne_New\GeoTIFF_DEM\metadata.xml</DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Spatial_Data_Organization_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Spatial_Data_Organization_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Direct_Spatial_Reference_Method:</I>Raster</DT>
+          <DT>
+            <I>Raster_Object_Information:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Raster_Object_Type:</I>Pixel</DT>
+              <DT>
+                <I>Row_Count:</I>3125</DT>
+              <DT>
+                <I>Column_Count:</I>3125</DT>
+              <DT>
+                <I>Vertical_Count:</I>1</DT>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Spatial_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Spatial_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Horizontal_Coordinate_System_Definition:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Planar:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Map_Projection:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Map_Projection_Name:</I>Lambert Conformal Conic</DT>
+                      <DT>
+                        <I>Lambert_Conformal_Conic:</I>
+                      </DT>Lambert Conformal Conic<DD><DL><DT><I>Standard_Parallel:</I>40.883333</DT><DT><I>Standard_Parallel:</I>41.950000</DT><DT><I>Longitude_of_Central_Meridian:</I>-77.750000</DT><DT><I>Latitude_of_Projection_Origin:</I>40.166667</DT><DT><I>False_Easting:</I>1968500.000000</DT><DT><I>False_Northing:</I>0.000000</DT></DL></DD></DL>
+                  </DD>
+                  <DT>
+                    <I>Planar_Coordinate_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Planar_Coordinate_Encoding_Method:</I>row and column</DT>
+                      <DT>
+                        <I>Coordinate_Representation:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Abscissa_Resolution:</I>3.200000</DT>
+                          <DT>
+                            <I>Ordinate_Resolution:</I>3.200000</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Planar_Distance_Units:</I>survey feet</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Geodetic_Model:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Horizontal_Datum_Name:</I>North American Datum of 1983</DT>
+                  <DT>
+                    <I>Ellipsoid_Name:</I>Geodetic Reference System 80</DT>
+                  <DT>
+                    <I>Semi-major_Axis:</I>6378137.000000</DT>
+                  <DT>
+                    <I>Denominator_of_Flattening_Ratio:</I>298.257222</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Vertical_Coordinate_System_Definition:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Altitude_System_Definition:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Altitude_Datum_Name:</I>North American Vertical Datum of 1988</DT>
+                  <DT>
+                    <I>Altitude_Resolution:</I>0.00000</DT>
+                  <DT>
+                    <I>Altitude_Distance_Units:</I>feet</DT>
+                  <DT>
+                    <I>Altitude_Encoding_Method:</I>Explicit elevation coordinate included with horizontal coordinates</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Entity_and_Attribute_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Entity_and_Attribute_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>PAMAP DEM</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Overview_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Entity_and_Attribute_Overview:</I>
+                </DT>
+                <PRE>This data set consists of an ESRI Raster Grid with the following attributes: Number of Bands = 1; Cellsize (X,Y) = 3.2 x 3.2; Pixel Type = floating point; Pixel Depth = 32 Bit.</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Entity_and_Attribute_Detail_Citation:</I>
+                </DT>
+                <PRE>Where applicable, all data conforms to the PAMAP Technical Proposal dated January 11, 2006.</PRE>
+              </DIV>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A NAME="ENA">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Distribution_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Distributor:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Person_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>Pennsylvania Spatial Data Access (PASDA)</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>Pennsylvania Spatial Data Access (PASDA)</PRE>
+                      </DIV>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>Penn State Institutes of Energy and the Environment</PRE>
+                      </DIV>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>115 Land and Water Building</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>University Park</DT>
+                      <DT>
+                        <I>State_or_Province:</I>PA</DT>
+                      <DT>
+                        <I>Postal_Code:</I>16802</DT>
+                      <DT>
+                        <I>Country:</I>USA</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>814-863-0104</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>pasda@psu.edu</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Resource_Description:</I>Downloadable Data</DT>
+          <DIV>
+            <DT>
+              <I>Distribution_Liability:</I>
+            </DT>
+            <PRE>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</PRE>
+          </DIV>
+          <DT>
+            <I>Standard_Order_Process:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Digital_Form:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Digital_Transfer_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Transfer_Size:</I>0.000</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Metadata_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Metadata_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Metadata_Date:</I>20081022</DT>
+          <DT>
+            <I>Metadata_Contact:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>PAMAP Program, PA Department of Conservation and Natural Resources, Bureau of Topographic and Geologic Survey</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Position:</I>Director</DT>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>PAMAP Program</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Middletown</DT>
+                      <DT>
+                        <I>State_or_Province:</I>PA</DT>
+                      <DT>
+                        <I>Postal_Code:</I>17057</DT>
+                      <DT>
+                        <I>Country:</I>USA</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>(717) 702-2053</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Metadata_Standard_Name:</I>FGDC Content Standards for Digital Geospatial Metadata</DT>
+          <DT>
+            <I>Metadata_Standard_Version:</I>FGDC-STD-001-1998</DT>
+          <DT>
+            <I>Metadata_Time_Convention:</I>local time</DT>
+          <DT>
+            <I>Metadata_Extensions:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Online_Linkage:</I>
+                <A TARGET="viewer" HREF=""></A>
+              </DT>
+              <DT>
+                <I>Profile_Name:</I>ESRI Metadata Profile</DT>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+  </BODY>
+</HTML>
+		</form>
+	</body>
+</HTML>

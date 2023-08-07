@@ -1,0 +1,1358 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+	<HEAD>
+		<title>Pennsylvania Spatial Data Access | Full Metadata</title>
+		<meta name="GENERATOR" content="Microsoft Visual Studio.NET 7.0">
+		<meta name="CODE_LANGUAGE" content="Visual Basic 7.0">
+		<meta name="vs_defaultClientScript" content="JavaScript">
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+	    <link rel="shortcut icon" href="http://maps.pasda.psu.edu/Images/favicon.ico" type="image/x-icon" />
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-41373351-5', 'psu.edu');
+          ga('send', 'pageview');
+
+        </script>
+</HEAD>
+	<body MS_POSITIONING="GridLayout">
+		<form method="post" action="./FullMetadataDisplay.aspx?file=UPDE_ScenicRecWaterLandRef_2015.xml" id="Form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEzNDA3MDMyNjVkZCi1cbXMhfZI+elmwl4oTersdOt9nxHHv5HGNLdvg2y4" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="D999016F" />
+			<HTML>
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <SCRIPT type="text/javascript">
+
+      function fix(e) {
+        var par = e.parentNode;
+        e.id = "";
+        e.style.marginLeft = "0.42in";
+        var pos = e.innerText.indexOf("\n");
+        if (pos > 0) {
+          while (pos > 0) {
+            var t = e.childNodes(0);
+            var n = document.createElement("PRE");
+            var s = t.splitText(pos);
+            e.insertAdjacentElement("afterEnd", n);
+            n.appendChild(s);
+            n.style.marginLeft = "0.42in";
+            e = n;
+            pos = e.innerText.indexOf("\n");
+          }
+          var count = (par.children.length);
+          for (var i = 0; i < count; i++) {
+            e = par.children(i);
+            if (e.tagName == "PRE") {
+              pos = e.innerText.indexOf(">");
+              if (pos != 0) {
+                n = document.createElement("DD");
+                e.insertAdjacentElement("afterEnd", n);
+                n.innerText = e.innerText;
+                e.removeNode(true);
+              }
+            }
+          }
+          if (par.children.tags("PRE").length > 0) {
+            count = (par.children.length);
+            for (i = 0; i < count; i++) {
+              e = par.children(i);
+              if (e.tagName == "PRE") {
+                e.id = "";
+                if (i < (count-1)) {
+                  var e2 = par.children(i + 1);
+                  if (e2.tagName == "PRE") {
+                    e.insertAdjacentText("beforeEnd", e2.innerText+"\n");
+                    e2.removeNode(true);
+                    count = count-1;
+                    i = i-1;
+                  }
+                }
+              }
+            }
+          }
+        }
+        else {
+          n = document.createElement("DD");
+          par.appendChild(n);
+          n.innerText = e.innerText;
+          e.removeNode(true);
+        }
+      }
+
+    </SCRIPT>
+  </HEAD>
+  <BODY oncontextmenu="return true">
+    <A name="Top">
+    </A>
+    <H2>Upper Delaware Scenic/Recreational River (UPDE)</H2>
+    <UL>
+      <LI>
+        <A HREF="#Identification_Information">Identification_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Data_Quality_Information">Data_Quality_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Spatial_Data_Organization_Information">Spatial_Data_Organization_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Spatial_Reference_Information">Spatial_Reference_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Entity_and_Attribute_Information">Entity_and_Attribute_Information</A>
+      </LI>
+      <LI>Distribution_Information</LI>
+      <LI STYLE="margin-left:0.3in">
+        <A HREF="#ECA">
+                  Distributor 1</A>
+      </LI>
+      <LI>
+        <A HREF="#EAA">
+                  Distribution_Information 
+                </A>
+      </LI>
+      <LI>
+        <A HREF="#Metadata_Reference_Information">Metadata_Reference_Information</A>
+      </LI>
+    </UL>
+    <A name="Identification_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Identification_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Citation:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Citation_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Originator:</I>Department of the Interior (DOI), National Park Service (NPS), Land Resources Division (LRD), Fort Collins Land Resources Program Center</DT>
+                  <DT>
+                    <I>Publication_Date:</I>20151224</DT>
+                  <DT>
+                    <I>Title:</I>
+                  </DT>
+                  <DD>Upper Delaware Scenic/Recreational River (UPDE)</DD>
+                  <DT>
+                    <I>Edition:</I>20151224</DT>
+                  <DT>
+                    <I>Geospatial_Data_Presentation_Form:</I>vector digital data</DT>
+                  <DT>
+                    <I>Publication_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Publication_Place:</I>Fort Collins, CO</DT>
+                      <DT>
+                        <I>Publisher:</I>National Park Service Land Resources Division</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Online_Linkage:</I>
+                    <A TARGET="viewer" HREF="http://www.pasda.psu.edu/uci/DataSummary.aspx?dataset=3190">http://www.pasda.psu.edu/uci/DataSummary.aspx?dataset=3190</A>
+                  </DT>
+                  <DT>
+                    <I>Online_Linkage:</I>
+                    <A TARGET="viewer" HREF="http://www.pasda.psu.edu/">http://www.pasda.psu.edu/</A>
+                  </DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Abstract:</I>
+                </DT>
+                <PRE>These ESRI shape files are of National Park Service tract and boundary data that was created by the Land Resources Division. Tracts are numbered and created by the regional cartographic staff at the Land Resources Program Centers and are associated to the Land Status Maps. This data should be used to display properties that NPS owns and properties that NPS may have some type of interest such as scenic easements or right of ways. Spatial data contained herein represent the administrative boundary of the Upper Delaware Scenic & Recreational River (UPDE) as defined in the 1986 Upper Delaware Scenic & Recreational River Management Plan. The data are intended for general GIS analysis, display, planning, and reference purposes only. The spatial data contained herein are a digital representation of the Upper Delaware Scenic & Recreational River's administrative boundary. These digital data were derived from the official version of the boundary as represented in hard-copy form in the 1986 Upper Delaware Scenic & Recreational River Management Plan, as approved in the 1987 Record of Decision. The plan boundary, which was established to meet the resource protection requirements set forth in the Wild and Scenic Rvers Act and in the Special Statutory Provisions for the Upper Delaware, was delineated so as to encompass "lands from which runoff drains directly into the river and tributary drainages upstream to the first prominent topographic feature" (River Management Plan, 1986). The authoritative area of the boundary as given in the 1986 River Management Plan is 55,574.5 acres. At present, the National Park Service owns approximately 31 acres within the boundary, and the remaining land is mostly privately owned, with some state and local government holdings. The boundary was digitized based on the eight pages of maps from the River Management Plan georeferenced to 7.5 minute quadrangle topo maps from the USGS Historical Topographic Map Collection. National Park Service, Upper Delaware Scenic & Recreational River . Credits: Shannon L. Thol - Graduate Certificate in GIS, Master of Geographic Information Systems - Under contract by National Park Service, Upper Delaware Scenic & Recreational River to complete task of digitizing Upper Delaware Scenic & Recreational River's administrative boundary.</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Purpose:</I>
+                </DT>
+                <PRE>This data is intended to keep a record of ownership information. Tracts can represent several types of interest like fee and scenic easement, and can be under several types of ownership like NPS owned, private, other federal, state or county. This data set provides accurate and reliable ownership data for park management and acquisition priorities. These data were produced July 2015 based on maps from the November 1986 River Management Plan. Questions related to the laws and/or processes regarding UPDE should be directed the UPDE Superintendent: 274 River Road, Beach Lake, PA., 18405 or by phone at 570.729.8251.</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Time_Period_of_Content:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Time_Period_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Range_of_Dates/Times:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Beginning_Date:</I>20150315</DT>
+                      <DT>
+                        <I>Ending_Date:</I>20151224</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DIV>
+                <DT>
+                  <I>Currentness_Reference:</I>
+                </DT>
+                <PRE>Beginning date is the first recorded conveyance date. Ending date is set to the last day the data set was updated.</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Status:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Progress:</I>Complete</DT>
+              <DT>
+                <I>Maintenance_and_Update_Frequency:</I>Continually</DT>
+            </DL>
+          </DD>
+          <DT>
+            <I>Spatial_Domain:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Bounding_Coordinates:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>West_Bounding_Coordinate:</I>-75.291745</DT>
+                  <DT>
+                    <I>East_Bounding_Coordinate:</I>-74.727685</DT>
+                  <DT>
+                    <I>North_Bounding_Coordinate:</I>41.944903</DT>
+                  <DT>
+                    <I>South_Bounding_Coordinate:</I>41.405617</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Keywords:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Theme:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Theme_Keyword_Thesaurus:</I>None</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Boundary</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>LRDCAB</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Ownership</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Parcels</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Tracts</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Theme:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Theme_Keyword_Thesaurus:</I>ISO 19115 Topic Category</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Boundaries</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Planning Cadastre</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Theme:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Theme_Keyword_Thesaurus:</I>National Park Service Theme Category Thesaurus</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Place:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Place_Keyword_Thesaurus:</I>National Park System Unit Code Thesaurus</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Place:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Place_Keyword_Thesaurus:</I>National Park System Unit Name Thesaurus</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Place:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Place_Keyword_Thesaurus:</I>None</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Pennsylvania</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>United States</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>National Park Service</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Upper Delaware National Scenic and Recreation River</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>New York</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>NERO</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Access_Constraints:</I>None</DT>
+          <DIV>
+            <DT>
+              <I>Use_Constraints:</I>
+            </DT>
+            <PRE>NPS Director's Order #25 states: "Land status maps will be prepared to identify the ownership of the lands within the authorized boundaries of the park unit. These maps, showing ownership and acreage, are the 'official record' of the acreage of Federal and non-federal lands within the park boundaries. While these maps are the official record of the lands and acreage within the unit's authorized boundaries, they are not of survey quality and not intended to be used for survey purposes." As such this data is intended for use as a tool for GIS analysis. It is in no way intended for engineering or legal purposes. The data accuracy is checked against best available sources which may be dated and vary by location. NPS assumes no liability for use of this data. The boundary polygons LRD creates represent the current legislated boundary of a given NPS unit. NPS does not necessarily have full fee ownership or hold another interest (easement, right of way, etc...) in all parcels contained within this boundary. Equivalently NPS may own or have an interest in parcels outside the legislated boundary of a given unit. In order to obtain complete information about current NPS interests both inside and outside the units legislated boundary, the tracts file created by LRD should be used in conjunction with this boundary file created by LRD. The data are intended for general GIS analysis, display, planning and reference purposes only. They are in no way intended for engineering or legal purposes. The National Park Service shall not be held liable for improper or incorrect use of the data described and/or contained herein. These data and related graphics (i.e. GIF or JPG format files) are not legal documents and are not intended to be used as such. The information contained in these data is dynamic and may change over time. The data are not better than the original sources from which they were derived. It is the responsibility of the data user to use the data appropriately and consistent within the limitations of geospatial data in general and these data in particular. Any related graphics are intended to aid the data user in acquiring relevant data; it is not appropriate to use the related graphics as data. The National Park Service gives no warranty, expressed or implied, as to the accuracy, reliability, or completeness of these data. It is strongly recommended that these data are directly acquired from a National Park Service server and not indirectly through other sources which may have changed the data in some way. Although these data have been processed successfully on computer systems at the National Park Service, no warranty expressed or implied is made regarding the utility of the data on other systems for general or scientific purposes, nor shall the act of distribution constitute any such warranty. This disclaimer applies to individual use of the data and aggregate use with other data. The data are intended for general GIS analysis, display, planning and reference purposes only. They are in no way intended for engineering or legal purposes.</PRE>
+          </DIV>
+          <DT>
+            <I>Point_of_Contact:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>NPS - Land Resources Division, WASO-FC</DT>
+                      <DT>
+                        <I>Contact_Person:</I>Sean Carlton</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Position:</I>Cartographer</DT>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>301 S. Howes Street Suite 208</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Fort Collins</DT>
+                      <DT>
+                        <I>State_or_Province:</I>CO</DT>
+                      <DT>
+                        <I>Postal_Code:</I>80522</DT>
+                      <DT>
+                        <I>Country:</I>US</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>970-416-8529</DT>
+                  <DT>
+                    <I>Contact_Facsimile_Telephone:</I>970-484-6432</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>Sean_Carlton@nps.gov</DT>
+                  <DT>
+                    <I>Hours_of_Service:</I>7:00am-3:30pm M-F Mountain</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Native_Data_Set_Environment:</I>
+          </DT>
+          <DD>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.0.3348</DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Data_Quality_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Data_Quality_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Attribute_Accuracy:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Attribute_Accuracy_Report:</I>
+                </DT>
+                <PRE>The Tract_id, and Alpha data fields are provided by regional cartographic offices. The Date_Edit data field is added when the regional office submits the data to the Lands WASO Fort Collins office for inclusion in the national data set. All remaining tract attributes are updated from LRD's Master Deed Listing (MDL) nightly. By default the Status and Estate fields are included shape file dbf. All other MDL fields covered under the FOIA can be added to the tract dbf upon request.</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DIV>
+            <DT>
+              <I>Logical_Consistency_Report:</I>
+            </DT>
+            <PRE>Link and node polygon topology is created using AutoDesk Civil 3D 2011. The data is then exported to ESRI shape file format and reprojected from it's native Autodesk coordinate system to NAD83 generic latitude and longitude, LL83.</PRE>
+          </DIV>
+          <DIV>
+            <DT>
+              <I>Completeness_Report:</I>
+            </DT>
+            <PRE>Information contained in LRD's land ownership databases is updated nightly however tract polygons are posted to the NPS Data Store on a monthly basis. Users can ensure parcel polygons have up to date ownership attribution after the publication date by contacting your regional LRD office or downloading the Current_Tract_Ownership_Data file located on the NPS Data Store (http://science.nature.nps.gov/nrdata/) in a dBase format. Please contact the data originator with any suggested corrections and updates. LRD's boundary polygons represent the current legislated boundary of a given NPS unit. NPS does not necessarily have full fee ownership or hold another interest (easement, right of way, etc...) in all parcels contained within this boundary. Equivalently NPS may own or have an interest in parcels outside the legislated boundary of a given unit. In order to obtain complete information about current NPS interests both inside and outside the units legislated boundary, LRD's tracts files should also be downloaded and used in conjunction with LRD's boundary files. Downloaded the historical USGS source maps identified above and evaluated the quality of their georeferencing by inspecting alignment of coordinates with printed grid lines on the digital maps. All source digital data were found to have mapped latitudes and longitudes that were within 0.1 seconds of the graticule coordinates printed on the map collars. Georeferenced each spliced section of the River Management Plan maps to their corresponding HTMC map using ArcGIS for Desktop software and an adjust transformation that minimizes local and global alignment errors. Used at least 100 control points per spliced section based on well-distributed, readily identifiable features until a zero error was reported for the adjust transformation. Spliced sections were rectified to the coordinate system of the source HTMC map. Evaluated discrepancies between the location of the boundary on overlapping sections of the georeferenced 1986 Upper Delaware Scenic &amp; Recreational River Management Plan maps. Areas of discrepancies were handled as follows: • Page 1-2 south/west overlap areas: The page 1 boundary was followed through the overlap area. At the western edge of page 2, the trajectory of the page 1 boundary was continued due east approximately 27 meters until it met with the page 2 boundary at 75°11’7.334’’W, 41°51’7.738’’N. This resulted in exclusion of an approximately 52 meter stretch of the page 2 boundary that did not coincide with the trajectory of the page 1 boundary. The boundary as drawn on the georeferenced sections from the 1986 Upper Delaware Scenic &amp; Recreational River Management Plan was digitized with the map display set to 1:24,000. In accordance with the Superintendent's decision, the outside of the boundary line was followed during digitization and the overlap areas were handled as outlined above. The coordinate system of the boundary vector layer was set to that of the Page 4 N section, which is nearest the geometric center of the boundary. Splice lines in the 1986 Upper Delaware Scenic &amp; Recreational River Management Plan boundary maps were identified by visually inspecting 600 dpi scans created from the early printed edition of the hardcopy plan. Source data for the spliced River Management Plan boundary map sections were identified by systematically reviewing all 1:24,000 7.5 minute quadrangle topographic maps published by the USGS between 1965-1985 for the Upper Delaware Region: Page, Page Position = HTMC Source Map 1, NW section = PA_Hancock_170733_1965_24000 1, NE section = NY_Fishs Eddy_138154_1965_24000 1, SW section = PA_Lake Como_171007_1968_24000 1, SE section = PA_Long Eddy_172240_1965_24000 2, N section = NY_Fishs Eddy_138154_1965_24000 2, W section = PA_Long Eddy_172240_1965_24000 2, E section = NY_Callicoon_123144_1965_24000 3, N section = NY_Callicoon_123144_1965_24000 3, S section = PA_Damascus_170464_1968_24000 4, N section = PA_Damascus_170464_1968_24000 4, S section = NY_Narrowsburg_130762_1968_24000 5, NW section = NY_Narrowsburg_130762_1968_24000 5, NE section = NY_Eldred_138052_1967_24000 5, SW section = PA_Rowland_221690_1966_24000 5, SE section = PA_Shohola_221953_1965_24000 6, NW section = NY_Narrowsburg_130762_1968_24000 6, NE section = NY_Eldred_138052_1967_24000 6, SW section = PA_Rowland_221690_1966_24000 6, SE section = PA_Shohola_221953_1965_24000 7, N section = NY_Eldred_138052_1967_24000 7, W section = PA_Shohola_221953_1965_24000 7, E section = NY_Pond Eddy_129067_1965_24000 8, W section = NY_Pond Eddy_129067_1965_24000 8, E section = NY_Port Jervis North_129100_1969_24000. Page 1-2 north/east overlap areas: Boundaries drawn on page 1 and 2 do not cross in the page 1-2 overlap area. Therefore, to create a smooth transition between the boundary as drawn on page 1 and 2, a linkage was drawn between the page 1 boundary at 75°11’11.026’’W, 41°52’36.316’’N and the page 2 boundary at 75°11’8.522’’W. • Page 2-3 south/west overlap areas: As stated in the River Management Plan’s Errata number 5, “Map 2 of 8 following page 60 contains a mapping error in Machester Township … The boundary in this area is correctly shown on map 3 of 8.” Therefore, the page 3 boundary was followed throughout the page 2-3 overlap area, except at the northern terminus of page 3 where the boundary does not link to the southern terminus of the page 2 boundary. To circumvent this problem, the page 2 boundary was followed at the northern edge of the overlap between 75°7’30.041’’W, 41°49’50.203’’N and 75°7’29.935’’W, 41°49’32.276’’N. Page 2-3 north/east overlap areas: To be consistent with the River Management Plan’s Errata number 5, the page 3 boundary was followed throughout the page 2-3 overlap, except at the northern terminus of page 3 where the boundary does not link to the southern terminus of the page 2 boundary. To address this, a smooth transition was made from the page 2 boundary to the page 3 boundary between 75°5’41.395’’W, 41°50’33.197’’N and 75°5’44.696’’W, 41°50’30.767’’N, and the page 2 boundary was followed between 75°5’39.059’’W, 41°50’40.257’’N and 75°5’41.395’’W, 41°50’33.197’’N. Page 3-4 south/west overlap areas: The page 3 and 4 boundaries are consistent with one another throughout the area of overlap so no decisions had to be made about which one to follow. Page 3-4 north/east overlap areas: The page 3 and 4 boundaries are largely consistent with one another throughout the area of overlap so no decisions had to be made about which one to follow. Page 4-5 south/west overlap areas: To ensure smooth transitions to the boundary as drawn outside the area of the page 4-5 overlap, a single straight line with two end vertices was drawn between the outer edge of the page 4 boundary at the northern terminus of the overlap (75°4’53.71’’W, 41°36’44.326’’N) and the outer edge of the page 5 boundary at the southern terminus of the overlap (75°4’55.015’’W, 41°36’12.652’’N). Page 4-5 north/east overlap areas: The page 4 boundary was followed between 75°2’10.66’’W, 41°36’44.821’’N and 75°3’7.433’’W, 41°36’28.312’’N. The page 5 boundary was followed between 75°3’7.433’’W, 41°36’28.312’’N and 75°3’16.195’’W, 41°36’12.503’’N. Page 5-6 south/west overlap areas: The page 5 boundary was followed throughout the area of overlap with page 6. This is in accordance with Lackawaxen Township Resolution 2015-02 which states “that the Township hereby acknowledges and agrees the boundary for the Corridor shall be as shown on page 5 of the 1986 Final River Management Plan, instead of page 6.” Page 5-6 north/east overlap areas: The page 5 boundary was followed throughout the area of overlap with page 6. This is in accordance with Lackawaxen Township Resolution 2015-02 which states “that the Township hereby acknowledges and agrees the boundary for the Corridor shall be as shown on page 5 of the 1986 Final River Management Plan, instead of page 6.” This is also in accordance with Upper Delaware Council Resolution 2015-13 which states "Whereas, the correct and accurate representation of the Corridor boundary in Lackawaxen Township is that depicted on page 5 of 8 in the Plan". Page 6-7 south/west overlap areas: The page 6 boundary made smooth transitions to the boundary as shown outside the page 6-7 overlap at both the northern and southern termini of the area of intersection. Therefore, the page 6 boundary was followed throughout, with the exception of an approximately 600 meter curved section that is not covered by page 6. The page 7 boundary was followed in this section between 74°54’18.085’’W, 41°27’22.073’’N and 74°54’11.968’’W, 41°27’6.735’’N. Page 6-7 north/east overlap areas: To ensure smooth boundary transitions within and out of the page 6-7 overlap, the page 6 boundary was followed between 74°55’22.539’’W, 41°29’26.757’’N and 74°54’52.851’’W, 41°29’36.068’’N, and the page 7 boundary was followed between 74°54’52.851’’W, 41°29’36.068’’N and 74°54’8.928’’W, 41°28’53.47’’N. Page 7-8 south/west overlap areas: The page 7 and 8 boundaries were followed alternately throughout the area of overlap to ensure smooth transitions within and out of the area. The page 7 boundary was followed over the two non-contiguous sections: 1) between 74°49’49.561’’W, 41°25’33.582’’N and 74°49’0.366’’W, 41°25’41.826’’N, and 2) between 74°49’6.227’’W, 41°24’51.797’’N and 74°48’37.374’’W, 41°25’3.632’’N. The page 8 boundary was followed over the two non-contiguous sections: 1) between 74°49’0.366’’W, 41°25’41.826’’N and 74°49’6.227’’W, 41°24’51.797’’N, and 2) between 74°48’37.374’’W, 41°25’3.632’’N and 74°47’57.13’’W, 41°24’46.166’’N. Page 7-8 north/east overlap areas: The page 8 boundary made smooth transitions to the boundary as shown outside the page 7 -8 overlap at both the northern and southern termini of the area of intersection. The page 7 and 8 boundaries were also coincident throughout most of the area. Therefore, the page 8 boundary was followed throughout. The boundary as drawn on the georeferenced sections from the 1986 Upper Delaware Scenic &amp; Recreational River Management Plan was digitized with the map display set to 1:24,000. In accordance with the Superintendent's decision, the outside of the boundary line was followed during digitization and the overlap areas were handled as outlined above. The coordinate system of the boundary vector layer was set to that of the Page 4 N section, which is nearest the geometric center of the boundary. In cooperation with the Commonwealth of Pennsylvania, State of New York, Delaware River Basin Commission, National Park Service, and the Upper Delaware Citizens Advisory Council. Laws pertaining to UPDE: PL 95-625 Section 704- The Upper Delaware Act PL 90-542 The Wild and Scenic Rivers Act.</PRE>
+          </DIV>
+          <DT>
+            <I>Positional_Accuracy:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Horizontal_Positional_Accuracy:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Horizontal_Positional_Accuracy_Report:</I>
+                    </DT>
+                    <PRE>The Upper Delaware Scenic &amp; Recreational River's administrative boundary has not been professionally surveyed. The digital data herein are derived from the eight pages of maps in the 1986 River Management Plan, which are considered the authoritative representation of the administrative boundary. The digital data herein are limited by the accuracy of the source print data and the georeferencing and digitizing methods used in their production. Horizontal positional accuracy of the mapped data was estimated as follows: 1) The boundary as drawn on USGS 7.5' topo maps in the River Management Plan was assumed to adhere to the National Map Accuracy Standard of 90% of mapped locations being within 1/50th of an inch of their actual location (within 40 feet, or ~12.2 meters). 2) A margin of error of approximately seven pixels was estimated for the georeferencing and digitizing procedures, adding another 18.2 meter zone of uncertainty around the digitized boundary location (2.6 meter pixel size * 7 pixels = 18.2 meters). 3) Estimates of positional uncertainty from the above sources were summed and rounded to the nearest whole number (12.2 + 18.2 = 30.4 meters), arriving at a final estimate of the mapped data being within 30 meters of the actual ground location. The boundary was digitized based on the eight-page paper boundary map published in the 1986 Upper Delaware Scenic &amp; Recreational River Management Plan georeferenced to 7.5 minute quadrangle topo maps from the USGS Historical Topographic Map Collection. In accordance with the Superintendent's decision, and in order to err on the side of resource protection, the outside of the boundary line was followed during digitization. The area and perimeter attributes accompanying the spatial data are unofficial values computed using GIS tools and are based on the dataset's native coordinate system, North_American_1927_Polyconic. The authoritative area of the boundary as given in the 1986 Upper Delaware Scenic &amp; Recreational River Management Plan is 55,574.5 acres. The horizontal position of the mapped data is estimated to be within 30 meters of the actual ground location based on the National Map Accuracy Standard and observed limitations of the georeferencing and digitizing methods. Page 3-4 south/west overlap areas: The page 3 and 4 boundaries are consistent with one another throughout the area of overlap so no decisions had to be made about which one to follow.</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Vertical_Positional_Accuracy:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Vertical_Positional_Accuracy_Report:</I>
+                    </DT>
+                    <PRE>None</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Lineage:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>National Park Service - Land Resources Division</DT>
+                          <DT>
+                            <I>Publication_Date:</I>20151224</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>Segment Maps</DD>
+                          <DT>
+                            <I>Edition:</I>N/A</DT>
+                          <DT>
+                            <I>Geospatial_Data_Presentation_Form:</I>map - segment map</DT>
+                          <DT>
+                            <I>Publication_Information:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Publication_Place:</I>Fort Collins</DT>
+                              <DT>
+                                <I>Publisher:</I>Land Resources Division</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Other_Citation_Details:</I>
+                          </DT>
+                          <DD>MANDATORY IF APPLICABLE</DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Scale_Denominator:</I>0</DT>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>None</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_of_Dates/Times:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Beginning_Date:</I>19791001</DT>
+                              <DT>
+                                <I>Ending_Date:</I>19910301</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>Beginning Date represents first conveyed date. Ending date is when the data was last updated.</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>segment maps</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>tract and boundary geometry, Tract_id, Alpha</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>National Park Service - Land Resources Division</DT>
+                          <DT>
+                            <I>Publication_Date:</I>20151224</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>Legal Descriptions</DD>
+                          <DT>
+                            <I>Edition:</I>N/A</DT>
+                          <DT>
+                            <I>Geospatial_Data_Presentation_Form:</I>document - legal description</DT>
+                          <DT>
+                            <I>Publication_Information:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Publication_Place:</I>Fort Collins</DT>
+                              <DT>
+                                <I>Publisher:</I>Land Resources Division</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Other_Citation_Details:</I>
+                          </DT>
+                          <DD>MANDATORY IF APPLICABLE</DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Scale_Denominator:</I>1</DT>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>hardcopyPaper</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_of_Dates/Times:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Beginning_Date:</I>19810430</DT>
+                              <DT>
+                                <I>Ending_Date:</I>20060726</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>Beginning Date represents first conveyed date. Ending date is when the data was last updated.</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>Legal Descriptions</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>tract and boundary geometry, Tract_id, Alpha</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>National Park Service - Land Resources Division</DT>
+                          <DT>
+                            <I>Publication_Date:</I>20151224</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>Deeds</DD>
+                          <DT>
+                            <I>Edition:</I>N/A</DT>
+                          <DT>
+                            <I>Geospatial_Data_Presentation_Form:</I>document - deed</DT>
+                          <DT>
+                            <I>Publication_Information:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Publication_Place:</I>Fort Collins</DT>
+                              <DT>
+                                <I>Publisher:</I>Land Resources Division</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Other_Citation_Details:</I>
+                          </DT>
+                          <DD>MANDATORY IF APPLICABLE</DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Scale_Denominator:</I>1</DT>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>hardcopyPaper</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_of_Dates/Times:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Beginning_Date:</I>19810430</DT>
+                              <DT>
+                                <I>Ending_Date:</I>20060726</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>Beginning Date represents first conveyed date. Ending date is when the data was last updated.</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>deeds</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>tract and boundary geometry, Tract_id, Alpha</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>Information contained in LRD's land ownership databases is updated nightly however tract polygons are posted to the NPS Data Store on a monthly basis. Users can ensure parcel polygons have up to date ownership attribution after the publication date by contacting your regional LRD office or downloading the Current_Tract_Ownership_Data file located on the NPS Data Store (http://science.nature.nps.gov/nrdata/) in a dBase format. Please contact the data originator with any suggested corrections and updates. LRD's boundary polygons represent the current legislated boundary of a given NPS unit. NPS does not necessarily have full fee ownership or hold another interest (easement, right of way, etc...) in all parcels contained within this boundary. Equivalently NPS may own or have an interest in parcels outside the legislated boundary of a given unit. In order to obtain complete information about current NPS interests both inside and outside the units legislated boundary, LRD's tracts files should also be downloaded and used in conjunction with LRD's boundary files. Downloaded the historical USGS source maps identified above and evaluated the quality of their georeferencing by inspecting alignment of coordinates with printed grid lines on the digital maps. All source digital data were found to have mapped latitudes and longitudes that were within 0.1 seconds of the graticule coordinates printed on the map collars. Georeferenced each spliced section of the River Management Plan maps to their corresponding HTMC map using ArcGIS for Desktop software and an adjust transformation that minimizes local and global alignment errors. Used at least 100 control points per spliced section based on well-distributed, readily identifiable features until a zero error was reported for the adjust transformation. Spliced sections were rectified to the coordinate system of the source HTMC map. Evaluated discrepancies between the location of the boundary on overlapping sections of the georeferenced 1986 Upper Delaware Scenic &amp; Recreational River Management Plan maps. Areas of discrepancies were handled as follows: • Page 1-2 south/west overlap areas: The page 1 boundary was followed through the overlap area. At the western edge of page 2, the trajectory of the page 1 boundary was continued due east approximately 27 meters until it met with the page 2 boundary at 75°11’7.334’’W, 41°51’7.738’’N. This resulted in exclusion of an approximately 52 meter stretch of the page 2 boundary that did not coincide with the trajectory of the page 1 boundary. The boundary as drawn on the georeferenced sections from the 1986 Upper Delaware Scenic &amp; Recreational River Management Plan was digitized with the map display set to 1:24,000. In accordance with the Superintendent's decision, the outside of the boundary line was followed during digitization and the overlap areas were handled as outlined above. The coordinate system of the boundary vector layer was set to that of the Page 4 N section, which is nearest the geometric center of the boundary. The interior tracts were created through a combination of deeds, surveys, legal descriptions, as well as on-screen digitization. Tracts that did not have any deed, legal, or survey were on-screen digitized from the previous set of UPDE segment maps. Smaller scale maps have a larger level of inaccuracy. It is assumed that the boundary and tract information meets National Map Accuracy Standards and should be considered no better than the listed sources. The Autodesk line work is imported, edited, attributed, approved, and a link and node topology is developed both for the tract and boundary data layers according to the procedures described in the Land Acquisition Procedures Manual Chapter 5. The entire unit is created in a geographically contiguous model space and separate layouts representing each individual segment map are created. The tract and boundary data is then reprojected to North American Datum 1983 generic latitude &amp; longitude and exported from Autodesk to an ArcView shape file format in a single step.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Source_Used_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>USDA NAIP</DD>
+                  <DT>
+                    <I>Source_Used_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>Surveys</DD>
+                  <DT>
+                    <I>Source_Used_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>Deeds</DD>
+                  <DT>
+                    <I>Source_Used_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>USGS TOPO Quads</DD>
+                  <DT>
+                    <I>Process_Contact:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Contact_Organization_Primary:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Contact_Organization:</I>NPS Land Resources Division, WASO-FC</DT>
+                              <DT>
+                                <I>Contact_Person:</I>Sean Carlton</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Contact_Position:</I>Cartographer</DT>
+                          <DT>
+                            <I>Contact_Address:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Address_Type:</I>mailing and physical</DT>
+                              <DIV>
+                                <DT>
+                                  <I>Address:</I>
+                                </DT>
+                                <PRE>301 S. Howes Street Suite 208</PRE>
+                              </DIV>
+                              <DT>
+                                <I>City:</I>Fort Collins</DT>
+                              <DT>
+                                <I>State_or_Province:</I>CO</DT>
+                              <DT>
+                                <I>Postal_Code:</I>80522</DT>
+                              <DT>
+                                <I>Country:</I>US</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Contact_Voice_Telephone:</I>970-416-8529</DT>
+                          <DT>
+                            <I>Contact_Facsimile_Telephone:</I>970-484-6432</DT>
+                          <DT>
+                            <I>Contact_Electronic_Mail_Address:</I>Sean_Carlton@nps.gov</DT>
+                          <DT>
+                            <I>Hours_of_Service:</I>7:00am-3:30pm M-F Mountain</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Spatial_Data_Organization_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Spatial_Data_Organization_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Direct_Spatial_Reference_Method:</I>Vector</DT>
+          <DT>
+            <I>Point_and_Vector_Object_Information:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>SDTS_Terms_Description:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>SDTS_Point_and_Vector_Object_Type:</I>GT-polygon composed of chains</DT>
+                  <DT>
+                    <I>Point_and_Vector_Object_Count:</I>1</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Spatial_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Spatial_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Horizontal_Coordinate_System_Definition:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Geographic:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Latitude_Resolution:</I>8.9831528411952133e-009</DT>
+                  <DT>
+                    <I>Longitude_Resolution:</I>8.9831528411952133e-009</DT>
+                  <DT>
+                    <I>Geographic_Coordinate_Units:</I>Decimal Degrees</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Geodetic_Model:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Horizontal_Datum_Name:</I>D North American 1983</DT>
+                  <DT>
+                    <I>Ellipsoid_Name:</I>GRS 1980</DT>
+                  <DT>
+                    <I>Semi-major_Axis:</I>6378137.0</DT>
+                  <DT>
+                    <I>Denominator_of_Flattening_Ratio:</I>298.257222101</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Entity_and_Attribute_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Entity_and_Attribute_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>upde_boundary</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>Shapefile Attribute Table</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>None</DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>FID</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Internal feature number.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Esri</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>Sequential unique whole numbers that are automatically generated.</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>Shape</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Feature geometry.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Esri</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>Coordinates defining the features.</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>Unit_Code</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Overview_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Entity_and_Attribute_Overview:</I>
+                </DT>
+                <PRE>Attributes were created according to the National Park Service, Land Resources Division, Land Acquisition Procedures (LAPS).</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Entity_and_Attribute_Detail_Citation:</I>
+                </DT>
+                <PRE>"Land Acquisition Procedures (LAPS)", Mapping Standards - Chapter 5, revised 2009.</PRE>
+              </DIV>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A NAME="ECA">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Distribution_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Distributor:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>NPS - Land Resources Division, WASO-FC</DT>
+                      <DT>
+                        <I>Contact_Person:</I>Roger Johnson</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Position:</I>Chief Cartographer</DT>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>301 South Howes Street Suite 208</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Fort Collins</DT>
+                      <DT>
+                        <I>State_or_Province:</I>CO</DT>
+                      <DT>
+                        <I>Postal_Code:</I>80522</DT>
+                      <DT>
+                        <I>Country:</I>US</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>970-484-6428</DT>
+                  <DT>
+                    <I>Contact_Facsimile_Telephone:</I>970-484-6432</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>roger_m_johnson@nps.gov</DT>
+                  <DT>
+                    <I>Hours_of_Service:</I>7:00am-5:30pm Mountain Monday-Thursday</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Resource_Description:</I>upde.shp and upde_boundary.shp</DT>
+          <DIV>
+            <DT>
+              <I>Distribution_Liability:</I>
+            </DT>
+            <PRE>Property ownership data is compiled from deeds, plats, surveys, and other source data. These are not engineering quality drawings and should be used for administrative purposes only. The National Park Service shall not be held liable for improper or incorrect use of the data described and/or contained herein. These data and related graphics are not legal documents and are not intended to be used as such. The information contained in these data is dynamic and may change over time. The data are not better than the original sources from which they were derived. It is the responsibility of the data user to use the data appropriately and consistent within the limitations of geospatial data in general and these data in particular. The related graphics are intended to aid the data user in acquiring relevant data; it is not appropriate to use the related graphics as data. The National Park Service gives no warranty, expressed or implied, as to the accuracy, reliability, or completeness of these data. It is strongly recommended that these data are directly acquired from an NPS server and not indirectly through other sources which may have changed the data in some way. Although these data have been processed successfully on a computer system at the National Park Service, no warranty expressed or implied is made regarding the utility of the data on another system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. This disclaimer applies both to individual use of the data and aggregate use with other data.</PRE>
+          </DIV>
+          <DT>
+            <I>Standard_Order_Process:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Digital_Form:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Digital_Transfer_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Format_Name:</I>ESRI Shapefile</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Digital_Transfer_Option:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Online_Option:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Computer_Contact_Information:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Network_Address:</I>
+                              </DT>
+                              <DD>
+                                <DL>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://nrdata.nps.gov/programs/Lands/upde_tracts.zip">http://nrdata.nps.gov/programs/Lands/upde_tracts.zip</A>
+                                  </DT>
+                                </DL>
+                              </DD>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Fees:</I>None</DT>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A NAME="EAA">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Distribution_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Distributor:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>Pennsylvania Spatial Data Access (PASDA)</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>115 Land &amp; Water Research Building</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>University Park</DT>
+                      <DT>
+                        <I>State_or_Province:</I>Pennsylvania</DT>
+                      <DT>
+                        <I>Postal_Code:</I>16802</DT>
+                      <DT>
+                        <I>Country:</I>United States</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>(814) 865 - 8792</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>pasda@psu.edu</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DIV>
+            <DT>
+              <I>Distribution_Liability:</I>
+            </DT>
+            <PRE>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</PRE>
+          </DIV>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Metadata_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Metadata_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Metadata_Date:</I>20160913</DT>
+          <DT>
+            <I>Metadata_Contact:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>NPS Land Resources Division, Fort Collins</DT>
+                      <DT>
+                        <I>Contact_Person:</I>Sean Carlton</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Position:</I>Cartographer</DT>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>301 S. Howes Street Suite 208</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Fort Collins</DT>
+                      <DT>
+                        <I>State_or_Province:</I>CO</DT>
+                      <DT>
+                        <I>Postal_Code:</I>80522</DT>
+                      <DT>
+                        <I>Country:</I>US</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>970-416-8529</DT>
+                  <DT>
+                    <I>Contact_Facsimile_Telephone:</I>970-484-6432</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>Sean_Carlton@nps.gov</DT>
+                  <DT>
+                    <I>Hours_of_Service:</I>7:00am-3:30pm M-F Mountain</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Metadata_Standard_Name:</I>FGDC Content Standard for Digital Geospatial Metadata</DT>
+          <DT>
+            <I>Metadata_Standard_Version:</I>FGDC-STD-001-1998</DT>
+          <DT>
+            <I>Metadata_Time_Convention:</I>local time</DT>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+  </BODY>
+</HTML>
+		</form>
+	</body>
+</HTML>

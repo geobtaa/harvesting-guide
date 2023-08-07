@@ -1,0 +1,2320 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+	<HEAD>
+		<title>Pennsylvania Spatial Data Access | Full Metadata</title>
+		<meta name="GENERATOR" content="Microsoft Visual Studio.NET 7.0">
+		<meta name="CODE_LANGUAGE" content="Visual Basic 7.0">
+		<meta name="vs_defaultClientScript" content="JavaScript">
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+	    <link rel="shortcut icon" href="http://maps.pasda.psu.edu/Images/favicon.ico" type="image/x-icon" />
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-41373351-5', 'psu.edu');
+          ga('send', 'pageview');
+
+        </script>
+</HEAD>
+	<body MS_POSITIONING="GridLayout">
+		<form method="post" action="./FullMetadataDisplay.aspx?file=IncomeEmployment1991_1992.xml" id="Form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEzNDA3MDMyNjVkZCi1cbXMhfZI+elmwl4oTersdOt9nxHHv5HGNLdvg2y4" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="D999016F" />
+			<HTML>
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <SCRIPT type="text/javascript">
+
+      function fix(e) {
+        var par = e.parentNode;
+        e.id = "";
+        e.style.marginLeft = "0.42in";
+        var pos = e.innerText.indexOf("\n");
+        if (pos > 0) {
+          while (pos > 0) {
+            var t = e.childNodes(0);
+            var n = document.createElement("PRE");
+            var s = t.splitText(pos);
+            e.insertAdjacentElement("afterEnd", n);
+            n.appendChild(s);
+            n.style.marginLeft = "0.42in";
+            e = n;
+            pos = e.innerText.indexOf("\n");
+          }
+          var count = (par.children.length);
+          for (var i = 0; i < count; i++) {
+            e = par.children(i);
+            if (e.tagName == "PRE") {
+              pos = e.innerText.indexOf(">");
+              if (pos != 0) {
+                n = document.createElement("DD");
+                e.insertAdjacentElement("afterEnd", n);
+                n.innerText = e.innerText;
+                e.removeNode(true);
+              }
+            }
+          }
+          if (par.children.tags("PRE").length > 0) {
+            count = (par.children.length);
+            for (i = 0; i < count; i++) {
+              e = par.children(i);
+              if (e.tagName == "PRE") {
+                e.id = "";
+                if (i < (count-1)) {
+                  var e2 = par.children(i + 1);
+                  if (e2.tagName == "PRE") {
+                    e.insertAdjacentText("beforeEnd", e2.innerText+"\n");
+                    e2.removeNode(true);
+                    count = count-1;
+                    i = i-1;
+                  }
+                }
+              }
+            }
+          }
+        }
+        else {
+          n = document.createElement("DD");
+          par.appendChild(n);
+          n.innerText = e.innerText;
+          e.removeNode(true);
+        }
+      }
+
+    </SCRIPT>
+  </HEAD>
+  <BODY oncontextmenu="return true">
+    <A name="Top">
+    </A>
+    <H2>Income and Employment, 1991-1992</H2>
+    <UL>
+      <LI>
+        <A HREF="#Identification_Information">Identification_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Data_Quality_Information">Data_Quality_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Spatial_Data_Organization_Information">Spatial_Data_Organization_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Spatial_Reference_Information">Spatial_Reference_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Entity_and_Attribute_Information">Entity_and_Attribute_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#EDA">
+                  Distribution_Information 
+                </A>
+      </LI>
+      <LI>
+        <A HREF="#Metadata_Reference_Information">Metadata_Reference_Information</A>
+      </LI>
+    </UL>
+    <A name="Identification_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Identification_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Citation:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Citation_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Originator:</I>U.S. Department of Commerce</DT>
+                  <DT>
+                    <I>Publication_Date:</I>200603</DT>
+                  <DT>
+                    <I>Title:</I>
+                  </DT>
+                  <DD>Income and Employment, 1991-1992</DD>
+                  <DT>
+                    <I>Geospatial_Data_Presentation_Form:</I>vector digital data</DT>
+                  <DT>
+                    <I>Publication_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Publication_Place:</I>Reston, VA</DT>
+                      <DT>
+                        <I>Publisher:</I>National Atlas of the United States</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Online_Linkage:</I>
+                    <A TARGET="viewer" HREF="http://nationalatlas.gov/">http://nationalatlas.gov/</A>
+                  </DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Abstract:</I>
+                </DT>
+                <PRE>
+This map layer portrays 1991 and 1992 estimates for total personal
+income, per capita personal income, annual number of full-time and part-
+time jobs, average wage per job in dollars, population, and per capita
+number of jobs, for counties in the United States.
+
+Total personal income is all the income that is received by, or on behalf
+of, the residents of a particular area.  It is calculated as the sum of
+wage and salary disbursements, other labor income, proprietors' income
+with inventory valuation and capital consumption adjustments, rental
+income of persons with capital consumption adjustment, personal dividend
+income, personal interest income, and transfer payments to persons, minus
+personal contributions for social insurance.
+
+Per capita personal income is calculated as the total personal income of
+the residents of a county divided by the resident population of the
+county.  The Census Bureau's annual midyear population estimates were used
+in the computation.
+
+The average annual number of full-time and part-time jobs includes all
+jobs for which wages and salaries are paid, except jury and witness
+service and paid employment of prisoners. The jobs are counted at equal
+weight, and employees, sole proprietors, and active partners are all
+included.  Unpaid family workers and volunteers are not included.
+
+Average wage per job is the wage and salary disbursements divided by the
+number of wage and salary jobs in the county.  Wage and salary
+disbursements consist of the monetary remuneration of employees, including
+the compensation of corporate officers; commissions, tips, and bonuses;
+and receipts in kind, or pay-in-kind, such as the meals furnished to the
+employees of restaurants.  It reflects the amount of payments disbursed,
+but not necessarily earned during the year.
+
+Per capita number of jobs is calculated as the average annual number of
+full-time and part-time jobs in a county divided by the resident
+population of the county.  The Census Bureau's annual midyear population
+estimates were used in the computation.
+
+All dollar estimates are in current dollars, not adjusted for inflation.
+The information in this map layer comes from the Regional Economic
+Information System (REIS) that is distributed by the Bureau of Economic
+Analysis, http://www.bea.gov/.
+
+This is an updated version of the November 2004 map layer.
+</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Purpose:</I>
+                </DT>
+                <PRE>These data are intended for geographic display and analysis at the national level, and for large regional areas. The data should be displayed and analyzed at scales appropriate for 1:2,000,000-scale data. No responsibility is assumed by the National Atlas of the United States in the use of these data.</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Time_Period_of_Content:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Time_Period_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Range_of_Dates/Times:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Beginning_Date:</I>1991</DT>
+                      <DT>
+                        <I>Ending_Date:</I>1992</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DIV>
+                <DT>
+                  <I>Currentness_Reference:</I>
+                </DT>
+                <PRE>ground condition</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Status:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Progress:</I>Complete</DT>
+              <DT>
+                <I>Maintenance_and_Update_Frequency:</I>None planned</DT>
+            </DL>
+          </DD>
+          <DT>
+            <I>Spatial_Domain:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Bounding_Coordinates:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>West_Bounding_Coordinate:</I>-179.133392</DT>
+                  <DT>
+                    <I>East_Bounding_Coordinate:</I>179.788208</DT>
+                  <DT>
+                    <I>North_Bounding_Coordinate:</I>71.398048</DT>
+                  <DT>
+                    <I>South_Bounding_Coordinate:</I>18.915493</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Keywords:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Theme:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Theme_Keyword_Thesaurus:</I>ISO 19115 Topic Category</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Economy</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Society</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Theme:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Theme_Keyword_Thesaurus:</I>None</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Income</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Personal income</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Per capita income</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Employment</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Wage and salary employment</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Jobs</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Full-time jobs</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Part-time jobs</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Wages</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Average wage</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Disbursements</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Per capita number of jobs</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Population</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Place:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Place_Keyword_Thesaurus:</I>
+U.S. Department of Commerce, 1995, Countries, Dependencies, Areas of
+Special Sovereignty, and Their Principal Administrative Divisions
+(Federal Information Processing Standard (FIPS) 10-4): Washington, DC,
+National Institute of Standards and Technology.
+</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>United States</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Place:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Place_Keyword_Thesaurus:</I>None</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>USA</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Place:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Place_Keyword_Thesaurus:</I>
+U.S. Department of Commerce, 1987, Codes for the Identification of the
+States, the District of Columbia and the Outlying Areas of The United
+States, and Associated Areas (Federal Information Processing Standard
+5-2):  Washington, DC, National Institute of Standards and Technology.
+</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Alabama</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Alaska</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Arizona</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Arkansas</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>California</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Colorado</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Connecticut</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Delaware</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>District of Columbia</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Florida</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Georgia</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Hawaii</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Idaho</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Illinois</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Indiana</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Iowa</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Kansas</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Kentucky</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Louisiana</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Maine</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Maryland</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Massachusetts</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Michigan</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Minnesota</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Mississippi</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Missouri</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Montana</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Nebraska</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Nevada</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>New Hampshire</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>New Jersey</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>New Mexico</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>New York</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>North Carolina</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>North Dakota</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Ohio</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Oklahoma</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Oregon</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Pennsylvania</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Rhode Island</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>South Carolina</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>South Dakota</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Tennessee</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Texas</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Utah</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Vermont</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Virginia</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Washington</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>West Virginia</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Wisconsin</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Wyoming</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Access_Constraints:</I>None</DT>
+          <DIV>
+            <DT>
+              <I>Use_Constraints:</I>
+            </DT>
+            <PRE>
+None.  Acknowledgment of the National Atlas of the United States of America
+would be appreciated in products derived from these data.
+</PRE>
+          </DIV>
+          <DT>
+            <I>Point_of_Contact:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Person_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Person:</I>Gita Urban-Mathieux</DT>
+                      <DT>
+                        <I>Contact_Organization:</I>National Atlas of the United States</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>Mailing address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>12201 Sunrise Valley Dr</PRE>
+                      </DIV>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>MS 561</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Reston</DT>
+                      <DT>
+                        <I>State_or_Province:</I>VA</DT>
+                      <DT>
+                        <I>Postal_Code:</I>20192</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>703-648-5175</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>atlasmail@usgs.gov</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Native_Data_Set_Environment:</I>
+          </DT>
+          <DD>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.0.0.535</DD>
+          <DT>
+            <I>Cross_Reference:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Citation_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Originator:</I>National Atlas of the United States</DT>
+                  <DT>
+                    <I>Publication_Date:</I>200603</DT>
+                  <DT>
+                    <I>Title:</I>
+                  </DT>
+                  <DD>Income and Employment in the United States, 1979-1981</DD>
+                  <DT>
+                    <I>Publication_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Publication_Place:</I>Reston, VA</DT>
+                      <DT>
+                        <I>Publisher:</I>National Atlas of the United States</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Online_Linkage:</I>
+                    <A TARGET="viewer" HREF="http://nationalatlas.gov/atlasftp.html?openChapters=chppeopl#chppeopl">http://nationalatlas.gov/atlasftp.html?openChapters=chppeopl#chppeopl</A>
+                  </DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Cross_Reference:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Citation_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Originator:</I>National Atlas of the United States</DT>
+                  <DT>
+                    <I>Publication_Date:</I>200603</DT>
+                  <DT>
+                    <I>Title:</I>
+                  </DT>
+                  <DD>Income and Employment in the United States, 1982</DD>
+                  <DT>
+                    <I>Publication_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Publication_Place:</I>Reston, VA</DT>
+                      <DT>
+                        <I>Publisher:</I>National Atlas of the United States</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Online_Linkage:</I>
+                    <A TARGET="viewer" HREF="http://nationalatlas.gov/atlasftp.html?openChapters=chppeopl#chppeopl">http://nationalatlas.gov/atlasftp.html?openChapters=chppeopl#chppeopl</A>
+                  </DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Cross_Reference:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Citation_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Originator:</I>National Atlas of the United States</DT>
+                  <DT>
+                    <I>Publication_Date:</I>200603</DT>
+                  <DT>
+                    <I>Title:</I>
+                  </DT>
+                  <DD>Income and Employment in the United States, 1983-1987</DD>
+                  <DT>
+                    <I>Publication_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Publication_Place:</I>Reston, VA</DT>
+                      <DT>
+                        <I>Publisher:</I>National Atlas of the United States</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Online_Linkage:</I>
+                    <A TARGET="viewer" HREF="http://nationalatlas.gov/atlasftp.html?openChapters=chppeopl#chppeopl">http://nationalatlas.gov/atlasftp.html?openChapters=chppeopl#chppeopl</A>
+                  </DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Cross_Reference:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Citation_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Originator:</I>National Atlas of the United States</DT>
+                  <DT>
+                    <I>Publication_Date:</I>200603</DT>
+                  <DT>
+                    <I>Title:</I>
+                  </DT>
+                  <DD>Income and Employment in the United States, 1988</DD>
+                  <DT>
+                    <I>Publication_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Publication_Place:</I>Reston, VA</DT>
+                      <DT>
+                        <I>Publisher:</I>National Atlas of the United States</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Online_Linkage:</I>
+                    <A TARGET="viewer" HREF="http://nationalatlas.gov/atlasftp.html?openChapters=chppeopl#chppeopl">http://nationalatlas.gov/atlasftp.html?openChapters=chppeopl#chppeopl</A>
+                  </DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Cross_Reference:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Citation_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Originator:</I>National Atlas of the United States</DT>
+                  <DT>
+                    <I>Publication_Date:</I>200603</DT>
+                  <DT>
+                    <I>Title:</I>
+                  </DT>
+                  <DD>Income and Employment in the United States, 1989-1990</DD>
+                  <DT>
+                    <I>Publication_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Publication_Place:</I>Reston, VA</DT>
+                      <DT>
+                        <I>Publisher:</I>National Atlas of the United States</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Online_Linkage:</I>
+                    <A TARGET="viewer" HREF="http://nationalatlas.gov/atlasftp.html?openChapters=chppeopl#chppeopl">http://nationalatlas.gov/atlasftp.html?openChapters=chppeopl#chppeopl</A>
+                  </DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Cross_Reference:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Citation_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Originator:</I>National Atlas of the United States</DT>
+                  <DT>
+                    <I>Publication_Date:</I>200603</DT>
+                  <DT>
+                    <I>Title:</I>
+                  </DT>
+                  <DD>Income and Employment in the United States, 1993-2001</DD>
+                  <DT>
+                    <I>Publication_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Publication_Place:</I>Reston, VA</DT>
+                      <DT>
+                        <I>Publisher:</I>National Atlas of the United States</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Online_Linkage:</I>
+                    <A TARGET="viewer" HREF="http://nationalatlas.gov/atlasftp.html?openChapters=chppeopl#chppeopl">http://nationalatlas.gov/atlasftp.html?openChapters=chppeopl#chppeopl</A>
+                  </DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Cross_Reference:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Citation_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Originator:</I>National Atlas of the United States</DT>
+                  <DT>
+                    <I>Publication_Date:</I>200603</DT>
+                  <DT>
+                    <I>Title:</I>
+                  </DT>
+                  <DD>Income and Employment in the United States, 2002-2003</DD>
+                  <DT>
+                    <I>Publication_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Publication_Place:</I>Reston, VA</DT>
+                      <DT>
+                        <I>Publisher:</I>National Atlas of the United States</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Online_Linkage:</I>
+                    <A TARGET="viewer" HREF="&#xD;&#xA;http://nationalatlas.gov/atlasftp.html?openChapters=chppeopl#chppeopl&#xD;&#xA;">
+http://nationalatlas.gov/atlasftp.html?openChapters=chppeopl#chppeopl
+</A>
+                  </DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Data_Quality_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Data_Quality_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DIV>
+            <DT>
+              <I>Logical_Consistency_Report:</I>
+            </DT>
+            <PRE>
+The map layer was checked for topological consistency using the ArcInfo
+command BUILD.  No other checks for logical consistency were performed on
+this map layer.
+</PRE>
+          </DIV>
+          <DIV>
+            <DT>
+              <I>Completeness_Report:</I>
+            </DT>
+            <PRE>
+This map layer includes estimates from the Bureau of Economic Analysis,
+Economic and Statistics Administration, U.S. Department of Commerce for
+total personal income, per capita personal income, annual number of full-
+time and part-time jobs, average wage per job in dollars, population, and
+per capita number of jobs.  It is based on county data for all 50 States
+and the District of Columbia and is for the years 1991 and 1992.
+</PRE>
+          </DIV>
+          <DT>
+            <I>Lineage:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>National Atlas of the United States</DT>
+                          <DT>
+                            <I>Publication_Date:</I>200207</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>1990 County Boundaries of the United States</DD>
+                          <DT>
+                            <I>Publication_Information:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Publication_Place:</I>Reston, VA</DT>
+                              <DT>
+                                <I>Publisher:</I>National Atlas of the United States</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Scale_Denominator:</I>2000000</DT>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>Online</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Single_Date/Time:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Calendar_Date:</I>200207</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>publication date</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>ATLAS-1990CNTY</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>Spatial and attribute information</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>
+Bureau of Economic Analysis, Economic and Statistics
+Administration, U.S. Department of Commerce
+</DT>
+                          <DT>
+                            <I>Publication_Date:</I>200406</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>Regional Economic Information System, 1969-2002</DD>
+                          <DT>
+                            <I>Publication_Information:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Publication_Place:</I>Washington, DC</DT>
+                              <DT>
+                                <I>Publisher:</I>Bureau of Economic Analysis</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>CD-ROM</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Single_Date/Time:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Calendar_Date:</I>200406</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>Publication date</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>BEA-REIS2004</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>Spatial and attribute information</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>National Atlas of the United States</DT>
+                          <DT>
+                            <I>Publication_Date:</I>200411</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>Income and Employment in the United States, 1991-1992</DD>
+                          <DT>
+                            <I>Publication_Information:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Publication_Place:</I>Reston, VA</DT>
+                              <DT>
+                                <I>Publisher:</I>National Atlas of the United States</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Scale_Denominator:</I>2000000</DT>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>Online</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Single_Date/Time:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Calendar_Date:</I>200411</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>Publication date</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>ATLAS-INCOME_92_04</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>Spatial and attribute information</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>
+Bureau of Economic Analysis, Economic and Statistics
+Administration, U.S. Department of Commerce
+</DT>
+                          <DT>
+                            <I>Publication_Date:</I>200505</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>Regional Economic Information System, 1969-2003</DD>
+                          <DT>
+                            <I>Publication_Information:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Publication_Place:</I>Washington, DC</DT>
+                              <DT>
+                                <I>Publisher:</I>Bureau of Economic Analysis</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>CD-ROM</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Single_Date/Time:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Calendar_Date:</I>200505</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>Publication date</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>BEA-REIS2005</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>Attribute information</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>
+ATLAS-1990CNTY was edited to reflect the boundaries in effect in 1989
+and 1990.  In Alaska the Denali Borough was added.  Yellowstone National
+Park was merged into adjacent Park and Gallatin counties in Montana.
+Information in the file ECONLIST.PRN on BEA-REIS2004 was used to merge
+the following counties and cities in Virginia:
+&gt; Albemarle County and Charlottesville
+&gt; Alleghany County, Clifton Forge, and Covington
+&gt; Augusta County, Staunton, and Waynesboro
+&gt; Bedford County and Bedford city
+&gt; Campbell County and Lynchburg
+&gt; Carroll County and Galax
+&gt; Dinwiddie County, Colonial Heights, and Petersburg
+&gt; Fairfax County, Fairfax City, and Falls Church
+&gt; Frederick County and Winchester
+&gt; Greensville County and Emporia
+&gt; Henry County and Martinsville
+&gt; James City County and Williamsburg
+&gt; Montgomery County and Radford
+&gt; Pittsylvania County and Danville
+&gt; Prince George County and Hopewell
+&gt; Prince William County, Manassas, and Manassas Park
+&gt; Roanoke County and Salem
+&gt; Rockbridge County, Buena Vista, and Lexington
+&gt; Rockingham County and Harrisonburg
+&gt; Southampton County and Franklin
+&gt; Halifax County and South Boston
+&gt; Spotsylvania County and Fredericksburg
+&gt; Washington County and Bristol
+&gt; Wise County and Norton
+&gt; York County and Poquoson
+&gt;
+From BEA-REIS2004, the files containing total personal income, per
+capita personal income, annual number of full-time and part-time jobs,
+and average wage per job information (ca13.dfx and ca34.dfx) were
+extracted and loaded into a Microsoft Access database and then exported
+to text files. The text files were loaded into ArcView and records
+containing personal income, per capita personal income, annual number
+of full-time and part-time jobs, and average wage per job information
+were extracted and joined to the edited ATLAS-1990CNTY map layer.  The
+resulting file was saved as a shapefile.
+</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Source_Used_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>ATLAS-1990CNTY</DD>
+                  <DT>
+                    <I>Source_Used_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>BEA-REIS2004</DD>
+                  <DT>
+                    <I>Process_Date:</I>200410</DT>
+                  <DT>
+                    <I>Source_Produced_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>ATLAS-INCOME_92_04</DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>
+From BEA-REIS2005, the file containing population (ca13.dfx) was
+extracted and loaded into Microsoft Excel.  The records containing
+population were selected and exported to a text file.  The text file
+was loaded into ArcView and joined to the ATLAS-INCOME_92_04 map layer.
+Fields to hold the per capita number of jobs for each year (1991-1992)
+were added.  The per capita number of jobs was calculated by dividing
+population of the county into the average annual number of full-time
+and part-time jobs.
+</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Source_Used_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>ATLAS-INCOME_92_04</DD>
+                  <DT>
+                    <I>Source_Used_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>BEA-REIS2005</DD>
+                  <DT>
+                    <I>Process_Date:</I>200512</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>Metadata imported.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Source_Used_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>C:\DOCUME~1\jfs126\LOCALS~1\Temp\xml26.tmp</DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Spatial_Data_Organization_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Spatial_Data_Organization_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Indirect_Spatial_Reference_Method:</I>
+          </DT>
+          <DD>
+U.S. Department of Commerce, 1987, Codes for the Identification of the
+States, the District of Columbia and the Outlying Areas of the United
+States, and Associated Areas (FIPS 5-2): Washington, DC, National Institute
+of Standards and Technology.
+
+U.S. Department of Commerce, 1990, Counties and Equivalent Entities of the
+United States, Its Possessions, and Associated Areas (FIPS 6-4): Washington,
+DC, National Institute of Standards and Technology.
+</DD>
+          <DT>
+            <I>Direct_Spatial_Reference_Method:</I>Vector</DT>
+          <DT>
+            <I>Point_and_Vector_Object_Information:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>SDTS_Terms_Description:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>SDTS_Point_and_Vector_Object_Type:</I>G-polygon</DT>
+                  <DT>
+                    <I>Point_and_Vector_Object_Count:</I>5974</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Spatial_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Spatial_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Horizontal_Coordinate_System_Definition:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Geographic:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Latitude_Resolution:</I>0.000001</DT>
+                  <DT>
+                    <I>Longitude_Resolution:</I>0.000001</DT>
+                  <DT>
+                    <I>Geographic_Coordinate_Units:</I>Decimal degrees</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Geodetic_Model:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Horizontal_Datum_Name:</I>North American Datum of 1927</DT>
+                  <DT>
+                    <I>Ellipsoid_Name:</I>Clarke 1866</DT>
+                  <DT>
+                    <I>Semi-major_Axis:</I>6378206.400000</DT>
+                  <DT>
+                    <I>Denominator_of_Flattening_Ratio:</I>294.978698</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Entity_and_Attribute_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Entity_and_Attribute_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>bea006p020</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>
+Estimates of total personal income, per capita personal income, annual
+number of full-time and part-time jobs, average wage per job (in
+dollars), population, and per capita number of jobs for the years
+1991 and 1992.
+</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>National Atlas of the United States</DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>Perimeter</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>
+The perimeter of the shape in coverage units.  In the distributed file,
+coverage units represent decimal degrees.
+</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>National Atlas of the United States</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Range_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_Domain_Minimum:</I>0.012</DT>
+                          <DT>
+                            <I>Range_Domain_Maximum:</I>87.571</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>AREA</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>Bea_fips</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>
+The 5-digit FIPS code of the county or county equivalent that is used by
+the Bureau of Economic Analysis.
+</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>National Atlas of the United States</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Codeset_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Codeset_Name:</I>
+Bureau of Economic Analysis Economic Area Component County List
+(ECONLIST.PRN), Regional Economic Information System, 1969-2002
+CD-ROM, June 2004.
+</DT>
+                          <DT>
+                            <I>Codeset_Source:</I>
+U.S. Department of Commerce, Economic and Statistics Administration,
+Bureau of Economic Analysis
+</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>PERIMETER</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>State</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>
+The two-character abbreviation for the name of the State or State
+equivalent in which the county is located.
+</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>National Atlas of the United States</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Codeset_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Codeset_Name:</I>
+Codes for the Identification of the States, the District of Columbia
+and the Outlying Areas of the United States, and Associated Areas;
+(Federal Information Processing Standard (FIPS) 5-2): Washington,
+DC, National Institute of Standards and Technology.
+</DT>
+                          <DT>
+                            <I>Codeset_Source:</I>U.S. Department of Commerce</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>BEA006P020</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>BEA_FIPS</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>AREATITLE</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>STATE</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>STATE_FIPS</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>A13_1991</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>A13_1992</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>B13_1991</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>B13_1992</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>A34_1991</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>A34_1992</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>Shape</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>The representation of the entity in the data.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>National Atlas of the United States</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Polygon</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>2-dimensional element.</PRE>
+                          </DIV>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition_Source:</I>
+                            </DT>
+                            <PRE>ESRI GIS software</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>Area</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>
+The size of the shape in coverage units.  In the distributed
+file, coverage units represent square decimal degrees.
+</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>National Atlas of the United States</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Range_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_Domain_Minimum:</I>0.000</DT>
+                          <DT>
+                            <I>Range_Domain_Maximum:</I>73.832</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>Bea006p020</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Internal feature number.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>National Atlas of the United States</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Range_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_Domain_Minimum:</I>2</DT>
+                          <DT>
+                            <I>Range_Domain_Maximum:</I>5975</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>Areatitle</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>
+The name of the county or county equivalent that is used by the Bureau
+of Economic Analysis.
+</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>National Atlas of the United States</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Codeset_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Codeset_Name:</I>
+Bureau of Economic Analysis Economic Area Component County List
+(ECONLIST.PRN), Regional Economic Information System, 1969-2002
+
+CD-ROM, June 2004.
+</DT>
+                          <DT>
+                            <I>Codeset_Source:</I>
+U.S. Department of Commerce, Economic and Statistics Administration,
+Bureau of Economic Analysis
+</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>State_fips</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>The 2-digit FIPS code of the State or State equivalent.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>National Atlas of the United States</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Codeset_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Codeset_Name:</I>
+Counties and Equivalent Entities of the United States, Its
+Possessions, and Associated Areas, FIPS 6-4, 1990.
+</DT>
+                          <DT>
+                            <I>Codeset_Source:</I>
+U.S. Department of Commerce, National Institute of Standards
+and Technology
+</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>FID</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Internal feature number.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>ESRI</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>Sequential unique whole numbers that are automatically generated.</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>B34_1991</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>B34_1992</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>POP_1991</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>POP_1992</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>JOB_1991</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>JOB_1992</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A NAME="EDA">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Distribution_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Distributor:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>Earth Science Information Center, U.S. Geological Survey</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>Mailing address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>507 National Center</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Reston</DT>
+                      <DT>
+                        <I>State_or_Province:</I>VA</DT>
+                      <DT>
+                        <I>Postal_Code:</I>20192</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>1-888-ASK-USGS (1-888-275-8747)</DT>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>703-648-5920</DT>
+                  <DT>
+                    <I>Contact Instructions:</I>
+                  </DT>
+                  <DIV>
+                    <PRE>
+In addition to the address above there are other ESIC offices throughout
+the country.  A full list of these offices is at
+http://geography.usgs.gov/esic/esic_index.html
+</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Resource_Description:</I>Downloadable Data</DT>
+          <DIV>
+            <DT>
+              <I>Distribution_Liability:</I>
+            </DT>
+            <PRE>
+Although these data have been processed successfully on a computer system at
+the U.S. Geological Survey, no warranty expressed or implied is made by the
+U.S. Geological Survey regarding the utility of the data on any other
+system, nor shall the act of distribution constitute any such warranty.  No
+responsibility is assumed by the U.S. Geological Survey in the use of these
+data.
+</PRE>
+          </DIV>
+          <DT>
+            <I>Standard_Order_Process:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Digital_Form:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Digital_Transfer_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Format_Name:</I>ESRI Shapefile</DT>
+                      <DT>
+                        <I>Transfer_Size:</I>11.754</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Digital_Transfer_Option:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Online_Option:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Computer_Contact_Information:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Network_Address:</I>
+                              </DT>
+                              <DD>
+                                <DL>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://nationalatlas.gov/atlasftp.html?openChapters=chppeopl#chppeopl">http://nationalatlas.gov/atlasftp.html?openChapters=chppeopl#chppeopl</A>
+                                  </DT>
+                                </DL>
+                              </DD>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Digital_Form:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Digital_Transfer_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Format_Name:</I>SDTS</DT>
+                      <DT>
+                        <I>Transfer_Size:</I>11.754</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Digital_Transfer_Option:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Online_Option:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Computer_Contact_Information:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Network_Address:</I>
+                              </DT>
+                              <DD>
+                                <DL>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://nationalatlas.gov/atlasftp.html?openChapters=chppeopl#chppeopl">http://nationalatlas.gov/atlasftp.html?openChapters=chppeopl#chppeopl</A>
+                                  </DT>
+                                </DL>
+                              </DD>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Fees:</I>There is no charge for the map layer.</DT>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Metadata_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Metadata_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Metadata_Date:</I>20071011</DT>
+          <DT>
+            <I>Metadata_Contact:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Person_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Person:</I>Gita Urban-Mathieux</DT>
+                      <DT>
+                        <I>Contact_Organization:</I>National Atlas of the United States</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>Mailing address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>12201 Sunrise Valley Dr</PRE>
+                      </DIV>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>MS 561</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Reston</DT>
+                      <DT>
+                        <I>State_or_Province:</I>VA</DT>
+                      <DT>
+                        <I>Postal_Code:</I>20192</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>703-648-5175</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>atlasmail@usgs.gov</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Metadata_Standard_Name:</I>FGDC Content Standards for Digital Geospatial Metadata</DT>
+          <DT>
+            <I>Metadata_Standard_Version:</I>FGDC-STD-001-1998</DT>
+          <DT>
+            <I>Metadata_Time_Convention:</I>local time</DT>
+          <DT>
+            <I>Metadata_Security_Information:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Metadata_Security_Classification_System:</I>None</DT>
+              <DT>
+                <I>Metadata_Security_Classification:</I>Unclassified</DT>
+              <DT>
+                <I>Metadata_Security_Handling_Description:</I>
+              </DT>
+              <DD>None</DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Metadata_Extensions:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Online_Linkage:</I>
+                <A TARGET="viewer" HREF=""></A>
+              </DT>
+              <DT>
+                <I>Profile_Name:</I>ESRI Metadata Profile</DT>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+  </BODY>
+</HTML>
+		</form>
+	</body>
+</HTML>

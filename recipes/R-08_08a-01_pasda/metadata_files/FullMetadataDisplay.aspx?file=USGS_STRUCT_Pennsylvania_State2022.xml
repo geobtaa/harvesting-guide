@@ -1,0 +1,1970 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+	<HEAD>
+		<title>Pennsylvania Spatial Data Access | Full Metadata</title>
+		<meta name="GENERATOR" content="Microsoft Visual Studio.NET 7.0">
+		<meta name="CODE_LANGUAGE" content="Visual Basic 7.0">
+		<meta name="vs_defaultClientScript" content="JavaScript">
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+	    <link rel="shortcut icon" href="http://maps.pasda.psu.edu/Images/favicon.ico" type="image/x-icon" />
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-41373351-5', 'psu.edu');
+          ga('send', 'pageview');
+
+        </script>
+</HEAD>
+	<body MS_POSITIONING="GridLayout">
+		<form method="post" action="./FullMetadataDisplay.aspx?file=USGS_STRUCT_Pennsylvania_State2022.xml" id="Form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEzNDA3MDMyNjVkZCi1cbXMhfZI+elmwl4oTersdOt9nxHHv5HGNLdvg2y4" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="D999016F" />
+			<HTML>
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <SCRIPT type="text/javascript">
+
+      function fix(e) {
+        var par = e.parentNode;
+        e.id = "";
+        e.style.marginLeft = "0.42in";
+        var pos = e.innerText.indexOf("\n");
+        if (pos > 0) {
+          while (pos > 0) {
+            var t = e.childNodes(0);
+            var n = document.createElement("PRE");
+            var s = t.splitText(pos);
+            e.insertAdjacentElement("afterEnd", n);
+            n.appendChild(s);
+            n.style.marginLeft = "0.42in";
+            e = n;
+            pos = e.innerText.indexOf("\n");
+          }
+          var count = (par.children.length);
+          for (var i = 0; i < count; i++) {
+            e = par.children(i);
+            if (e.tagName == "PRE") {
+              pos = e.innerText.indexOf(">");
+              if (pos != 0) {
+                n = document.createElement("DD");
+                e.insertAdjacentElement("afterEnd", n);
+                n.innerText = e.innerText;
+                e.removeNode(true);
+              }
+            }
+          }
+          if (par.children.tags("PRE").length > 0) {
+            count = (par.children.length);
+            for (i = 0; i < count; i++) {
+              e = par.children(i);
+              if (e.tagName == "PRE") {
+                e.id = "";
+                if (i < (count-1)) {
+                  var e2 = par.children(i + 1);
+                  if (e2.tagName == "PRE") {
+                    e.insertAdjacentText("beforeEnd", e2.innerText+"\n");
+                    e2.removeNode(true);
+                    count = count-1;
+                    i = i-1;
+                  }
+                }
+              }
+            }
+          }
+        }
+        else {
+          n = document.createElement("DD");
+          par.appendChild(n);
+          n.innerText = e.innerText;
+          e.removeNode(true);
+        }
+      }
+
+    </SCRIPT>
+  </HEAD>
+  <BODY oncontextmenu="return true">
+    <A name="Top">
+    </A>
+    <H2>USGS National Structures Dataset (NSD) Pennsylvania 20220722</H2>
+    <UL>
+      <LI>
+        <A HREF="#Identification_Information">Identification_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Data_Quality_Information">Data_Quality_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Spatial_Data_Organization_Information">Spatial_Data_Organization_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Spatial_Reference_Information">Spatial_Reference_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#EEA">
+                  Distribution_Information 
+                </A>
+      </LI>
+      <LI>
+        <A HREF="#Metadata_Reference_Information">Metadata_Reference_Information</A>
+      </LI>
+    </UL>
+    <A name="Identification_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Identification_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Citation:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Citation_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Originator:</I>U.S. Geological Survey, National Geospatial Technical Operations
+					Center</DT>
+                  <DT>
+                    <I>Publication_Date:</I>20220722</DT>
+                  <DT>
+                    <I>Title:</I>
+                  </DT>
+                  <DD>USGS National Structures Dataset (NSD) Pennsylvania 20220722</DD>
+                  <DT>
+                    <I>Geospatial_Data_Presentation_Form:</I>vector digital data</DT>
+                  <DT>
+                    <I>Publication_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Publication_Place:</I>Reston, VA</DT>
+                      <DT>
+                        <I>Publisher:</I>U.S. Geological Survey</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Abstract:</I>
+                </DT>
+                <PRE>Geospatial data includes structures and other selected map features.</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Purpose:</I>
+                </DT>
+                <PRE>It is a general purpose dataset for users who are not GIS experts. The geospatial data are from selected National Map data holdings and other government sources.</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Supplemental_Information:</I>
+                </DT>
+                <PRE>Features of this dataset are various private and public man-made structures
+				and installations.</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Time_Period_of_Content:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Time_Period_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Range_of_Dates/Times:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Beginning_Date:</I>20220722</DT>
+                      <DT>
+                        <I>Ending_Date:</I>20220722</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DIV>
+                <DT>
+                  <I>Currentness_Reference:</I>
+                </DT>
+                <PRE>publication date</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Status:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Progress:</I>Complete</DT>
+              <DT>
+                <I>Maintenance_and_Update_Frequency:</I>Irregular</DT>
+            </DL>
+          </DD>
+          <DT>
+            <I>Spatial_Domain:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Bounding_Coordinates:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>West_Bounding_Coordinate:</I>-80.51985</DT>
+                  <DT>
+                    <I>East_Bounding_Coordinate:</I>-74.68956</DT>
+                  <DT>
+                    <I>North_Bounding_Coordinate:</I>42.51607</DT>
+                  <DT>
+                    <I>South_Bounding_Coordinate:</I>39.7198</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Keywords:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Theme:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Theme_Keyword_Thesaurus:</I>ISO 19115 Topic Category</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>structure</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Theme:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Theme_Keyword_Thesaurus:</I>None</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Post Office</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Courthouse</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Town Hall</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Fire Station/ EMS Station</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Hospital/Medical Center</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Law Enforcement</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Prison/ Correctional Facility</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>School</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>College / University</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>School:Elementary</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>School:High School</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>School:Middle School</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Technical School</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Trade School</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>State Capitol</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Campground</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Trailhead</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Visitor Center</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Information Center</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>National Structures Dataset (NSD)</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>State</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Esri Shapefile</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Place:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Place_Keyword_Thesaurus:</I>Geographic Names Information System</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>United States</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>US</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>NJ</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>PA</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>MD</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>WV</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>NY</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>OH</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>DE</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>New Jersey</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Pennsylvania</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Maryland</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>West Virginia</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>New York</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Ohio</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Delaware</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Camden County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Sussex County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Washington County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Wayne County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Erie County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Dauphin County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Preston County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Chemung County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Schuylkill County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Juniata County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Columbia County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Butler County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Montour County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Tioga County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Greene County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Cumberland County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Harford County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Elk County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Wyoming County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Fulton County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Lebanon County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Lawrence County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Crawford County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Cecil County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Centre County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Berks County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Garrett County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Lancaster County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Carroll County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Cambria County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Jefferson County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Mahoning County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Carbon County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Hunterdon County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>New Castle County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Sullivan County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Bucks County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Huntingdon County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Bradford County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Clearfield County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Warren County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Clarion County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Brooke County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Gloucester County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Pike County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Susquehanna County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Beaver County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Philadelphia County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Delaware County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Steuben County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Northampton County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Luzerne County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Lackawanna County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Snyder County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Chester County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Mercer County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Monroe County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Broome County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Mifflin County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Clinton County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Chautauqua County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Wetzel County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Lycoming County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Venango County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Allegany County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Burlington County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Hancock County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Marshall County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Blair County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>York County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Westmoreland County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Potter County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Trumbull County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Ashtabula County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Union County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Columbiana County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Somerset County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Bedford County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Ohio County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Lehigh County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Cameron County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Northumberland County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Cattaraugus County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>McKean County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Allegheny County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Montgomery County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Indiana County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Orange County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Baltimore County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Forest County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Armstrong County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Perry County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Adams County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Monongalia County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Fayette County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Frederick County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Franklin County</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Access_Constraints:</I>None</DT>
+          <DIV>
+            <DT>
+              <I>Use_Constraints:</I>
+            </DT>
+            <PRE>None. However, users should be aware that temporal changes may have occurred since
+			this data set was collected and that some parts of this data may no longer represent
+			actual surface conditions. Users should not use this data for critical applications
+			without a full awareness of its limitations. Acknowledgment of the U.S. Geological
+			Survey would be appreciated for products derived from these data.</PRE>
+          </DIV>
+          <DT>
+            <I>Browse_Graphic:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Browse_Graphic_File_Name:</I>
+                <A TARGET="viewer" HREF="https://prd-tnm.s3.amazonaws.com/StagedProducts/Struct/Shape/STRUCT_Pennsylvania_State_Shape.jpg">https://prd-tnm.s3.amazonaws.com/StagedProducts/Struct/Shape/STRUCT_Pennsylvania_State_Shape.jpg</A>
+              </DT>
+              <DT>
+                <I>Browse_Graphic_File_Description:</I>
+              </DT>
+              <DD>Thumbnail JPG image</DD>
+              <DT>
+                <I>Browse_Graphic_File_Type:</I>JPEG</DT>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Data_Quality_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Data_Quality_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Attribute_Accuracy:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Attribute_Accuracy_Report:</I>
+                </DT>
+                <PRE>Content is derived from USGS national geospatial databases. The data is owned
+				and hosted by the USGS, but does not preclude using data sources owned and hosted by
+				other organizations, provided that these sources have been approved by the USGS data
+				program.</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DIV>
+            <DT>
+              <I>Logical_Consistency_Report:</I>
+            </DT>
+            <PRE>This data is compiled and updated by the USGS according to USGS standards.</PRE>
+          </DIV>
+          <DIV>
+            <DT>
+              <I>Completeness_Report:</I>
+            </DT>
+            <PRE>Each layer is extracted from the USGS national geospatial databases.</PRE>
+          </DIV>
+          <DT>
+            <I>Positional_Accuracy:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Horizontal_Positional_Accuracy:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Horizontal_Positional_Accuracy_Report:</I>
+                    </DT>
+                    <PRE>This USGS product is compiled to meet National Map Accuracy Standards
+					(NMAS). NMAS horizontal accuracy requires that at least 90 percent of
+					well-defined points tested are within 0.02 inch of the true position.</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Vertical_Positional_Accuracy:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Vertical_Positional_Accuracy_Report:</I>
+                    </DT>
+                    <PRE>Vertical accuracy is not applicable to this dataset.</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Lineage:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>State and Federal Partners, updates from The National Map Corp
+							volunteers</DT>
+                          <DT>
+                            <I>Publication_Date:</I>20200301</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>Post Offices</DD>
+                          <DT>
+                            <I>Geospatial_Data_Presentation_Form:</I>vector digital data</DT>
+                          <DT>
+                            <I>Other_Citation_Details:</I>
+                          </DT>
+                          <DD>Locations designated as a Post Office by the U.S. Postal Service
+							(USPS). The dataset includes those locations which are operated by USPS
+							personnel and offer retail counter services. A Contract Postal Unit
+							(CPU) is generally excluded except for Community Post Office (CPO). Some
+							Remotely Managed Post Office and Village Post Office locations may be
+							included. This dataset may not be complete and is subject to change at
+							any time.</DD>
+                          <DT>
+                            <I>Online_Linkage:</I>
+                            <A TARGET="viewer" HREF="http://nationalmap.usgs.gov">http://nationalmap.usgs.gov</A>
+                          </DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Scale_Denominator:</I>24000</DT>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>digital data</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_of_Dates/Times:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Beginning_Date:</I>2013</DT>
+                              <DT>
+                                <I>Ending_Date:</I>2020</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>ground condition</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>Structures - Post Offices</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>Geographic features and feature names</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>U.S. Geological Survey</DT>
+                          <DT>
+                            <I>Publication_Date:</I>20190501</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>Courthouse Buildings</DD>
+                          <DT>
+                            <I>Geospatial_Data_Presentation_Form:</I>vector digital data</DT>
+                          <DT>
+                            <I>Other_Citation_Details:</I>
+                          </DT>
+                          <DD>This dataset contains point features representing some types of
+							courthouse buildings in the U.S., Puerto Rico, and the U.S. Virgin
+							Islands. This includes county courthouses, state supreme courthouses,
+							and the Supreme Court of the United States. The purpose is to document
+							the spatial location and physical address of courthouse buildings for
+							general cartographic representation purposes on USGS mapping products at
+							1:24,000 scale. This dataset does not contain appellate courts, federal
+							courts, tribal courts, municipal, village, or town courts, specialty
+							courts (e.g., family, probate, juvenile, or bankruptcy courts), or
+							historic courthouse buildings which no longer function as an active
+							court. The information in this dataset was collected between 2017 and
+							2018 by volunteers through the USGS The National Map Corps (TNMCorps)
+							crowdsourcing project. Although these data and associated metadata have
+							been reviewed for accuracy and completeness, no warranty expressed or
+							implied is made regarding the display or utility of the data on any
+							other system or for general or scientific purposes, nor shall the act of
+							distribution constitute any such warranty. Supplemental information: The
+							County level court buildings handle the bulk of county-level court
+							functions, usually located in the city designated as a county seat. The
+							state supreme courthouse data represents the court buildings, usually
+							located in the city designated as the state capital, which house the
+							ultimate judicial tribunal in a state's court system. The Supreme Court
+							of the United States is represented by a single data point. County level
+							courts are referred to differently in different states. The data points
+							for county courthouses may also contain superior, circuit, and district
+							courts where the "County" court designation does not apply within an
+							individual state court system.</DD>
+                          <DT>
+                            <I>Online_Linkage:</I>
+                            <A TARGET="viewer" HREF="https://www.usgs.gov/core-science-systems/national-geospatial-program/national-map">https://www.usgs.gov/core-science-systems/national-geospatial-program/national-map</A>
+                          </DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Scale_Denominator:</I>24000</DT>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>digital data</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_of_Dates/Times:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Beginning_Date:</I>2017</DT>
+                              <DT>
+                                <I>Ending_Date:</I>2018</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>ground condition</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>Structures - Courthouse</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>Geographic features and feature names</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>U.S. Geological Survey</DT>
+                          <DT>
+                            <I>Publication_Date:</I>20200328</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>City and Town Hall Buildings</DD>
+                          <DT>
+                            <I>Geospatial_Data_Presentation_Form:</I>vector digital data</DT>
+                          <DT>
+                            <I>Other_Citation_Details:</I>
+                          </DT>
+                          <DD>This dataset contains points representing city hall and town hall
+							government buildings in the U.S., Puerto Rico, and the U.S. Virgin
+							Islands. This includes a building or building complex that serves as a
+							primary location for a local or municipal government’s administrative
+							functions. These buildings are generally called City Hall, Town Hall,
+							Village Hall, Municipal Building, Municipal Center, City Building or
+							similar designation. The purpose of this dataset is to document the
+							spatial location of such buildings for general cartographic
+							representation purposes on USGS mapping products at 1:24,000 scale.
+							Supplemental information: Excluded are county, state, or federal level
+							administration buildings or historical buildings that are no longer used
+							for government administration. This dataset is dynamic and not complete
+							at this time. Additions and updates are provided by volunteers through
+							the USGS' The National Map Corps (TNMCorps) crowdsourcing project.
+							Although these data and associated metadata have been reviewed for
+							accuracy and completeness, no warranty expressed or implied is made
+							regarding the display or utility of the data on any other system or for
+							general or scientific purposes, nor shall the act of distribution
+							constitute any such warranty.</DD>
+                          <DT>
+                            <I>Online_Linkage:</I>
+                            <A TARGET="viewer" HREF="https://www.usgs.gov/core-science-systems/national-geospatial-program/national-map">https://www.usgs.gov/core-science-systems/national-geospatial-program/national-map</A>
+                          </DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Scale_Denominator:</I>24000</DT>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>digital data</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_of_Dates/Times:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Beginning_Date:</I>2011</DT>
+                              <DT>
+                                <I>Ending_Date:</I>2020</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>ground condition</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>Structures - City/Town Hall</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>Geographic features and feature names</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>Federal land management agencies</DT>
+                          <DT>
+                            <I>Publication_Date:</I>2018</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>Points of Interest</DD>
+                          <DT>
+                            <I>Geospatial_Data_Presentation_Form:</I>vector digital data</DT>
+                          <DT>
+                            <I>Other_Citation_Details:</I>
+                          </DT>
+                          <DD>Includes campgrounds, trailheads, visitor centers, picnic areas,
+							Ranger stations and federal land management agency headquarters. Point
+							data was provided by various federal agencies, such as NPS, US Forest
+							Service, BLM, US FWS. This data is subject to change at any
+							time.</DD>
+                          <DT>
+                            <I>Online_Linkage:</I>
+                            <A TARGET="viewer" HREF="http://nationalmap.usgs.gov">http://nationalmap.usgs.gov</A>
+                          </DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Scale_Denominator:</I>24000</DT>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>digital data</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_of_Dates/Times:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Beginning_Date:</I>2016</DT>
+                              <DT>
+                                <I>Ending_Date:</I>2018</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>ground condition</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>Structures - various</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>Geographic features and feature names</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>State and Federal Partners, updates from The National Map Corp
+							volunteers</DT>
+                          <DT>
+                            <I>Publication_Date:</I>20203001</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>Fire Stations</DD>
+                          <DT>
+                            <I>Geospatial_Data_Presentation_Form:</I>vector digital data</DT>
+                          <DT>
+                            <I>Other_Citation_Details:</I>
+                          </DT>
+                          <DD>This dataset contains points representing building locations of
+							fire stations in the United States, District of Columbia, Puerto Rico
+							and the U.S. Virgin Islands. Included are manned fire stations and
+							buildings from which a fire response occurs, such as a volunteer fire
+							department building to which fire fighters report for duty, but which is
+							not continuously manned. Some locations are approximate. Locations
+							solely for storing or maintaining fire equipment, or fire stations
+							without a permanent location, or locations with only administrative
+							functions are generally excluded. This data set may not be complete and
+							is subject to change at any time.</DD>
+                          <DT>
+                            <I>Online_Linkage:</I>
+                            <A TARGET="viewer" HREF="http://nationalmap.usgs.gov">http://nationalmap.usgs.gov</A>
+                          </DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Scale_Denominator:</I>24000</DT>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>digital data</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_of_Dates/Times:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Beginning_Date:</I>2007</DT>
+                              <DT>
+                                <I>Ending_Date:</I>2020</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>ground condition</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>Structures - Fire Stations</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>Geographic features and feature names</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I> State and Federal Partners, updates from USGS' The National Map
+							Corps volunteers</DT>
+                          <DT>
+                            <I>Publication_Date:</I>20150203</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>Law Enforcement</DD>
+                          <DT>
+                            <I>Geospatial_Data_Presentation_Form:</I>Vector digital data</DT>
+                          <DT>
+                            <I>Other_Citation_Details:</I>
+                          </DT>
+                          <DD>Included are locations where sworn officers of a law enforcement
+							agency are regularly based or stationed. This dataset includes local
+							police, county sheriff's offices, state police or highway patrol
+							locations. Most federal law enforcement agency locations are not
+							included.</DD>
+                          <DT>
+                            <I>Online_Linkage:</I>
+                            <A TARGET="viewer" HREF="http://nationalmap.usgs.gov">http://nationalmap.usgs.gov</A>
+                          </DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Scale_Denominator:</I>24000</DT>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>None</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_of_Dates/Times:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Beginning_Date:</I>2005</DT>
+                              <DT>
+                                <I>Ending_Date:</I>2018</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>ground condition</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>Structures - Law Enforcement</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE> Geographic features and feature names</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I> State and Federal Partners, updates from USGS' The National Map
+							Corps volunteers</DT>
+                          <DT>
+                            <I>Publication_Date:</I>20150203</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>Prisons/Correctional Facility</DD>
+                          <DT>
+                            <I>Geospatial_Data_Presentation_Form:</I>Vector digital data</DT>
+                          <DT>
+                            <I>Other_Citation_Details:</I>
+                          </DT>
+                          <DD>Includes both private and government medium and high security
+							prisons and correctional institutions. Low and minimum security
+							institutions such as local jails, prison camps, correctional farms or
+							work farms, detention and treatment centers are generally
+							excluded.</DD>
+                          <DT>
+                            <I>Online_Linkage:</I>
+                            <A TARGET="viewer" HREF="http://nationalmap.usgs.gov">http://nationalmap.usgs.gov</A>
+                          </DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Scale_Denominator:</I>24000</DT>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>None</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_of_Dates/Times:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Beginning_Date:</I>2007</DT>
+                              <DT>
+                                <I>Ending_Date:</I>2018</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>ground condition</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>Structures - Prisons/Correctional Facility</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE> Geographic features and feature names</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>State and Federal Partners, updates from USGS' The National Map
+							Corps volunteers </DT>
+                          <DT>
+                            <I>Publication_Date:</I>20080101</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>Schools</DD>
+                          <DT>
+                            <I>Geospatial_Data_Presentation_Form:</I>Vector digital data</DT>
+                          <DT>
+                            <I>Other_Citation_Details:</I>
+                          </DT>
+                          <DD>The schools within this dataset are composed of Public elementary
+							and secondary education in the US as defined and tracked by the National
+							Center for Education Statistics (NCES), Common Core Dataset (CCD).
+							Private schools in this dataset are composed of Private elementary and
+							secondary education in the US as defined by the Private School Survey,
+							NCES. The colleges and Universities are composed of postsecondary
+							education facilities as defined by the Integrated Post Secondary
+							Education System (IPEDS), NCES. Included are Doctoral and Research
+							Universities, Masters Colleges and Universities, Baccalaureate Colleges,
+							Associates Colleges, Theological seminaries, Medical schools and other
+							health care professions, schools of engineering and technology, business
+							and management, art, music, design, Law schools, Teachers colleges,
+							Tribal colleges and other specialized institutions. Changes to base
+							school data may occur through the USGS’ The National Map Corps Volunteer
+							Geographic Information project.</DD>
+                          <DT>
+                            <I>Online_Linkage:</I>
+                            <A TARGET="viewer" HREF="http://nationalmap.usgs.gov">http://nationalmap.usgs.gov</A>
+                          </DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Scale_Denominator:</I>24000</DT>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>None</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_of_Dates/Times:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Beginning_Date:</I>2008</DT>
+                              <DT>
+                                <I>Ending_Date:</I>2018</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>ground condition</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>Structures - Schools</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>Geographic features and feature names</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>State and Federal Partners, updates from USGS' The National Map
+							Corps volunteers </DT>
+                          <DT>
+                            <I>Publication_Date:</I>20110101</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>Hospitals</DD>
+                          <DT>
+                            <I>Geospatial_Data_Presentation_Form:</I>Vector digital data</DT>
+                          <DT>
+                            <I>Other_Citation_Details:</I>
+                          </DT>
+                          <DD>Includes general medical and surgical hospitals, psychiatric,
+							substance abuse and specialty hospitals such as Children's hospitals,
+							cancer, maternity and rehabilitation hospitals. Other types of hospitals
+							are included if represented in data sets provided by various partners
+							for this compilation. Hospitals operated by the US Department of
+							Veterans Affairs are included. Nursing homes, long term care facilities
+							and Urgent Care facilities are generally excluded. Locations that are
+							administrative offices only are excluded from the dataset.</DD>
+                          <DT>
+                            <I>Online_Linkage:</I>
+                            <A TARGET="viewer" HREF="http://nationalmap.usgs.gov">http://nationalmap.usgs.gov</A>
+                          </DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Scale_Denominator:</I>24000</DT>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>None</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_of_Dates/Times:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Beginning_Date:</I>2006</DT>
+                              <DT>
+                                <I>Ending_Date:</I>2018</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>ground condition</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>Structures - Hospitals</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>Geographic features and feature names</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>State government websites</DT>
+                          <DT>
+                            <I>Publication_Date:</I>20150203</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>State Capitol building</DD>
+                          <DT>
+                            <I>Geospatial_Data_Presentation_Form:</I>vector digital data</DT>
+                          <DT>
+                            <I>Other_Citation_Details:</I>
+                          </DT>
+                          <DD>Includes the official State Capitol buildings for the U.S. states
+							and territories.</DD>
+                          <DT>
+                            <I>Online_Linkage:</I>
+                            <A TARGET="viewer" HREF="http://nationalmap.gov">http://nationalmap.gov</A>
+                          </DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Scale_Denominator:</I>24000</DT>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>digital data</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_of_Dates/Times:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Beginning_Date:</I>2014</DT>
+                              <DT>
+                                <I>Ending_Date:</I>2014</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>ground condition</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>Structures - State Capitol building</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>Geographic feature and feature name</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>The data for this product are created as follows. All geospatial content
+					is taken from national geospatial databases under the stewardship of USGS data
+					programs. The vector data are processed using ESRI ArcGIS software and exported.
+					Map formatting is performed using a custom application, which includes
+					post-processing to embed the metadata XML document.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Process_Date:</I>20121105</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Spatial_Data_Organization_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Spatial_Data_Organization_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Direct_Spatial_Reference_Method:</I>Vector</DT>
+          <DT>
+            <I>Point_and_Vector_Object_Information:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>SDTS_Terms_Description:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>SDTS_Point_and_Vector_Object_Type:</I>Entity point</DT>
+                  <DT>
+                    <I>Point_and_Vector_Object_Count:</I>69</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Spatial_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Spatial_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Horizontal_Coordinate_System_Definition:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Geographic:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Latitude_Resolution:</I>0.00001</DT>
+                  <DT>
+                    <I>Longitude_Resolution:</I>0.00001</DT>
+                  <DT>
+                    <I>Geographic_Coordinate_Units:</I>Decimal degrees</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Geodetic_Model:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Horizontal_Datum_Name:</I>North American Datum of 1983</DT>
+                  <DT>
+                    <I>Ellipsoid_Name:</I>Geodetic Reference System 80</DT>
+                  <DT>
+                    <I>Semi-major_Axis:</I>6378137</DT>
+                  <DT>
+                    <I>Denominator_of_Flattening_Ratio:</I>298.2572221</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A NAME="EEA">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Distribution_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Distributor:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>U.S. Geological Survey, National Geospatial Technical Operations
+						Center</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>1400 Independence Road</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Rolla</DT>
+                      <DT>
+                        <I>State_or_Province:</I>MO</DT>
+                      <DT>
+                        <I>Postal_Code:</I>65401</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>Box 25046 Denver Federal Center</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Lakewood</DT>
+                      <DT>
+                        <I>State_or_Province:</I>CO</DT>
+                      <DT>
+                        <I>Postal_Code:</I>80225</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>1-888-ASK-USGS (1-888-275-8747)</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>http://www.usgs.gov/ask/</DT>
+                  <DT>
+                    <I>Hours_of_Service:</I>Monday through Friday 8:00 AM to 4:00 PM</DT>
+                  <DT>
+                    <I>Contact Instructions:</I>
+                  </DT>
+                  <DIV>
+                    <PRE>Metadata information can also be obtained through online services using The
+					National Map Viewer, at http://nationalmap.usgs.gov or EarthExplorer, at
+					http://earthexplorer.usgs.gov or Ask USGS at http://www.usgs.gov/ask.</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Resource_Description:</I>Downloadable Data</DT>
+          <DIV>
+            <DT>
+              <I>Distribution_Liability:</I>
+            </DT>
+            <PRE>No liability for content or accuracy is presumed by USGS for data.</PRE>
+          </DIV>
+          <DT>
+            <I>Standard_Order_Process:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Digital_Form:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Digital_Transfer_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Format_Name:</I>Esri Shapefile</DT>
+                      <DT>
+                        <I>Format_Version_Number:</I>None</DT>
+                      <DIV>
+                        <DT>
+                          <I>Format_Information_Content:</I>
+                        </DT>
+                        <PRE>Spatial objects with unique identifiers and coordinate
+						data.</PRE>
+                      </DIV>
+                      <DT>
+                        <I>File_Decompression_Technique:</I>ZIP lossless data compression has been applied using a DEFLATE algorithm.</DT>
+                      <DT>
+                        <I>Transfer_Size:</I>4.34</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Digital_Transfer_Option:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Online_Option:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Computer_Contact_Information:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Network_Address:</I>
+                              </DT>
+                              <DD>
+                                <DL>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="https://prd-tnm.s3.amazonaws.com/StagedProducts/Struct/Shape/STRUCT_Pennsylvania_State_Shape.zip">https://prd-tnm.s3.amazonaws.com/StagedProducts/Struct/Shape/STRUCT_Pennsylvania_State_Shape.zip</A>
+                                  </DT>
+                                </DL>
+                              </DD>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Fees:</I>None</DT>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Metadata_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Metadata_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Metadata_Date:</I>20220722</DT>
+          <DT>
+            <I>Metadata_Review_Date:</I>20180806</DT>
+          <DT>
+            <I>Metadata_Future_Review_Date:</I>20190806</DT>
+          <DT>
+            <I>Metadata_Contact:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>U.S. Geological Survey, National Geospatial Technical Operations
+						Center</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>1400 Independence Road</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Rolla</DT>
+                      <DT>
+                        <I>State_or_Province:</I>MO</DT>
+                      <DT>
+                        <I>Postal_Code:</I>65401</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>Box 25046 Denver Federal Center</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Lakewood</DT>
+                      <DT>
+                        <I>State_or_Province:</I>CO</DT>
+                      <DT>
+                        <I>Postal_Code:</I>80225</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>1-888-ASK-USGS (1-888-275-8747)</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>http://www.usgs.gov/ask/</DT>
+                  <DT>
+                    <I>Hours_of_Service:</I>Monday through Friday 8:00 AM to 4:00 PM</DT>
+                  <DT>
+                    <I>Contact Instructions:</I>
+                  </DT>
+                  <DIV>
+                    <PRE>Metadata information can also be obtained through online services using The
+					National Map Viewer, at http://nationalmap.usgs.gov or EarthExplorer, at
+					http://earthexplorer.usgs.gov or Ask USGS at http://www.usgs.gov/ask.</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Metadata_Standard_Name:</I>FGDC Content Standard for Digital Geospatial Metadata</DT>
+          <DT>
+            <I>Metadata_Standard_Version:</I>FGDC-STD-001-1998</DT>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+  </BODY>
+</HTML>
+		</form>
+	</body>
+</HTML>

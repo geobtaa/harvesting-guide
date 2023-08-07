@@ -1,0 +1,1391 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+	<HEAD>
+		<title>Pennsylvania Spatial Data Access | Full Metadata</title>
+		<meta name="GENERATOR" content="Microsoft Visual Studio.NET 7.0">
+		<meta name="CODE_LANGUAGE" content="Visual Basic 7.0">
+		<meta name="vs_defaultClientScript" content="JavaScript">
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+	    <link rel="shortcut icon" href="http://maps.pasda.psu.edu/Images/favicon.ico" type="image/x-icon" />
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-41373351-5', 'psu.edu');
+          ga('send', 'pageview');
+
+        </script>
+</HEAD>
+	<body MS_POSITIONING="GridLayout">
+		<form method="post" action="./FullMetadataDisplay.aspx?file=Lake_Erie_Watershed_PALE_IC_2012.xml" id="Form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEzNDA3MDMyNjVkZCi1cbXMhfZI+elmwl4oTersdOt9nxHHv5HGNLdvg2y4" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="D999016F" />
+			<HTML>
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <SCRIPT type="text/javascript">
+
+      function fix(e) {
+        var par = e.parentNode;
+        e.id = "";
+        e.style.marginLeft = "0.42in";
+        var pos = e.innerText.indexOf("\n");
+        if (pos > 0) {
+          while (pos > 0) {
+            var t = e.childNodes(0);
+            var n = document.createElement("PRE");
+            var s = t.splitText(pos);
+            e.insertAdjacentElement("afterEnd", n);
+            n.appendChild(s);
+            n.style.marginLeft = "0.42in";
+            e = n;
+            pos = e.innerText.indexOf("\n");
+          }
+          var count = (par.children.length);
+          for (var i = 0; i < count; i++) {
+            e = par.children(i);
+            if (e.tagName == "PRE") {
+              pos = e.innerText.indexOf(">");
+              if (pos != 0) {
+                n = document.createElement("DD");
+                e.insertAdjacentElement("afterEnd", n);
+                n.innerText = e.innerText;
+                e.removeNode(true);
+              }
+            }
+          }
+          if (par.children.tags("PRE").length > 0) {
+            count = (par.children.length);
+            for (i = 0; i < count; i++) {
+              e = par.children(i);
+              if (e.tagName == "PRE") {
+                e.id = "";
+                if (i < (count-1)) {
+                  var e2 = par.children(i + 1);
+                  if (e2.tagName == "PRE") {
+                    e.insertAdjacentText("beforeEnd", e2.innerText+"\n");
+                    e2.removeNode(true);
+                    count = count-1;
+                    i = i-1;
+                  }
+                }
+              }
+            }
+          }
+        }
+        else {
+          n = document.createElement("DD");
+          par.appendChild(n);
+          n.innerText = e.innerText;
+          e.removeNode(true);
+        }
+      }
+
+    </SCRIPT>
+  </HEAD>
+  <BODY oncontextmenu="return true">
+    <A name="Top">
+    </A>
+    <H2>Lake Erie Watershed - Erie PA, Impervious Surfaces Mapping</H2>
+    <UL>
+      <LI>
+        <A HREF="#Identification_Information">Identification_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Data_Quality_Information">Data_Quality_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Spatial_Reference_Information">Spatial_Reference_Information</A>
+      </LI>
+      <LI>Distribution_Information</LI>
+      <LI STYLE="margin-left:0.3in">
+        <A HREF="#ECA">
+                  Distributor 1</A>
+      </LI>
+      <LI>
+        <A HREF="#EAA">
+                  Distribution_Information 
+                </A>
+      </LI>
+      <LI>
+        <A HREF="#Metadata_Reference_Information">Metadata_Reference_Information</A>
+      </LI>
+    </UL>
+    <A name="Identification_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Identification_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Citation:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Citation_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Originator:</I>Pennsylvania Sea Grant</DT>
+                  <DT>
+                    <I>Publication_Date:</I>2012</DT>
+                  <DT>
+                    <I>Title:</I>
+                  </DT>
+                  <DD>Lake Erie Watershed - Erie PA, Impervious Surfaces Mapping</DD>
+                  <DT>
+                    <I>Geospatial_Data_Presentation_Form:</I>vector digital data</DT>
+                  <DT>
+                    <I>Online_Linkage:</I>
+                    <A TARGET="viewer" HREF="http://www.paseagrant.org/">http://www.paseagrant.org/</A>
+                  </DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Abstract:</I>
+                </DT>
+                <PRE>Woolpert's automated land cover feature extraction processes was used to perform impervious surface delineation. Woolpert utilized commercial off-the-shelf (COTS) remote sensing software, proprietary software and applications to perform automated feature analysis incorporating imagery, LiDAR and other ancillary vector data. The automated processes replace the need to manually digitize features.</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Purpose:</I>
+                </DT>
+                <PRE>Impervious surfaces data is used for modelling the sources and amount run-off into Lake Erie.</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Time_Period_of_Content:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Time_Period_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Single_Date/Time:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Calendar_Date:</I>2012</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DIV>
+                <DT>
+                  <I>Currentness_Reference:</I>
+                </DT>
+                <PRE>publication date</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Status:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Progress:</I>Complete</DT>
+              <DT>
+                <I>Maintenance_and_Update_Frequency:</I>As needed</DT>
+            </DL>
+          </DD>
+          <DT>
+            <I>Spatial_Domain:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Bounding_Coordinates:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>West_Bounding_Coordinate:</I>
+		-80.530849</DT>
+                  <DT>
+                    <I>East_Bounding_Coordinate:</I>
+		-79.754820</DT>
+                  <DT>
+                    <I>North_Bounding_Coordinate:</I>
+		42.276330</DT>
+                  <DT>
+                    <I>South_Bounding_Coordinate:</I>
+		41.652700</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Keywords:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Theme:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Theme_Keyword:</I>Imagery</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>LIDAR</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Impervious Surfaces Mapping</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Theme:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Theme_Keyword_Thesaurus:</I>ISO 19115 Topic Categories</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Building Components</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Individual elements of impervious surfaces captured as separate features</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>imageryBaseMapsEarthCover</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Place:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Place_Keyword_Thesaurus:</I>None</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>United States</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Pennsylvania</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Erie</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Temporal:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Temporal_Keyword:</I>November</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Access_Constraints:</I>No restrictions apply to this data.</DT>
+          <DIV>
+            <DT>
+              <I>Use_Constraints:</I>
+            </DT>
+            <PRE>None.  However, users should be aware that temporal changes may have occurred since this data set was collected and some parts of this data may no longer represent actual surface conditions.  Users should not use this data for critical applications without a full awareness of it's limitations.</PRE>
+          </DIV>
+          <DT>
+            <I>Point_of_Contact:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>Pennsylvania Sea Grant - Penn State University</DT>
+                      <DT>
+                        <I>Contact_Person:</I>Sean D. Rafferty</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Position:</I>Senior Research and Outreach Specialist</DT>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>Tom Ridge Environmental Center</PRE>
+                      </DIV>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>301 Peninsula Dr., Suite 3</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Erie</DT>
+                      <DT>
+                        <I>State_or_Province:</I>Pennsylvania</DT>
+                      <DT>
+                        <I>Postal_Code:</I>16505</DT>
+                      <DT>
+                        <I>Country:</I>USA</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>814-217-9011 ext 102</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>sdr138@psu.edu</DT>
+                  <DT>
+                    <I>Hours_of_Service:</I>unknown </DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DIV>
+            <DT>
+              <I>Data_Set_Credit:</I>
+            </DT>
+            <PRE>n/a</PRE>
+          </DIV>
+          <DT>
+            <I>Security_Information:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Security_Classification_System:</I>Unclassified</DT>
+              <DT>
+                <I>Security_Classification:</I>Unclassified</DT>
+              <DT>
+                <I>Security_Handling_Description:</I>Unclassified</DT>
+            </DL>
+          </DD>
+          <DT>
+            <I>Native_Data_Set_Environment:</I>
+          </DT>
+          <DD>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.1.0.722</DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Data_Quality_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Data_Quality_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DIV>
+            <DT>
+              <I>Logical_Consistency_Report:</I>
+            </DT>
+            <PRE>The data is visually inspected by Woolpert, Inc.</PRE>
+          </DIV>
+          <DIV>
+            <DT>
+              <I>Completeness_Report:</I>
+            </DT>
+            <PRE>Lake Erie Watershed Impervious Surfaces Mapping.</PRE>
+          </DIV>
+          <DT>
+            <I>Positional_Accuracy:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Horizontal_Positional_Accuracy:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Horizontal_Positional_Accuracy_Report:</I>
+                    </DT>
+                    <PRE>Horizontal accuracy is +/- 2.5 -foot at the 90% confidence level.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Quantitative_Horizontal_Positional_Accuracy_Assessment:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Horizontal_Positional_Accuracy_Value:</I>n/a</DT>
+                      <DIV>
+                        <DT>
+                          <I>Horizontal_Positional_Accuracy_Explanation:</I>
+                        </DT>
+                        <PRE>n/a</PRE>
+                      </DIV>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Vertical_Positional_Accuracy:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Vertical_Positional_Accuracy_Report:</I>
+                    </DT>
+                    <PRE>n/a</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Quantitative_Vertical_Positional_Accuracy_Assessment:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Vertical_Positional_Accuracy_Value:</I>n/a</DT>
+                      <DIV>
+                        <DT>
+                          <I>Vertical_Positional_Accuracy_Explanation:</I>
+                        </DT>
+                        <PRE>n/a</PRE>
+                      </DIV>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Lineage:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>PSU</DT>
+                          <DT>
+                            <I>Publication_Date:</I>20140124</DT>
+                          <DT>
+                            <I>Publication_Time:</I>Unknown</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>PSU</DD>
+                          <DT>
+                            <I>Geospatial_Data_Presentation_Form:</I>vector digital data</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Scale_Denominator:</I>n/a</DT>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>disc</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Single_Date/Time:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Calendar_Date:</I>November 2012</DT>
+                              <DT>
+                                <I>Time of Day:</I>unknown</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>ground condition</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>impervious surfaces polygons</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>Lidar amd orthophotography</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>Using a Leica ALS 70 LiDAR Sensor, 40 flight lines of high density data, at a nominal pulse spacing (NPS) of 1 meter, were collected over the Lake Erie Drainage Basin AOI (approximately  512.4 square miles). Data Acquisition Height = 7,800 feet AGL - Aircraft Speed = 150 Knots. Multiple returns were recorded for each laser pulse along with an intensity value for each return. A total of two (2) missions were flown on November 11, 2012 and November 18, 2012. An airborne global positioning system (GPS) base station was used in support of the LiDAR data acquisition. Twenty-Nine (29) ground control points were surveyed through static methods. The geoid used to reduce satellite derived elevations to orthometric heights was Geoid09. Data for the task order is referenced to the Pennsylvania North Zone State Plane Coordinate System, North American Datum of 1983 (NAD83)(NSRS2007), and NAVD88, in U.S. Feet. Airborne GPS data was differentially processed and integrated with the post processed IMU data to derive a smoothed best estimate of trajectory (SBET). The SBET was used to reduce the LiDAR slant range measurements to a raw reflective surface for each flight line. The coverage was classified to extract a bare earth digital elevation model (DEM) and separate last returns. </PRE>
+                  </DIV>
+                  <DT>
+                    <I>Process_Time:</I>1200</DT>
+                  <DT>
+                    <I>Process_Contact:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Contact_Organization_Primary:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Contact_Organization:</I>Woolpert, Inc.</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Contact_Position:</I>Geospatial Services</DT>
+                          <DT>
+                            <I>Contact_Address:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Address_Type:</I>mailing and physical address</DT>
+                              <DIV>
+                                <DT>
+                                  <I>Address:</I>
+                                </DT>
+                                <PRE>4454 Idea Center Blvd.</PRE>
+                              </DIV>
+                              <DT>
+                                <I>City:</I>Dayton</DT>
+                              <DT>
+                                <I>State_or_Province:</I>OH</DT>
+                              <DT>
+                                <I>Postal_Code:</I>45430</DT>
+                              <DT>
+                                <I>Country:</I>USA</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Contact_Voice_Telephone:</I>(937) 461-5660</DT>
+                          <DT>
+                            <I>Contact_Facsimile_Telephone:</I>(937) 461-0743</DT>
+                          <DT>
+                            <I>Hours_of_Service:</I>8:00 a.m. to 5:00 p.m. Eastern Time</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>The LiDAR system calibration and system performance is verified on a periodic basis using Woolpert's calibration range. The calibration range consists of a large building and runway. The edges of the building and control points along the runway have been located using conventional survey methods. Inertial measurement unit (IMU) misalignment angles and horizontal accuracy are
+calculated by comparing the position of the building edges between opposing flight lines. The scanner scale factor and vertical accuracy is calculated through comparison of LiDAR data against control points along the runway. Field calibration is performed on all flight lines to refine the IMU misalignment angles. IMU misalignment angles are calculated from the relative displacement of features within the overlap region of adjacent (and opposing) flight lines. The raw LiDAR data is reduced using the refined misalignment angles.
+</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Process_Date:</I>2012</DT>
+                  <DT>
+                    <I>Process_Time:</I>1200</DT>
+                  <DT>
+                    <I>Process_Contact:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Contact_Organization_Primary:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Contact_Organization:</I>Woolpert, Inc.</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Contact_Position:</I>Geospatial Services</DT>
+                          <DT>
+                            <I>Contact_Address:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Address_Type:</I>mailing and physical address</DT>
+                              <DIV>
+                                <DT>
+                                  <I>Address:</I>
+                                </DT>
+                                <PRE>4454 Idea Center Blvd.</PRE>
+                              </DIV>
+                              <DT>
+                                <I>City:</I>Dayton</DT>
+                              <DT>
+                                <I>State_or_Province:</I>OH</DT>
+                              <DT>
+                                <I>Postal_Code:</I>45430</DT>
+                              <DT>
+                                <I>Country:</I>USA</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Contact_Voice_Telephone:</I>(937) 461-5660</DT>
+                          <DT>
+                            <I>Contact_Facsimile_Telephone:</I>(937) 461-0743</DT>
+                          <DT>
+                            <I>Hours_of_Service:</I>8:00 a.m. to 5:00 p.m. Eastern Time</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>Once the data acquisition and GPS processing phases are complete, the LiDAR data was processed immediately to verify the coverage had no voids. The GPS and IMU data was post processed using differential and Kalman filter algorithms to derive a best estimate of trajectory. The quality of the solution was verified to be consistent with the accuracy requirements of the project.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Process_Date:</I>20121112</DT>
+                  <DT>
+                    <I>Process_Time:</I>1200</DT>
+                  <DT>
+                    <I>Process_Contact:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Contact_Organization_Primary:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Contact_Organization:</I>Woolpert, Inc.</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Contact_Position:</I>Geospatial Services</DT>
+                          <DT>
+                            <I>Contact_Address:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Address_Type:</I>mailing and physical address</DT>
+                              <DIV>
+                                <DT>
+                                  <I>Address:</I>
+                                </DT>
+                                <PRE>4454 Idea Center Blvd.</PRE>
+                              </DIV>
+                              <DT>
+                                <I>City:</I>Dayton</DT>
+                              <DT>
+                                <I>State_or_Province:</I>OH</DT>
+                              <DT>
+                                <I>Postal_Code:</I>45430</DT>
+                              <DT>
+                                <I>Country:</I>USA</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Contact_Voice_Telephone:</I>(937) 461-5660</DT>
+                          <DT>
+                            <I>Contact_Facsimile_Telephone:</I>(937) 461-0743</DT>
+                          <DT>
+                            <I>Hours_of_Service:</I>8:00 a.m. to 5:00 p.m. Eastern Time</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>The individual flight lines were inspected to ensure the systematic and residual errors have been identified and removed. Then, the flight lines were compared to adjacent flight lines for any mismatches to obtain a homogeneous coverage throughout the project area. The point cloud underwent a classification process to determine bare-earth points and non-ground points utilizing "first and only" as well as "last of many" LiDAR returns. This process determined Default (Class 1), Ground (Class 2),Noise (Class 7), Overlap Default(Class 17), and Overlap Ground (Class 18) classifications. The bare-earth (Class 2 - Ground) LiDAR points underwent a manual QA/QC step to verify that artifacts have been removed from the bare-earth surface. The surveyed ground control points are used to perform the accuracy checks and statistical analysis of the LiDAR dataset.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Process_Date:</I>20121119</DT>
+                  <DT>
+                    <I>Process_Time:</I>1200</DT>
+                  <DT>
+                    <I>Process_Contact:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Contact_Organization_Primary:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Contact_Organization:</I>Woolpert, Inc.</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Contact_Position:</I>Geospatial Services</DT>
+                          <DT>
+                            <I>Contact_Address:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Address_Type:</I>mailing and physical address</DT>
+                              <DIV>
+                                <DT>
+                                  <I>Address:</I>
+                                </DT>
+                                <PRE>4454 Idea Center Blvd.</PRE>
+                              </DIV>
+                              <DT>
+                                <I>City:</I>Dayton</DT>
+                              <DT>
+                                <I>State_or_Province:</I>OH</DT>
+                              <DT>
+                                <I>Postal_Code:</I>45430</DT>
+                              <DT>
+                                <I>Country:</I>USA</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Contact_Voice_Telephone:</I>(937) 461-5660</DT>
+                          <DT>
+                            <I>Contact_Facsimile_Telephone:</I>(937) 461-0743</DT>
+                          <DT>
+                            <I>Hours_of_Service:</I>8:00 a.m. to 5:00 p.m. Eastern Time</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>To produce the color digital orthophotos with a 0.5 foot pixel GSD, Woolpert obtained aerial photography according to the following specifications:
+Camera: Leica ADS80-SH81/82 Airborne Digital Sensor
+Flying Height: 4,800' AGL for a nominal 0.5 foot pixel GSD
+Imagery Type: RGB+NIR
+Side Lap: 30%
+The imagery was acquired using the Leica ADS80-SH81/82 multispectral scanner. The fundamental resolution of the imagery was 0.5 foot. The ADS80-SH81/82 utilizes the Applanix POSAV direct positioning and orientation system that is based on airborne GPS and inertial measurement unit (IMU) technology. POSAV data were reduced using the Applanix POSPAC software package (V4.3). All of the source imagery was processed using the Leica GPRO (V3.2) software package. This package provides the capability to perform digital mage processing, aerial triangulation, and image rectification. The strips of imagery were ortho rectified to existing digtial elevation model (DEM) data. The individual rectified strips of ortho rectified imagery were then mosaicked together to form a seamless imagery database over the entire task order area using the OrthoVista software (V4.3) by Inpho GmbH. The final digital orthophoto imagery tiles were extracted using OrthoVista.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Process_Date:</I>Unknown</DT>
+                  <DT>
+                    <I>Process_Time:</I>1200</DT>
+                  <DT>
+                    <I>Process_Contact:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Contact_Organization_Primary:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Contact_Organization:</I>Woolpert, Inc.</DT>
+                              <DT>
+                                <I>Contact_Person:</I>Geospatial Services</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Contact_Address:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Address_Type:</I>mailing and physical address</DT>
+                              <DIV>
+                                <DT>
+                                  <I>Address:</I>
+                                </DT>
+                                <PRE>4454 Idea Center Blvd.</PRE>
+                              </DIV>
+                              <DT>
+                                <I>City:</I>Dayton</DT>
+                              <DT>
+                                <I>State_or_Province:</I>OH</DT>
+                              <DT>
+                                <I>Postal_Code:</I>45430</DT>
+                              <DT>
+                                <I>Country:</I>USA</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Contact_Voice_Telephone:</I>(937) 461-5660</DT>
+                          <DT>
+                            <I>Contact_Facsimile_Telephone:</I>(937) 461-0743</DT>
+                          <DT>
+                            <I>Hours_of_Service:</I>8:00 a.m. to 5:00 p.m. Eastern Time</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>To produce a map that details the location and extent of impervious surfaces throughout the Erie Watershed project area.  The process of impervious surfaces delineation began with object-based image analysis and automated feature extraction.  Object-based image analysis was performed on the 4 band orthophotography (red, green, blue and near infra-red).  This image analysis produced rough and generalized polygons that showed the extent of impervious surfaces.  These polygons were then augmented by Lidar through the process of automated feature extraction. The generalized polygons were then smoothed and analyzed in order to ensure they meet and/or exceed the set positional accuracy of +/- 2.5 feet as well as an overall classification accuracy of 90% consistent with NSSDA/NMAS specifications. 95% of impervious features larger than 100 square feet were and 98% of impervious object larger than 200 square feet were captured.  The final polygons were delivered as a ESRI file geodatabase (version 10.1).</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Process_Date:</I>Unknown</DT>
+                  <DT>
+                    <I>Process_Time:</I>1200</DT>
+                  <DT>
+                    <I>Process_Contact:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Contact_Organization_Primary:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Contact_Organization:</I>Woolpert, Inc.</DT>
+                              <DT>
+                                <I>Contact_Person:</I>Geospatial Services</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Contact_Address:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Address_Type:</I>mailing and physical address</DT>
+                              <DIV>
+                                <DT>
+                                  <I>Address:</I>
+                                </DT>
+                                <PRE>4454 Idea Center Blvd.</PRE>
+                              </DIV>
+                              <DT>
+                                <I>City:</I>Dayton</DT>
+                              <DT>
+                                <I>State_or_Province:</I>OH</DT>
+                              <DT>
+                                <I>Postal_Code:</I>45430</DT>
+                              <DT>
+                                <I>Country:</I>USA</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Contact_Voice_Telephone:</I>(937) 461-5660</DT>
+                          <DT>
+                            <I>Contact_Facsimile_Telephone:</I>(937) 461-0743</DT>
+                          <DT>
+                            <I>Hours_of_Service:</I>8:00 a.m. to 5:00 p.m. Eastern Time</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Cloud_Cover:</I>0</DT>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Spatial_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Spatial_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Horizontal_Coordinate_System_Definition:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Planar:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Grid_Coordinate_System:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Grid_Coordinate_System_Name:</I>State Plane Coordinate System</DT>
+                      <DT>
+                        <I>State_Plane_Coordinate_System:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>SPCS_Zone_Identifier:</I>3701</DT>
+                          <DT>
+                            <I>Lambert_Conformal_Conic:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Standard_Parallel:</I>40.88333333</DT>
+                              <DT>
+                                <I>Standard_Parallel:</I>41.95000000</DT>
+                              <DT>
+                                <I>Longitude_of_Central_Meridian:</I>-77.75000000</DT>
+                              <DT>
+                                <I>Latitude_of_Projection_Origin:</I>40.16666667</DT>
+                              <DT>
+                                <I>False_Easting:</I>1968500.00000000</DT>
+                              <DT>
+                                <I>False_Northing:</I>0.00000000</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Planar_Coordinate_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Planar_Coordinate_Encoding_Method:</I>row and column</DT>
+                      <DT>
+                        <I>Coordinate_Representation:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Abscissa_Resolution:</I>0.50000</DT>
+                          <DT>
+                            <I>Ordinate_Resolution:</I>0.50000</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Planar_Distance_Units:</I>feet</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Geodetic_Model:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Horizontal_Datum_Name:</I>North American Datum of 1983</DT>
+                  <DT>
+                    <I>Ellipsoid_Name:</I>Geodetic Reference System 80</DT>
+                  <DT>
+                    <I>Semi-major_Axis:</I>6378137.000000</DT>
+                  <DT>
+                    <I>Denominator_of_Flattening_Ratio:</I>298.257222</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Vertical_Coordinate_System_Definition:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Altitude_System_Definition:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Altitude_Datum_Name:</I>North American Vertical Datum of 1988 HARN</DT>
+                  <DT>
+                    <I>Altitude_Resolution:</I>.5</DT>
+                  <DT>
+                    <I>Altitude_Distance_Units:</I>feet</DT>
+                  <DT>
+                    <I>Altitude_Encoding_Method:</I>Explicit elevation coordinate included with horizontal coordinates</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A NAME="ECA">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Distribution_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Distributor:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>Woolpert, Inc.</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Position:</I>Geospatial Services</DT>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>4454 Idea Center Blvd.</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Dayton</DT>
+                      <DT>
+                        <I>State_or_Province:</I>OH</DT>
+                      <DT>
+                        <I>Postal_Code:</I>45430</DT>
+                      <DT>
+                        <I>Country:</I>USA</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>(937) 461-5660</DT>
+                  <DT>
+                    <I>Contact_Facsimile_Telephone:</I>(937) 461-0743</DT>
+                  <DT>
+                    <I>Hours_of_Service:</I>8:00 a.m. to 5:00 p.m. Eastern Time</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Resource_Description:</I>Hard Drive</DT>
+          <DIV>
+            <DT>
+              <I>Distribution_Liability:</I>
+            </DT>
+            <PRE>No warranty expressed or implied is made regarding the utility or the data on any other system, nor shall the act of distribution constitute any such warranty</PRE>
+          </DIV>
+          <DT>
+            <I>Standard_Order_Process:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Non-digital_Form:</I>
+              </DT>
+              <DD>ESRI Geodatabase on HD</DD>
+              <DT>
+                <I>Fees:</I>None</DT>
+              <DIV>
+                <DT>
+                  <I>Ordering_Instructions:</I>
+                </DT>
+                <PRE>Upon request from distributor.  Data release caveats may apply</PRE>
+              </DIV>
+              <DT>
+                <I>Turnaround:</I>Variable</DT>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A NAME="EAA">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Distribution_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Distributor:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>Pennsylvania Spatial Data Access (PASDA)</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>115 Land and Water building</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>University Park</DT>
+                      <DT>
+                        <I>State_or_Province:</I>Pennsylvania</DT>
+                      <DT>
+                        <I>Postal_Code:</I>16802</DT>
+                      <DT>
+                        <I>Country:</I>United States</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>(814) 865 - 8792</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>pasda@psu.edu</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DIV>
+            <DT>
+              <I>Distribution_Liability:</I>
+            </DT>
+            <PRE>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</PRE>
+          </DIV>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Metadata_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Metadata_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Metadata_Date:</I>2014</DT>
+          <DT>
+            <I>Metadata_Contact:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>Pennsylvania Spatial Data Access (PASDA)</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>115 Land and Water building</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>University Park</DT>
+                      <DT>
+                        <I>State_or_Province:</I>Pennsylvania</DT>
+                      <DT>
+                        <I>Postal_Code:</I>16802</DT>
+                      <DT>
+                        <I>Country:</I>USA</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>(814) 865 - 8792</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>pasda@psu.edu</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Metadata_Standard_Name:</I>FGDC Content Standards for Digital Geospatial Metadata</DT>
+          <DT>
+            <I>Metadata_Standard_Version:</I>FGDC-STD-001-1998</DT>
+          <DT>
+            <I>Metadata_Time_Convention:</I>local time</DT>
+          <DT>
+            <I>Metadata_Security_Information:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Metadata_Security_Classification_System:</I>Unclassified</DT>
+              <DT>
+                <I>Metadata_Security_Classification:</I>Unclassified</DT>
+              <DT>
+                <I>Metadata_Security_Handling_Description:</I>
+              </DT>
+              <DD>Unclassified</DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Metadata_Extensions:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Online_Linkage:</I>
+                <A TARGET="viewer" HREF="http://www.esri.com/metadata/esriprof80.html">http://www.esri.com/metadata/esriprof80.html</A>
+              </DT>
+              <DT>
+                <I>Profile_Name:</I>ESRI Metadata Profile</DT>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+  </BODY>
+</HTML>
+		</form>
+	</body>
+</HTML>

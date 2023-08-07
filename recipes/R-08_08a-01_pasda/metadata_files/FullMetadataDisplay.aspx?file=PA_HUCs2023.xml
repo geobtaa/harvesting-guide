@@ -1,0 +1,3688 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+	<HEAD>
+		<title>Pennsylvania Spatial Data Access | Full Metadata</title>
+		<meta name="GENERATOR" content="Microsoft Visual Studio.NET 7.0">
+		<meta name="CODE_LANGUAGE" content="Visual Basic 7.0">
+		<meta name="vs_defaultClientScript" content="JavaScript">
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+	    <link rel="shortcut icon" href="http://maps.pasda.psu.edu/Images/favicon.ico" type="image/x-icon" />
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-41373351-5', 'psu.edu');
+          ga('send', 'pageview');
+
+        </script>
+</HEAD>
+	<body MS_POSITIONING="GridLayout">
+		<form method="post" action="./FullMetadataDisplay.aspx?file=PA_HUCs2023.xml" id="Form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEzNDA3MDMyNjVkZCi1cbXMhfZI+elmwl4oTersdOt9nxHHv5HGNLdvg2y4" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="D999016F" />
+			<HTML>
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <SCRIPT type="text/javascript">
+
+      function fix(e) {
+        var par = e.parentNode;
+        e.id = "";
+        e.style.marginLeft = "0.42in";
+        var pos = e.innerText.indexOf("\n");
+        if (pos > 0) {
+          while (pos > 0) {
+            var t = e.childNodes(0);
+            var n = document.createElement("PRE");
+            var s = t.splitText(pos);
+            e.insertAdjacentElement("afterEnd", n);
+            n.appendChild(s);
+            n.style.marginLeft = "0.42in";
+            e = n;
+            pos = e.innerText.indexOf("\n");
+          }
+          var count = (par.children.length);
+          for (var i = 0; i < count; i++) {
+            e = par.children(i);
+            if (e.tagName == "PRE") {
+              pos = e.innerText.indexOf(">");
+              if (pos != 0) {
+                n = document.createElement("DD");
+                e.insertAdjacentElement("afterEnd", n);
+                n.innerText = e.innerText;
+                e.removeNode(true);
+              }
+            }
+          }
+          if (par.children.tags("PRE").length > 0) {
+            count = (par.children.length);
+            for (i = 0; i < count; i++) {
+              e = par.children(i);
+              if (e.tagName == "PRE") {
+                e.id = "";
+                if (i < (count-1)) {
+                  var e2 = par.children(i + 1);
+                  if (e2.tagName == "PRE") {
+                    e.insertAdjacentText("beforeEnd", e2.innerText+"\n");
+                    e2.removeNode(true);
+                    count = count-1;
+                    i = i-1;
+                  }
+                }
+              }
+            }
+          }
+        }
+        else {
+          n = document.createElement("DD");
+          par.appendChild(n);
+          n.innerText = e.innerText;
+          e.removeNode(true);
+        }
+      }
+
+    </SCRIPT>
+  </HEAD>
+  <BODY oncontextmenu="return true">
+    <A name="Top">
+    </A>
+    <H2>PA Watersheds (HUCs)</H2>
+    <UL>
+      <LI>
+        <A HREF="#Identification_Information">Identification_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Data_Quality_Information">Data_Quality_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Spatial_Data_Organization_Information">Spatial_Data_Organization_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Spatial_Reference_Information">Spatial_Reference_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Entity_and_Attribute_Information">Entity_and_Attribute_Information</A>
+      </LI>
+      <LI>Distribution_Information</LI>
+      <LI STYLE="margin-left:0.3in">
+        <A HREF="#EFA">
+                  Distributor 1</A>
+      </LI>
+      <LI>
+        <A HREF="#EAA">
+                  Distribution_Information 
+                </A>
+      </LI>
+      <LI>
+        <A HREF="#Metadata_Reference_Information">Metadata_Reference_Information</A>
+      </LI>
+    </UL>
+    <A name="Identification_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Identification_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Citation:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Citation_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Originator:</I>U.S. Department of Agriculture - Natural Resource Conservation Service (NRCS)</DT>
+                  <DT>
+                    <I>Originator:</I>U.S. Geological Survey (USGS)</DT>
+                  <DT>
+                    <I>Originator:</I>Other Federal, State, and local partners (see dataset specific metadata for details http://nhd.usgs.gov/wbd_metadata.html)</DT>
+                  <DT>
+                    <I>Originator:</I>U.S. Environmental Protection Agency (EPA)</DT>
+                  <DT>
+                    <I>Originator:</I>WeConservePA</DT>
+                  <DT>
+                    <I>Publication_Date:</I>2021</DT>
+                  <DT>
+                    <I>Title:</I>
+                  </DT>
+                  <DD>PA Watersheds (HUCs)</DD>
+                  <DT>
+                    <I>Geospatial_Data_Presentation_Form:</I>Vector Digital Data Set</DT>
+                  <DT>
+                    <I>Online_Linkage:</I>
+                    <A TARGET="viewer" HREF="ftp://rockyftp.cr.usgs.gov/vdelivery/Datasets/Staged/Hydrography/WBD/National/GDB/National_WBD.zip">ftp://rockyftp.cr.usgs.gov/vdelivery/Datasets/Staged/Hydrography/WBD/National/GDB/National_WBD.zip</A>
+                  </DT>
+                  <DT>
+                    <I>Online_Linkage:</I>
+                    <A TARGET="viewer" HREF="https://www.pasda.psu.edu/">https://www.pasda.psu.edu/</A>
+                  </DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Abstract:</I>
+                </DT>
+                <PRE>This data comes directly from USGS National Watershed Boundary Dataset (see below) and is clipped to the PA State boundary and projected to PA State Plane in US Feet. A link to download the nationwide dataset is provided below. 
+Source acquisition date: September 2021 
+Data Source: USGS - Watershed Boundary Dataset (WBD) https://www.usgs.gov/core-science-systems/ngp/national-hydrography/watershed-boundary-dataset?qt-science_support_page_related_con=4#qt-science_support_page_related_con https://www.usgs.gov/core-science-systems/ngp/national-hydrography/access-national-hydrography-products https://prd-tnm.s3.amazonaws.com/index.html?prefix=StagedProducts/Hydrography/WBD/National/GDB/ 
+Nationwide MapServer for Watershed Boundary Dataset: https://hydro.nationalmap.gov/arcgis/rest/services/wbd/MapServer/ 
+Download the WBD from the NRCS Geospatial Data Gateway Watershed Boundaries can also be downloaded from the Natural Resources Conservation Service. Data on the Geospatial Data Gateway are refreshed every six months (March and September).
+</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Purpose:</I>
+                </DT>
+                <PRE>This data comes directly from USGS National Watershed Boundary Dataset (see below) and is clipped to the PA State boundary and projected to PA State Plane in US Feet. A link to download the nationwide dataset is provided below. The intent of defining Hydrologic Units (HU) within the Watershed Boundary Dataset is to establish a base-line drainage boundary framework, accounting for all land and surface areas. Hydrologic units are intended to be used as a tool for water-resource management and planning activities particularly for site-specific and localized studies requiring a level of detail provided by large-scale map information. The WBD complements the National Hydrography Dataset (NHD) and supports numerous programmatic missions and activities including: watershed management, rehabilitation and enhancement, aquatic species conservation strategies, flood plain management and flood prevention, water-quality initiatives and programs, dam safety programs, fire assessment and management, resource inventory and assessment, water data analysis and water census.</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Supplemental_Information:</I>
+                </DT>
+                <PRE>Source acquisition date: September 2021
+
+Data Source: USGS - Watershed Boundary Dataset (WBD)
+https://www.usgs.gov/core-science-systems/ngp/national-hydrography/watershed-boundary-dataset?qt-science_support_page_related_con=4#qt-science_support_page_related_con
+https://www.usgs.gov/core-science-systems/ngp/national-hydrography/access-national-hydrography-products
+
+https://prd-tnm.s3.amazonaws.com/index.html?prefix=StagedProducts/Hydrography/WBD/National/GDB/
+
+Nationwide MapServer for Watershed Boundary Dataset: https://hydro.nationalmap.gov/arcgis/rest/services/wbd/MapServer/
+
+Download the WBD from the NRCS Geospatial Data Gateway 
+Watershed Boundaries can also be downloaded from the Natural Resources Conservation Service. Data on the Geospatial Data Gateway are refreshed every six months (March and September).
+
+The WBD was produced and is maintained through a cooperative process involving state, federal and local partners. Process information for a specific state or region can be found within the state specific metadata located at http://nhd.usgs.gov/wbd_metdata.html. This metadata file has information for WBD features contained in the WBD feature dataset. This includes information about the 2-, 4-, 6-, 8-, 10-, 12-, 14-, 16-digit polygons and WBD_Line dataset. Users accessing the WBD via shapefile will need to search for the attribution related to that specific dataset.</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Time_Period_of_Content:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Time_Period_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Single_Date/Time:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Calendar_Date:</I>2021</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DIV>
+                <DT>
+                  <I>Currentness_Reference:</I>
+                </DT>
+                <PRE>publication date</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Status:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Progress:</I>Complete</DT>
+              <DT>
+                <I>Maintenance_and_Update_Frequency:</I>As needed</DT>
+            </DL>
+          </DD>
+          <DT>
+            <I>Spatial_Domain:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Bounding_Coordinates:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>West_Bounding_Coordinate:</I>-80.626038</DT>
+                  <DT>
+                    <I>East_Bounding_Coordinate:</I>-74.624803</DT>
+                  <DT>
+                    <I>North_Bounding_Coordinate:</I>42.286370</DT>
+                  <DT>
+                    <I>South_Bounding_Coordinate:</I>39.680556</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Keywords:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Theme:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Theme_Keyword_Thesaurus:</I>ISO 19115 Topic Category</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>16-digit</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Hydrologic Unit Code</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Region</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>4-digit</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>HUC</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Watershed Boundary Dataset</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>2-digit</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Basin</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>10-digit</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Hydrologic Units</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Sub-basin</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Watershed</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>WBD</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>6-digit</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>inlandWaters</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Sub-region</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Subwatershed</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>12-digit</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>14-digit</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>8-digit</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Place:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Place_Keyword_Thesaurus:</I>U.S. Department of Commerce, 1977, Countries, dependencies, areas of special sovereignty, and their principal administrative divisions (Federal Information Processing Standards 10-3): Washington, D.C., National Institute of Standards and Technology.</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>US</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>United States</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Access_Constraints:</I>None</DT>
+          <DIV>
+            <DT>
+              <I>Use_Constraints:</I>
+            </DT>
+            <PRE>The distributor shall not be held liable for improper or incorrect use of this data, based on the description of appropriate/inappropriate uses described in this metadata document. It is strongly recommended that this data is directly acquired from the distributor and not indirectly through other sources which may have changed the data in some way. These data should not be used at scales greater than 1:24,000 for the purpose of identifying hydrographic watershed boundary feature locations in the United States. The Watershed Boundary Dataset is public information and may be interpreted by all organizations, agencies, units of government, or others based on needs; however, they are responsible for the appropriate application of the data. Photographic or digital enlargement of these maps to scales greater than that at which they were originally delineated can result in misrepresentation of the data. If enlarged, the maps will not include the fine detail that would be appropriate for mapping at the small scale. Digital data files are periodically updated and users are responsible for obtaining the latest version of the data from the source distributor. Acknowledgment of the origination agencies would be appreciated in products derived from these data.</PRE>
+          </DIV>
+          <DT>
+            <I>Point_of_Contact:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>WeConservePA</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>610 N. 3rd St, Suite 301 </PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Harrisburg</DT>
+                      <DT>
+                        <I>State_or_Province:</I>Pennsylvania</DT>
+                      <DT>
+                        <I>Postal_Code:</I>17101</DT>
+                      <DT>
+                        <I>Country:</I>United States</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>717.220.3272</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>ibeal@WeConservePA.org</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Browse_Graphic:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Browse_Graphic_File_Name:</I>
+                <A TARGET="viewer" HREF="ftp://rockyftp.cr.usgs.gov/vdelivery/Datasets/Staged/Hydrography/WBD/National/GDB/National_WBD.jpg">ftp://rockyftp.cr.usgs.gov/vdelivery/Datasets/Staged/Hydrography/WBD/National/GDB/National_WBD.jpg</A>
+              </DT>
+              <DT>
+                <I>Browse_Graphic_File_Description:</I>
+              </DT>
+              <DD>Thumbnail JPG image</DD>
+              <DT>
+                <I>Browse_Graphic_File_Type:</I>JPEG</DT>
+            </DL>
+          </DD>
+          <DIV>
+            <DT>
+              <I>Data_Set_Credit:</I>
+            </DT>
+            <PRE>Funding for the Watershed Boundary Dataset (WBD) was provided by the USDA-NRCS, USGS and EPA along with other federal, state and local agenciesies. Representatives from many agencies contributed a substantial amount of time and salary towards quality review and updating of the dataset in order to meet the WBD Standards. Acknowledgment of the originating agencies would be appreciated in products derived from these data. See dataset specific metadata for further information</PRE>
+          </DIV>
+          <DT>
+            <I>Native_Data_Set_Environment:</I>
+          </DT>
+          <DD> Version 6.2 (Build 9200) ; Esri ArcGIS 10.3.1.4959</DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Data_Quality_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Data_Quality_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Attribute_Accuracy:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Attribute_Accuracy_Report:</I>
+                </DT>
+                <PRE>All attempts were made to verify 100% of the initially required attributes using 24K digital raster graphics (DRGs) as the base. Additional datasets, like the Geographic Names Information System (GNIS) and NHD, may also have been used to verify attribution. The accuracy of this data is dependent on the level of detail of the source material and the interpretation procedures for capturing that source. Other sources and methods may have been used to create or update WBD data. In some cases, additional information may be found in the WBD Metadata table.</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DIV>
+            <DT>
+              <I>Logical_Consistency_Report:</I>
+            </DT>
+            <PRE>Lines, polygons and nodes conform to topological rules. Lines intersect only at nodes, and all nodes anchor the ends of lines. Lines do not overshoot or undershoot other lines where they are supposed to meet. There are no duplicate lines. Lines bound polygons. Gaps and overlaps among polygons do not exist. All polygons close.</PRE>
+          </DIV>
+          <DIV>
+            <DT>
+              <I>Completeness_Report:</I>
+            </DT>
+            <PRE>The WBD contains completed polygons at every level for the United States. All required fields within the polygon and line datasets are populated. Some of these fields may be populated with a zeor "0". The lines coincident with the international boundary are assigned a HULevel value of 0. These cannot be attributed until the adjacent international units are added at which point the highest level of hydrologic unit can be determined. A detailed description of delineation methods and full attribute definitions can be found in the WBD Standards. Users are advised to carefully read the metadata record for additional details.</PRE>
+          </DIV>
+          <DT>
+            <I>Positional_Accuracy:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Horizontal_Positional_Accuracy:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Horizontal_Positional_Accuracy_Report:</I>
+                    </DT>
+                    <PRE>The WBD was produced using a variety of digital spatial data including but not limited to Digital Raster Graphics (DRGs), aerial imagery and digital elevation models (DEM). It is assumed these data are mapped at approximately 1:24,000-scale and contain a minimum inherent error of +/- 40 feet. It should be noted that the WBD is undergoing continuous update as source data improves and as hydrologic interpretations are refined. While general rules of hydrology were used in delineation, locations of boundaries may be subjective in some cases. Additional information may be found in the WBD Metadata table.</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Vertical_Positional_Accuracy:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Vertical_Positional_Accuracy_Report:</I>
+                    </DT>
+                    <PRE>A formal accuracy assessment of the vertical positional information in the data set has either not been conducted, or is not applicable.</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Lineage:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>U.S. Geological Survey</DT>
+                          <DT>
+                            <I>Publication_Date:</I>20160101</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>National Hydrography Dataset</DD>
+                          <DT>
+                            <I>Geospatial_Data_Presentation_Form:</I>Vector Digital Data</DT>
+                          <DT>
+                            <I>Publication_Information:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Publication_Place:</I>Denver, CO</DT>
+                              <DT>
+                                <I>Publisher:</I>U.S. Geological Survey</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Online_Linkage:</I>
+                            <A TARGET="viewer" HREF="http://nhd.usgs.gov/data.html">http://nhd.usgs.gov/data.html</A>
+                          </DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Scale_Denominator:</I>24000</DT>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>hardcopy</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Single_Date/Time:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Calendar_Date:</I>unknown</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>publication date</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>NHD</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>Hydrography data used for reference in watershed boundary delineation process</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>U.S. Geological Survey</DT>
+                          <DT>
+                            <I>Publication_Date:</I>unknown</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>Digital Orthophoto Quads</DD>
+                          <DT>
+                            <I>Geospatial_Data_Presentation_Form:</I>Raster Digital Data</DT>
+                          <DT>
+                            <I>Publication_Information:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Publication_Place:</I>Unknown</DT>
+                              <DT>
+                                <I>Publisher:</I>U.S. Geological Survey</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Online_Linkage:</I>
+                            <A TARGET="viewer" HREF="http://datagateway.nrcs.usda.gov">http://datagateway.nrcs.usda.gov</A>
+                          </DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Scale_Denominator:</I>24000</DT>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>hardcopy</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Single_Date/Time:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Calendar_Date:</I>unknown</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>20100325</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>USGSDOQ</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>Aerial imagery used for reference in watershed boundary delineation</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>U.S. Geological Survey</DT>
+                          <DT>
+                            <I>Publication_Date:</I>19940101</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>250K Hydrologic Unit Boundaries</DD>
+                          <DT>
+                            <I>Geospatial_Data_Presentation_Form:</I>Vector Digital Data</DT>
+                          <DT>
+                            <I>Publication_Information:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Publication_Place:</I>Reston, Virginia</DT>
+                              <DT>
+                                <I>Publisher:</I>U.S. Geological Survey</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Online_Linkage:</I>
+                            <A TARGET="viewer" HREF="http://water.usgs.gov/lookup/getspatial?huc250k">http://water.usgs.gov/lookup/getspatial?huc250k</A>
+                          </DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Scale_Denominator:</I>250000</DT>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>hardcopy</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_of_Dates/Times:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Beginning_Date:</I>unknown</DT>
+                              <DT>
+                                <I>Ending_Date:</I>19940101</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>Publication date</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>HUC250K</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>Reference dataset for the 2-, 4-, 6- and 8-digit hydrologic units</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>U.S. Geological Survey</DT>
+                          <DT>
+                            <I>Publication_Date:</I>unknown</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>7.5 Minute Topographic Quadrangle Sheets</DD>
+                          <DT>
+                            <I>Geospatial_Data_Presentation_Form:</I>Paper Map</DT>
+                          <DT>
+                            <I>Publication_Information:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Publication_Place:</I>Reston, Virginia</DT>
+                              <DT>
+                                <I>Publisher:</I>U.S. Geological Survey</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Scale_Denominator:</I>24000</DT>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>hardcopy</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_of_Dates/Times:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Beginning_Date:</I>18840101</DT>
+                              <DT>
+                                <I>Ending_Date:</I>20060101</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>Publication date</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>USGSTopo</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>Base information for hydrologic unit delineation.</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>U.S. Geological Survey</DT>
+                          <DT>
+                            <I>Publication_Date:</I>19990101</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>U.S. Geological Survey Digital Raster Graphic (DRG)</DD>
+                          <DT>
+                            <I>Geospatial_Data_Presentation_Form:</I>Raster Digital Data</DT>
+                          <DT>
+                            <I>Publication_Information:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Publication_Place:</I>Unknown</DT>
+                              <DT>
+                                <I>Publisher:</I>U.S. Geological Survey</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Online_Linkage:</I>
+                            <A TARGET="viewer" HREF="http://datagateway.nrcs.usda.gov">http://datagateway.nrcs.usda.gov</A>
+                          </DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Scale_Denominator:</I>24000</DT>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>hardcopy</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_of_Dates/Times:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Beginning_Date:</I>unknown</DT>
+                              <DT>
+                                <I>Ending_Date:</I>19990101</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>Publication date</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>USGSDRG</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>Base information for hydrologic unit delineation.</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>The original hydrologic unit boundaries were hand-digitized on a digitizing table from the USGS 7.5 minute quadrangles. This process occurred over a span of approximately 20 years from 1980 to 2000.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Process_Date:</I>20000101</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>The original dataset was reviewed by USGS personnel using on-screen techniques with DRGs as the base map. All hydrologic units within the dataset that were less than 3,000 acres were dissolved out.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Process_Date:</I>20030101</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>First draft of metadata created by NRCS using METADATA Editor in ArcCatalog ver. 9.1 sp.1 hu12_geo83</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Process_Date:</I>20070124</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>From 2005 to 2011, original dataset attribution was reviewed and revised to reflect the updates and changes made to the dataset. These revisions to the attribution were also made to ensure that the dataset met the Federal Standards for Delineation of Hydrologic Unit Boundaries. The NHD was used during this process to help with the naming and downstream coding of each unit. In some instances there were name discrepancies between the NHD and what was printed on the DRGs. In these instances the DRGs were used instead of the NHD.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Process_Date:</I>20110101</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>The new WBD (2005-2011) was reviewed on-screen by USGS, EPA, or NRCS personnel using DRGs and DOQss as base maps. Hydrologic Units that were less than 10,000 acres (for the 12-digit units) and 40,000 acres (for the 10-digit units) were reviewed and if possible were dissolved out. Along the coastal areas, standard watersheds that fell within the federal guideline's size criteria (12-digit: 10,000-40,000 acres, 10-digit: 40,000-250,000 acres) were delineated. If possible the remaining frontals were left as their own units. Frontals that did not meet the size criteria were grouped together with other frontals within the overall 8-digit or 10-digit unit. Hydrologic units that were greater than 40,000 acres (12-digit units) and 250,000 acres (10-digit units) were reviewed. If possible these units where then subdivided into smaller units that met the size criteria. In some cases, additional breaks within the unit would not have made sense or have been very useful. For example: When the majority of the unit was made up by a major waterbody feature such as a lake or reservoir and the surrounding tributaries were too small to delineate as their own unit. In these instances the unit was left big.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Process_Date:</I>20110101</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>From 2005 to 2011, hydrologic units from surrounding states were used to edgematch watershed boundaries as they were developed.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Process_Date:</I>20110101</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>Additional information about the processes used to create and maintain the WBD after June of 2012 can be found in the table called METAPROCESSDETAIL. The process descriptions are linked using the TNMID to the FEATURETOMETADATA table. In addition the METASOURCEDETAIL table can also be linked to determine the sources used to create or update the WBD data.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Process_Date:</I>20120101</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>Mexico Harmonization (2010-2014) 2010 - Harmonization with Texas and Mexico; HUC12 polygons and line rework by USGS Water Science Center, Salt Lake City, UT. 2014 - Harmonized 8-, 10 and 12-digit units for all border 8-digit units with Mexico were incorporated into the WBD. These datasets were developed through a coordinated effort between the USGS and INEGI along with input from State and local partners. Due to the harmonization effort some 8-digit boundaries may have been adjusted. In addition to this the 10- and 12-digit boundaries along the border might have also been adjusted based on the availability of better base information within Mexico provided by INEGI.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Process_Date:</I>20140101</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>Below is a list of updates (from 2011 to 2016) resulting from harmonization work with Canada. Alaska: Legacy 19010101 Southeast Mainland name and code were retired and the area subdivided into four units. New codes and names are as follows and accepted by the National Technical Team and approved with Canadian and Alaska partners (USFS): 19010104 Bradfield Canal 19010105 Burroughs Bay 19010106 Headwaters Portland Canal 19010107 Outlet Portland Canal Legacy 19010201 Mainland had a portion broken out. 19010201 will be preserved and the small piece broekn out in order to harmonize with Canada. The smaller piece will have the new code 19010205 and the name will be Lower Iskut. Revised again 5/31/11: 19010201 Mainland was broken into three new units 19010206 Holkham Bay 19010207 Stikine River 19010208 Thomas Bay Legacy 19010301 Lynn Canal now has the Taku River broken out to accommodate Canada. Taku River will be code 19010304. The National Technical Coordinators (NTC) accepts this. Revised again 5/31/11:(AK group consulted along with Pete Steeves, Kim Jones, Stephen Daw, Karen Hanson): 19070101 Atlin Lake was broken out of the legacy Lynn Canal 19010301 and is part of the newly accepted Subregion 1907 Legacy 19010302 Glacier Bay was subdivided along the ridge separating out the ocean flow. The unit broken out is: 19010406 Palma Bay (this unit also includes a portion of the original 19010401) Note: Legacy 19010302 Glacier Bay will be retained although the area is now smaller. Other options didn’t make as much sense. Legacy 19010303 Chilkat-Skagway Rivers was subdivided into: 19070102 Bennett Lake 19070103 Tagish Lake 19070104 Takhini River Note: 19010303 Chilkat-Sakgway Rivers is retained Legacy 19010401 Yakutat Bay name and code retired and the area subdivided into 4 new units. New codes and names are as follows 19010403 Tatshenshini River 19010404 Alsek River 19010405 Yakutat Bay-Gulf of Alaska 19010406 Palma Bay (This new unit also includes a portion of the original 19010302) Idaho and Washington - 2013 - The Columbia River Basin and Puget Sound Coastal area was updated to include the harmonized 8-, 10, and 12-digit hydrologic units within Canada. This harmonized data was created with contributions from US and Canadian Federal, State, Provincial and local partners. The British Columbia 20K Fresh Water Atlas watershed data and DEM data were used to create the units within Canada. Border units were updated through a review/agreement process with local and state/provincial partners using the best available data (DEM, DRG, Imagery, Field Verification). During the harmonization effort there were some 8-digit updates that were agreed to. Legacy 17010101 Upper Kootenai name will change to Middle Kootenai to coordinate with Canada since there is an Upper Kootenay solely in Canada. Legacy 17010101 Upper Kootenai boundary changed slightly. The WBD Technical Team recommends retaining the legacy name and code. A new subbasin was created as a result of the international border harmonization which slightly goes into the U.S. (the portion of 17010101 referenced above). The WBD Technical Team recommends coding this unit with the next down sequential code which would be 17010106 and using the name that Canada refers to this hydrologic unit as “Elk”. 17110001 legacy name “Fraser” is being changed to “Sumas River” to match with Canada, and because the Fraser River doesn’t flow through this unit. Montana: 1001 flows into Canada and the Saskatchewan River and not into the Missouri River as originally thought. As such this 4-digit hydrologic units was moved from region 10 to 09. 0904 - Saskatchewan River 090400- Upper South Saskatchewan River (This matches the Canadian FDA at the WSCSDA level (sub drainage area)). 10010001 name and code have been retired, and this area is now 09040002 Belly 10010002 name and code have been retired, and this area is now 09040001 St. Marys Minnesota: 2014 - Rainy River Basin was updated to include the harmonized 8-, 10- and 12-digit hydrologic units with Canada. This harmonized data was created over a 6 month time period with cooperation from Federal, State, Provincial and Local Partners. Some of the boundaries within MN were updated using the MN LiDAR data. The MN LiDAR was also used in the creation of boundaries within Canada when the LiDAR data overlapped into Canada. The other boundaries within Canada were generated using the province of Ontario’s 20K DEM and Hydrography data. There were some 8-digit updates as a result of the harmonization effort. 09030004 Upper Rainy has been retired 09030004 is now a part of 09030008 the Lower Rainy 2 new 8-digit units were broken out in Canada 09030010 – Big Turtle River-Rainy Lake 09030011 – Shoal Lake North Dakota: Legacy 09020313 Pembina was subdivided into two new units. The legacy name and code were retired. The new codes and names are: 09020315 Upper Pembina River 09020316 Lower Pembina River 2014- Souris River Basin was updated to include the harmonized 8-, 10- and 12-digit hydrologic units with Canada. This harmonized data was created over a 6 month time period with cooperation from Federal, State, Provincial and Local Partners. There were some 8-digit updates as a result of the harmonization effort. Legacy 09010001 Upper Souris has now been subdivided. That code and name have been retired and the new units are: 09010006 Long Creek 09010007 Headwaters Souris River 09010008 Moose Mountain Creek-Souris River North Dakota and Minnesotta: Red River Basin Legacy 09020311 Lower Red name is being changed to Middle Red in order to harmonize with Canada. Lower Red is the Basin name for this entire area but the impact to change at that level isn’t known so won’t change. 2016 - Red River Basin was updated to include the harmonized 8-, 10-, and 12-digit hydrologic units within Canada. Some of the boundaries within MN and ND were updated using Lidar data. Lidar data was also used in the development of hydrological units within Canada. Where Lidar data did not exist the province of Manitoba provided either 1:20,000 scale or 1:50,000 scale digital elevation data for boundary delineations. Maine All HUC8 boundaries were updated with the Harmonized US/CAN border into Canada. Coding was updated as needed. 01010001 was subdivided into 6 new units. 01010001 code retired 01010001 HUC8 name retired (Upper St. John) New codes and HUC8 names 01010006 – Headwaters Saint John River 01010007 – Big Black River-Saint John River 01010008 – St. Francis River-Saint John River 01010009 – Little River-Saint John River 01010010 – Becaguimec Stream-Saint John River (This unit now contains a portion of the original 01010005) 01010011 – Keswick River-Saint John River 01010004 - Boundary within Canada was updated with harmonized boundary. 01010005 - Boundary was updated with US/CAN harmonized boundary. A small portion of 01010005 was moved into the new 01010010 so that 01010005 is a standard HUC 8 unit for the Meduxnekeag River. 01020001 - Original WBD boundary between the US and Canada used the international boundary. However when this boundary was compared to the 1:24,000 scale DRGs in the US and 1:20,000 hypsography in Canada the international boundary and ridgelines were not coincident. The Boundary was updated to the ridgeline. Coding not updated. 01030001 - Original WBD boundary between the US and Canada used the international boundary. However when this boundary was compared to the 1:24,000 scale DRGs in the US and 1:20,000 hypsography in Canada the international boundary and ridgelines were not coincident. The Boundary was updated to the ridgeline. Coding not updated. 01030002 - Original WBD boundary between the US and Canada used the international boundary. However when this boundary was compared to the 1:24,000 scale DRGs in the US and 1:20,000 hypsography in Canada the international boundary and ridgelines were not coincident. The Boundary was updated to the ridgeline. Coding not updated. 01040001 - Original WBD boundary between the US and Canada used the international boundary. However when this boundary was compared to the 1:24,000 scale DRGs in the US and 1:20,000 hypsography in Canada the international boundary and ridgelines were not coincident. The Boundary was updated to the ridgeline. Coding not updated. 01050001 - Boundary was updated with US/CAN harmonized boundary. This boundary was developed during the initial St. Croix pilot and includes updates within the US as well as Canada. Coding left as is 01050002 - The harmonized boundary for 01050004 required updates to 01050002. A portion of 01050002 was moved to 01050004 to accommodate the new harmonized boundary. This required re-coding of the entire 01050002. 01050004 - Boundary was updated with US/CAN harmonized boundary. A portion of 01050002 was moved into this unit. Codes were updated to reflect this boundary change. 04150600 – Chaudiere River This is a new unit that was created when the WBD boundary was moved from the international boundary on to the ridgelines Original WBD boundary between the US and Canada used the international boundary. However when this boundary was compared to the 1:24,000 scale DRGs in the US and 1:20,000 hypsography in Canada the international boundary and ridgelines were not coincident. The Boundary was updated to the ridgeline. 04150500 - Boundary was updated with US/CAN harmonized boundary. Coding left as is New Hampshire 01040001 - Original WBD boundary between the US and Canada used the international boundary. However when this boundary was compared to the 1:24,000 scale DRGs in the US and 1:20,000 hypsography in Canada the international boundary and ridgelines were not coincident. The Boundary was updated to the ridgeline. Coding not updated. 04150500 - Boundary was updated with US/CAN harmonized boundary. Coding left as is New York 04150301 - Subdivided into 2 new units 04150301 code retired 04150301 HUC8 name retired (Upper St. Lawrence) New Codes and HUC8 names 04150309 – Headwaters St. Lawrence River 04150310 – Raisin River-St. Lawrence River 04150306 - Boundary was updated with US/CAN harmonized boundary. Coding left as is 04150307 - Boundary was updated with US/CAN harmonized boundary. Coding left as is 04150308 - Boundary was updated with US/CAN harmonized boundary. Coding left as is 04150408 - Boundary was updated with US/CAN harmonized boundary. Coding left as is 04150409 - Boundary was updated with US/CAN harmonized boundary. Coding left as is Vermont 04150407 - Boundary was updated with US/CAN harmonized boundary. Coding left as is 04150408 - Boundary was updated with US/CAN harmonized boundary. Coding left as is 04150409 - Boundary was updated with US/CAN harmonized boundary. Coding left as is 04150500 - Boundary was updated with US/CAN harmonized boundary. Coding left as is Great Lakes The boundaries for Lake Ontario (0415200), Lake Erie (04120200), Lake Huron (04080300) and Lake Superior (04020300) were updated using the new inland lakes coastal method. All updates were coordinated with the WBD state steward for each adjacent state. The area within Wisconsin was excluded per the state partner’s request. All surrounding 8-digits (units touching the lakes) were reviewed and updated as well.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Process_Date:</I>20160101</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>The following edits (2012 - present) were completed during national quality control review performed by the WBD national technical edit team in the USGS Utah Water Science Center. Updates may not affect all hydrologic units. Edits by USGS Water Science Center in Salt Lake City, Utah. 1. Reviewed all the ToHUC codes within the 12-digit polygons and made updates as necessary. All updates were coordinated and approved by WBD state stewards. 2. Updated Linesource code (misspellings, removed extra spaces etc.) where needed to match Federal Standards 3. Updated and corrected errors in the HU_Mod fields where needed to match Federal Standards. 4. Updated State field for Canada (CN) and Mexico (MX) based on the new version of the Standards 5. Reviewed all the Names related to each 10-digit and 12-digit polygon and made updates as necessary. All updates were coordinated and approved by the WBD State stewards 6. Checked and updated HU_Level field where HU_Level = 99 or = null 7. Updated the 8-digit outer boundary for units flowing into ocean units by extending the boundary offshore to the 3 nautical mile limit provided by NOAA. All updates were coordinated and approved by the WBD state stewards</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Process_Date:</I>20160101</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>The following are 8-digit updates (from 2009-2016) that were approved by the WBD National Technical Coordinators as required by the WBD Standards. These may include name/code updates or boundary updates that were implemented in the WBD at some point during the creation or maintenance of the data. Alaska: Legacy 19020401 Anchorage boundary has changed by about 20% of its area. 19020203 (Prince William Sound) Added a new subbasin unit for Prince William Sound. Adjusted huc8 boundaries between 19020104, 19020201 and 19020202 to better reflect surface water flow and to assist with delineating the Prince William Sound as a new unit. Legacy 19020302 Upper Kenai Peninsula has changed by about 20% of its area. Legacy 19030304 Wood River was subdivided which has created a reduced area for the 19030304 Wood River and put Igushik River into its own hydrologic unit with a new code of 19030306. Legacy 19030402 Farewell Lake was divided into 19030406 Middle Flork Kuskokwim River and 19030407 South Fork Kuskokwim River. Legacy 19040204 Black River was subdivided. 19040204 will remain the Black River, and a new unit 19040206 Grass River is broken out. 19040502: The outlet for subbasin 19040502 was moved downstream from the current break across Tanana River at a confluence with a minor tributary to the more prominent confluence with Robertson River. This edit resulted in the addition of 2 subwatersheds to 19040502 and the removal of 2 watersheds from 19040503. Legacy 19040504 Delta River linework changed significantly. The legacy 19040504 had 3 separate outlets; Delta River, Delta Creek and Little Delta River. The boundary was adjusted so that 19040504 contained just the Delta River as a standard unit. The Delta Creek and Little Delta River where moved into 19040507. Legacy 19040507 Tanana Flats Linework changed significantly. 19040606 - Legacy boundary for 19040606 had the outlet at a location across the Huslia River downstream from the outlet of the South Fork Huslia River. The boundary was adjusted downstream to the major confluence where the Huslia River drains into the Koyukuk River, thus creating a standard HUC8 for the Huslia River. 1905: 19050202, 19050203, 19050301, 19050304, 19050403 19050202’s boundary was adjusted so that this unit contained all frontal drainage areas flowing into the southern portion of Kotzebue Sound. 19050203’s boundary was adjusted to that the unit included Eschscholtz Bay and all of the drainage areas flowing into it. 19050301’s boundary was adjusted so that this unit has one outlet and includes Selawik Lake. The frontal drainages flowing into Hotham Inlet were moved into unit 19050304. 19050304’s boundary was adjusted so that the unit included Hotham Inlet and the frontal drainages flowing into it. 19050403’s boundary was adjusted to a buffer distance of 1000 meters off shore. 19050500 - Kotzebue Sound: Added a new HUC8 unit to AK WBD for Kotzebue Sound. Inner coastal units that ended at the shore line were extended offshore to a 1000 meter buffer distance. Legacy 19060204 Ikpikpuk River absorbed Inaru River from Legacy 19060202 Legacy unit 19060202 contained 2 different stream systems flowing into 2 different bodies of water. The Inaru River flows into Admiralty Bay while the Kugrua River and the other small frontal drainages flows into the Chukchi Sea. The boundary was adjusted so that flow into Admiralty Bay/Dease Inlet was separate from flow into Chukchi Sea. The Inaru River, Admiralty Bay/Dease Inlet and all associated frontal drainages were added to subbasin 19060204. New Subbasin 19060206 is being named Admiralty Bay-Dease Inlet. This area use to be part of Subbasin 19060204 19020800 Cook Inlet is a new hydrologic unit as recommended by the Alaska in state stakeholders. 2011 - These updates where proposed by Forest Service partners within the Tongass National Forest. When major changes are made to the HUC8 container (i.e. the container is subdivided into multiple units) the national protocol has been to retire the old HUC8 code and name and assign new codes and names to the updates units 19010202 (Kuiu-Kupreanof-Mitkof-Etolin-Zarembo-Wrangell) is being retired and 2 new HUC8 units were formed. Kuiu Island, Mitkof Island and Kupreanof Island were split out into their own 8-digit unit HUC8 - 19010210 HU8_Name – Kuiu-Kupreanof-Mitkof Islands Zarembo Island, Wrangell Island and Etolin Island were subdivided into their own 8 digit unit HUC8 – 19010209 HU8_Name – Etolin-Zarembo-Wrangell Islands 19010203 (Baranof-Chichagof Islands)19010203 was retired. 19010203 was subdivided 3 new units; 2 island units and 1 channel unit. Chichagof Island was split out into its own 8-digit unit HUC8 – 19010211 HU8_Name – Chichagof Island Baranof and Kruzof Islands were subdivided into their own 8-digit unit HUC8 – 19010212 HU8_Name – Baranof Island Created a new water hydrologic unit for the channel between Chichagof Island and Baranof/Kruzof Islands. This new water unit would become a HUC10 unit within the "Water" subbasin 19010500. HUC10 – 1901050011 HUC10_Name - Peril Strait Because of the varying width of the channel the boundary was graduated from a 1,000 meter buffer to 100 meter buffer from the Low Tide Shoreline. The Low Tide Shoreline was provided by the Forest Service. A 1,000 meter buffer was used in the open channel to match the buffer distance used within the rest of SE AK WBD. There is a narrow portion of the channel where the boundary was gradually reduced from the 1,000 meter buffer to a 100 meter buffer. 2014 - Updated Alaska’s region 1904 based on a request from NHD program and approved by state partners. 1904 was subdivided 3 new 4-digit hydrologic units. The new units are 1907 – Upper Yukon River 190701 – Headwaters Yukon River 1908 – Middle Yukon River 1909 – Lower Yukon River 2016 - Updates to AK 8-digit units based on harmonization effort with Canada 19070504 (Eagle Creek-Yukon River) is being subdivided 2 new 8-digit hydrologic units. Original code and name are being retired. HUC8 - 19070505 (Tatonduk River-Yukon River) HUC8 - 19070506 (Charley River-Yukon River) 19060503 (Beaufort Lagoon) is being subdivided 3 new 8-digit hydrologic units. Original code and name are being retired. HUC8 - 19060504 (Kongakuat River-Beaufort Lagoon) HUC8 - 19060505 (Firth River) HUC8 - 19060506 (Babbage River) is completely within Canada Yukon Territory Arizona: Legacy 15010009 Fort Pierce Wash name changed to Fort Pearce Wash to account for misspell. Legacy 15010007 Hualapai Wash name should change as the wash is now in the adjacent Subbasin. Changed to Red Lake California: Legacy 18010109 Gualala-Salmon had an area the size of several 12-digit HUs that has been aggregated into the adjacent legacy 18050005 Tomales-Drake Bays as a result of coastal implementation. This is approved by the in-state WBD Steward and T3.Legacy 18030012 and new 18030012 Tulare-Buena Vista Lakes changed to Tulare Lake Bed as the boundary has changed so significantly that Buena Vista Lakes are no longer in the adjusted hydrologic unit. Legacy 18040001 and new 18040007 name changed from Upper Chowchilla-Upper Fresno to Fresno River as the Chowchilla is no longer in the adjusted hydrologic unit. Legacy 18040002 and new 18040002 name changed from Middle San Joaquin-Lower Merced-Lower Stanislaus to Lower San Joaquin River as Merced and Stanislaus Rivers are no longer in the adjusted hydrologic unit. Legacy 18050006 San Francisco-Coastal South will absorb 4 coastal 12-digit HUs from legacy 18060001 San Lorenzo-Soquel as a result of coastal implementation. This is approved by the in-state WBD Steward and the WBD National Technical Coordinators (NTC) Legacy 18060006 Central Coastal will absorb an area the size of 6 12-digit HU’s from legacy 18060012 Carmel which all drains directly to the Pacific Ocean. This is approved by the in-state WBD Steward and the WBD National Technical Coordinators (NTC) Portions of legacy 18060011, 18060012, and part of 19060001 will become a new subbasin accounting for all of these frontal pieces. It will be coded 18060015 and named Monterey Bay. This is approved by the in-state WBD Steward and the WBD National Technical Coordinators (NTC) Legacy 18060013 Santa Barbara Coastal had an area the size of one 12-digit HU which will be aggregated with legacy 18070101 Ventura as a result of coastal implementation. This is approved by the in-state WBD Steward and the WBD National Technical Coordinators (NTC) Legacy 18070104 Santa Monica Bay had an area the size of several 12-digit HUs which will be aggregated with legacy 18070106 San Gabriel as a result of coastal implementation. This is approved by the in-state WBD Steward and WBD National Technical Coordinators (NTC) Legacy 18100200 has now been subdivide into 18100201, 18100202, 18100203, and 18100204. The legacy name for 180100200 has been retained as the Salton Sea for new code 18100204. New names for the other subdivisions have been reviewed and accepted as follows: 18100201 Whitewater River 18100202 Carrizo Creek 18100203 San Felipe Creek Legacy 18040002 and new 18040051 name Middle San Joaquin-Lower Merced-Lower Stanislaus was change to Rock Creek-French Camp Slough. Legacy 18020124 Honcut Headwaters name and code have been retired. It was absorbed in to legacy 18020106 Lower Feather to form the new 18020159. WBD National Technical Coordinators (NTC) recommends the name retain the combined legacy names of Honcut Headwaters-Lower Feather. Legacy 18020120 Upper Butte and legacy 18020105 Lower Butte have been retired. The two hydrologic units were combined in to the new accepted code and name of 18020158 Butte Creek. Legacy 18020119 Mill-Big Chico, 18020103 Sacramento-Lower Thomes, and 18020114 Upper Elder Thomes have been retired. The accepted names and codes for the newly delineated hydrologic units to replace those areas are 18020157 Big Chico Creek-Sacramento River, 18020156 Thomes Creek-Sacramento River, and 18020155 Paynes Creek-Sacramento River. The following legacy names and codes have been retired: 18020113 Cottonwood Headwaters, 18020102 Lower Cottonwood, 18020101 Sacramento-Lower Cow-Lower Clear, 18020118 Upper Cow-Battle, and 18020112 Sacramento-Upper Clear. The accepted codes for the newly delineated hydrologic units that replace those areas will be 18020151-18020154. The approved names are: 18020151 Cow Creek 18020152 Cottonwood Creek 18020153 Battle Creek 18020154 Clear Creek-Sacramento River 18010111 code and name have been retired and the area has been subdivided. A portion is in 18010109 Gualala-Salmon, and the other portion in 18050005 Tomales-Drake Bays 18020107 code and name have been retired and the area is now included with 18020125 Upper Yuba 18020108 code and name have been retired and the area is now included with 18020126 Upper Bear 18020110 code and name have been retired and the area is now included with 18020116 Upper Cache 18030008 code and name have been retired and the area is now included with 18030012 Tulare Lake Bed 18030011 code and name have been retired and the area has been subdivided. A portion is in 18030012 Tulare Lake Bed, and the other portion in 18030009 Upper Dry 18040004 code and name have been retired and the area is now part of 18040011 Upper Calaveras California 18040005 code and name have been retired and the area is now part of 18040003 San Joaquin Delta, 18040012, 18040012 Upper Mokelumne, and 18040003 Upper Cosumnes 18020109 code and name have been retired and the area is now part of 18020163 Lower Sacramento 18020117 code and name have been retired and the area is now part of 18020162 Upper Putah 18060001 code and name have been retired, and the areas are now subdivided between 18050006 San Francisco Coastal South and 18060015 Monterey Bay 18060011 code and name have been retired and now is subdivided between 18060015 Monterey Bay and 18060005 Salinas 18060012 code and name have been retired and the area is now part of 18060006 Central Coast and 18060015 Monterey Bay Colorado: Legacy 14010006 Parachute-Roan name and code have been retired. This area has been combined with 14010005 Colorado Headwaters-Plateau. Connecticut: 01100007 code and name have been retired and the area is now part of 0110004 Quinnipiac Delaware: 02060007 code and name have been retired and this area now included with 02080110 Tangier 02060008 code and name have been retired and this area now included with 02080109 Nanticoke 02060009 code and name have been retired and this area is now part of 02080111 Pokomoke-Western Lower Delmarva and 02080110 Tangier 02060010 code and name have been retired and this area is now part of 02040303 Chincoteague Florida: Legacy 03090202 Everglades has been modified as follows: The largest part of 03090202 Everglades carries the legacy code and name. Subdivided out new Subbasin 03090206 Florida Southeast Coast Combined additional smaller portions of 03090202 with adjacent Subbasins. Louisiana: 2009 - USGS Water Science Center, Salt Lake City, UT. Recoded all HUC12 codes and DS codes for 08080100 Atchafalaya to 08080101 Atchafalaya. 08080101 is the correct code. During the development of the WBD the 12-digit hydrologic units were miscoded as 08080100. Maine Updates at the 8-digit occurred as a result of the US/Canada harmonization effort. See process section on Canadian harmonization for these details. Massachusetts: 01070002 is retained for the headwaters of this original code, but ¾ of the original area is now coded 01070006. The area now coded 01070006 retained the original name for the area of legacy 01070002 and is called Merrimack, whereas 01070002 is not called Winnipesaukee River (other state documentation supporting this decision) New Hampshire: Legacy 01070002 Merrimack was subdivided in to 01070002 Merrimack to the North and 01070006 Merrimack River to the South. The technical team requests that the portion to the South retain the legacy code and name of 01070002, Merrimack, and that the northern hydrologic unit receive the code and name 01070006 Winnipesaukee River. There is no Merrimack River in the northern portion and the southern portion most closely resembles the legacy delineation. Additional updates at the 8-digit occurred as a result of the US/Canada harmonization effort. See process section on Canadian harmonization for these details New York: Legacy 04150307 English-Salmon was subdivided into 04150307 Salmon and 04150308 Chateaugay-English. The Technical Team accepts this change. 2010- Edits were made to Lake Champlain Basin moving it from Region 02 to Region 04. Update to delineation data in Lake Champlain area on the US side and Canadian side. All lines within Canada are draft delineations only. These boundaries were based on Canada's 1:50,000 National Hydrography Network Work Units or were delineated using either 1:50,000 scale topos or CDED elevation data. These boundaries have not been fully reviewed or approved by either the Canadian federal or provincial agencies and are subject to change. Border polygons are based off of these internal boundaries within Canada and so are also subject to change within Canada. Edits made by USGS Salt Lake City, Water Science Center: to the Lake Champlain and surrounding subbasins to remove all shoreline representations from the WBD. The codes, DS codes and names where updated where necessary. 02010004 name and code have been retired, and this area was subdivided, part is in 04150404 Ausable River and part in 04150408 Lake Champlain. 02010006 name and code have been retired and this area was subdivided. Part is in 04150406 Saranac River and part is in 04150408 Lake Champlain. 02010001 name and code have been retired and this area was subdivided into 04150401 Mettawee River and 04150408 Lake Champlain The new Lake Champlain unit 04150408 is made up of parts of original HUC250K units 02010001, 02010002, 02010003, 02010004, 02010005, 02010006 and 02010007 Additional updates at the 8-digit occurred as a result of the US/Canada harmonization effort. See process section on Canadian harmonization for these details North Carolina: Legacy subbasin 03030001 and legacy subbasin 03020106 have been combined and recommended for acceptance as a new 6-digit Basin 030203 Onslow Bay. Legacy Subbasin 03030001 New has been recoded and renamed to 03020302 New River. The technical team accepts the new code and name. Legacy Subbasin 03020106 Bogue-Core Sounds has been recoded and renamed to 03020301 White Oak River. The technical team accepts the new code and name. 03040207 code and name are still in use, but the portion that stretches along the coast has been broken out to a new 03040208 Coastal Carolina North Dakota: Legacy 10160007 East Missouri Coteau, changed to North Fork Snake as that is a better hydrologic representation of the hydrologic unit. Legacy 10170103 South Big Sioux Coteau name changed to Lake Thompson Legacy 10170201 Middle Big Sioux Coteau name changed to Upper Big Sioux Legacy 10170202 Upper Big Sioux name changed to Middle Big Sioux Because legacy 10170203 Lower Big Sioux should stay the same, it doesn’t make sense not to have a middle and an upper. Although the boundaries have significantly relocated, it seem like most viable option is to retain the Upper, Middle, Lower naming convention. Additional updates at the 8-digit occurred as a result of the US/Canada harmonization effort. See process section on Canadian harmonization for these details Oregon: Legacy 17100304 Coos was subdivided into 17100304 Coos to the north and 17100306 Sixes to the south. The Technical team accepts this change. South Carolina: Legacy 03040207 Carolina Coastal-Sampit was subdivided into a southern portion called 03040207 Carolina Coastal-Sampit and a northern portion newly coded and named 03040208 Coastal Carolina. The technical team recognizes this as an acceptable solution, however, future coastal delineations may require additional modification. Legacy 03050202 South Carolina Coastal has now been subdivided into subbasins 03050202 South Carolina Coastal and 03050209 Bulls Bay with an additional portion of 03050202 being aggregated in with legacy 03050201 Legacy 03050208 Broad-St. Helena has had the following modifications which the NTC concurs with: 03050208 Broad-St. Helena code and name retained into a much smaller unit capturing only the Broad-St. Helena Rivers Subdivided into new 03060110 Calibogue Sound-Wright River, and now part of the adjacent Subregion to the south. Subdivided into new 03050210 St. Helena Island portion combined with 03050207 Salkehatchie. Legacy 03050205 name is changed to Four Hole Swamp (from Edisto...this name was flipped with the hydrologic unit the water feature resides in). The WBD National Technical Team recommended that this name not be reused as it has been historically assigned to 03050206, but all in state interagency folks felt strongly that it should be reused as that is by far the predominant feature for the HU. Reports since 2005 reflect this. Legacy 03050206 name is changed to Edisto River to reflect the major hydrologic feature. South Dakota: 2009 - Edits made by in-state data steward; all of sub-basin 10160010 (now retired) was recoded to 10160011 (Lower James); In addition to the recoding of this 8-digit level unit in the James Basin, this group of edits primarily consisted of minor corrections to linework and 12-digit downstream codes, populating ncontrb_A fields of selected 12-digit units, and tweaking selected 5th- and 6th-level unit names to facilitate merging with GNIS. Texas: Legacy13070008 Lower Pecos was subdivided into a northern and southern portion. The northern portion retains the 13070008 code but name should be Pecos. The new subdivided 13070012 hydrologic unit should carry the legacy name Lower Pecos. Legacy 13090002 Lower Rio Grande is missing from the current WBD. Vermont: Updated 01110000 from Region 01 to Region 04 and is now 04150500 (St. Francois River). Craig Johnston (USGS) pointed out that this unit contains the St. Francois River which flows up into Canada and then dumps into the St Lawrence River. Region 01 is Maine Coastal drainage's while region 04 is St. Lawrence drainage's, so this unit really belongs in region 04. 2010- Edits were made to Lake Champlain Basin moving it from Region 02 to Region 04. Update to delineation data in Lake Champlain area on the US side and Canadian side. All lines within Canada are draft delineations only. These boundaries were based on Canada's 1:50,000 National Hydrography Network Work Units or were delineated using either 1:50,000 scale topos or CDED elevation data. These boundaries have not been fully reviewed or approved by either the Canadian federal or provincial agencies and are subject to change. Border polygons are based off of these internal boundaries within Canada and so are also subject to change within Canada. Edits made by USGS Salt Lake City, Water Science Center: to the Lake Champlain and surrounding subbasins to remove all shoreline representations from the WBD. The codes, DS codes and names where updated where necessary. 02010001 name and code have been retired and this area was subdivided into 04150401 Mettawee River and 04150408 Lake Champlain. 02010002 name and code have been retired and this area was subdivided into 04150402 Otter Creek and 04150408 Lake Champlain. 02010003 name and code have been retired and this area was subdivided into 04150403 Winooski River and 04150408 Lake Champlain. 02010005 name and code have been retired and this area was subdivided into 04150405 Lamoille River and 04150408 Lake Champlain. 02010007 name and code have been retired and this area was subdivided into 04150407 Missiquoi River and 04150408 Lake Champlain. The new Lake Champlain unit 04150408 is made up of parts of original HUC250K units 02010001, 02010002, 02010003, 02010004, 02010005, 02010006 and 02010007. Additional updates at the 8-digit occurred as a result of the US/Canada harmonization effort. See process section on Canadian harmonization for these details Wisconsin: Legacy 07090001Upper Rock keeps the same code and name but the original hydrologic unit delineation changed significantly. Legacy 07090002 Crawfish keeps the same code and is renamed to Middle Rock. The original hydrologic unit delineation changed significantly.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Process_Date:</I>20160101</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>The following section describes updates to the WBD data model (2012-2016). July 2012 National responsibility for stewardship and maintenance of the WBD transferred from NRCS to the USGS. As a result the WBD data model was updated and the data was incorporated into the NHD database. WBD model updated based on input from NRCS, USGS, NHD program and user community. WBD polygon dataset subdivided into individual polygon datasets for each level of hydrologic units. Two additional datasets added for the next 2 levels of subdivisions (14- and 16-digit) but are not required for each state to populate these. Attribute tables for polygons and lines were updated with some fields being added, renamed or removed. See below for a list of changes. WBD Line attribute table changes: Old Model: HU_LEVEL LINESOURCE META_ID – removed – Feature level metadata functionality is added to track updates in the new model LEFT_HUC_8 – removed RIGHT_HUC_8 – removed New Model: Permanent_Identifier – New field for feature level metadata Source_FeatureID – New field for feature level metadata Meta_SourceID – New field for feature level metadata Source_DataDesc – New field for feature level metadata Source_Originator – New field for feature level metadata HU_Level HU_Class – New field populated with the number of digits of the hydrologic unit LoadDate – New field for feature level metadata LineSource WBD Polygon attribute table changes: Codes and names moved from single polygon dataset to the appropriate hydrologic unit dataset for each level Old Model: HUC_8 – moved to 8-digit polygon dataset HUC_10 – moved to 10-digit polygon dataset HUC_12 – moved to 12-digit polygon dataset ACRES – re-named to AREA_ACRES NCONTRB_A HU_10_GNIS – Replaced with Gaz_ID HU_12_GNIS – Replaced with Gaz_ID HU_10_DS – Removed from new model HU_10_NAME – moved to 10-digit polygon dataset HU_10_MOD – moved to 10-digit polygon dataset HU_10_TYPE – moved to 10-digit polygon dataset HU_12_DS – moved to 12-digit polygon dataset HU_12_NAME – moved to 12-digit polygon dataset HU_12_MOD – moved to 12-digit polygon dataset HU_12_TYPE – moved to 12-digit polygon dataset META_ID - removed – Feature level metadata functionality is added to track updates in the new model STATES New Model: Fields included in all levels of hydrologic unit polygon datasets. Gaz_ID – Old model was the GNIS field Area_Acres - Renamed Area_SqKm – New field States LoadDate- New field HUC_"#digit" - For Example: HUC12 HU_"#digit"_Name - For Example: HU_12_Name Fields included with the 10-, 12-, 14- and 16- digit polygon datasets. HU_"#digit"_Type - For Example HU_12_Type HU_"#digit"_Mod - For Example HU_12_Mod Fields included with the 12-, 14- and 16- digit polygon datasets. NContrb_Acres NContrb_SqKm – New field Tables New Model: ExternalIDCrosswalk FeaturetoHUMod FeatureToMetadata Meta_ProcessDetail Meta_SourceDetail ProcessingParameters UpdateStatus WBD_Attributes WBD_Nav October 2012 Changes to the WBD data model include the elimination of the underscore "_" in field and table names, switching to camelCase. Other changes to the WBD data model include the elimination of the WBDPoint table, the WBDPointEvent table, and the WBDAtributes table. Fields have been added to the WBDHU12 polygon feature dataset that allow metadata record linking and also include the downstream attribute. NWIS drainage area line and polygon feature classes have been added also. New Model: WBD line dataset TNMID – Use to be PermanentID HULevel HUClass – New field populated with the number of digits of the hydrologic unit HUMod LineSource LoadDate – New field for feature level metadata (Source_FeatureID, Meta_SourceID, Source_DataDesc, Source_Originator fields removed from WBDLine dataset) WBD polygon dataset Fields included in all levels of hydrologic unit polygon datasets. TNMID – New field for feature level metadata MetaSourceID – New field for feature level metadata SourceDataDesc – New field for feature level metadata SourceOriginator – New field for feature level metadata SourceFeatureID – New field for feature level metadata LoadDate – New field for feature level metadata GNIS_ID = replaces Gaz_ID AreaAcres AreaSqKm States LoadDate HUC"digit" - for example: HUC12 Name Fields included with the 10-, 12-, 14- and 16- digit polygon datasets. HUType HUMod Fields included with the 12-, 14- and 16- digit polygon datasets. NContrbAcres NContrbSqKm Field included with the 12-digit polygon dataset. ToHUC – This attribute was included in the original WBD data model as HU_12_DS and represents the code of the next unit downstream. The values for this field were populated for the last version of the dataset in the old model by linking the 2 tables by the 12-digit code and calculating the value over. NWISDrainageArea polygon dataset added as a place holder for when these datasets are generated. Attribute Fields: TNMID MetaSourceID SourceDataDesc SourceOriginator SourceFeatureID LoadDate ReferenceTNMID SiteID AgencyCode SiteNumber StationName TotalDrainageArea ContributingDrainageArea NWISBoundary line dataset added as a place holder for when these datasets are generated. Attribute Fields: TNMID MetaSourceID SourceDataDesc SourceOriginator SourceFeatureID LoadDate ReferenceTNMID NonContributingDrainageArea polygon dataset added as a place holder for when these datasets are generated. Attribute Fields: TNMID MetaSourceID SourceDataDesc SourceOriginator SourceFeatureID LoadDate 2013 Changes to the WBD data model include updates to the field for the NonContributingDrainageArea polygon dataset, NWISBoundary line dataset and the NWISDrainageArea polygon dataset. This includes the addition of new fields and the re-naming of some of the existing fields. NWISDrainageArea polygon dataset: Attribute Fields: TNMID MetaSourceID SourceDataDesc SourceOriginator SourceFeatureID LoadDate ReferenceTNMIDNHDPointEvent – Renamed from ReferenceTNMID AgencyCode SiteNumber StationName ContributingDrainageAreaAcres – Originally called ContributingDrainageArea TotalDrainageAreaAcres – Originally called TotalDrainageArea ContributingDrainageAreaSqKm – New field TotalDrainageAreaSqKm – New field SiteID - Removed NWISBoundary line dataset: Attribute Fields: TNMID MetaSourceID SourceDataDesc SourceOriginator SourceFeatureID LoadDate ReferenceTNMIDPointEvent – Originally called ReferenceTNMID SiteNumber – New field NonContributingDrainageArea polygon dataset Attribute Fields: TNMID MetaSourceID SourceDataDesc SourceOriginator SourceFeatureID LoadDate NonContributingSqKm – New field NonContributingAcres – New field ReferenceTNMID12digitHU – New field Tables ExternalCrosswalk - Originally called ExternalIDCrosswalk FeatureToHUMod - removed FeatureToMetadata HUMod - NewField MetaProcessDetail - Previous version called Meta_ProcessDetail MetaSourceDetail - Previous version called Meta_SourceDetail ProcessingParameters UpdateStatus WBD_Attributes - removed WBDNavigation - Originally WBD_Nav 2014 2015 Changes to the WBD data model include updates or additions to the fields for the NonContributingDrainageArea polygon dataset, NWISBoundary line dataset and the NWISDrainageArea polygon dataset. The majority of these are due to the length of the original name for the field. A new line dataset was created for Non Contributing Area called NonContributingDrainageLine NWISBoundary was re-named NWISDrainageLine NWISDrainageArea polygon dataset: Attribute Fields: TNMID MetaSourceID SourceDataDesc SourceOriginator SourceFeatureID LoadDate AreaSqKm – New Field AgencyCode SiteNumber StationName TotalAreaSqMi – New Field NWISTotalAreaSqMi – New Field ContributingAreaSqMi – New Field NWISContributingAreaSqMi – New Field ReferenceTNMIDNHDPointEvent Remarks – New Field ContributingDrainageAreaAcres – Removed TotalDrainageAreaAcres – Removed ContributingDrainageAreaSqKm – Removed TotalDrainageAreaSqKm – Removed NWISDrainageLine line dataset Attribute Fields: TNMID MetaSourceID SourceDataDesc SourceOriginator SourceFeatureID LoadDate LengthKm – New Field LineSource – New Field Agency Code – New Field SiteNumber ReferenceTNMIDPointEvent – Removed NonContributingDrainageArea polygon dataset Attribute Fields: TNMID MetaSourceID SourceDataDesc SourceOriginator SourceFeatureID LoadDate AreaSqKm – New Field NonContributingAreaSqKm – Re-named from NonContributingSqKm Remarks – New Field NonContributingAcres - Removed ReferenceTNMID12digitHU - Removed NonContributingDrainageLine line dataset – New dataset Attribute Fields: TNMID MetaSourceID SourceDataDesc SourceOriginator SourceFeatureID LoadDate LengthKm LineSource 2016 WBDLine dataset TNMID HULevel - removed HUDigit - Originally called HUClass HUMod LineSource MetaSourceID LoadDate WBD polygon datasets Fields included with the 12-, 14- and 16- digit polygon datasets. NonContributingAreaAcres - previous version was NonContributingAcres NonContributingAreaSqKm - previous version was NonContributingSqKm</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Process_Date:</I>20160101</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Spatial_Data_Organization_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Spatial_Data_Organization_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Direct_Spatial_Reference_Method:</I>Vector</DT>
+          <DT>
+            <I>Point_and_Vector_Object_Information:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>SDTS_Terms_Description:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>SDTS_Point_and_Vector_Object_Type:</I>GT-polygon composed of chains</DT>
+                  <DT>
+                    <I>Point_and_Vector_Object_Count:</I>11</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Spatial_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Spatial_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Horizontal_Coordinate_System_Definition:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Planar:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Map_Projection:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Lambert_Conformal_Conic:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Standard_Parallel:</I>39.93333333333333</DT>
+                          <DT>
+                            <I>Standard_Parallel:</I>40.96666666666667</DT>
+                          <DT>
+                            <I>Longitude_of_Central_Meridian:</I>-77.75</DT>
+                          <DT>
+                            <I>Latitude_of_Projection_Origin:</I>39.33333333333334</DT>
+                          <DT>
+                            <I>False_Easting:</I>1968500.0</DT>
+                          <DT>
+                            <I>False_Northing:</I>0.0</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Planar_Coordinate_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Planar_Coordinate_Encoding_Method:</I>coordinate pair</DT>
+                      <DT>
+                        <I>Coordinate_Representation:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Abscissa_Resolution:</I>0.000000026907964745248598</DT>
+                          <DT>
+                            <I>Ordinate_Resolution:</I>0.000000026907964745248598</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Planar_Distance_Units:</I>foot_us</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Geodetic_Model:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Horizontal_Datum_Name:</I>D NAD 1983 2011</DT>
+                  <DT>
+                    <I>Ellipsoid_Name:</I>GRS 1980</DT>
+                  <DT>
+                    <I>Semi-major_Axis:</I>6378137.0</DT>
+                  <DT>
+                    <I>Denominator_of_Flattening_Ratio:</I>298.257222101</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Entity_and_Attribute_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Entity_and_Attribute_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>PA_HUC04</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>Polygon feature class representing the 2-digit hydrologic unit boundaries (previously referred to as Regions) and are part of the WBD delivery.</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>Federal Standards and Procedures for the National Watershed Boundary Dataset</DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>FID</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Internal feature number.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Esri</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>Sequential unique whole numbers that are automatically generated.</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>Shape</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Feature geometry.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Esri</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>Coordinates defining the features.</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>AreaSqKm</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>AreaAcres</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>Name</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>States</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>HUC4</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>Shape_Leng</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>Shape_Area</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Area of feature in internal units squared.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Esri</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>Positive real numbers that are automatically generated.</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>WBDHU4</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>Polygon feature class representing the 4-digit hydrologic unit boundaries (previously referred to as Subregions) that are part of the WBD delivery.</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>Federal Standards and Procedures for the National Watershed Boundary Dataset</DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>HUC4</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>The HUC4 field is a unique 4-digit hydrologic unit code.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Federal Standards and Procedures for the National Watershed Boundary Dataset (WBD)</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Codeset_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Codeset_Name:</I>Federal Standards and Procedures for the National Watershed Boundary Dataset (WBD)</DT>
+                          <DT>
+                            <I>Codeset_Source:</I>Section 6: Geospatial Data Structure and Attributes http://pubs.usgs.gov/tm/11/a3/)</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>WBDHU6</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>Polygon feature class representing the 6-digit hydrologic unit boundaries (previously referred to as Basins) and are part of the WBD delivery.</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>Federal Standards and Procedures for the National Watershed Boundary Dataset</DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>HUC6</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>The HUC6 field is a unique 6-digit hydrologic unit code.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Federal Standards and Procedures for the National Watershed Boundary Dataset (WBD)</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Codeset_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Codeset_Name:</I>Federal Standards and Procedures for the National Watershed Boundary Dataset (WBD)</DT>
+                          <DT>
+                            <I>Codeset_Source:</I>Section 6: Geospatial Data Structure and Attributes (http://pubs.usgs.gov/tm/11/a3/)</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>WBDHU8</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>Polygon feature class representing the 8-digit hydrologic unit boundaries (previously referred to as Subbasins) and are part of the WBD delivery.</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>Federal Standards and Procedures for the National Watershed Boundary Dataset</DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>HUC8</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>The HUC8 field is a unique 8-digit hydrologic unit code.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Federal Standards and Procedures for the National Watershed Boundary Dataset (WBD)</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Codeset_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Codeset_Name:</I>Federal Standards and Procedures for the National Watershed Boundary Dataset (WBD)</DT>
+                          <DT>
+                            <I>Codeset_Source:</I>Section 6: Geospatial Data Structure and Attributes http://pubs.usgs.gov/tm/11/a3/)</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>WBDHU10</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>Polygon feature class representing the 10-digit hydrologic unit boundaries (previously referred to as Watersheds).</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>Federal Standards and Procedures for the National Watershed Boundary Dataset</DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>HUC10</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>The HUC10 field is a unique 10-digit hydrologic unit code.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Federal Standards and Procedures for the National Watershed Boundary Dataset (WBD)</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Codeset_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Codeset_Name:</I>Federal Standards and Procedures for the National Watershed Boundary Dataset (WBD)</DT>
+                          <DT>
+                            <I>Codeset_Source:</I>Provide Codeset Definition Reference (Citatation/URL)</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>WBDHU12</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>Polygon feature class representing the 12-digit hydrologic unit boundaries (previously referred to as Subwatersheds).</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>Federal Standards and Procedures for the National Watershed Boundary Dataset</DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>HUC12</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>The HUC12 field is a unique 12-digit hydrologic unit code.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Federal Standards and Procedures for the National Watershed Boundary Dataset (WBD)</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Codeset_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Codeset_Name:</I>Federal Standards and Procedures for the National Watershed Boundary Dataset (WBD)</DT>
+                          <DT>
+                            <I>Codeset_Source:</I>Section 6: Geospatial Data Structure and Attributes (http://pubs.usgs.gov/tm/11/a3/)</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>ToHUC</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>The 12-digit hydrologic unit ToHUC code attribute is the code for the 12-digit hydrologic unit that is downstream from and naturally receives 
+	the majority of the flow from another 12-digit hydrologic unit.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Federal Standards and Procedures for the National Watershed Boundary Dataset (WBD)</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Codeset_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Codeset_Name:</I>Federal Standards and Procedures for the National Watershed Boundary Dataset (WBD)</DT>
+                          <DT>
+                            <I>Codeset_Source:</I>Section 6: Geospatial Data Structure and Attributes (http://pubs.usgs.gov/tm/11/a3/)</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>WBDHU14</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>Polygon feature class representing the 14-digit hydrologic unit boundaries.</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>Federal Standards and Procedures for the National Watershed Boundary Dataset</DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>HUC14</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>The HUC14 field is a unique 14-digit hydrologic unit code.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Federal Standards and Procedures for the National Watershed Boundary Dataset (WBD)</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Codeset_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Codeset_Name:</I>Federal Standards and Procedures for the National Watershed Boundary Dataset (WBD)</DT>
+                          <DT>
+                            <I>Codeset_Source:</I>Section 6: Geospatial Data Structure and Attributes (http://pubs.usgs.gov/tm/11/a3/)</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>WBDHU16</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>Polygon feature class representing the 16-digit hydrologic unit boundaries.</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>Federal Standards and Procedures for the National Watershed Boundary Dataset</DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>HUC16</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>The HUC16 field is a unique 16-digit hydrologic unit code.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Federal Standards and Procedures for the National Watershed Boundary Dataset (WBD)</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Codeset_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Codeset_Name:</I>Federal Standards and Procedures for the National Watershed Boundary Dataset (WBD)</DT>
+                          <DT>
+                            <I>Codeset_Source:</I>Section 6: Geospatial Data Structure and Attributes http://pubs.usgs.gov/tm/11/a3/)</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>WBDLine</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>Line feature class defining the hydrologic unit boundaries</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>Federal Standards and Procedures for the National Watershed Boundary Dataset</DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>HUDigit</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>HUDigit is a domain-based field that indicates the minimum number of digits used to represent the hydrologic unit bounded by the line.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Federal Standards and Procedures for the National Watershed Boundary Dataset (WBD)</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Codeset_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Codeset_Name:</I>Federal Standards and Procedures for the National Watershed Boundary Dataset (WBD)</DT>
+                          <DT>
+                            <I>Codeset_Source:</I>Section 6: Geospatial Data Structure and Attributes (http://pubs.usgs.gov/tm/11/a3/)</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>HUMod</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Two-character, uppercase abbreviation used to track either a modification to natural overland flow that alters the location of the hydrologic unit boundary or special conditions that are applied to a specific boundary line segment. The value identifies the type of modification, from the list provided, that has been applied to the boundary segment. If more than one abbreviation is used, the list is separated by commas without spaces and organized from most to least predominant.
+</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Federal Standards and Procedures for the National Watershed Boundary Dataset (WBD)</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Codeset_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Codeset_Name:</I>Federal Standards and Procedures for the National Watershed Boundary Dataset (WBD)</DT>
+                          <DT>
+                            <I>Codeset_Source:</I>Section 6: Geospatial Data Structure and Attributes (http://pubs.usgs.gov/tm/11/a3/)</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>LineSource</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>LineSource represents the code for the base data used for delineating hydrologic unit boundaries.
+	If more than one code is used,then the list is separated by a comma with no spaces with the most recent LineSource listed first in the sequence.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Federal Standards and Procedures for the National Watershed Boundary Dataset (WBD)</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Codeset_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Codeset_Name:</I>Federal Standards and Procedures for the National Watershed Boundary Dataset (WBD)</DT>
+                          <DT>
+                            <I>Codeset_Source:</I>Section 6: Geospatial Data Structure and Attributes (http://pubs.usgs.gov/tm/11/a3/)</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>NWISDrainageArea</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>Polygon features representing PROVISIONAL contributing drainage area for select gage locations in the U.S. Geological Survey National Water Information System
+</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>Federal Standards and Procedures for the National Watershed Boundary Dataset</DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>AreaSqKm</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Area of the gaged watershed</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Federal Standards and Procedures for the National Watershed Boundary Dataset (WBD)</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>Calculated polygon area, square kilometers</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>AgencyCode</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Site Agency code</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>U.S. Geological Survey National Water Information System</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Codeset_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Codeset_Name:</I>U.S. Geological Survey National Water Information System</DT>
+                          <DT>
+                            <I>Codeset_Source:</I> http://help.waterdata.usgs.gov/</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>SiteNumber</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>U.S. Geological Survey unique site identifier</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>U.S. Geological Survey National Water Information System</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>Unique code identifying a measurement site in the National Water Information System database</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>StationName</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Site Name</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>U.S. Geological Survey National Water Information System</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>Common name associated with site in the National Water Information System database</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>TotalAreaSqMi</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Total drainage area</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Federal Standards and Procedures for the National Watershed Boundary Dataset</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>Total area of the polygon, square miles</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>NWISTotalAreaSqMi</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Total drainage area reported in U.S. Geological Survey National Water Information System</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>U.S. Geological Survey National Water Information System</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>Total area in square miles</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>ContributingAreaSqMi</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Total contributing drainage area, square miles</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Federal Standards and Procedures for the National Watershed Boundary Dataset</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>Total contributing area, square miles</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>NWISContributingAreaSqMi</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Contributing drainage area reported in U.S. Geological Survey National Water Information System</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>U.S. Geological Survey National Water Information System</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>Total contributing area, square miles</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>ReferenceTNMIDNHDPointEvent</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Unique identifier for NHD point event representing gage</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Federal Standards and Procedures for the National Watershed Boundary Dataset</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>Unique identifier that is automatically generated</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>Remarks</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Remarks</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Federal Standards and Procedures for the National Watershed Boundary Dataset</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>Free text holding remarks from reviewers and/or dataset originator</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>NWISDrainageLine</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>Line features representing the boundary of the contributing gaged drainage area</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>Federal Standards and Procedures for the National Watershed Boundary Dataset</DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>LengthKm</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Length of the line</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Federal Standards and Procedures for the National Watershed Boundary Dataset</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>Calculated line length, kilometers</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>LineSource</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Code identifying the base data used for delineating hydrologic unit boundaries</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Federal Standards and Procedures for the National Watershed Boundary Dataset</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Codeset_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Codeset_Name:</I>Federal Standards and Procedures for the National Watershed Boundary Dataset (WBD)</DT>
+                          <DT>
+                            <I>Codeset_Source:</I>Section 6: Geospatial Data Structure and Attributes (http://pubs.usgs.gov/tm/11/a3/)</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>AgencyCode</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Site Agency code</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>U.S. Geological Survey National Water Information System</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Codeset_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Codeset_Name:</I>U.S. Geological Survey National Water Information System</DT>
+                          <DT>
+                            <I>Codeset_Source:</I> http://help.waterdata.usgs.gov/</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>SiteNumber</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>U.S. Geological Survey unique site identifier</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>U.S. Geological Survey National Water Information System</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>Unique code identifying a measurement site in the National Water Information System database</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>WBDLine, WBDHU2, WBDHU4, WBDHU6, WBDHU8, WBDHU10, WBDHU12, WBDHU14, WBDHU16, NWISDrainageArea, NWISDrainageLine, NonContributingDrainageArea, NonContributingDrainageLine</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>The following attribute fields are common to all feature classes within the WBD </DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>Federal Standards and Procedures for the National Watershed Boundary Dataset</DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>OBJECTID</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Internal feature number.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>ESRI</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>Sequential unique whole numbers that are automatically generated.</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>Shape</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Feature geometry.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>ESRI</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>Coordinates defining the features.</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>TNMID</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>TNMID (short for The National Map Identification) is a unique 40-character field that identifies each element in the database exclusively.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Federal Standards and Procedures for the National Watershed Boundary Dataset (WBD)</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>TNMID is an automatically assigned code that stays with each element. When an element is updated or changed, TNMID links the element to the metadata record and documents the change. TNMID is also used to maintain relationship classes in the normalized data model. When an element is deleted or split, TNMID stays with the original element and is not used again. When an element is split, new permanent identifiers are assigned to the resultant parts.</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>MetaSourceID</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>MetaSourceID is a unique identifier that links the element to the metadata tables.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Federal Standards and Procedures for the National Watershed Boundary Dataset (WBD)</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>MetaSourceID is a unique identifier that links the element to the metadata tables. This ID is generated and assigned automatically by the database and remains with the object permanently.</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>SourceDataDesc</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>SourceDataDesc is a space provided for a brief description of the type of base data used to update or change the current WBD.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Federal Standards and Procedures for the National Watershed Boundary Dataset (WBD)</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>The WBD In-State Steward completes this field as part of the metadata form.</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>SourceOriginator</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>SourceOriginator is the description of the agency that created the base data used to improve the WBD.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Federal Standards and Procedures for the National Watershed Boundary Dataset (WBD)</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>The WBD In-State Steward completes this field as part of the metadata form</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>SourceFeatureID</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>SourceFeatureID is a long, unique code.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Federal Standards and Procedures for the National Watershed Boundary Dataset (WBD)</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>This code identifies the parent of the feature if the feature is the result of a split or merge, and it is automatically generated and assigned.</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>LoadDate</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>LoadDate represents the date when the data were loaded into the official USGS WBD ArcSDE database. The field is the effective date for all feature edits, and it is automatically generated.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Federal Standards and Procedures for the National Watershed Boundary Dataset (WBD)</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Range_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_Domain_Minimum:</I>12:00:00 AM</DT>
+                          <DT>
+                            <I>Range_Domain_Maximum:</I>5/22/2015 9:18:54 AM</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>SHAPE_Length</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Length of feature in internal units.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Esri</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Range_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_Domain_Minimum:</I>0.00969668135620442</DT>
+                          <DT>
+                            <I>Range_Domain_Maximum:</I>156.106394893564</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>WBDHU2, WBDHU4, WBDHU6, WBDHU8, WBDHU10, WBDHU12, WBDHU14, WBDHU16, NWISDrainageArea, NonContributingDrainageArea</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>The following attribute field is common to all polygon feature classes within the WBD </DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>Federal Standards and Procedures for the National Watershed Boundary Dataset</DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>Shape_Area</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Area of feature in internal units squared.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Esri</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Range_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_Domain_Minimum:</I>1.4877635179339E-06</DT>
+                          <DT>
+                            <I>Range_Domain_Maximum:</I>9.79299310229808</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>WBDHU2, WBDHU4, WBDHU6, WBDHU8, WBDHU10, WBDHU12, WBDHU14, WBDHU16</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>The following attribute fields are common to the WBD hydrologic unit polygon datasets</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>Federal Standards and Procedures for the National Watershed Boundary Dataset</DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>GNIS_ID</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>GNIS_ID is a preassigned numeric field that uses a unique number to relate the name of the hydrologic unit to the GNIS names database.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Federal Standards and Procedures for the National Watershed Boundary Dataset (WBD)</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Codeset_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Codeset_Name:</I>Geographic Names Information System (GNIS)</DT>
+                          <DT>
+                            <I>Codeset_Source:</I>GNIS (http://gnis.usgs.gov/)</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>AreaAcres</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>The area of each hydrologic unit including non-contributing areas stored in acres
+AreaAcres is common to all polygon feature classes and is calculated at the 12-digit hydrologic unit from the intrinsic area value maintained by the GIS software; therefore, acreage values may vary from user calculations, depending on the projection of the data. North American Albers Equal Area Conic, North American Datum 1983 is the required projection to use for calculation. If the units of the area field are stored in square meters, then use the conversion factor 0.0002471. For example, 40,469,446 square meters multiplied by 0.0002471 =10,000 acres</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Federal Standards and Procedures for the National Watershed Boundary Dataset (WBD)</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Range_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_Domain_Minimum:</I>0</DT>
+                          <DT>
+                            <I>Range_Domain_Maximum:</I>50000000</DT>
+                          <DT>
+                            <I>Attribute_Units_of_Measure:</I>acres</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>AreaSqKm</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>The area of each hydrologic unit including non-contributing areas stored in square kilometers.
+AreaSqKm is calculated at the 12-digit hydrologic unit from the intrinsic area value maintained by the GIS software; therefore, the square kilometer values may vary from user calculations, depending on the projection of the data. North American Albers Equal Area Conic, North American Datum 1983 is the default projection.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Federal Standards and Procedures for the National Watershed Boundary Dataset (WBD)</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Range_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_Domain_Minimum:</I>0</DT>
+                          <DT>
+                            <I>Range_Domain_Maximum:</I>100000</DT>
+                          <DT>
+                            <I>Attribute_Units_of_Measure:</I>square kilometers</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>States</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>The States or outlying area attribute identifies the State(s) or outlying areas that the hydrologic unit falls within or touches. Will be populated with the 2 character state abbreviation or outlying area attribute for each area that the unit falls within in alphabetical order.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Federal Standards and Procedures for the National Watershed Boundary Dataset (WBD)</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Codeset_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Codeset_Name:</I>Federal Standards and Procedures for the National Watershed Boundary Dataset (WBD)</DT>
+                          <DT>
+                            <I>Codeset_Source:</I>Section 6: Geospatial Data Structure and Attributes http://pubs.usgs.gov/tm/11/a3/)</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>Name</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Name refers to the GNIS name for the geographic area in which the hydrologic unit is located.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Federal Standards and Procedures for the National Watershed Boundary Dataset (WBD)</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Codeset_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Codeset_Name:</I>Federal Standards and Procedures for the National Watershed Boundary Dataset (WBD)</DT>
+                          <DT>
+                            <I>Codeset_Source:</I>Section 6: Geospatial Data Structure and Attributes (http://pubs.usgs.gov/tm/11/a3/)</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>WBDHU10, WBDHU12, WBDHU14, WBDHU16</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>The following attribute fields are common to the 10-digit, 12-digit, 14-digit and 16-digit WBD polygon datasets</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>Federal Standards and Procedures for the National Watershed Boundary Dataset</DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>HUType</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>The 12-digit hydrologic unit type attribute is the single-letter abbreviation for Watershed type from the list of official names provided in the WBD Standards.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Federal Standards and Procedures for the National Watershed Boundary Dataset (WBD)</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Codeset_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Codeset_Name:</I>Federal Standards and Procedures for the National Watershed Boundary Dataset (WBD)</DT>
+                          <DT>
+                            <I>Codeset_Source:</I>Section 6: Geospatial Data Structure and Attributes (http://pubs.usgs.gov/tm/11/a3/)</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>HUMod</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>The hydrologic unit modification attribute is a two-character, uppercase abbreviation(s) for either (1) the type of modification to natural overland flow that alters the natural delineation of a hydrologic unit or (2) the special conditions GF-groundwater flow, GL-glacier, IF-ice field, KA-karst, and NC-noncontributing area. The value of the HUMod field helps to indicate where the modification to the hydrologic unit is located. If more than one abbreviation is used, the will be separated by commas without spaces and listed from most to least predominant.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Federal Standards and Procedures for the National Watershed Boundary Dataset (WBD)</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Codeset_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Codeset_Name:</I>Federal Standards and Procedures for the National Watershed Boundary Dataset (WBD)</DT>
+                          <DT>
+                            <I>Codeset_Source:</I>Section 6: Geospatial Data Structure and Attributes (http://pubs.usgs.gov/tm/11/a3/)</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>WBDHU12, WBDHU14, WBDHU16, NWISDrainageArea and NonContributingDrainageArea</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>The following attribute fields are common to the 12-digit, 14-digit and 16-digit WBD polygon datasets as well as the NWISDrainageArea, and NonContributingDrainageArea polygon datasets</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>Federal Standards and Procedures for the National Watershed Boundary Dataset</DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>NonContributingAreaAcres</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>The noncontributing area attribute represents the area, in acres, of hydrologic units that do not contribute to downstream accumulation of streamflow under normal flow conditions.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Federal Standards and Procedures for the National Watershed Boundary Dataset (WBD)</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Range_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_Domain_Minimum:</I>0</DT>
+                          <DT>
+                            <I>Range_Domain_Maximum:</I>50000000</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>NonContributingAreaSqKm</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>The noncontributing area attribute represents the area, in square kilometers, of hydrologic units that do not contribute to downstream accumulation of streamflow under normal flow conditions.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>Federal Standards and Procedures for the National Watershed Boundary Dataset (WBD)</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Range_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_Domain_Minimum:</I>0</DT>
+                          <DT>
+                            <I>Range_Domain_Maximum:</I>100000</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Overview_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Entity_and_Attribute_Overview:</I>
+                </DT>
+                <PRE>The Watershed Boundary Dataset is a comprehensive set of digital spatial data that represents the surface drainages areas of the United States. The information included with the features includes a feature date, a unique common identifier, name, the feature length or area, and other characteristics. Names and their identifiers are assigned from the Geographic Names Information System. The data also contains relations that encode metadata. The names and definitions of all these feature attributes are in the Federal Standards and Procedures for the National Watershed Boundary Dataset (WBD). The document is available online at http://pubs.usgs.gov/tm/11/a3/.</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Entity_and_Attribute_Detail_Citation:</I>
+                </DT>
+                <PRE>The names and definitions of all fields within the WBD attribution are in the U.S. Geological Survey, Federal Standards and Procedures for the National Watershed Boundary Dataset (WBD). The document is available online at http://pubs.usgs.gov/tm/11/a3/. Information about the attribute tables and fields are in Section 6: Geospatial Data Structure and Attributes</PRE>
+              </DIV>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A NAME="EFA">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Distribution_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Distributor:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>U.S. Geological Survey</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>U.S. Geological Survey, National Geospatial Technical Operations Center, P.O. Box 25046</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Denver</DT>
+                      <DT>
+                        <I>State_or_Province:</I>CO</DT>
+                      <DT>
+                        <I>Postal_Code:</I>80225</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>1-877-275-8747</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>bpgeo@usgs.gov</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DIV>
+            <DT>
+              <I>Distribution_Liability:</I>
+            </DT>
+            <PRE>The distributor shall not be held liable for improper or incorrect use of this data, based on the description of appropriate/inappropriate uses described in this metadata document. It is strongly recommended that this data is directly acquired from the distributor and not indirectly through other sources which may have changed the data in some way. The Watershed Boundary Dataset is public information and may be interpreted by all organizations, agencies, units of government, or others based on needs; however, they are responsible for the appropriate application of the data. Federal, State, or local regulatory bodies are not to reassign to the U.S. Department of Agriculture-Natural Resources Conservation Service or the U.S. Geological Survey any authority for the decisions they make. Photographic or digital enlargement of these maps to scales greater than that at which they were originally delineated can result in misrepresentation of the data. If enlarged, the maps will not include the fine detail that would be appropriate for mapping at the small scale. Digital data files are periodically updated. Files are dated, and users are responsible for obtaining the latest version of the data from the source distributor.</PRE>
+          </DIV>
+          <DT>
+            <I>Standard_Order_Process:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Digital_Form:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Digital_Transfer_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Format_Name:</I>Vector Digital Data Set (Polygon)</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Digital_Transfer_Option:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Online_Option:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Computer_Contact_Information:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Network_Address:</I>
+                              </DT>
+                              <DD>
+                                <DL>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="ftp://rockyftp.cr.usgs.gov/vdelivery/Datasets/Staged/Hydrography/WBD/National/GDB/National_WBD.zip">ftp://rockyftp.cr.usgs.gov/vdelivery/Datasets/Staged/Hydrography/WBD/National/GDB/National_WBD.zip</A>
+                                  </DT>
+                                </DL>
+                              </DD>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Fees:</I>None. No fees are applicable for obtaining the data set.</DT>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A NAME="EAA">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Distribution_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Distributor:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>Pennsylvania Spatial Data Access (PASDA)</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>115 Land and Water Building</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>University Park</DT>
+                      <DT>
+                        <I>State_or_Province:</I>Pennsylvania</DT>
+                      <DT>
+                        <I>Postal_Code:</I>16802</DT>
+                      <DT>
+                        <I>Country:</I>United States</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>(814) 865 - 8792</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>pasda@psu.edu</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DIV>
+            <DT>
+              <I>Distribution_Liability:</I>
+            </DT>
+            <PRE>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</PRE>
+          </DIV>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Metadata_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Metadata_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Metadata_Date:</I>20210928</DT>
+          <DT>
+            <I>Metadata_Contact:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>U.S. Geological Survey</DT>
+                      <DT>
+                        <I>Contact_Person:</I>WBD Point of Contact</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>U.S. Geological Survey, National Geospatial Technical Operations Center, P.O. Box 25046</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Denver</DT>
+                      <DT>
+                        <I>State_or_Province:</I>CO</DT>
+                      <DT>
+                        <I>Postal_Code:</I>80225</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>1-877-275-8747</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>bpgeo@usgs.gov</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Metadata_Standard_Name:</I>FGDC Content Standard for Digital Geospatial Metadata</DT>
+          <DT>
+            <I>Metadata_Standard_Version:</I>FGDC-STD-001-1998</DT>
+          <DT>
+            <I>Metadata_Time_Convention:</I>local time</DT>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+  </BODY>
+</HTML>
+		</form>
+	</body>
+</HTML>

@@ -1,0 +1,1159 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+	<HEAD>
+		<title>Pennsylvania Spatial Data Access | Full Metadata</title>
+		<meta name="GENERATOR" content="Microsoft Visual Studio.NET 7.0">
+		<meta name="CODE_LANGUAGE" content="Visual Basic 7.0">
+		<meta name="vs_defaultClientScript" content="JavaScript">
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+	    <link rel="shortcut icon" href="http://maps.pasda.psu.edu/Images/favicon.ico" type="image/x-icon" />
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-41373351-5', 'psu.edu');
+          ga('send', 'pageview');
+
+        </script>
+</HEAD>
+	<body MS_POSITIONING="GridLayout">
+		<form method="post" action="./FullMetadataDisplay.aspx?file=NAIP_NY_CountyMosaics2009.xml" id="Form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEzNDA3MDMyNjVkZCi1cbXMhfZI+elmwl4oTersdOt9nxHHv5HGNLdvg2y4" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="D999016F" />
+			<HTML>
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <SCRIPT type="text/javascript">
+
+      function fix(e) {
+        var par = e.parentNode;
+        e.id = "";
+        e.style.marginLeft = "0.42in";
+        var pos = e.innerText.indexOf("\n");
+        if (pos > 0) {
+          while (pos > 0) {
+            var t = e.childNodes(0);
+            var n = document.createElement("PRE");
+            var s = t.splitText(pos);
+            e.insertAdjacentElement("afterEnd", n);
+            n.appendChild(s);
+            n.style.marginLeft = "0.42in";
+            e = n;
+            pos = e.innerText.indexOf("\n");
+          }
+          var count = (par.children.length);
+          for (var i = 0; i < count; i++) {
+            e = par.children(i);
+            if (e.tagName == "PRE") {
+              pos = e.innerText.indexOf(">");
+              if (pos != 0) {
+                n = document.createElement("DD");
+                e.insertAdjacentElement("afterEnd", n);
+                n.innerText = e.innerText;
+                e.removeNode(true);
+              }
+            }
+          }
+          if (par.children.tags("PRE").length > 0) {
+            count = (par.children.length);
+            for (i = 0; i < count; i++) {
+              e = par.children(i);
+              if (e.tagName == "PRE") {
+                e.id = "";
+                if (i < (count-1)) {
+                  var e2 = par.children(i + 1);
+                  if (e2.tagName == "PRE") {
+                    e.insertAdjacentText("beforeEnd", e2.innerText+"\n");
+                    e2.removeNode(true);
+                    count = count-1;
+                    i = i-1;
+                  }
+                }
+              }
+            }
+          }
+        }
+        else {
+          n = document.createElement("DD");
+          par.appendChild(n);
+          n.innerText = e.innerText;
+          e.removeNode(true);
+        }
+      }
+
+    </SCRIPT>
+  </HEAD>
+  <BODY oncontextmenu="return true">
+    <A name="Top">
+    </A>
+    <H2>NAIP County Mosaics - New York 2009</H2>
+    <UL>
+      <LI>
+        <A HREF="#Identification_Information">Identification_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Data_Quality_Information">Data_Quality_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Spatial_Data_Organization_Information">Spatial_Data_Organization_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Spatial_Reference_Information">Spatial_Reference_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Entity_and_Attribute_Information">Entity_and_Attribute_Information</A>
+      </LI>
+      <LI>Distribution_Information</LI>
+      <LI STYLE="margin-left:0.3in">
+        <A HREF="#EEA">
+                  Distributor 1</A>
+      </LI>
+      <LI>
+        <A HREF="#EAA">
+                  Distribution_Information 
+                </A>
+      </LI>
+      <LI>
+        <A HREF="#Metadata_Reference_Information">Metadata_Reference_Information</A>
+      </LI>
+    </UL>
+    <A name="Identification_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Identification_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Citation:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Citation_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Originator:</I>USDA-FSA Aerial Photography Field Office</DT>
+                  <DT>
+                    <I>Publication_Date:</I>20090617</DT>
+                  <DT>
+                    <I>Title:</I>
+                  </DT>
+                  <DD>NAIP County Mosaics - New York 2009</DD>
+                  <DT>
+                    <I>Geospatial_Data_Presentation_Form:</I>raster digital data</DT>
+                  <DT>
+                    <I>Publication_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Publication_Place:</I>Salt Lake City, Utah</DT>
+                      <DT>
+                        <I>Publisher:</I>USDA FSA Aerial Photography Field Office</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Online_Linkage:</I>
+                    <A TARGET="viewer" HREF="http://www.pasda.psu.edu/">http://www.pasda.psu.edu/</A>
+                  </DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Abstract:</I>
+                </DT>
+                <PRE>
+This data set contains imagery from the National
+Agriculture Imagery Program (NAIP).  The NAIP
+acquires digital ortho imagery during the
+agricultural growing seasons in the continental U.S..
+A primary goal of the NAIP program is to enable
+availability of ortho imagery within one year of
+acquisition.  The NAIP provides two main products: 1
+meter ground sample distance (GSD) ortho imagery
+rectified to a horizontal accuracy within +/- 5 meters
+of reference digital ortho quarter quads (DOQQ's) from
+the National Digital Ortho Program (NDOP) or from the
+National Agriculture Imagery Program (NAIP); 1 meter
+GSD ortho imagery rectified within +/- 6 meters to
+true ground.  The tiling format of NAIP imagery is
+based on a 3.75' x 3.75' quarter quadrangle with a 300
+meter buffer on all four sides.  The NAIP imagery is
+formatted to the UTM coordinate system using the North
+American Datum of 1983 (NAD83).  The NAIP imagery may
+contain as much as 10% cloud cover per tile.  This file
+was generated by compressing NAIP imagery that cover
+the county extent.  Two types of compression may be
+used for NAIP imagery: MrSID and JPEG 2000. Target
+value for the compression ratio is (15:1).
+</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Purpose:</I>
+                </DT>
+                <PRE>The NAIP imagery is available for distribution within 60 days of the end of a flying season and is intended to provide current information of agricultural conditions in support of USDA farm programs. For USDA Farm Service Agency, the 1 meter GSD product provides an ortho image base for Common Land Unit boundaries and other data sets. The NAIP imagery is generally acquired in projects covering full states in cooperation with state government and other federal agencies who use the imagery for a variety of purposes including land use planning and natural resource assessment. The NAIP is also used for disaster response often providing the most current pre-event imagery.</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Time_Period_of_Content:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Time_Period_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Single_Date/Time:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Calendar_Date:</I>2009</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DIV>
+                <DT>
+                  <I>Currentness_Reference:</I>
+                </DT>
+                <PRE>Photography Source Image Dates.</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Status:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Progress:</I>Complete</DT>
+              <DT>
+                <I>Maintenance_and_Update_Frequency:</I>Irregular</DT>
+            </DL>
+          </DD>
+          <DT>
+            <I>Spatial_Domain:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Bounding_Coordinates:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>West_Bounding_Coordinate:</I>-78.342627</DT>
+                  <DT>
+                    <I>East_Bounding_Coordinate:</I>-77.651037</DT>
+                  <DT>
+                    <I>North_Bounding_Coordinate:</I>42.578104</DT>
+                  <DT>
+                    <I>South_Bounding_Coordinate:</I>41.918374</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Keywords:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Theme:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Theme_Keyword_Thesaurus:</I>ISO 19115 Topic Categories </DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>farming</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Digital Ortho rectified Image</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Mosaic</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Quarter Quadrangle Centered</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Ortho Rectification</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Compression</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>MrSID</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>JPEG 2000</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>NAIP</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Compliance</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Aerial Compliance</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Imagery/Base Maps/Earth Cover </DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Place:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Place_Keyword_Thesaurus:</I>Geographic Names Information System</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>ALLEGANY</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>ALLEGANY NY</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>36003</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>NY</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Access_Constraints:</I>None</DT>
+          <DIV>
+            <DT>
+              <I>Use_Constraints:</I>
+            </DT>
+            <PRE>
+None, The USDA-FSA Aerial Photography Field Office asks to
+be credited in derived products.
+If defects are found in the NAIP imagery during the warranty
+period such as horizontal offsets, replacement imagery may be
+provided. Imagery containing defects that require the
+acquisition of new imagery, such as excessive cloud cover,
+specular reflectance, etc., will not be replaced within a
+NAIP project year.
+</PRE>
+          </DIV>
+          <DT>
+            <I>Point_of_Contact:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>USDA-FSA Aerial Photography Field Office</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>2222 West 2300 South</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Salt Lake City</DT>
+                      <DT>
+                        <I>State_or_Province:</I>Utah</DT>
+                      <DT>
+                        <I>Postal_Code:</I>84119-2020</DT>
+                      <DT>
+                        <I>Country:</I>USA</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>801-844-2922</DT>
+                  <DT>
+                    <I>Contact_Facsimile_Telephone:</I>801-956-3653</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Browse_Graphic:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Browse_Graphic_File_Name:</I>
+                <A TARGET="viewer" HREF="None">None</A>
+              </DT>
+              <DT>
+                <I>Browse_Graphic_File_Description:</I>
+              </DT>
+              <DD>None</DD>
+              <DT>
+                <I>Browse_Graphic_File_Type:</I>None</DT>
+            </DL>
+          </DD>
+          <DT>
+            <I>Native_Data_Set_Environment:</I>
+          </DT>
+          <DD>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.2.0.1324</DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Data_Quality_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Data_Quality_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DIV>
+            <DT>
+              <I>Logical_Consistency_Report:</I>
+            </DT>
+            <PRE>
+NAIP 3.75 minute tile file names are based
+on the USGS quadrangle naming convention.
+</PRE>
+          </DIV>
+          <DIV>
+            <DT>
+              <I>Completeness_Report:</I>
+            </DT>
+            <PRE>None</PRE>
+          </DIV>
+          <DT>
+            <I>Positional_Accuracy:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Horizontal_Positional_Accuracy:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Horizontal_Positional_Accuracy_Report:</I>
+                    </DT>
+                    <PRE>FSA Digital Orthophoto Specifications.</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Vertical_Positional_Accuracy:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Vertical_Positional_Accuracy_Report:</I>
+                    </DT>
+                    <PRE>N/A  2d only</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Lineage:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>USDA-FSA Aerial Photography Field Office</DT>
+                          <DT>
+                            <I>Publication_Date:</I>20090617</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>ALLEGANY, NY</DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Scale_Denominator:</I>12000</DT>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>CD/DVD</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Single_Date/Time:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Calendar_Date:</I>2009</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>Majority Aerial Photography Date</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>MrSID / JPEG2000 compressed image.</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>Mosaicked County Image</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>
+The imagery was collected using ADS40, ADS40-SH51, and ADS40-SH52 digital sensors.
+Collection was performed using a combination of twin-engine aircraft flying
+at an average flying height of 21000 ft above mean terrain with 25% sidelap,
+giving the collected data nominal ground sampling distance of 0.7 meters.
+Based-upon the CCD Array configuration present in the ADS40 digital sensor,
+imagery for each flight line is 12,000-pixels in width.  Red, Green, Blue,
+Near-Infrared and Panchromatic image bands were collected.
+
+Collected data was downloaded to portable hard drives and shipped to the processing
+facility daily.  Raw flight data was extracted from external data drives using GPro
+software. Airborne GPS / IMU data was post-processed using IPAS, PosPac and/or TerraPos
+software and reviewed to ensure sufficient accuracy for project requirements.
+
+Using Pictovera software, planar rectified images were generated from the collected data
+for use in image quality review.  The planar rectified images were generated at five meter
+resolution using a two standard deviation histogram stretch.  Factors considered during
+this review included but were not limited to the presence of smoke and/or cloud cover,
+contrails, light conditions, sun glint and any sensor or hardware-related issues that
+potentially could result in faulty data.  When necessary, image strips identified as not
+meeting image quality specifications were re-flown to obtain suitable imagery.
+
+Aerotriangulation blocks were defined primarily by order of acquisition and consisted of
+four to seventeen strips.  Image tie points providing the observations for the least
+squares bundle adjustment were selected from the images using an autocorrelation algorithm.
+Photogrammetric control points consisted of photo identifiable control points, collected
+using GPS field survey techniques.  The control points were loaded in to a softcopy workstation
+and measured in the acquired image strips.  A least squares bundle adjustment of image pass
+points, control points and the ABGPS was performed to develop an aerotriangulation solution
+for each block using Pictovera software.  Upon final bundle adjustment, the triangulated strips
+were ortho-rectified to the USGS NED DEM for the project area.  A combination of 10-Meter
+and 30-Meter NED data purchased from USGS in 2005 was used for rectification.  The images
+were re-sampled from the raw resolution of 0.7 meters to the required resolution of 1.0 meters.
+
+Positional accuracy was reviewed in the rectified imagery by visually verifying the horizontal
+positioning of the known photo-identifiable survey locations using ArcGIS software.
+
+The red, green, and blue bands were combined to generate a final ortho-rectified image strip.
+The ADS40 sensor collects twelve bit image data which requires radiometric adjustment for output
+in standard eight bit image channels.  The ortho-rectified image strips were produced with the
+full 12 bit data range, allowing radiometric adjustment to 8 bit range to be performed on a strip
+by strip basis during the final mosaicking steps.
+
+The imagery was mosaicked using manual seamline generation in Orthovista Seam Editor (OVSE).
+The 12 bit data range was adjusted for display in standard eight bit image channels by defining
+a piecewise histogram stretch using OrthoVista software.  A constant stretch was defined for
+each image collection period, and then strip by strip adjustments were made as needed to account
+for changes in sun angle and azimuth during the collection period.  Strip adjustments were also
+made to match the strips histograms as closely as possible to APFO specified histogram metrics and
+color balance requirements.  Automated balancing algorithms were applied to account for bi-directional
+reflectance as a final step before the conversion to 8 bit data range.
+
+APFO specified DOQQs were extracted from the final mosaic in GeoTIFF format. 3-Band DOQQs were
+produced and 3-Band RGB CCMs were created.  DOQQs corresponding to an individual CCM were
+reviewed for overall color balance within the CCM.  Local corrections were made where necessary
+to ensure uniformity within the CCM.  In the case of DOQQs occurring in more than one CCM,
+a separate version of the image was generated and balanced for each CCM it occurred in.
+The color balanced DOQQs were then compressed to MrSID Generation 3 format at 15:1 compression ratio
+to create a composite CCM.
+</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Process_Date:</I>20090617</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Spatial_Data_Organization_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Spatial_Data_Organization_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Indirect_Spatial_Reference_Method:</I>
+          </DT>
+          <DD>ALLEGANY, NY</DD>
+          <DT>
+            <I>Direct_Spatial_Reference_Method:</I>Raster</DT>
+          <DT>
+            <I>Raster_Object_Information:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Raster_Object_Type:</I>Pixel</DT>
+              <DT>
+                <I>Row_Count:</I>71429</DT>
+              <DT>
+                <I>Column_Count:</I>54611</DT>
+              <DT>
+                <I>Vertical_Count:</I>1</DT>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Spatial_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Spatial_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Horizontal_Coordinate_System_Definition:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Planar:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Grid_Coordinate_System:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Grid_Coordinate_System_Name:</I>Universal Transverse Mercator</DT>
+                      <DT>
+                        <I>Universal_Transverse_Mercator:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>UTM_Zone_Number:</I>17</DT>
+                          <DT>
+                            <I>Transverse_Mercator:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Scale_Factor_at_Central_Meridian:</I>0.999600</DT>
+                              <DT>
+                                <I>Longitude_of_Central_Meridian:</I>-81.000000</DT>
+                              <DT>
+                                <I>Latitude_of_Projection_Origin:</I>0.000000</DT>
+                              <DT>
+                                <I>False_Easting:</I>500000.000000</DT>
+                              <DT>
+                                <I>False_Northing:</I>0.000000</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Planar_Coordinate_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Planar_Coordinate_Encoding_Method:</I>row and column</DT>
+                      <DT>
+                        <I>Coordinate_Representation:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Abscissa_Resolution:</I>1.000000</DT>
+                          <DT>
+                            <I>Ordinate_Resolution:</I>1.000000</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Planar_Distance_Units:</I>meters</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Geodetic_Model:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Horizontal_Datum_Name:</I>North American Datum of 1983</DT>
+                  <DT>
+                    <I>Ellipsoid_Name:</I>Geodetic Reference System 80</DT>
+                  <DT>
+                    <I>Semi-major_Axis:</I>6378137.000000</DT>
+                  <DT>
+                    <I>Denominator_of_Flattening_Ratio:</I>298.257222</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Entity_and_Attribute_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Entity_and_Attribute_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Overview_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Entity_and_Attribute_Overview:</I>
+                </DT>
+                <PRE>24 bit pixels, 3 band color (RGB) represent brightness values 0-255.</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Entity_and_Attribute_Detail_Citation:</I>
+                </DT>
+                <PRE>None</PRE>
+              </DIV>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A NAME="EEA">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Distribution_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Distributor:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Person_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Person:</I>Supervisor Customer Service Section</DT>
+                      <DT>
+                        <I>Contact_Organization:</I>USDA-FSA Aerial Photography Field Office</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>2222 West 2300 South</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Salt Lake City</DT>
+                      <DT>
+                        <I>State_or_Province:</I>Utah</DT>
+                      <DT>
+                        <I>Postal_Code:</I>84119-2020</DT>
+                      <DT>
+                        <I>Country:</I>USA</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>801-844-2922</DT>
+                  <DT>
+                    <I>Contact_Facsimile_Telephone:</I>801-956-3653</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Resource_Description:</I>Mosaicked County Image for ALLEGANY, NY</DT>
+          <DIV>
+            <DT>
+              <I>Distribution_Liability:</I>
+            </DT>
+            <PRE>
+In no event shall the creators, custodians, or distributors
+of this information be liable for any damages arising out
+of its use (or the inability to use it).
+</PRE>
+          </DIV>
+          <DT>
+            <I>Standard_Order_Process:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Digital_Form:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Digital_Transfer_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Format_Name:</I>Compressed County Mosaic</DT>
+                      <DIV>
+                        <DT>
+                          <I>Format_Information_Content:</I>
+                        </DT>
+                        <PRE>Natural Color</PRE>
+                      </DIV>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Digital_Transfer_Option:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Online_Option:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Computer_Contact_Information:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Network_Address:</I>
+                              </DT>
+                              <DD>
+                                <DL>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="None">None</A>
+                                  </DT>
+                                </DL>
+                              </DD>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Offline_Option:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Offline_Media:</I>CD-ROM</DT>
+                          <DT>
+                            <I>Recording_Format:</I>ISO 9660</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Offline_Option:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Offline_Media:</I>DVD-R</DT>
+                          <DT>
+                            <I>Recording_Format:</I>ISO 9660</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Offline_Option:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Offline_Media:</I>USB/Firewire/SATA External Hard Drive</DT>
+                          <DT>
+                            <I>Recording_Format:</I>NTFS</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Fees:</I>
+Contact the USDA-FSA Aerial Photography Field Office
+for more information.
+</DT>
+            </DL>
+          </DD>
+          <DT>
+            <I>Available_Time_Period:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Time_Period_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Single_Date/Time:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Calendar_Date:</I>2009</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A NAME="EAA">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Distribution_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Distributor:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>Penn State Data Commons</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>115 Land and Water Building</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>University Park</DT>
+                      <DT>
+                        <I>State_or_Province:</I>Pennsylvania</DT>
+                      <DT>
+                        <I>Postal_Code:</I>16802</DT>
+                      <DT>
+                        <I>Country:</I>United States</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>(814) 865 - 8792</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>datacommons@psu.edu</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DIV>
+            <DT>
+              <I>Distribution_Liability:</I>
+            </DT>
+            <PRE>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</PRE>
+          </DIV>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Metadata_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Metadata_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Metadata_Date:</I>20090618</DT>
+          <DT>
+            <I>Metadata_Contact:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>USDA-FSA Aerial Photography Field Office</DT>
+                      <DT>
+                        <I>Contact_Person:</I>REQUIRED: The person responsible for the metadata information.</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>2222 West 2300 South</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Salt Lake City</DT>
+                      <DT>
+                        <I>State_or_Province:</I>Utah</DT>
+                      <DT>
+                        <I>Postal_Code:</I>84119-2020</DT>
+                      <DT>
+                        <I>Country:</I>USA</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>801-844-2922</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Metadata_Standard_Name:</I>FGDC Content Standards for Digital Geospatial Metadata</DT>
+          <DT>
+            <I>Metadata_Standard_Version:</I>FGDC-STD-001-1998</DT>
+          <DT>
+            <I>Metadata_Time_Convention:</I>local time</DT>
+          <DT>
+            <I>Metadata_Extensions:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Online_Linkage:</I>
+                <A TARGET="viewer" HREF=""></A>
+              </DT>
+              <DT>
+                <I>Profile_Name:</I>ESRI Metadata Profile</DT>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+  </BODY>
+</HTML>
+		</form>
+	</body>
+</HTML>

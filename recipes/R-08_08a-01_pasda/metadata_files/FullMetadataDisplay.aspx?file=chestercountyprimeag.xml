@@ -1,0 +1,1533 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+	<HEAD>
+		<title>Pennsylvania Spatial Data Access | Full Metadata</title>
+		<meta name="GENERATOR" content="Microsoft Visual Studio.NET 7.0">
+		<meta name="CODE_LANGUAGE" content="Visual Basic 7.0">
+		<meta name="vs_defaultClientScript" content="JavaScript">
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+	    <link rel="shortcut icon" href="http://maps.pasda.psu.edu/Images/favicon.ico" type="image/x-icon" />
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-41373351-5', 'psu.edu');
+          ga('send', 'pageview');
+
+        </script>
+</HEAD>
+	<body MS_POSITIONING="GridLayout">
+		<form method="post" action="./FullMetadataDisplay.aspx?file=chestercountyprimeag.xml" id="Form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEzNDA3MDMyNjVkZCi1cbXMhfZI+elmwl4oTersdOt9nxHHv5HGNLdvg2y4" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="D999016F" />
+			<HTML>
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <SCRIPT type="text/javascript">
+
+      function fix(e) {
+        var par = e.parentNode;
+        e.id = "";
+        e.style.marginLeft = "0.42in";
+        var pos = e.innerText.indexOf("\n");
+        if (pos > 0) {
+          while (pos > 0) {
+            var t = e.childNodes(0);
+            var n = document.createElement("PRE");
+            var s = t.splitText(pos);
+            e.insertAdjacentElement("afterEnd", n);
+            n.appendChild(s);
+            n.style.marginLeft = "0.42in";
+            e = n;
+            pos = e.innerText.indexOf("\n");
+          }
+          var count = (par.children.length);
+          for (var i = 0; i < count; i++) {
+            e = par.children(i);
+            if (e.tagName == "PRE") {
+              pos = e.innerText.indexOf(">");
+              if (pos != 0) {
+                n = document.createElement("DD");
+                e.insertAdjacentElement("afterEnd", n);
+                n.innerText = e.innerText;
+                e.removeNode(true);
+              }
+            }
+          }
+          if (par.children.tags("PRE").length > 0) {
+            count = (par.children.length);
+            for (i = 0; i < count; i++) {
+              e = par.children(i);
+              if (e.tagName == "PRE") {
+                e.id = "";
+                if (i < (count-1)) {
+                  var e2 = par.children(i + 1);
+                  if (e2.tagName == "PRE") {
+                    e.insertAdjacentText("beforeEnd", e2.innerText+"\n");
+                    e2.removeNode(true);
+                    count = count-1;
+                    i = i-1;
+                  }
+                }
+              }
+            }
+          }
+        }
+        else {
+          n = document.createElement("DD");
+          par.appendChild(n);
+          n.innerText = e.innerText;
+          e.removeNode(true);
+        }
+      }
+
+    </SCRIPT>
+  </HEAD>
+  <BODY oncontextmenu="return true">
+    <A name="Top">
+    </A>
+    <H2>
+Prime Agricultural Soils from the Soil Survey Geographic data base for
+Chester County, Pennsylvania
+</H2>
+    <UL>
+      <LI>
+        <A HREF="#Identification_Information">Identification_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Data_Quality_Information">Data_Quality_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Spatial_Data_Organization_Information">Spatial_Data_Organization_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Spatial_Reference_Information">Spatial_Reference_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Entity_and_Attribute_Information">Entity_and_Attribute_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#EDA">
+                  Distribution_Information 
+                </A>
+      </LI>
+      <LI>
+        <A HREF="#Metadata_Reference_Information">Metadata_Reference_Information</A>
+      </LI>
+    </UL>
+    <A name="Identification_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Identification_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Citation:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Citation_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Originator:</I>
+U.S. Department of Agriculture, Natural Resources
+Conservation Service
+</DT>
+                  <DT>
+                    <I>Publication_Date:</I>1997</DT>
+                  <DT>
+                    <I>Title:</I>
+                  </DT>
+                  <DD>
+Prime Agricultural Soils from the Soil Survey Geographic data base for
+Chester County, Pennsylvania
+</DD>
+                  <DT>
+                    <I>Publication_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Publication_Place:</I>University Park, Pennsylvania</DT>
+                      <DT>
+                        <I>Publisher:</I>
+U.S. Department of Agriculture, Natural Resources
+Conservation Service
+</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Online_Linkage:</I>
+                    <A TARGET="viewer" HREF="ftp://www.pasda.psu.edu/pub/pasda/chesco/chesco_primeag.zip">ftp://www.pasda.psu.edu/pub/pasda/chesco/chesco_primeag.zip</A>
+                  </DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Abstract:</I>
+                </DT>
+                <PRE>
+This data set represents Prime Agricultural Soils as defined by
+the County of Chester.  The designation equates to any soil map unit
+designation as 1 or 2 in the Nonirrigated Capability Class from the SSURGO
+data base. The SSURGO data set is a digital soil survey and is the most
+detailed level of soil geographic data developed by the National
+Cooperative Soil Survey. The information was collected by
+digitizing maps, by compiling information onto a planimetric
+correct base and digitizing, or by revising digitized maps using
+remotely sensed and other information.
+
+The SSURGO data set consists of georeferenced digital map data and
+computerized attribute data. The map data are in a full county
+format and include a detailed, field verified inventory
+of soils and nonsoil areas that normally occur in a repeatable
+pattern on the landscape and that can be cartographically shown at
+the scale mapped. Sometimes a special soil features layer (point
+and line features) is included. This layer displays the location of
+features too small to delineate at the mapping scale, but they are
+large enough and contrasting enough to significantly influence use
+and management. The soil map units are linked to attributes in the
+Map Unit Interpretations Record relational data base, which gives
+the proportionate extent of the component soils and their
+properties.
+
+The data set has been provided to Chester County Departments and PASDA as an
+ArcView shapefile by the County of Chester, Department of Computer and
+Information Services.  The theme has been reprojected to PA Stateplane
+NAD83 from its original datum in accordance with the base map standards of
+the County of Chester.  The County of Chester serves as the secondary
+organization in providing this shapefile, as compared to its originator
+and primary organization, the Natural Resources Conservation Service.
+</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Purpose:</I>
+                </DT>
+                <PRE>Soils digitial data depicts information about soil features on or near the surface of the Earth. These data were collected as part of the National Cooperative Soil Survey. The Prime Agriculture Soils shapefile can be used in various County of Chester Programs which evaluate the location of Prime Agricultural Soils which consist of Capability Class I and II. These data were collected as part of the National Cooperative Soil Survey.</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Supplemental_Information:</I>
+                </DT>
+                <PRE>
+Digital versions of hydrography, cultural
+features, and other associated layers that are not part of the soils
+data set may be available from the primary organization listed in
+the Point of Contact.
+</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Time_Period_of_Content:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Time_Period_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Single_Date/Time:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Calendar_Date:</I>1997</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DIV>
+                <DT>
+                  <I>Currentness_Reference:</I>
+                </DT>
+                <PRE>extracted from original Arc coverage - 2000</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Status:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Progress:</I>Complete</DT>
+              <DT>
+                <I>Maintenance_and_Update_Frequency:</I>As needed</DT>
+            </DL>
+          </DD>
+          <DT>
+            <I>Spatial_Domain:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Bounding_Coordinates:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>West_Bounding_Coordinate:</I>-76.137</DT>
+                  <DT>
+                    <I>East_Bounding_Coordinate:</I>-75.3549</DT>
+                  <DT>
+                    <I>North_Bounding_Coordinate:</I>40.2525</DT>
+                  <DT>
+                    <I>South_Bounding_Coordinate:</I>39.7078</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Keywords:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Theme:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Theme_Keyword_Thesaurus:</I>ISO 19115 Topic Categories</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>soil survey</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Agricultural soils</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Soil Survey Geographic</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>SSURGO</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>geoscientificInformation</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Place:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Place_Keyword_Thesaurus:</I>
+Counties and County Equivalents of the
+States of the United States and the District of Columbia (FIPS
+Pub 6-3)
+</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Pennsylvania</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Chester County</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Access_Constraints:</I>None</DT>
+          <DIV>
+            <DT>
+              <I>Use_Constraints:</I>
+            </DT>
+            <PRE>
+The U.S. Department of Agriculture, Natural Resources
+Conservation Service, should be acknowledged as the data source in
+products derived from these data.
+
+This data set is not designed for use as a primary regulatory tool
+in permitting or citing decisions, but may be used as a reference
+source. This is public information and may be interpreted by
+organizations, agencies, units of government, or others based on
+needs; however, they are responsible for the appropriate
+application. Federal, State, or local regulatory bodies are not to
+reassign to the Natural Resources Conservation Service any
+authority for the decisions that they make. The Natural Resources
+Conservation Service will not perform any evaluations of these maps
+for purposes related solely to State or local regulatory programs.
+
+Photographic or digital enlargement of these maps to scales greater
+than at which they were originally mapped can cause
+misinterpretation of the data. If enlarged, maps do not show the
+small areas of contrasting soils that could have been shown at a
+larger scale. The depicted soil boundaries, interpretations, and
+analysis derived from them do not eliminate the need for onsite
+sampling, testing, and detailed study of specific sites for
+intensive uses. Thus, these data and their interpretations are
+intended for planning purposes only. Digital data files are
+periodically updated. Files are dated, and users are responsible
+for obtaining the latest version of the data.
+</PRE>
+          </DIV>
+          <DT>
+            <I>Point_of_Contact:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>
+U.S. Department of Agriculture, Natural
+Resources Conservation Service
+</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Position:</I>State Soil Scientist</DT>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>One Credit Union Place, Suite 340</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Harrisburg</DT>
+                      <DT>
+                        <I>State_or_Province:</I>Pennsylvania</DT>
+                      <DT>
+                        <I>Postal_Code:</I>17110 2993</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>717 782 3439</DT>
+                  <DT>
+                    <I>Contact_TDD/TTY_Telephone:</I>202 720 7808</DT>
+                  <DT>
+                    <I>Contact_Facsimile_Telephone:</I>717 782 4469</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>
+County of Chester, Department of Computer and
+Information Services
+</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Position:</I>Land Records Manager</DT>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>One 10 N. Church St., Suite 200, P.O. Box 2748</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>West Chester</DT>
+                      <DT>
+                        <I>State_or_Province:</I>Pennsylvania</DT>
+                      <DT>
+                        <I>Postal_Code:</I>19380-0991</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>610 344 6475</DT>
+                  <DT>
+                    <I>Contact_Facsimile_Telephone:</I></DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Cross_Reference:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Citation_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Originator:</I>U.S. Department of Agriculture, Natural Resources Conservation Service</DT>
+                  <DT>
+                    <I>Publication_Date:</I>Unpublished</DT>
+                  <DT>
+                    <I>Title:</I>
+                  </DT>
+                  <DD>Soil Survey of Chester County, Pennsylvania</DD>
+                  <DT>
+                    <I>Geospatial_Data_Presentation_Form:</I>text, table, map</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Data_Quality_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Data_Quality_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Attribute_Accuracy:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Attribute_Accuracy_Report:</I>
+                </DT>
+                <PRE>
+Attribute accuracy is tested by manual
+comparison of the source with hard copy plots and/or symbolized
+display of the map data on an interactive computer graphic system.
+Selected attributes that cannot be visually verified on plots or on
+screen are interactively queried and verified on screen. In
+addition, the attributes are tested against a master set of valid
+attributes. All attribute data conform to the attribute codes in
+the signed classification and correlation document and amendment(s)
+and are current as of the date of digitizing.
+</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DIV>
+            <DT>
+              <I>Logical_Consistency_Report:</I>
+            </DT>
+            <PRE>
+Certain node/geometry and topology GT-
+polygon/chain relationships are collected or generated to satisfy
+topological requirements (the GT-polygon corresponds to the soil
+delineation). Some of these requirements include: chains must
+begin and end at nodes, chains must connect to each other at
+nodes, chains do not extend through nodes, left and right
+GT-polygons are defined for each chain element and are consistent
+throughout, and the chains representing the limits of the file
+(neatline) are free of gaps. The tests of logical consistency are
+performed using vendor software. The neatline is generated by
+connecting the explicitly entered four corners of the digital file.
+All data outside the enclosed region are ignored and all data
+crossing these geographically straight lines are clipped at the
+neatline. Data within a specified tolerance of the neatline are
+snapped to the neatline. Neatline straightening aligns the
+digitized edges of the digital data with the generated neatline
+(i.e., with the longitude/latitude lines in geographic
+coordinates). All internal polygons are tested for closure with
+vendor software and are checked on hard copy plots. All data are
+checked for common soil lines (i.e., adjacent polygons with the
+same label). Quadrangles are edge matched within the soil survey
+area and edge locations generally do not deviate from centerline to
+centerline by more than 0.01 inch.
+</PRE>
+          </DIV>
+          <DIV>
+            <DT>
+              <I>Completeness_Report:</I>
+            </DT>
+            <PRE>
+A map unit is a collection of areas defined and
+named the same in terms of their soil and/or nonsoil areas. Each
+map unit differs in some respect from all others in a survey area
+and is uniquely identified. Each individual area is a delineation.
+Each map unit consists of one or more components.
+
+Soil scientists identify small areas of soils or nonsoil areas
+(special soil features) that have properties and behavior
+significantly different than the named soils in the surrounding map
+unit. Other inclusions that have a minimal effect on use and
+management, or those that could not be precisely located, were not
+mapped.
+
+Specific limits were established on the classification of soils,
+design and name of map units, location of special soil features,
+and the percentages of allowable inclusions. These limits are
+outlined in U.S. Department of Agriculture. 1975. Soil Taxonomy: A
+basic system of soil classification for making and interpreting
+soil surveys. Soil Conserv. Serv., U.S. Dep. Agric. Handb. 436.;
+U.S. Department of Agriculture. 1992. Keys to Soil Taxonomy. SMSS
+Technical Monograph No. 19. Soil Surv. Staff, Soil Conserv. Serv.;
+U.S. Department of Agriculture. 1993. National Soil Survey
+Handbook, title 430-VI. Soil Surv. Staff, Soil Conserv. Serv.; and
+U.S. Department of Agriculture. 1993. Soil Survey Manual. Soil
+Surv. Staff, U.S. Dep. Agric. Handb. 18.
+
+The actual composition and interpretive purity of the map unit
+delineations were based on statistical analysis of field
+observations and transect data. Adherence to National Cooperative
+Soil Survey standards and procedures is based on peer review,
+quality control, and quality assurance. Quality control is outlined
+in the memorandum of understanding for the soil survey area and in
+documents that reside with the Natural Resources Conservation
+Service state soil scientist. Four kinds of map units are used in
+soil surveys: consociations, complexes, associations, and
+undifferentiated groups.
+
+Consociations - Consociations are named for the dominant soil. In
+a consociation, delineated areas are dominated by a single soil
+taxon and similar soils. At least one half of the pedons in each
+delineation are of the same soil component so similar to the
+named soil that major interpretations are not affected
+significantly. The total amount of dissimilar inclusions of
+other components in a map unit generally does not exceed about
+15 percent if limiting and 25 percent if nonlimiting. A single
+component of a dissimilar limiting inclusion generally does not
+exceed 10 percent if very contrasting.
+
+Complexes and associations - Complexes and associations are named
+for two or more dissimilar components with the dominant
+component listed first. They occur in a regularly repeating
+pattern. The major components of a complex cannot be mapped
+separately at a scale of about 1:24,000. The major components of
+an association can be separated at a scale of about 1:24,000. In
+each delineation of either a complex or an association, each
+major component is normally present, though their proportions
+may vary appreciably from one delineation to another. The total
+amount of inclusions in a map unit that are dissimilar to any of
+the major components does not exceed 15 percent if limiting and
+25 percent if nonlimiting. A single kind of dissimilar limiting
+inclusion usually does not exceed 10 percent.
+
+Undifferentiated Groups - Undifferentiated groups consist of two
+or more components that do not always occur together in the same
+delineation, but are included in the same named map unit because
+use and management are the same or similar for common uses.
+Every delineation has at least one of the major components and
+some may have all of them. The same principles regarding
+proportion of inclusions apply to undifferentiated groups as to
+consociations.
+
+Minimum documentation consists of three complete soil profile
+descriptions that are collected for each soil added to the legend,
+one additional per 3,000 acres mapped; three 10 observation
+transects for each map unit, one additional 10 point transect per
+3,000 acres.
+
+A defined standard or level of confidence in the interpretive
+purity of the map unit delineations is attained by adjusting the
+kind and intensity of field investigations. Field investigations
+and data collection are carried out in sufficient detail to name
+map units and to identify accurately and consistently areas of
+about 4 acres.
+</PRE>
+          </DIV>
+          <DT>
+            <I>Positional_Accuracy:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Horizontal_Positional_Accuracy:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Horizontal_Positional_Accuracy_Report:</I>
+                    </DT>
+                    <PRE>
+The accuracy of these
+digital data is based upon their compilation to base maps that
+meet National Map Accuracy Standards. The difference in
+accuracy between the soil boundaries and special soil
+features locations in the field and their digitized map
+locations is unknown. The locational accuracy of soil
+delineations on the ground varies with the transition between
+map units.
+
+For example, on long gently sloping landscapes the transition
+occurs gradually over many feet. Where landscapes change
+abruptly from steep to level, the transition will be very
+narrow. Soil delineation boundaries and special soil features
+generally were digitized within 0.01 inch of their locations on
+the digitizing source. The digital map elements are edge matched
+between data sets. The data along each quadrangle edge are
+matched against the data for the adjacent quadrangle. Edge
+locations generally do not deviate from centerline to centerline
+by more than 0.01 inch.
+</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Lineage:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>
+U.S. Department of Agriculture, Soil Conservation
+Service
+</DT>
+                          <DT>
+                            <I>Publication_Date:</I>1969</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>The Soil Survey for Chester County, Pennsylvania</DD>
+                          <DT>
+                            <I>Geospatial_Data_Presentation_Form:</I>map</DT>
+                          <DT>
+                            <I>Publication_Information:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Publication_Place:</I>Washington, DC</DT>
+                              <DT>
+                                <I>Publisher:</I>U.S. Government Printing Office</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Scale_Denominator:</I>20000</DT>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>paper</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Single_Date/Time:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Calendar_Date:</I>1959</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>publication date</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>SCS1</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>
+basic reference material about soils and
+landscapes
+</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>
+U.S. Department of Agriculture, Natural Resources
+Conservation Service
+</DT>
+                          <DT>
+                            <I>Publication_Date:</I>unpublished material</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>The Soil Survey of Chester County, Pennsylvania</DD>
+                          <DT>
+                            <I>Geospatial_Data_Presentation_Form:</I>map</DT>
+                          <DT>
+                            <I>Publication_Information:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Publication_Place:</I>Fort Worth, Texas</DT>
+                              <DT>
+                                <I>Publisher:</I>
+U.S. Department of Agriculture, Natural Resources
+Conservation Service
+</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Scale_Denominator:</I>24000</DT>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>stable-base material</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Single_Date/Time:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Calendar_Date:</I>1996</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>1959</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>NRCS1</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>reference material for line placement</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>U.S. Geological Survey</DT>
+                          <DT>
+                            <I>Publication_Date:</I>1994</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>multiple orthophotographs</DD>
+                          <DT>
+                            <I>Geospatial_Data_Presentation_Form:</I>remote sensing image</DT>
+                          <DT>
+                            <I>Publication_Information:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Publication_Place:</I>Fort Worth, Texas</DT>
+                              <DT>
+                                <I>Publisher:</I>
+U.S Department of Agriculture, Natural Resources
+Conservation Service
+</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Scale_Denominator:</I>24000</DT>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>stable-base material</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_of_Dates/Times:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Beginning_Date:</I>1987</DT>
+                              <DT>
+                                <I>Ending_Date:</I>1989</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>publication date</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>USGS1</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>base map for recompilation</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>
+Chester County, Pennsylvania had a previous
+soil survey that was published in 1959. Since that time there has been
+an dramatic increase in urbanization within the county and an soil
+survey update was needed to reflect these changes. A detailed
+evaluation found that significant changes in classification, landuse,
+outdated soil series, and standards and procedures for making soil
+surveys made the 1959 survey obsolete.
+</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Source_Used_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>SCS1, NRCS1, USGS2</DD>
+                  <DT>
+                    <I>Process_Date:</I>1987</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>
+The ratioed film positives were used to adjust
+soil boundary placement by using control points also found on the
+orthophotography. These lines were placed on stable base material
+compilation sheets that were then checked matching adjacent sheets as
+well as referenceing positions to selected features on the
+orthophotographs. Adjustment of soil bounderies reflecting newer urban
+areas were made by photointerpretation. The field compilation sheets
+were taken and scanned at Midwest Graphics Inc. that scanned at 200 dpi
+on a drum scanner. The raster files of the scanned soil lines were
+imported into LT4X for raster editing, map neatline develpment,
+labeling, edgematching, and vector conversion. The cleaned vector files
+were then transferred into ARC/INFO version 7.0.3 for final plotting,
+edit checks, and error analysis. The quadrangle format was then joined
+together to form a seamless county coverage. Polygon attributes where
+checked versus the correlation legend. This process within ARC/INFO was
+completed in 1997. Soil labels were checked versus the correlation
+legend and tabular data. The spatial data was then exported to the
+ARC/INFO exchange format. Compilation, digitizing, and quality control
+were performed by the soil scientists and cartographic technicians at
+the Pennsylvania Natural Resources Conservation Service Map Compilation
+Center.
+</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Process_Date:</I>1997</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Spatial_Data_Organization_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Spatial_Data_Organization_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Direct_Spatial_Reference_Method:</I>Vector</DT>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Spatial_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Spatial_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Horizontal_Coordinate_System_Definition:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Planar:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Grid_Coordinate_System:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Grid_Coordinate_System_Name:</I>State Plane Coordinate System</DT>
+                      <DT>
+                        <I>State_Plane_Coordinate_System:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>SPCS_Zone_Identifier:</I>Pennsylvania, South</DT>
+                          <DT>
+                            <I>Lambert_Conformal_Conic:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Standard_Parallel:</I>39.933333</DT>
+                              <DT>
+                                <I>Standard_Parallel:</I>40.966667</DT>
+                              <DT>
+                                <I>Longitude_of_Central_Meridian:</I>-77.750000</DT>
+                              <DT>
+                                <I>Latitude_of_Projection_Origin:</I>39.333333</DT>
+                              <DT>
+                                <I>False_Easting:</I>1968499.999800</DT>
+                              <DT>
+                                <I>False_Northing:</I>0.000000</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Planar_Coordinate_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Planar_Coordinate_Encoding_Method:</I>Coordinate pair</DT>
+                      <DT>
+                        <I>Coordinate_Representation:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Abscissa_Resolution:</I>1</DT>
+                          <DT>
+                            <I>Ordinate_Resolution:</I>1</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Planar_Distance_Units:</I>Feet</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Geodetic_Model:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Horizontal_Datum_Name:</I>North American Datum of 1983</DT>
+                  <DT>
+                    <I>Ellipsoid_Name:</I>GRS 80</DT>
+                  <DT>
+                    <I>Semi-major_Axis:</I>20925604.4720406</DT>
+                  <DT>
+                    <I>Denominator_of_Flattening_Ratio:</I>298.26</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Entity_and_Attribute_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Entity_and_Attribute_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>Special Soil Features</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>
+Special Soil Features represent soil,
+nonsoil, or landform features that are too small to be digitized
+as soil delineations (area features).
+</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>
+U.S. Department of Agriculture.
+1993. Soil Survey Manual. Soil Surv. Staff, U.S. Dep. Agric.
+Handb. 18.
+</DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>Special Soil Features Codes</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>
+Special Soil Features Codes represent
+specific Special Soil Features. These features are identified
+with a major code, a minor code, and a descriptive label. The
+codes and label are assigned to the point or line assigned to
+represent the feature on published maps.
+</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>
+U.S. Department of Agriculture.
+1993. Soil Survey Manual. Soil Surv. Staff, U.S. Dep. Agric.
+Handb. 18; U.S. Department of Agriculture. 1993. National Soil
+Survey Handbook, title 430-VI, part 647. Soil Conserv. Serv.
+</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Codeset_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Codeset_Name:</I>
+Classification and Correlation of the Soils of
+Chester County, Pennsylvania
+</DT>
+                          <DT>
+                            <I>Codeset_Source:</I>
+U.S. Department of Agriculture, Natural
+Resources Conservation Service
+</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>Clnirr</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Character Field representing a rating of the soil for non-irrigated agricultural use. The number indicates progressively greated limitations and narrower choices for use. For this coverage ratings One and two indicate prime agricultural soils</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE></PRE>
+                  </DIV>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Overview_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Entity_and_Attribute_Overview:</I>
+                </DT>
+                <PRE>
+Map Unit Delineations are closed
+polygons that may be dominated by a single soil or nonsoil
+component plus allowable similar or dissimilar soils, or they can
+be geographic mixtures of groups of soils or soils and nonsoil
+areas.
+
+The map unit symbol uniquely identifies each closed delineation map
+unit. Each symbol is linked to a map unit name. The map unit symbol
+is also the key for linking information in the Map Unit
+Interpretations Record tables. The map unit symbols are not carried
+within the modified Digital Line Graph file; however, they are made
+available in a companion attribute file (note - a complete set of these
+files are available through NRCS - a select number of attribute fields
+have been incorporated into this shapefile for user access.). The
+file links the minor codes in the Digital Line Graph files
+to the map unit symbols.
+
+Map Unit Delineations are described by the Map Unit Interpretations
+Record data base. This attribute data base gives the proportionate
+extent of the component soils and the properties for each soil. The
+data base contains both estimated and measured data on the physical
+and chemical soil properties and soil interpretations for
+engineering, water management, recreation, agronomic, woodland,
+range, and wildlife uses of the soil. The soil Map Unit
+Interpretations Record data base consists of the following
+relational tables:
+codes (data base codes) - stores information on all codes used
+in the data base
+comp (map unit component) - stores information for soil map unit
+components
+compyld (component crop yield) - stores crop yield information
+for soil map unit components
+forest (forest understory) - stores information for plant cover
+as forest understory for soil map unit components
+helclass (highly erodible lands class) - stores the highly
+erodible land classification for wind and water assigned to
+the soil map units
+hydcomp (hydric component information) - stores data related to
+the hydric classification, criteria, landform, etc.
+inclusn (map unit inclusion) - stores the names of soils
+included in the soil map units
+interp (interpretation) - stores soil interpretation ratings
+(both limitation ratings and suitability ratings) for soil
+map unit components
+layer (soil layer) - stores characteristics of soil layers for
+soil map unit components
+mapunit (map unit) - stores information that applies to all
+components of a soil map unit
+mucoacre (map unit county acres) - stores the number of acres
+for the map unit within a county
+muyld (map unit yield) - stores crop yield information for the
+soil map unit
+plantcom (plant composition) - stores plant symbols and percent
+of plant composition associated with components of a soil
+map unit
+plantnm (plant name) - stores the common and scientific names
+for plants used in the data base
+rangenm (range name) - stores the range site names
+rsprod (range site production) - stores range site production
+information for soil map unit components
+ssacoac (soil survey area county acreage) - stores the acreage
+for the county within the boundary of the soil survey area
+ssarea (soil survey area) - stores information that will apply
+to an entire soil survey area
+taxclass (taxonomic classification) - stores the taxonomic
+classification for soils in the data base
+windbrk (windbreak) - stores information on recommended
+windbreak plants for soil map unit components
+wlhabit (wildlife habitat) - stores wildlife habitat information
+for soil map unit components
+woodland (woodland) - stores information on common indicator
+trees for soil map unit components
+woodmgt (woodland management) - stores woodland management
+information for soil map unit components
+yldunits (yield units) - stores crop names and the units used to
+measure yield
+
+Special features are described in the feature table. It includes a
+feature label, feature name, and feature definition for each
+special and ad hoc feature in the survey area.
+</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Entity_and_Attribute_Detail_Citation:</I>
+                </DT>
+                <PRE>
+U.S. Department of Agriculture. 1975. Soil Taxonomy: A basic system
+of soil classification for making and interpreting soil surveys.
+Soil Conserv. Serv., U.S. Dep. Agric. Handb. 436.
+
+U.S. Department of Agriculture. 1992. Keys to Soil Taxonomy. SMSS
+Technical Monograph No. 19. Soil Surv. Staff, Soil Conserv. Serv.
+
+U.S. Department of Agriculture. 1993. National Soil Survey
+Handbook, title 430-VI. Soil Surv. Staff, Soil Conserv. Serv.
+
+U.S. Department of Agriculture. 1993. Soil Survey Manual. Soil
+Surv. Staff, U.S. Dep. Agric. Handb. 18.
+
+U.S. Department of Agriculture. 1994. Soil Survey Geographic
+(SSURGO) Data Base: Data use information. Soil Conserv. Serv.
+
+U.S. Department of Agriculture. State Soil Survey Database Data
+Dictionary. Soil Conserv. Serv.
+
+Detail Description
+</PRE>
+              </DIV>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A NAME="EDA">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Distribution_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Distributor:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>Pennsylvania Spatial Data Access (PASDA)</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>Land and Water Building</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>University Park</DT>
+                      <DT>
+                        <I>State_or_Province:</I>PA</DT>
+                      <DT>
+                        <I>Postal_Code:</I>16802</DT>
+                      <DT>
+                        <I>Country:</I>USA</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>pasda@psu.edu</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DIV>
+            <DT>
+              <I>Distribution_Liability:</I>
+            </DT>
+            <PRE>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</PRE>
+          </DIV>
+          <DT>
+            <I>Standard_Order_Process:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Digital_Form:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Digital_Transfer_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Format_Name:</I>ESRI Shapefile</DT>
+                      <DT>
+                        <I>Format_Version_Number:</I>3.x</DT>
+                      <DT>
+                        <I>File_Decompression_Technique:</I>zip compression</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Digital_Transfer_Option:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Online_Option:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Access_Instructions:</I>
+                          </DT>
+                          <DD>See: http://www.pasda.psu.edu</DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Fees:</I>none</DT>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Metadata_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Metadata_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Metadata_Date:</I>20060124</DT>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+  </BODY>
+</HTML>
+		</form>
+	</body>
+</HTML>

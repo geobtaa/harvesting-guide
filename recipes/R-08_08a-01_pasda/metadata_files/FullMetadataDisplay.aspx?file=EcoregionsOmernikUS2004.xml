@@ -1,0 +1,1805 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+	<HEAD>
+		<title>Pennsylvania Spatial Data Access | Full Metadata</title>
+		<meta name="GENERATOR" content="Microsoft Visual Studio.NET 7.0">
+		<meta name="CODE_LANGUAGE" content="Visual Basic 7.0">
+		<meta name="vs_defaultClientScript" content="JavaScript">
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+	    <link rel="shortcut icon" href="http://maps.pasda.psu.edu/Images/favicon.ico" type="image/x-icon" />
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-41373351-5', 'psu.edu');
+          ga('send', 'pageview');
+
+        </script>
+</HEAD>
+	<body MS_POSITIONING="GridLayout">
+		<form method="post" action="./FullMetadataDisplay.aspx?file=EcoregionsOmernikUS2004.xml" id="Form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEzNDA3MDMyNjVkZCi1cbXMhfZI+elmwl4oTersdOt9nxHHv5HGNLdvg2y4" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="D999016F" />
+			<HTML>
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <SCRIPT type="text/javascript">
+
+      function fix(e) {
+        var par = e.parentNode;
+        e.id = "";
+        e.style.marginLeft = "0.42in";
+        var pos = e.innerText.indexOf("\n");
+        if (pos > 0) {
+          while (pos > 0) {
+            var t = e.childNodes(0);
+            var n = document.createElement("PRE");
+            var s = t.splitText(pos);
+            e.insertAdjacentElement("afterEnd", n);
+            n.appendChild(s);
+            n.style.marginLeft = "0.42in";
+            e = n;
+            pos = e.innerText.indexOf("\n");
+          }
+          var count = (par.children.length);
+          for (var i = 0; i < count; i++) {
+            e = par.children(i);
+            if (e.tagName == "PRE") {
+              pos = e.innerText.indexOf(">");
+              if (pos != 0) {
+                n = document.createElement("DD");
+                e.insertAdjacentElement("afterEnd", n);
+                n.innerText = e.innerText;
+                e.removeNode(true);
+              }
+            }
+          }
+          if (par.children.tags("PRE").length > 0) {
+            count = (par.children.length);
+            for (i = 0; i < count; i++) {
+              e = par.children(i);
+              if (e.tagName == "PRE") {
+                e.id = "";
+                if (i < (count-1)) {
+                  var e2 = par.children(i + 1);
+                  if (e2.tagName == "PRE") {
+                    e.insertAdjacentText("beforeEnd", e2.innerText+"\n");
+                    e2.removeNode(true);
+                    count = count-1;
+                    i = i-1;
+                  }
+                }
+              }
+            }
+          }
+        }
+        else {
+          n = document.createElement("DD");
+          par.appendChild(n);
+          n.innerText = e.innerText;
+          e.removeNode(true);
+        }
+      }
+
+    </SCRIPT>
+  </HEAD>
+  <BODY oncontextmenu="return true">
+    <A name="Top">
+    </A>
+    <H2>Ecoregions United States (Omernik) 2005</H2>
+    <UL>
+      <LI>
+        <A HREF="#Identification_Information">Identification_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Data_Quality_Information">Data_Quality_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Spatial_Data_Organization_Information">Spatial_Data_Organization_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Spatial_Reference_Information">Spatial_Reference_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Entity_and_Attribute_Information">Entity_and_Attribute_Information</A>
+      </LI>
+      <LI>Distribution_Information</LI>
+      <LI STYLE="margin-left:0.3in">
+        <A HREF="#EEA">
+                  Distributor 1</A>
+      </LI>
+      <LI>
+        <A HREF="#EAA">
+                  Distribution_Information 
+                </A>
+      </LI>
+      <LI>
+        <A HREF="#Metadata_Reference_Information">Metadata_Reference_Information</A>
+      </LI>
+    </UL>
+    <A name="Identification_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Identification_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Citation:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Citation_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Originator:</I>U.S. Environmental Protection Agency</DT>
+                  <DT>
+                    <I>Publication_Date:</I>200506</DT>
+                  <DT>
+                    <I>Title:</I>
+                  </DT>
+                  <DD>Ecoregions United States (Omernik) 2005</DD>
+                  <DT>
+                    <I>Geospatial_Data_Presentation_Form:</I>vector digital data</DT>
+                  <DT>
+                    <I>Publication_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Publication_Place:</I>Reston, VA</DT>
+                      <DT>
+                        <I>Publisher:</I>National Atlas of the United States</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Online_Linkage:</I>
+                    <A TARGET="viewer" HREF="http://nationalatlas.gov/atlasftp.html">http://nationalatlas.gov/atlasftp.html</A>
+                  </DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Abstract:</I>
+                </DT>
+                <PRE>This map layer shows Omernik's Level III ecoregions, derived from a
+1:7,500,000 map created by J.M. Omernik in 1987 and from refinements of
+Omernik's framework that were made for other projects.  Ecoregions
+describe areas of general similarity in ecosystems and in the type,
+quality, and quantity of environmental resources.  Omernik's ecoregions
+are based on the premise that a hierarchy of ecological regions can be
+identified through the analysis of the patterns and the composition of
+both living and nonliving phenomena, such as geology, physiography,
+vegetation, climate, soils, land use, wildlife, and hydrology, that affect
+or reflect differences in ecosystem quality and integrity.  All the
+characteristics are considered when determining ecoregions, but the
+relative importance of each characteristic may vary from one ecoregion to
+another.  Level III is the most detailed level available nationally for
+this system of ecoregions.</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Purpose:</I>
+                </DT>
+                <PRE>These data are intended for geographic display and analysis at the national level, and for large regional areas. The data should be displayed and analyzed at scales appropriate for 1:7,500,000-scale data. No responsibility is assumed by the National Atlas of the United States in the use of these data.</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Supplemental_Information:</I>
+                </DT>
+                <PRE>Detailed descriptions of the ecological regions represented in this map
+layer are available from the U.S. Environmental Protection Agency (EPA),
+Western Ecology Division at:
+http://www.epa.gov/wed/pages/ecoregions/level_iii.htm.  EPA also offers
+data of Omernik's Level III Ecoregions on the same site; the file includes
+the same ecoregions as are available through the National Atlas but uses
+EPA shorelines and State boundaries.
+
+A bibliography of ecoregion/biocriteria publications, called
+ecoomr_Biblio.txt, is bundled with the downloadable data.  Each reference
+in the bibliography has a code; the codes are used for any citations in this
+metadata file.
+
+Ecoregions denote areas of general similarity in ecosystems and the type,
+quantity, and quality of environmental resources; they are designed to
+serve as a spatial framework for the research, assessment, management, and
+monitoring of ecosystems and ecosystem components.  By recognizing the
+spatial differences in the capacities and potentials of ecosystems,
+ecoregions stratify the environment by its probable response to
+disturbance (BR-1-98).  These general purpose regions are critical for
+structuring and implementing ecosystem management strategies across
+Federal agencies, State agencies, and nongovernmental organizations that
+are responsible for different types of resources within the same
+geographic areas (OM-1-00, OM-1-04).
+
+The approach used to compile these ecoregions is based on the premise that
+ecological regions are hierarchical and can be identified through the
+analysis of the spatial patterns and composition of biotic and abiotic
+phenomena that affect or reflect differences in ecosystem quality and
+integrity (WI-1-86, OM-1-87, OM-1-95, OM-1-04).  These phenomena include
+geology, physiography, vegetation, climate, soils, land use, wildlife,
+water quality, and hydrology.  In the regionalization process, the full
+range of characteristics is examined and integrated at each scale or level
+of resolution.  The relative importance of each characteristic varies from
+one ecological region to another regardless of the hierarchical level.
+Level I is the coarsest level of the hierarchy, dividing North America
+into 15 ecological regions.  Level II divides the continent into 52
+regions (CE-1-97).  At level III, the continental United States contains
+104 ecoregions, with the conterminous United States having 84 (US-1-03).
+More detailed level IV ecoregions have been delineated, or are in the
+process of being mapped, for approximately 85 percent of the conterminous
+United States.
+
+Since 1994, when the National Interagency Technical Team (NITT) was formed
+to develop a common framework of ecological regions (MM-1-01), efforts
+have been made to include all of the major federal resource management
+agencies in the level IV ecoregion mapping projects.  The goal of each of
+these collaborative projects has been to attain consensus across agencies
+and ultimately to develop a consistent ecoregion framework for the entire
+nation.
+
+Because the collaborative projects to map level IV ecoregions often result
+in refined level III boundaries, the map of level III ecoregions is
+periodically revised.  Likewise, much of the recent work to refine level
+III boundaries and define level IV ecoregions has resulted in slight
+differences between these two levels and the coarser level I and II
+regions mapped earlier by the CEC.
+
+Level IV ecoregions data and maps can be accessed through the
+Environmental Protection Agency Level IV Ecoregions page at
+http://www.epa.gov/wed/pages/ecoregions/level_iv.htm.</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Time_Period_of_Content:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Time_Period_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Single_Date/Time:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Calendar_Date:</I>200302</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DIV>
+                <DT>
+                  <I>Currentness_Reference:</I>
+                </DT>
+                <PRE>Publication date of primary source material</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Status:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Progress:</I>Complete</DT>
+              <DT>
+                <I>Maintenance_and_Update_Frequency:</I>Irregular</DT>
+            </DL>
+          </DD>
+          <DT>
+            <I>Spatial_Domain:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Bounding_Coordinates:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>West_Bounding_Coordinate:</I>-179.133393</DT>
+                  <DT>
+                    <I>East_Bounding_Coordinate:</I>179.788206</DT>
+                  <DT>
+                    <I>North_Bounding_Coordinate:</I>71.398048</DT>
+                  <DT>
+                    <I>South_Bounding_Coordinate:</I>24.518322</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Keywords:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Theme:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Theme_Keyword_Thesaurus:</I>ISO 19115 Topic Category</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Biota</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Environment</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Theme:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Theme_Keyword_Thesaurus:</I>None</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Ecoregions</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Omerniks ecoregions</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Ecological regions</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Ecosystems</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Regional ecology</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Ecosystem geography</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Mapping</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Place:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Place_Keyword_Thesaurus:</I>None</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>United States</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Place:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Place_Keyword_Thesaurus:</I>
+U.S. Department of Commerce, 1987, Codes for the Identification of the
+States, the District of Columbia and the Outlying Areas of The United
+States, and Associated Areas (FIPS 5-2): Washington, DC, National
+Institute of Standards and Technology.
+</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Alabama</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Alaska</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Arizona</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Arkansas</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>California</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Colorado</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Connecticut</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Delaware</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>District of Columbia</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Florida</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Georgia</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Idaho</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Illinois</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Indiana</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Iowa</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Kansas</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Kentucky</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Louisiana</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Maine</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Maryland</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Massachusetts</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Michigan</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Minnesota</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Mississippi</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Missouri</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Montana</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Nebraska</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Nevada</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>New Hampshire</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>New Jersey</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>New Mexico</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>New York</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>North Carolina</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>North Dakota</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Ohio</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Oklahoma</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Oregon</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Pennsylvania</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Rhode Island</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>South Carolina</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>South Dakota</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Tennessee</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Texas</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Utah</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Vermont</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Virginia</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Washington</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>West Virginia</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Wisconsin</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Wyoming</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Access_Constraints:</I>None</DT>
+          <DIV>
+            <DT>
+              <I>Use_Constraints:</I>
+            </DT>
+            <PRE>
+None.  Acknowledgment of the U.S. Environmental Protection Agency and (or)
+the National Atlas of the United States of America would be appreciated in
+products derived from these data.
+</PRE>
+          </DIV>
+          <DT>
+            <I>Point_of_Contact:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Person_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Person:</I>James M. Omernik</DT>
+                      <DT>
+                        <I>Contact_Organization:</I>U.S. Environmental Protection Agency, Western Ecology Division</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>Mailing and physical address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>200 SW 35th Street</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Corvallis</DT>
+                      <DT>
+                        <I>State_or_Province:</I>OR</DT>
+                      <DT>
+                        <I>Postal_Code:</I>97333</DT>
+                      <DT>
+                        <I>Country:</I>USA</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>541-754-4458</DT>
+                  <DT>
+                    <I>Contact_Facsimile_Telephone:</I>541-754-4716</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>omernik.james@epa.gov</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Native_Data_Set_Environment:</I>
+          </DT>
+          <DD>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.0.0.535</DD>
+          <DT>
+            <I>Cross_Reference:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Citation_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Originator:</I>James M. Omernik</DT>
+                  <DT>
+                    <I>Publication_Date:</I>1987</DT>
+                  <DT>
+                    <I>Title:</I>
+                  </DT>
+                  <DD>Ecoregions of the conterminous United States (map supplement)</DD>
+                  <DT>
+                    <I>Edition:</I>1</DT>
+                  <DT>
+                    <I>Geospatial_Data_Presentation_Form:</I>Map</DT>
+                  <DT>
+                    <I>Series_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Series_Name:</I>Annals of the Association of American Geographers</DT>
+                      <DT>
+                        <I>Issue_Identification:</I>77(1)</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Publication_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Publication_Place:</I>Washington, DC</DT>
+                      <DT>
+                        <I>Publisher:</I>Association of American Geographers</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Cross_Reference:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Citation_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Originator:</I>USDA Forest Service</DT>
+                  <DT>
+                    <I>Publication_Date:</I>200403</DT>
+                  <DT>
+                    <I>Title:</I>
+                  </DT>
+                  <DD>
+Baileys Ecoregions and Subregions of the United States, Puerto Rico,
+and the U.S. Virgin Islands
+</DD>
+                  <DT>
+                    <I>Geospatial_Data_Presentation_Form:</I>Map</DT>
+                  <DT>
+                    <I>Publication_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Publication_Place:</I>Reston, VA</DT>
+                      <DT>
+                        <I>Publisher:</I>National Atlas of the United States</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Online_Linkage:</I>
+                    <A TARGET="viewer" HREF="<http://nationalatlas.gov/atlasftp.html>">&lt;http://nationalatlas.gov/atlasftp.html&gt;</A>
+                  </DT>
+                  <DT>
+                    <I>Online_Linkage:</I>
+                    <A TARGET="viewer" HREF="&#xD;&#xA;<http://www.fs.fed.us/institute/ecoregions/eco_download.html>&#xD;&#xA;">
+&lt;http://www.fs.fed.us/institute/ecoregions/eco_download.html&gt;
+</A>
+                  </DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Data_Quality_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Data_Quality_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DIV>
+            <DT>
+              <I>Logical_Consistency_Report:</I>
+            </DT>
+            <PRE>No checks for topological consistency were performed on this map layer.</PRE>
+          </DIV>
+          <DIV>
+            <DT>
+              <I>Completeness_Report:</I>
+            </DT>
+            <PRE>
+This map layer includes Level III ecoregions information for the
+conterminous United States and Alaska.
+</PRE>
+          </DIV>
+          <DT>
+            <I>Lineage:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>Omernik, J.M.</DT>
+                          <DT>
+                            <I>Publication_Date:</I>2003</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>Level III Ecoregions of the continental United States</DD>
+                          <DT>
+                            <I>Geospatial_Data_Presentation_Form:</I>Vector digital data</DT>
+                          <DT>
+                            <I>Publication_Information:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Publication_Place:</I>Corvallis, OR</DT>
+                              <DT>
+                                <I>Publisher:</I>U.S. Environmental Protection Agency</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Online_Linkage:</I>
+                            <A TARGET="viewer" HREF="<http://www.epa.gov/wed/pages/ecoregions/level_iii.htm>">&lt;http://www.epa.gov/wed/pages/ecoregions/level_iii.htm&gt;</A>
+                          </DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Scale_Denominator:</I>7500000</DT>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>Online</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Single_Date/Time:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Calendar_Date:</I>200302</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>publication date</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>US Ecoregions</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>Spatial and attribute information</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>Omernik, J.M.</DT>
+                          <DT>
+                            <I>Publication_Date:</I>2000</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>Ecoregions of North America</DD>
+                          <DT>
+                            <I>Geospatial_Data_Presentation_Form:</I>Vector digital data</DT>
+                          <DT>
+                            <I>Publication_Information:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Publication_Place:</I>Corvallis, OR</DT>
+                              <DT>
+                                <I>Publisher:</I>U.S. Environmental Protection Agency</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Online_Linkage:</I>
+                            <A TARGET="viewer" HREF="<http://www.epa.gov/wed/pages/ecoregions/na_eco.htm>">&lt;http://www.epa.gov/wed/pages/ecoregions/na_eco.htm&gt;</A>
+                          </DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Scale_Denominator:</I>12500000</DT>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>Online</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Single_Date/Time:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Calendar_Date:</I>2000</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>Publication date</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>NA Ecoregions</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>Spatial and attribute information</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>National Atlas of the United States</DT>
+                          <DT>
+                            <I>Publication_Date:</I>200506</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>State Boundaries of the United States</DD>
+                          <DT>
+                            <I>Publication_Information:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Publication_Place:</I>Reston, VA</DT>
+                              <DT>
+                                <I>Publisher:</I>National Atlas of the United States</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Online_Linkage:</I>
+                            <A TARGET="viewer" HREF="<http://nationalatlas.gov/atlasftp.html>">&lt;http://nationalatlas.gov/atlasftp.html&gt;</A>
+                          </DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Scale_Denominator:</I>2000000</DT>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>Online</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_of_Dates/Times:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Beginning_Date:</I>1972</DT>
+                              <DT>
+                                <I>Ending_Date:</I>2005</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>Ground condition</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>Atlas-States</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>Spatial information</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>
+The US Ecoregions and NA Ecoregions files were downloaded and
+reprojected to a Lambert Azimuthal Equal Area projection using
+ArcGIS 9.0.  The shorelines in US Ecoregions were deleted.  Alaska
+was clipped from in NA Ecoregions, placed in a new file, and the
+shorelines were deleted.  The resulting files were combined along with
+shorelines from the Atlas-States map layer.  Line work was cleaned and
+adjusted.  The polygon attribution from US Ecoregions and NA Ecoregions
+was copied into the data and checked.
+</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Source_Used_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>US Ecoregions</DD>
+                  <DT>
+                    <I>Source_Used_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>NA Ecoregions</DD>
+                  <DT>
+                    <I>Source_Used_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>Atlas-States</DD>
+                  <DT>
+                    <I>Process_Date:</I>200503</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>Metadata imported.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Source_Used_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>C:\DOCUME~1\jfs126\LOCALS~1\Temp\xml75.tmp</DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Spatial_Data_Organization_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Spatial_Data_Organization_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Direct_Spatial_Reference_Method:</I>Vector</DT>
+          <DT>
+            <I>Point_and_Vector_Object_Information:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>SDTS_Terms_Description:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>SDTS_Point_and_Vector_Object_Type:</I>G-polygon</DT>
+                  <DT>
+                    <I>Point_and_Vector_Object_Count:</I>3082</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Spatial_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Spatial_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Horizontal_Coordinate_System_Definition:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Geographic:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Latitude_Resolution:</I>0.000001</DT>
+                  <DT>
+                    <I>Longitude_Resolution:</I>0.000001</DT>
+                  <DT>
+                    <I>Geographic_Coordinate_Units:</I>Decimal degrees</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Geodetic_Model:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Horizontal_Datum_Name:</I>North American Datum of 1927</DT>
+                  <DT>
+                    <I>Ellipsoid_Name:</I>Clarke 1866</DT>
+                  <DT>
+                    <I>Semi-major_Axis:</I>6378206.400000</DT>
+                  <DT>
+                    <I>Denominator_of_Flattening_Ratio:</I>294.978698</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Entity_and_Attribute_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Entity_and_Attribute_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>ecoomrp075</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>
+A region that denotes an area of general similarity in ecosystems and
+in the type, quality, and quantity of environmental resources.  The
+polygons in this map layer represent Omernik Level III ecoregions.
+</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>National Atlas of the United States</DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>Level3</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>The numeric code of the Level III ecoregion.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>National Atlas of the United States</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Range_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_Domain_Minimum:</I>1</DT>
+                          <DT>
+                            <I>Range_Domain_Maximum:</I>120</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>FID</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Internal feature number.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>ESRI</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>Sequential unique whole numbers that are automatically generated.</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>AREA</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>PERIMETER</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>ECOOMRP075</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>LEVEL3</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>Shape</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>The representation of the entity in the data.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>National Atlas of the United States</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Polygon</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>2-dimensional element</PRE>
+                          </DIV>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition_Source:</I>
+                            </DT>
+                            <PRE>ESRI GIS software</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>Area</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>
+The size of the shape in coverage units.  In the distributed file,
+coverage units represent square decimal degrees.
+</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>National Atlas of the United States</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Range_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_Domain_Minimum:</I>0.00000</DT>
+                          <DT>
+                            <I>Range_Domain_Maximum:</I>50.151550</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>Perimeter</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>
+The perimeter of the shape in coverage units.  In the distributed
+file, coverage units represent decimal degrees.
+</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>National Atlas of the United States</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Range_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_Domain_Minimum:</I>0.00857</DT>
+                          <DT>
+                            <I>Range_Domain_Maximum:</I>261.67570</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>Ecoomrp075</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Internal feature number.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>National Atlas of the United States</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Range_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_Domain_Minimum:</I>2</DT>
+                          <DT>
+                            <I>Range_Domain_Maximum:</I>3076</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>LEVEL3_NAM</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A NAME="EEA">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Distribution_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Distributor:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>Earth Science Information Center, U.S. Geological Survey</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>Mailing address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>507 National Center</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Reston</DT>
+                      <DT>
+                        <I>State_or_Province:</I>VA</DT>
+                      <DT>
+                        <I>Postal_Code:</I>20192</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>1-888-ASK-USGS (1-888-275-8747)</DT>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>703-648-5920</DT>
+                  <DT>
+                    <I>Contact Instructions:</I>
+                  </DT>
+                  <DIV>
+                    <PRE>
+In addition to the address above there are other ESIC offices throughout
+the country. A full list of these offices is at
+&lt;http://geography.usgs.gov/esic/esic_index.html&gt;.
+</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Resource_Description:</I>Downloadable Data</DT>
+          <DIV>
+            <DT>
+              <I>Distribution_Liability:</I>
+            </DT>
+            <PRE>
+Although these data have been processed successfully on a computer system at
+the U.S. Geological Survey, no warranty expressed or implied is made by the
+U.S. Geological Survey regarding the utility of the data on any other
+system, nor shall the act of distribution constitute any such warranty.  No
+responsibility is assumed by the U.S. Geological Survey in the use of these
+data.
+</PRE>
+          </DIV>
+          <DT>
+            <I>Standard_Order_Process:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Digital_Form:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Digital_Transfer_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Format_Name:</I>ESRI Shapefile</DT>
+                      <DT>
+                        <I>Transfer_Size:</I>13.446</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Digital_Transfer_Option:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Online_Option:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Computer_Contact_Information:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Network_Address:</I>
+                              </DT>
+                              <DD>
+                                <DL>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="<http://nationalatlas.gov/atlasftp.html>">&lt;http://nationalatlas.gov/atlasftp.html&gt;</A>
+                                  </DT>
+                                </DL>
+                              </DD>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Digital_Form:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Digital_Transfer_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Format_Name:</I>SDTS</DT>
+                      <DT>
+                        <I>Transfer_Size:</I>13.446</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Digital_Transfer_Option:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Online_Option:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Computer_Contact_Information:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Network_Address:</I>
+                              </DT>
+                              <DD>
+                                <DL>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="<http://nationalatlas.gov/atlasftp.html>">&lt;http://nationalatlas.gov/atlasftp.html&gt;</A>
+                                  </DT>
+                                </DL>
+                              </DD>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Fees:</I>There is no charge for this map layer.</DT>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A NAME="EAA">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Distribution_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Distributor:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>Penn State Institutes of Energy and the Environment </DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>115 Land and Water building</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>University Park</DT>
+                      <DT>
+                        <I>State_or_Province:</I>Pennsylvania</DT>
+                      <DT>
+                        <I>Postal_Code:</I>16802</DT>
+                      <DT>
+                        <I>Country:</I>United States</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>(814) 865 - 8792 </DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>pasda@psu.edu</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Resource_Description:</I>downloadabledata</DT>
+          <DIV>
+            <DT>
+              <I>Distribution_Liability:</I>
+            </DT>
+            <PRE>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.
+</PRE>
+          </DIV>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Metadata_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Metadata_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Metadata_Date:</I>20070524</DT>
+          <DT>
+            <I>Metadata_Contact:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Person_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Person:</I>Peg Rawson</DT>
+                      <DT>
+                        <I>Contact_Organization:</I>National Atlas of the United States</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>Mailing address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>12201 Sunrise Valley Drive</PRE>
+                      </DIV>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>MS-561</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Reston</DT>
+                      <DT>
+                        <I>State_or_Province:</I>VA</DT>
+                      <DT>
+                        <I>Postal_Code:</I>20192</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>703-648-4183</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>atlasmail@usgs.gov</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Metadata_Standard_Name:</I>FGDC Content Standards for Digital Geospatial Metadata</DT>
+          <DT>
+            <I>Metadata_Standard_Version:</I>FGDC-STD-001-1998</DT>
+          <DT>
+            <I>Metadata_Time_Convention:</I>local time</DT>
+          <DT>
+            <I>Metadata_Security_Information:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Metadata_Security_Classification_System:</I>None</DT>
+              <DT>
+                <I>Metadata_Security_Classification:</I>Unclassified</DT>
+              <DT>
+                <I>Metadata_Security_Handling_Description:</I>
+              </DT>
+              <DD>None</DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Metadata_Extensions:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Online_Linkage:</I>
+                <A TARGET="viewer" HREF=""></A>
+              </DT>
+              <DT>
+                <I>Profile_Name:</I>ESRI Metadata Profile</DT>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+  </BODY>
+</HTML>
+		</form>
+	</body>
+</HTML>

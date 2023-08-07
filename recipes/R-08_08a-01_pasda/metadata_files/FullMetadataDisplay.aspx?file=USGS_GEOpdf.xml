@@ -1,0 +1,1669 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+	<HEAD>
+		<title>Pennsylvania Spatial Data Access | Full Metadata</title>
+		<meta name="GENERATOR" content="Microsoft Visual Studio.NET 7.0">
+		<meta name="CODE_LANGUAGE" content="Visual Basic 7.0">
+		<meta name="vs_defaultClientScript" content="JavaScript">
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+	    <link rel="shortcut icon" href="http://maps.pasda.psu.edu/Images/favicon.ico" type="image/x-icon" />
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-41373351-5', 'psu.edu');
+          ga('send', 'pageview');
+
+        </script>
+</HEAD>
+	<body MS_POSITIONING="GridLayout">
+		<form method="post" action="./FullMetadataDisplay.aspx?file=USGS_GEOpdf.xml" id="Form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEzNDA3MDMyNjVkZCi1cbXMhfZI+elmwl4oTersdOt9nxHHv5HGNLdvg2y4" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="D999016F" />
+			<HTML>
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <SCRIPT type="text/javascript">
+
+      function fix(e) {
+        var par = e.parentNode;
+        e.id = "";
+        e.style.marginLeft = "0.42in";
+        var pos = e.innerText.indexOf("\n");
+        if (pos > 0) {
+          while (pos > 0) {
+            var t = e.childNodes(0);
+            var n = document.createElement("PRE");
+            var s = t.splitText(pos);
+            e.insertAdjacentElement("afterEnd", n);
+            n.appendChild(s);
+            n.style.marginLeft = "0.42in";
+            e = n;
+            pos = e.innerText.indexOf("\n");
+          }
+          var count = (par.children.length);
+          for (var i = 0; i < count; i++) {
+            e = par.children(i);
+            if (e.tagName == "PRE") {
+              pos = e.innerText.indexOf(">");
+              if (pos != 0) {
+                n = document.createElement("DD");
+                e.insertAdjacentElement("afterEnd", n);
+                n.innerText = e.innerText;
+                e.removeNode(true);
+              }
+            }
+          }
+          if (par.children.tags("PRE").length > 0) {
+            count = (par.children.length);
+            for (i = 0; i < count; i++) {
+              e = par.children(i);
+              if (e.tagName == "PRE") {
+                e.id = "";
+                if (i < (count-1)) {
+                  var e2 = par.children(i + 1);
+                  if (e2.tagName == "PRE") {
+                    e.insertAdjacentText("beforeEnd", e2.innerText+"\n");
+                    e2.removeNode(true);
+                    count = count-1;
+                    i = i-1;
+                  }
+                }
+              }
+            }
+          }
+        }
+        else {
+          n = document.createElement("DD");
+          par.appendChild(n);
+          n.innerText = e.innerText;
+          e.removeNode(true);
+        }
+      }
+
+    </SCRIPT>
+  </HEAD>
+  <BODY oncontextmenu="return true">
+    <A name="Top">
+    </A>
+    <H2>USGS Geopdf's</H2>
+    <UL>
+      <LI>
+        <A HREF="#Identification_Information">Identification_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Data_Quality_Information">Data_Quality_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Spatial_Data_Organization_Information">Spatial_Data_Organization_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Spatial_Reference_Information">Spatial_Reference_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Entity_and_Attribute_Information">Entity_and_Attribute_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#EBA">
+                  Distribution_Information 
+                </A>
+      </LI>
+      <LI>
+        <A HREF="#Metadata_Reference_Information">Metadata_Reference_Information</A>
+      </LI>
+    </UL>
+    <A name="Identification_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Identification_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Citation:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Citation_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Originator:</I>U.S. Geological Survey</DT>
+                  <DT>
+                    <I>Publication_Date:</I>20100610</DT>
+                  <DT>
+                    <I>Title:</I>
+                  </DT>
+                  <DD>USGS Geopdf's</DD>
+                  <DT>
+                    <I>Geospatial_Data_Presentation_Form:</I>map</DT>
+                  <DT>
+                    <I>Publication_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Publication_Place:</I>Rolla, MO and Denver, CO</DT>
+                      <DT>
+                        <I>Publisher:</I>USGS </DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Online_Linkage:</I>
+                    <A TARGET="viewer" HREF="http://ask.usgs.gov/1product.html">http://ask.usgs.gov/1product.html</A>
+                  </DT>
+                  <DT>
+                    <I>Online_Linkage:</I>
+                    <A TARGET="viewer" HREF="http://www.pasda.psu.edu">http://www.pasda.psu.edu</A>
+                  </DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Abstract:</I>
+                </DT>
+                <PRE>Layered GeoPDF 7.5 Minute Quadrangle Map. Layers of geospatial data include orthoimagery, roads, grids, geographic names, elevation contours, hydrography, and other selected map features</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Purpose:</I>
+                </DT>
+                <PRE>This map depicts geographic features on the surface of the earth. It is a general purpose map for users who are not GIS experts. One intended purpose is to support emergency response at all levels of government. The geospatial data in this map are from selected National Map data holdings and other government sources.,Enter a summary of the intentions with which the data set was developed. About the data available in GeoPDF format The initial set of GeoPDFs was produced by the US Army Corp of Engineers Topographic Engineering Center using existing USGS Digital Raster Graphics (DRGs) (scanned at 250 pixels per inch (ppi)) as the source. The file names reflect the DRG from which they were derived. A USGS project is underway to upgrade all 250 ppi DRGs with higher resolution (400 ppi to 508 ppi) files, which can produce high quality print-on-demand products. Depending on the detail and complexity of the source map, individual GeoPDF file sizes vary from 3 to 30 megabytes, with the majority being in 10-17 megabyte range. In most cases the GeoPDFs reflect the latest version of the published map; those that don't are continually being replaced with higher resolution files created from 508 ppi scans of the paper map.</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Supplemental_Information:</I>
+                </DT>
+                <PRE>About GeoPDF data files
+
+PDF (Portable Document Format) digital files are now available for US Geological Survey topographic quadrangle maps. Each file is essentially a scan of a topographic map with the added feature of being georegistered. The files can be used as a PDF file, enabling users to view topo maps onscreen.
+
+The GeoPDF format is an extension to Adobe's PDF 1.3 and higher versions enabling GIS functionality within standard PDF files. This format is designed for the efficient distribution and communication of rich spatial data to anyone who needs to view, review, verify, update, or print it. Because GeoPDF files are highly compressed and encapsulated, they are smaller, faster, and easier to transmit than GIS data sets, without the overhead associated with typical GIS spatial data sets (or the management of database tables, external links, and dependencies). Using the GeoPDF format, publishers of spatial data can select the specific spatial data they want recipients to see and can publish GIS source files into a single GeoPDF file.
+
+GeoPDF files are not a replacement for native GIS formats. GIS professionals still need the original files for editing or updating spatial data. GeoPDF files enable non-GIS professionals, field technicians, business executives, and their colleagues to utilize rich spatial information. Users can view and print GeoPDF files with the free and ubiquitous Adobe Reader ,and they can do more with the data using a free plug-in called TerraGo Toolbar. Users do not have to install this plug-in to view GeoPDF files.
+
+US Geological Survey manages and distributes many kinds of cartographic data, including GeoPDF data and the new “DigitalMaps – Beta.” Information for most USGS cartographic data is available at http://ask.usgs.gov/1product.html.</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Time_Period_of_Content:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Time_Period_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Range_of_Dates/Times:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Beginning_Date:</I>2000</DT>
+                      <DT>
+                        <I>Ending_Date:</I>2010</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DIV>
+                <DT>
+                  <I>Currentness_Reference:</I>
+                </DT>
+                <PRE>publication date</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Status:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Progress:</I>Complete</DT>
+              <DT>
+                <I>Maintenance_and_Update_Frequency:</I>Irregular</DT>
+            </DL>
+          </DD>
+          <DT>
+            <I>Spatial_Domain:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Bounding_Coordinates:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>West_Bounding_Coordinate:</I></DT>
+                  <DT>
+                    <I>East_Bounding_Coordinate:</I></DT>
+                  <DT>
+                    <I>North_Bounding_Coordinate:</I></DT>
+                  <DT>
+                    <I>South_Bounding_Coordinate:</I></DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Keywords:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Theme:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Theme_Keyword_Thesaurus:</I>ISO 19115 Topic Category</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>imageryBaseMapsEarthCover</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>EarthCover</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Imagery and Base Maps</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Theme:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Theme_Keyword_Thesaurus:</I>None</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>topographic</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>transportation</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>geographic names</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>hydrography</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>orthoimage</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>contour</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>U.S. National Grid</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Place:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Place_Keyword_Thesaurus:</I>Geographic Names Information System</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>US</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>United States</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Pennsylvania</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Amaranth</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Beans Cove</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Berlin</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Big Cove Tannery</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Breezewood</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Brownfield</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Bruceton Mills</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Buffalo Mills</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Carnichaels</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Chambersburg </DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Chaneysville</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Clearville</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Clearville</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Fairhope</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Fort Necessity</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Garards Fort</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Greencastle</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Holbrook</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Hyndman </DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Kingwood</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Lake Lynn</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Markleton</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Masontown</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Mather</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>McConnellsburg</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Meadow Grounds</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Mench</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Mercersburg</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Meyersdale</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Mill Run</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Morgantown North</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Murdock</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Need More</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>New Baltimore</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>New Freeport</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>New Salem</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Oak Forest</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Ohio Pyle</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Rockwood</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Rogersville</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Saint Thomas</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Smithfield</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>South Connellsville</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Uniontown</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Waynesburg</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Williamson</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Place:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Place_Keyword_Thesaurus:</I>None</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Breezewood, PA</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Access_Constraints:</I>None</DT>
+          <DIV>
+            <DT>
+              <I>Use_Constraints:</I>
+            </DT>
+            <PRE>None. However, users should be aware that temporal changes may have occurred since this data set was collected and that some parts of this data may no longer represent actual surface conditions. Users should not use this data for critical applications without a full awareness of its limitations. Acknowledgment of the U.S. Geological Survey would be appreciated for products derived from these data.,Enter restrictions and legal prerequisites for using the data set after access is granted. These include any use constraints applied to assure the protection of privacy or intellectual property, and any specialrestrictions or limitations on using the data set.</PRE>
+          </DIV>
+          <DT>
+            <I>Point_of_Contact:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Person_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>U.S. Geological Survey</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>USGS Center for Earth Resources Observation &amp; Science</PRE>
+                      </DIV>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>47914 252nd Street</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Sioux Falls</DT>
+                      <DT>
+                        <I>State_or_Province:</I>SD</DT>
+                      <DT>
+                        <I>Postal_Code:</I>57198-0001</DT>
+                      <DT>
+                        <I>Country:</I>USA</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>1-800-252-4547</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>custserv@usgs.gov</DT>
+                  <DT>
+                    <I>Hours_of_Service:</I>0800 - 1600 CT, M - F (-6h CST/-5h CDT GMT)</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Data_Quality_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Data_Quality_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Attribute_Accuracy:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Attribute_Accuracy_Report:</I>
+                </DT>
+                <PRE>Cartographic content is derived from USGS national geospatial databases. The data is owned and hosted by the USGS, but does not preclude using data sources owned and hosted by other organizations, provided that these sources have been approved by the USGS data program.,Contractor should enter description of quality control.</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DIV>
+            <DT>
+              <I>Logical_Consistency_Report:</I>
+            </DT>
+            <PRE>This product is a layered GeoPDF file. GeoPDF is a copyright format with implementation rights held exclusively by TerraGo Technologies. This design is based on use of specific commercial software systems therefore any changes to the software specifications and dependencies will be followed by the USGS and codified in the product standard.</PRE>
+          </DIV>
+          <DIV>
+            <DT>
+              <I>Completeness_Report:</I>
+            </DT>
+            <PRE>Each layer of the GeoPDF is extracted from the USGS national geospatial databases. These data are intended to be cartographically complete at a 1:24,000 scale.</PRE>
+          </DIV>
+          <DT>
+            <I>Positional_Accuracy:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Horizontal_Positional_Accuracy:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Horizontal_Positional_Accuracy_Report:</I>
+                    </DT>
+                    <PRE>This US Topo map product is compiled to meet National Map Accuracy Standards (NMAS). NMAS horizontal accuracy requires that at least 90 percent of well-defined points tested are within 0.02 inch of the true position. In this product, the projection line, grids, and orthoimage are believed to meet NMAS. Positional accuracy of the other data layers is less controllable because of diversity of data sources, and may not meet NMAS.,An explanation of the accuracy of the horizontal coordinate measurements and a description of the tests used. This must be entered by the contractor to reflect their methods. This is provided only as a sample of the type of information needed. "Tested" can only be used when data testing is performed against independent checkpoints from a source of higher accuracy.</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Vertical_Positional_Accuracy:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Vertical_Positional_Accuracy_Report:</I>
+                    </DT>
+                    <PRE>The accuracy of the National Elevation Dataset (NED) is inherited from the source digital elevation models (DEMs). The overall absolute vertical accuracy expressed as the root mean square error (RMSE) is 2.44 meters. The measured vertical RMSE was converted to equivalent NMAS and NSSDA expressions. The accuracy is expressed in terms of the National Map Accuracy Standards (NMAS), which use a 90 percent confidence interval, and in terms of the National Standard for Spatial Data Accuracy (NSSDA), which uses a 95 percent confidence interval.</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Lineage:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>National Agriculture Image Program (NAIP) administered by the Aerial Photography Field Office (APFO) for the United States Department of Agriculture.</DT>
+                          <DT>
+                            <I>Publication_Date:</I>Unknown</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>Orthoimagery</DD>
+                          <DT>
+                            <I>Geospatial_Data_Presentation_Form:</I>Raster digital data or Digital Orthorectified Image or NAIP Digital Ortho Photo Image</DT>
+                          <DT>
+                            <I>Other_Citation_Details:</I>
+                          </DT>
+                          <DD>An orthorectified image is a layer in every product and is provided by the USDA-FSA-APFO from the National Agriculture Image Program (NAIP). This offers the USGS a nationally consistent image product, normally with a one meter resolution in natural color.</DD>
+                          <DT>
+                            <I>Online_Linkage:</I>
+                            <A TARGET="viewer" HREF="http://www.fsa.usda.gov/">http://www.fsa.usda.gov/</A>
+                          </DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Scale_Denominator:</I>24000</DT>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>digital data</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_of_Dates/Times:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Beginning_Date:</I>20080822</DT>
+                              <DT>
+                                <I>Ending_Date:</I>20080822</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>publication date</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>Imagery</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>Image</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>Tele Atlas</DT>
+                          <DT>
+                            <I>Publication_Date:</I>2010</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>Transportation, commercial roads</DD>
+                          <DT>
+                            <I>Geospatial_Data_Presentation_Form:</I>vector digital data</DT>
+                          <DT>
+                            <I>Other_Citation_Details:</I>
+                          </DT>
+                          <DD>Tele Atlas Multinet dataset, licensed to the USGS for use in US Topo (1:24,000-scale topographic maps in GeoPDF format). Tele Atlas retains copyright to these data. The USGS license allows these data to be freely used and redistributed in US Topo instances, provided this copyright notice is retained. Tele Atlas data are filtered and may be generalized by USGS for protrayal in this product. Tele Atlas roads are not mixed with other road data sources within a 7.5-minute quadrangle, with the exception of U.S. Forest Service lands, where public domain data from the Forest Service are used.</DD>
+                          <DT>
+                            <I>Online_Linkage:</I>
+                            <A TARGET="viewer" HREF="http://www.teleatlas.com/">http://www.teleatlas.com/</A>
+                          </DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Scale_Denominator:</I>24000</DT>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>digital data</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_of_Dates/Times:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Beginning_Date:</I>2006</DT>
+                              <DT>
+                                <I>Ending_Date:</I>2010</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>publication date</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>Roads - Tele Atlas</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>Road centerlines, route numbers, road classification, street names</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>Federal Aviation Administration</DT>
+                          <DT>
+                            <I>Publication_Date:</I>2010</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>Airports</DD>
+                          <DT>
+                            <I>Geospatial_Data_Presentation_Form:</I>vector digital data</DT>
+                          <DT>
+                            <I>Other_Citation_Details:</I>
+                          </DT>
+                          <DD>Runway outlines are for Federal Aviation Administration (FAA)-recognized public and private airports in the United States. The 2008 FAA runway coordinates, FAA_RunwayID, and Airport Location Codes were used by the USGS to digitize runway outlines on recent NAIP orthoimagery. The digitized data were inspected for accuracy and completeness then loaded into the USGS national transportation database.</DD>
+                          <DT>
+                            <I>Online_Linkage:</I>
+                            <A TARGET="viewer" HREF="http://www.faa.gov">http://www.faa.gov</A>
+                          </DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Scale_Denominator:</I>24000</DT>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>digital data</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_of_Dates/Times:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Beginning_Date:</I>2008</DT>
+                              <DT>
+                                <I>Ending_Date:</I>2010</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>publication date</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>Transportation: Airports</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>runways</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>U.S. Geological Survey</DT>
+                          <DT>
+                            <I>Publication_Date:</I>Unknown</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>Geographic Names Information System (GNIS)</DD>
+                          <DT>
+                            <I>Geospatial_Data_Presentation_Form:</I>vector digital data</DT>
+                          <DT>
+                            <I>Other_Citation_Details:</I>
+                          </DT>
+                          <DD>The National Geographic Names Database is a part of the Geographic Names Information System (GNIS) and represents the primary source for identifying official names. The system is maintained by the U.S. Geological Survey in cooperation with the U.S. Board of Geographic Names.</DD>
+                          <DT>
+                            <I>Online_Linkage:</I>
+                            <A TARGET="viewer" HREF="http://geonames.usgs.gov/">http://geonames.usgs.gov/</A>
+                          </DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Scale_Denominator:</I>24000</DT>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>digital data</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_of_Dates/Times:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Beginning_Date:</I>Unknown</DT>
+                              <DT>
+                                <I>Ending_Date:</I>Unknown</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>publication date</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>Geographic Names</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>Geographic feature names</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>U.S. Geological Survey in cooperation with U.S. Environmental Protection Agency, USDA Forest Service, and other Federal, State and local partners. National Hydrography Dataset is a component of a comprehensive base geospatial data model.</DT>
+                          <DT>
+                            <I>Publication_Date:</I>Unknown</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>Hydrography</DD>
+                          <DT>
+                            <I>Geospatial_Data_Presentation_Form:</I>vector digital data</DT>
+                          <DT>
+                            <I>Other_Citation_Details:</I>
+                          </DT>
+                          <DD>The National Hydrography Dataset (NHD) is a feature-based database that interconnects and uniquely identifies the stream segments or reaches that make up the nation's surface water drainage system. The high-resolution NHD was originally created using 1:24,000-scale data. State and Local Stewards are improving the data by incorporating local updates based on more current and more accurate source data. Water features in the real world are relatively dynamic and the differences at the time of data collection mean that water features may not register exactly to other layers. The hydrographic feature names contained in and displayed by the NHD are extracted and validated from the Geographic Names Information System (GNIS).</DD>
+                          <DT>
+                            <I>Online_Linkage:</I>
+                            <A TARGET="viewer" HREF="http://nhd.usgs.gov/">http://nhd.usgs.gov/</A>
+                          </DT>
+                          <DT>
+                            <I>Online_Linkage:</I>
+                            <A TARGET="viewer" HREF="http://nhd.usgs.gov/gnis.html">http://nhd.usgs.gov/gnis.html</A>
+                          </DT>
+                          <DT>
+                            <I>Online_Linkage:</I>
+                            <A TARGET="viewer" HREF="http://nhdgeo.usgs.gov/metadata/nhd_high.htm">http://nhdgeo.usgs.gov/metadata/nhd_high.htm</A>
+                          </DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Scale_Denominator:</I>24000</DT>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>digital data</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_of_Dates/Times:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Beginning_Date:</I>20080822</DT>
+                              <DT>
+                                <I>Ending_Date:</I>20080822</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>publication date</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>Hydrography</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>Hydrography features and feature names</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>International Boundary Commission</DT>
+                          <DT>
+                            <I>Publication_Date:</I>Unknown</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>U.S.-Canada National Boundary</DD>
+                          <DT>
+                            <I>Other_Citation_Details:</I>
+                          </DT>
+                          <DD>The international boundary dataset between Canada and the United States was provided by Maine Office of Geographic Information Systems (MEGIS), University of New Hampshire, Vermont Center for Geographic Information, Inc (VCGI). The dataset was collected from multiple source agencies such as the U.S. Geological Survey, U.S. Department of Commerce, Bureau of Census, Bureau of Parks and Lands, Coastal Island Registry (CIREG) and various state agencies. The data and attribution accuracy was tested by manual comparison of the source with hard copy printouts and/or symbolized display of digital files and corrected by each state GIS department for use at a scale not greater than 1:24,000.</DD>
+                          <DT>
+                            <I>Online_Linkage:</I>
+                            <A TARGET="viewer" HREF="http://www.internationalboundarycommission.org/">http://www.internationalboundarycommission.org/</A>
+                          </DT>
+                          <DT>
+                            <I>Online_Linkage:</I>
+                            <A TARGET="viewer" HREF="http://www.internationalboundarycommission.org/products.html#nad83">http://www.internationalboundarycommission.org/products.html#nad83</A>
+                          </DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>point digital data</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_of_Dates/Times:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Beginning_Date:</I>Unknown</DT>
+                              <DT>
+                                <I>Ending_Date:</I>Unknown</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>publication date</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>U.S.-Canada Boundary</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>International Boundary between Canada and the United States</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>U.S. Geological Survey, U.S. Department of Agriculture, and the Instituto Nacional de Estadística y Geografía of Mexico.</DT>
+                          <DT>
+                            <I>Publication_Date:</I>2006</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>U.S.-Mexico National Boundary</DD>
+                          <DT>
+                            <I>Other_Citation_Details:</I>
+                          </DT>
+                          <DD>The international boundary between Mexico and the United States, defined as a joint venture between the U.S. Department of Agriculture (USDA) and the Instituto Nacional de Estadística y Geografía of Mexico (INEGI), resulted in an unofficial United States-Mexico boundary dataset that was further enhanced by the U.S. Geological Survey's Border Environmental Health Initiative (BEHI). With the data frame scale set to 1:5,000 in ArcMap, the center of the Rio Grande/Río Bravo was digitized using the NAIP 2004 Imagery. In areas with dense stands of salt cedar (bounding box = UL -104.714 30.038, UR -104.664 30.037, LR -104.666 29.933, LL -104.717 29.934; NAD83), the center of the channel was difficult, and sometimes impossible, to easily determine. To determine the location of the boundary, the GIS analyst compared the location of the line in the INEGI 1:250K Limite feature class with the NAIP 2004 Imagery and adjusted the boundary to the image, thus, the delineation of the international boundary is less certain in these areas. The remaining part of the border was extracted from the INEGI 1:250K Limite feature class and appended to the line feature class created along the Rio Grande/Río Bravo. The U.S. Geological Survey reviewed the original USDA data against 2007 NAIP imagery and further edited 9 line segments in the Rio Grande areas to conform to National Map Accuracy Standards.</DD>
+                          <DT>
+                            <I>Online_Linkage:</I>
+                            <A TARGET="viewer" HREF="http://borderhealth.cr.usgs.gov/projectindex.html">http://borderhealth.cr.usgs.gov/projectindex.html</A>
+                          </DT>
+                          <DT>
+                            <I>Online_Linkage:</I>
+                            <A TARGET="viewer" HREF="http://extract.cr.usgs.gov/BorderHealth/Boundaries/Int_Boundary/International_Boundary_Shapefile.zip">http://extract.cr.usgs.gov/BorderHealth/Boundaries/Int_Boundary/International_Boundary_Shapefile.zip</A>
+                          </DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>vector digital data</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_of_Dates/Times:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Beginning_Date:</I>Unknown</DT>
+                              <DT>
+                                <I>Ending_Date:</I>Unknown</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>publication date</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>U.S.-Mexico Boundary</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>International Boundary between Mexico and the United States</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>USGS - National Elevation Dataset is a component of a comprehensive base geospatial data model.</DT>
+                          <DT>
+                            <I>Publication_Date:</I>Unknown</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>Hypsography</DD>
+                          <DT>
+                            <I>Geospatial_Data_Presentation_Form:</I>Vector digital data</DT>
+                          <DT>
+                            <I>Other_Citation_Details:</I>
+                          </DT>
+                          <DD>This contour featureclass was generated from the 1/3 arc-second version of the National Elevation Dataset (NED). The intended viewing scale for these features is 1:24,000. The contours are derived from a filtered elevation raster to achieve smoother arcs. The NED data were modified by the National Hydrography Dataset (NHD) flow lines and water bodies to facilitate improved integration between the hypsography and hydrography on USGS map products. These contours were generated primarily for use as a layer in GeoPDFs created in the US Topo digital mapping program. The raster data source of contours is the National Elevation Dataset (NED) 1/3 arc-second layer. The 1/3 arc-second NED contains resampled data from the 1/9 arc-second layer of NED. Secondary datasets include the high resolution flow lines, water bodies, and areas from the National Hydrography Dataset (NHD). The NHD layers are used in hydro-enforcement of the DEM prior to contour generation. The goals of the hydro-enforcement are to prevent contour lines from extending over the surface of water bodies and to align the contour reentrants with the NHD single-line streams. The NED raster cells are converted to points. Those points, along with the NHD flow lines are input into an interpolation tool to create a new surface. The NHD water bodies and areas are preprocessed to attach the minimum and maximum elevation to each polygon. From these precalculated values, an appropriate value is calculated by which to raise the elevation cells under the NHD polygons. The NHD polygons are then converted into rasters, which in turn will be used to generate a mosaic that includes the new raster surface. The mosaic is filtered to provide smoother contour lines. Contours are generated and depression and index contours are identified. There is no guarantee or warranty concerning the accuracy of the data. Users should be aware that temporal changes may have occurred since these data were collected and generated and that some parts of these data may no longer represent actual surface conditions. Hydro-enforcement and generalization can also significantly alter the spatial characteristics of the contours. Users should not use these data for critical applications without a full awareness of its limitations.</DD>
+                          <DT>
+                            <I>Online_Linkage:</I>
+                            <A TARGET="viewer" HREF="http://ned.usgs.gov/">http://ned.usgs.gov/</A>
+                          </DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Scale_Denominator:</I>24000</DT>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>digital data</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_of_Dates/Times:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Beginning_Date:</I>20001201</DT>
+                              <DT>
+                                <I>Ending_Date:</I>20001201</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>publication date</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>Hypsography</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>Contours</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>U.S. Geological Survey</DT>
+                          <DT>
+                            <I>Publication_Date:</I>Unknown</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>Grids and Coordinate System</DD>
+                          <DT>
+                            <I>Other_Citation_Details:</I>
+                          </DT>
+                          <DD>U.S. National Grid, UTM grid, and State Plane Coordinate System values are displayed along the map projection.</DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>raster data</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Single_Date/Time:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Calendar_Date:</I>Unknown</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>publication date</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>Grids and Coordinate Systems</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>2.5-minute geographic ticks, U.S. National Grid, UTM grid, State Plane Coordinate System ticks.</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>The GeoPDFs for this product are created in 3 basic steps as described. All geospatial content is taken from national geospatial databases under the stewardship of USGS data programs. The NAIP imagery is merged and compressed using GlobalMapper to achieve an acceptable file size and exported as a GeoTIFF. The GeoTIFF is processed through TerraGo, Map2PDF for Raster software to be exported as a 300 DPI Image GeoPDF. The vector data, grids and collar information are processed using ESRI, ArcGIS software and exported as a Vector GeoPDF using a combination of the TerraGo, Map2PDF for ArcGIS Server software and a customized application. The Image GeoPDF and Vector GeoPDF are merged using TerraGo, Map Assembler software, and customized applications to arrange the data layers and attach the metadata XML with an embedded DTD file. GeoPDF is a copyrighted format, with implementation rights held exclusively by TerraGo Technologies. Any use of trade, product, or firm names in this publication is for descriptive purposes only and does not imply endorsement by the U.S. Government.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Process_Date:</I>20100610</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Spatial_Data_Organization_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Spatial_Data_Organization_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Direct_Spatial_Reference_Method:</I>Raster</DT>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Spatial_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Spatial_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Horizontal_Coordinate_System_Definition:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Planar:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Grid_Coordinate_System:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Grid_Coordinate_System_Name:</I>Universal Transverse Mercator</DT>
+                      <DT>
+                        <I>Universal_Transverse_Mercator:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>UTM_Zone_Number:</I>17</DT>
+                          <DT>
+                            <I>Transverse_Mercator:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Scale_Factor_at_Central_Meridian:</I>0.9996</DT>
+                              <DT>
+                                <I>Longitude_of_Central_Meridian:</I>-81</DT>
+                              <DT>
+                                <I>Latitude_of_Projection_Origin:</I>0.0</DT>
+                              <DT>
+                                <I>False_Easting:</I>500000</DT>
+                              <DT>
+                                <I>False_Northing:</I>0.0</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Planar_Coordinate_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Planar_Coordinate_Encoding_Method:</I>coordinate pair</DT>
+                      <DT>
+                        <I>Coordinate_Representation:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Abscissa_Resolution:</I>2</DT>
+                          <DT>
+                            <I>Ordinate_Resolution:</I>2</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Planar_Distance_Units:</I>meters</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Geodetic_Model:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Horizontal_Datum_Name:</I>North American Datum of 1983</DT>
+                  <DT>
+                    <I>Ellipsoid_Name:</I>Geodetic Reference System 80</DT>
+                  <DT>
+                    <I>Semi-major_Axis:</I>6378137</DT>
+                  <DT>
+                    <I>Denominator_of_Flattening_Ratio:</I>298.2572221</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Vertical_Coordinate_System_Definition:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Altitude_System_Definition:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Altitude_Datum_Name:</I>North American Vertical Datum of 1988</DT>
+                  <DT>
+                    <I>Altitude_Resolution:</I>3</DT>
+                  <DT>
+                    <I>Altitude_Distance_Units:</I>meters</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Entity_and_Attribute_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Entity_and_Attribute_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Overview_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Entity_and_Attribute_Overview:</I>
+                </DT>
+                <PRE>This is a general-purpose design and layout quadrangle map based on the traditional USGS quadrangle cells. The domain is a standard 7.5-minute cell. The scale is 1:24,000.,Enter detailed summary of the information contained in a data set.</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Entity_and_Attribute_Detail_Citation:</I>
+                </DT>
+                <PRE>U.S. Department of the Interior, Draft US Topo Product Standard, Version 0.5.10.,Enter reference to the complete description of the entity types, attributes, and attribute values for the data set. Always place version number at the end of text string.</PRE>
+              </DIV>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A NAME="EBA">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Distribution_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Distributor:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Person_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>Pennsylvania Spatial Data Access (PASDA)</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>115 Land and Water Building</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>University Park</DT>
+                      <DT>
+                        <I>State_or_Province:</I>Pennsylvania</DT>
+                      <DT>
+                        <I>Postal_Code:</I>16802</DT>
+                      <DT>
+                        <I>Country:</I>United States</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>(814) 865 - 8792</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>pasda@psu.edu</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DIV>
+            <DT>
+              <I>Distribution_Liability:</I>
+            </DT>
+            <PRE>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</PRE>
+          </DIV>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Metadata_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Metadata_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Metadata_Date:</I>20100623</DT>
+          <DT>
+            <I>Metadata_Contact:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>U.S. Geological Survey, National Geospatial Technical Operations Center</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>1400 Independence Road</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Rolla</DT>
+                      <DT>
+                        <I>State_or_Province:</I>MO</DT>
+                      <DT>
+                        <I>Postal_Code:</I>65401</DT>
+                      <DT>
+                        <I>Country:</I>United States</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>Box 25046 Denver Federal Center</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Lakewood</DT>
+                      <DT>
+                        <I>State_or_Province:</I>CO</DT>
+                      <DT>
+                        <I>Postal_Code:</I>80225</DT>
+                      <DT>
+                        <I>Country:</I>United States</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>1-888-ASK-USGS (1-888-275-8747)</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>ask@usgs.gov</DT>
+                  <DT>
+                    <I>Hours_of_Service:</I>Monday through Friday 8:00 AM to 4:00 PM</DT>
+                  <DT>
+                    <I>Contact Instructions:</I>
+                  </DT>
+                  <DIV>
+                    <PRE>Metadata information can also be obtained through online services using The National Map Viewer, at http://nationalmap.usgs.gov or EarthExplorer, at http://earthexplorer.usgs.gov or Ask USGS at http://www.usgs.gov/ask.</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Metadata_Standard_Name:</I>FGDC Content Standard for Digital Geospatial Metadata</DT>
+          <DT>
+            <I>Metadata_Standard_Version:</I>FGDC-STD-001-1998</DT>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+  </BODY>
+</HTML>
+		</form>
+	</body>
+</HTML>

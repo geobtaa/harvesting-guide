@@ -1,0 +1,1115 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+	<HEAD>
+		<title>Pennsylvania Spatial Data Access | Full Metadata</title>
+		<meta name="GENERATOR" content="Microsoft Visual Studio.NET 7.0">
+		<meta name="CODE_LANGUAGE" content="Visual Basic 7.0">
+		<meta name="vs_defaultClientScript" content="JavaScript">
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+	    <link rel="shortcut icon" href="http://maps.pasda.psu.edu/Images/favicon.ico" type="image/x-icon" />
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-41373351-5', 'psu.edu');
+          ga('send', 'pageview');
+
+        </script>
+</HEAD>
+	<body MS_POSITIONING="GridLayout">
+		<form method="post" action="./FullMetadataDisplay.aspx?file=PAMAP_cycle1.xml" id="Form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEzNDA3MDMyNjVkZCi1cbXMhfZI+elmwl4oTersdOt9nxHHv5HGNLdvg2y4" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="D999016F" />
+			<HTML>
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <SCRIPT type="text/javascript">
+
+      function fix(e) {
+        var par = e.parentNode;
+        e.id = "";
+        e.style.marginLeft = "0.42in";
+        var pos = e.innerText.indexOf("\n");
+        if (pos > 0) {
+          while (pos > 0) {
+            var t = e.childNodes(0);
+            var n = document.createElement("PRE");
+            var s = t.splitText(pos);
+            e.insertAdjacentElement("afterEnd", n);
+            n.appendChild(s);
+            n.style.marginLeft = "0.42in";
+            e = n;
+            pos = e.innerText.indexOf("\n");
+          }
+          var count = (par.children.length);
+          for (var i = 0; i < count; i++) {
+            e = par.children(i);
+            if (e.tagName == "PRE") {
+              pos = e.innerText.indexOf(">");
+              if (pos != 0) {
+                n = document.createElement("DD");
+                e.insertAdjacentElement("afterEnd", n);
+                n.innerText = e.innerText;
+                e.removeNode(true);
+              }
+            }
+          }
+          if (par.children.tags("PRE").length > 0) {
+            count = (par.children.length);
+            for (i = 0; i < count; i++) {
+              e = par.children(i);
+              if (e.tagName == "PRE") {
+                e.id = "";
+                if (i < (count-1)) {
+                  var e2 = par.children(i + 1);
+                  if (e2.tagName == "PRE") {
+                    e.insertAdjacentText("beforeEnd", e2.innerText+"\n");
+                    e2.removeNode(true);
+                    count = count-1;
+                    i = i-1;
+                  }
+                }
+              }
+            }
+          }
+        }
+        else {
+          n = document.createElement("DD");
+          par.appendChild(n);
+          n.innerText = e.innerText;
+          e.removeNode(true);
+        }
+      }
+
+    </SCRIPT>
+  </HEAD>
+  <BODY oncontextmenu="return true">
+    <A name="Top">
+    </A>
+    <H2>PAMAP Program Cycle 1 High Resolution Orthoimage 2003 - 2006</H2>
+    <UL>
+      <LI>
+        <A HREF="#Identification_Information">Identification_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Data_Quality_Information">Data_Quality_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Spatial_Data_Organization_Information">Spatial_Data_Organization_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Spatial_Reference_Information">Spatial_Reference_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#EDA">
+                  Distribution_Information 
+                </A>
+      </LI>
+      <LI>
+        <A HREF="#Metadata_Reference_Information">Metadata_Reference_Information</A>
+      </LI>
+    </UL>
+    <A name="Identification_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Identification_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Citation:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Citation_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Originator:</I>PA DCNR Bureau of Topographic and Geologic Survey and U.S. Geological Survey </DT>
+                  <DT>
+                    <I>Publication_Date:</I>2003 - 2006</DT>
+                  <DT>
+                    <I>Title:</I>
+                  </DT>
+                  <DD>PAMAP Program Cycle 1 High Resolution Orthoimage 2003 - 2006</DD>
+                  <DT>
+                    <I>Geospatial_Data_Presentation_Form:</I>remote sensing image</DT>
+                  <DT>
+                    <I>Publication_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Publisher:</I>PAMAP program, PA DCNR</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Online_Linkage:</I>
+                    <A TARGET="viewer" HREF="http://www.pasda.psu.edu/">http://www.pasda.psu.edu/</A>
+                  </DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Abstract:</I>
+                </DT>
+                <PRE>An orthoimage is remotely sensed image data in which displacement of features in the image caused by terrain relief and sensor orientation have been mathematically removed. Orthoimagery combines the image characteristics of a photograph with the geometric qualities of a map. For this dataset, the natural color orthoimages were produced at 2-feet pixel resolution. The design accuracy is estimated not to exceed 4.8 feet at the 95% confidence level. Each orthoimage provides imagery for a 10,000 by 10,000 feet block on the ground. The projected coordinate system is Pennsylvania State Plane with a NAD83 datum. There is no image overlap been adjacent files. The ortho image filenames were derived from the northwest corner of each ortho tile using the first four digits of the northing and easting coordinates referenced to the Pennsylvania State Plane coordinate system, followed by the State designator "PA", and the State Plane zone designator "S".
+
+</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Purpose:</I>
+                </DT>
+                <PRE>These data have been created as a result of the need for having geospatial data immediately available and easily accessible in order to enhance the capability of the USGS and the State of Pennsylvania.</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Supplemental_Information:</I>
+                </DT>
+                <PRE>A few PAMAP imagery tiles have been corrected, and updates have been posted on PASDA. The Quality Assessment review of horizontal accuracy of the 2005 imagery found a localized DEM error in Lycoming County that affected nine tiles. The DEM used for orthorectification of that area has been corrected, and the nine
+images have been corrected as well. The tiles are: 41002140PAN, 41002150PAN, 41002160PAN, 42002140PAN, 42002150PAN, 42002160PAN, 43002140PAN, 43002150PAN, and 43002160PAN. Note that this error was in the DEM used for production of the 2005 imagery, not the 2007 LiDAR-derived DEM. In addition, a user discovered a seaming error in the 2006 imagery tile 54001480PAS, in Armstrong County just south of Kittanning. This seam error has been corrected, resulting in updates to imagery tiles 54001470PAS and 54001480PAS. These updated tiles are now available through PASDA.
+
+Corrections have been made to the 2006 LAS and DEM data for tile 35001830PAN in Clearfield County. A user discovered that a farm building artifact was not removed from the bare earth model, resulting in a very localized spike in the DEM. The DEM has been corrected. The points in the LAS file have been
+re-classified. The corrected DEM file is now available through PASDA, and the
+LAS data is available through the State Data Center.
+</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Time_Period_of_Content:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Time_Period_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Single_Date/Time:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Calendar_Date:</I>2003 - 2006</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DIV>
+                <DT>
+                  <I>Currentness_Reference:</I>
+                </DT>
+                <PRE>ground condition</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Status:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Progress:</I>Complete</DT>
+              <DT>
+                <I>Maintenance_and_Update_Frequency:</I>None planned</DT>
+            </DL>
+          </DD>
+          <DT>
+            <I>Spatial_Domain:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Bounding_Coordinates:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>West_Bounding_Coordinate:</I>-80.526526</DT>
+                  <DT>
+                    <I>East_Bounding_Coordinate:</I>-74.6904</DT>
+                  <DT>
+                    <I>North_Bounding_Coordinate:</I>42.26775</DT>
+                  <DT>
+                    <I>South_Bounding_Coordinate:</I>39.7014</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Keywords:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Theme:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Theme_Keyword_Thesaurus:</I>ISO 19115 Topic Categories</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>rectified photograph</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>rectified image</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>orthophoto</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>natural color orthophoto</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>orthoimage</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>image map</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Imagery/Base Maps/Earth Cover</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Place:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Place_Keyword_Thesaurus:</I>U.S. Department of Commerce, 1995, Countries, Dependencies, Areas of Special Sovereignty, and Their Principal Administrative Divisions (Federal Information Processing Standard (FIPS) 10-4): Washington, D.C., National Institute of Standards and Technology.</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Place:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Place_Keyword_Thesaurus:</I>U.S. Department of Commerce, 1987, Codes for the Identification of the States, the District of Columbia and the outlying areas of the United States, and associated areas (Federal Information Processing Standard (FIPS) 5-2): Washington, D.C., National Institute of Standards and Technology.</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Place:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Place_Keyword_Thesaurus:</I>None</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Access_Constraints:</I>None</DT>
+          <DIV>
+            <DT>
+              <I>Use_Constraints:</I>
+            </DT>
+            <PRE>Please review and agree to this disclaimer before continuing...
+ 
+TERMS OF USE AND DISCLAIMER 
+PLEASE READ THE FOLLOWING TERMS OF USE AND DISCLAIMER CAREFULLY BEFORE DOWNLOADING PAMAP Imagery and Elevation Data. YOU MUST AGREE TO THE DISCLAIMER AND ALL OTHER TERMS PROVIDED BELOW PRIOR TO DOWNLOADING PAMAP GIS DATA. IF YOU DO NOT AGREE, YOU MAY NOT DOWNLOAD PAMAP DATA FROM THIS WEB SITE. 
+The Originator, Publisher and Distributor exclude any and all implied warranties and make no warranty or representation with respect to the data files or accompanying documentation, including quality, performance, merchantability or fitness for a particular purpose. These data files and documentation are provided 'as is' and the User assumes the entire risk as to their quality and performance. 
+Commonwealth of Pennsylvania
+Office for Information Technology
+5 Technology Park
+Harrisburg, PA 17110</PRE>
+          </DIV>
+          <DIV>
+            <DT>
+              <I>Data_Set_Credit:</I>
+            </DT>
+            <PRE>
+EarthData International of Maryland, LLC
+EarthData Aviation
+BAE ADR
+TerraSurv, Inc
+</PRE>
+          </DIV>
+          <DT>
+            <I>Native_Data_Set_Environment:</I>
+          </DT>
+          <DD>Z/I Imaging Orthopro 4.0, Windows NT/2000 Systems</DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Data_Quality_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Data_Quality_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Attribute_Accuracy:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Attribute_Accuracy_Report:</I>
+                </DT>
+                <PRE>During photographic reproduction of the source photographs, limited analog dodging (radiometric editing) is performed to improve image quality. Analog dodging consists of holding back light from certain areas of the sensitized photographic material to avoid overexposure. The diapositive is inspected to ensure clarity and radiometric uniformity. Diapositive image brightness values are collected with a minimum of image quality manipulation. Image brightness values may deviate from the brightness values of the original images because of image value interpolation during the scanning and rectification processes. Radiometry is verified by visual inspection of the digital orthophoto with the original unrectified image to determine if the digital orthophoto has the same or better image quality as the original unrectified input image. Slight systematic radiometric differences can be detected between adjacent orthoimage files; these are due primarily to differences in source photograph capture dates and sun angles along flight lines when the aerial photographs were taken. These differences can be observed in an image's general lightness or darkness when it is compared to adjacent orthoimage file coverages. Tonal balancing may be performed over a group of images during the mosaicking process which may serve to lighten or darken adjacent images for better color tone matching.</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Positional_Accuracy:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Horizontal_Positional_Accuracy:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Horizontal_Positional_Accuracy_Report:</I>
+                    </DT>
+                    <PRE>Compliance with the accuracy standard was ensured by the placement of photo identifiable ground control points and the collection of airborne GPS data.  The elevation data were generated by autocorrelation and manual processes.  An RMS value for each tile was calculated based on the photos utilized in the production of the tile by comparing the AT X and Y coordinates.  This value represents an estimate of the accuracy of the horizontal coordinate measurements in the tile expressed in U.S. Survey Feet.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Quantitative_Horizontal_Positional_Accuracy_Assessment:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Horizontal_Positional_Accuracy_Value:</I>.324 survey feet</DT>
+                      <DIV>
+                        <DT>
+                          <I>Horizontal_Positional_Accuracy_Explanation:</I>
+                        </DT>
+                        <PRE>The horizontal accuracy of the orthorectified images is mainly determined by the accuracy of the aerotriangulation and digital elevation model (DEM).  The DEM accuracy assessment was achieved by comparing the aerotriangulation-derived elevation with the elevation of the DEM at the same X and Y coordinates.  In addition, visual examination was employed to assess all tiles and its relative edge match.  All results were examined for consistency and its compliance with the NSSDA accuracy standard.</PRE>
+                      </DIV>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Lineage:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>HAS Images, Inc</DT>
+                          <DT>
+                            <I>Publication_Date:</I>2003</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>PA20065</DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Scale_Denominator:</I>19200</DT>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>stable-base material</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Single_Date/Time:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Calendar_Date:</I>20030413</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>ground condition</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>Source Photography</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>Source imagery for tile production</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>HAS Images, Inc</DT>
+                          <DT>
+                            <I>Publication_Date:</I>2003</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>PA20064</DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Scale_Denominator:</I>19200</DT>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>Stable-base material</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Single_Date/Time:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Calendar_Date:</I>20030413</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>ground condition</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>Source Photography</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>Source imagery for tile production</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>HAS Images, Inc</DT>
+                          <DT>
+                            <I>Publication_Date:</I>2003</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>PA20063</DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Scale_Denominator:</I>19200</DT>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>Stable-base material</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Single_Date/Time:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Calendar_Date:</I>20030413</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>ground condition</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>Source Photography</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>Source imagery for tile production</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>HAS Images, Inc</DT>
+                          <DT>
+                            <I>Publication_Date:</I>2003</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>PA11047</DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Scale_Denominator:</I>19200</DT>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>Stable-base material</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Single_Date/Time:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Calendar_Date:</I>20030413</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>ground condition</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>Source Photography</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>Source imagery for tile production</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>BAE ADR</DT>
+                          <DT>
+                            <I>Publication_Date:</I>20040227</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>SCPA Digital Elevation Model (DEM)</DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>paper, digital</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Single_Date/Time:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Calendar_Date:</I>20040227</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>publication date</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>DEM</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>Used to provide ground elevations for the orthorectification process</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>TerraSurv</DT>
+                          <DT>
+                            <I>Publication_Date:</I>20040227</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>SCPA Control</DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>paper, digital</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Single_Date/Time:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Calendar_Date:</I>20040227</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>publication date</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>Control</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>The control provides a means for referencing the project source photography to a geodetic reference frame</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>
+Source photography:  natural color stable base.  Control: airborne GPS supplemented with photo identifiable field control. Scanning:  Z/I Imaging PhotoScan flatbed metric scanner.  Aerotriangulation:  Photo-T.  Elevation Model:  autocorrelation and manual collection.  Radiometric Balancing:  Proprietary and COTS Software (PhotoShop). Orthorectification:  Z/I Ortho Pro 4.0 software package.  Mosaic:  Z/I Ortho Pro 4.0 software package.  Processed on Windows NT/2000 systems.
+
+The ground control and airborne GPS data was integrated into a rigid network through the completion of a fully analytical aerotriangulation adjustment.  The original aerial film was scanned at a resolution of 21 microns.  The scans were produced using Z/I Imaging PhotoScan flatbed metric scanners.  The scanned images were then used as input, along with ground control, airborne GPS data and camera calibration data into a Z/I Imaging softcopy system for final adjustment.  
+
+The digital orthophotography was produced in natural color at an ortho scale of 1:2400 with a 2- foot pixel resolution.  A step-by-step breakdown of the digital orthophoto production process follows.  
+1.  A representative number of raster image files were visually checked for image quality on the workstation.  
+2.  The digital image files were oriented on the digital orthophoto production workstation.  The following information was then loaded onto the workstation.  - The camera calibration parameters and flight line direction. - ground control and pass point locations. - The exterior orientation parameters from the aerotriangulation process. - ASCII file containing the corner coordinates of the orthophotos. - The digital elevation model in a DGN format. - Project-specific requirements such as final sheet size and resolution. - Orientation parameters developed from the aerotriangulation solution.  
+3.  A coordinate transformation based on the camera calibration fiducial coordinates was then undertaken.  This transformation allowed the conversion of every measured element of the plates to a sample/line location.  Each pixel in an image was then referenced by sample and line (its horizontal and vertical position) and matched to project control.  The newly rectified image was visually checked for pixel drop-out and/or other artifacts that may degrade the final orthophoto image.  
+4. DTM data was imported and written to the correct subdirectory on disk.  The final digital orthophotos were referenced to the Pennsylvania State Plane coordinates, South Zone, NAD83, Survey Foot. 
+5. The DTM file was reinspected for missing or erroneous data points.  
+6.  A complete differential rectification was carried out using an exponential algorithm that removed image displacement due to topographic relief, tip and tilt of the aircraft at the moment of exposure, and radial distortion within the camera.  Each final orthophoto was produced at a scale of 1/200 with a 1-foot pixel resolution.  
+7.  Each digital orthophoto image was visually checked for accuracy on the workstation screen.  The digital orthophotos were then edge-matched using a module of the Ortho Pro software package.  
+8.  Once the orthophotos were inspected and approved for accuracy, the files were copied to the network and downloaded by the orthophoto finishing department.  This production unit was responsible for radiometrically correcting the orthophotos prior to completing the mosaicking and clipping of the final tiles.  
+9.  The processed images were mosaicked using the Ortho Pro software.  File names were assigned.  
+10.  The finishing department performed final visual checks for orthophoto image quality.  The images were inspected using Adobe Photoshop, which enabled the technician to remove dust and lint from the image files interactively. 
+11.  The final orthophoto images were written out into compressed MrSID format, using 10:1 compression, untiled, Arc/Info readable, GeoTIFF format.
+</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Process_Date:</I>20040227</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Spatial_Data_Organization_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Spatial_Data_Organization_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Direct_Spatial_Reference_Method:</I>Raster</DT>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Spatial_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Spatial_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Horizontal_Coordinate_System_Definition:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Planar:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Map_Projection:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Map_Projection_Name:</I>Lambert Conformal Conic</DT>
+                      <DT>
+                        <I>Lambert_Conformal_Conic:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Standard_Parallel:</I>39.933333</DT>
+                          <DT>
+                            <I>Standard_Parallel:</I>40.966667</DT>
+                          <DT>
+                            <I>Longitude_of_Central_Meridian:</I>-77.750000</DT>
+                          <DT>
+                            <I>Latitude_of_Projection_Origin:</I>39.333333</DT>
+                          <DT>
+                            <I>False_Easting:</I>1968500.000000</DT>
+                          <DT>
+                            <I>False_Northing:</I>0.00000</DT>
+                        </DL>
+                      </DD>Lambert Conformal Conic</DL>
+                  </DD>
+                  <DT>
+                    <I>Planar_Coordinate_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Planar_Coordinate_Encoding_Method:</I>row and column</DT>
+                      <DT>
+                        <I>Coordinate_Representation:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Abscissa_Resolution:</I>2.0</DT>
+                          <DT>
+                            <I>Ordinate_Resolution:</I>2.0</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Planar_Distance_Units:</I>Survey Foot</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Geodetic_Model:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Horizontal_Datum_Name:</I>North American Datum of 1983</DT>
+                  <DT>
+                    <I>Ellipsoid_Name:</I>Geodetic Reference System 80</DT>
+                  <DT>
+                    <I>Semi-major_Axis:</I>6378137.00</DT>
+                  <DT>
+                    <I>Denominator_of_Flattening_Ratio:</I>298.2572221</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A NAME="EDA">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Distribution_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Distributor:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Person_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>Pennsylvania Spatial Data Access (PASDA)</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>115 Land and Water building</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>University Park </DT>
+                      <DT>
+                        <I>State_or_Province:</I>Pennsylvania</DT>
+                      <DT>
+                        <I>Postal_Code:</I>16801</DT>
+                      <DT>
+                        <I>Country:</I>United States </DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>(814) 865 - 8792 </DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>pasda@psu.edu</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DIV>
+            <DT>
+              <I>Distribution_Liability:</I>
+            </DT>
+            <PRE>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</PRE>
+          </DIV>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Metadata_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Metadata_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Metadata_Date:</I>20051229</DT>
+          <DT>
+            <I>Metadata_Contact:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>Pennsylvania Spatial Data Access (PASDA)</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Position:</I>Metadata Coordinator</DT>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>115 Land and Water building</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>University Park</DT>
+                      <DT>
+                        <I>State_or_Province:</I>Pennsylvania</DT>
+                      <DT>
+                        <I>Postal_Code:</I>16802</DT>
+                      <DT>
+                        <I>Country:</I>United States</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>(814) 865 - 8792</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>pasda@psu.edu</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Metadata_Standard_Name:</I>FGDC Content Standard for Digital Geospatial Metadata</DT>
+          <DT>
+            <I>Metadata_Standard_Version:</I>FGDC-STD-001-1998</DT>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+  </BODY>
+</HTML>
+		</form>
+	</body>
+</HTML>

@@ -1,0 +1,2883 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+	<HEAD>
+		<title>Pennsylvania Spatial Data Access | Full Metadata</title>
+		<meta name="GENERATOR" content="Microsoft Visual Studio.NET 7.0">
+		<meta name="CODE_LANGUAGE" content="Visual Basic 7.0">
+		<meta name="vs_defaultClientScript" content="JavaScript">
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+	    <link rel="shortcut icon" href="http://maps.pasda.psu.edu/Images/favicon.ico" type="image/x-icon" />
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-41373351-5', 'psu.edu');
+          ga('send', 'pageview');
+
+        </script>
+</HEAD>
+	<body MS_POSITIONING="GridLayout">
+		<form method="post" action="./FullMetadataDisplay.aspx?file=NAOGP_MississippianSandstonesAssessmentUnitQuarterMileCells.xml" id="Form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEzNDA3MDMyNjVkZCi1cbXMhfZI+elmwl4oTersdOt9nxHHv5HGNLdvg2y4" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="D999016F" />
+			<HTML>
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <SCRIPT type="text/javascript">
+
+      function fix(e) {
+        var par = e.parentNode;
+        e.id = "";
+        e.style.marginLeft = "0.42in";
+        var pos = e.innerText.indexOf("\n");
+        if (pos > 0) {
+          while (pos > 0) {
+            var t = e.childNodes(0);
+            var n = document.createElement("PRE");
+            var s = t.splitText(pos);
+            e.insertAdjacentElement("afterEnd", n);
+            n.appendChild(s);
+            n.style.marginLeft = "0.42in";
+            e = n;
+            pos = e.innerText.indexOf("\n");
+          }
+          var count = (par.children.length);
+          for (var i = 0; i < count; i++) {
+            e = par.children(i);
+            if (e.tagName == "PRE") {
+              pos = e.innerText.indexOf(">");
+              if (pos != 0) {
+                n = document.createElement("DD");
+                e.insertAdjacentElement("afterEnd", n);
+                n.innerText = e.innerText;
+                e.removeNode(true);
+              }
+            }
+          }
+          if (par.children.tags("PRE").length > 0) {
+            count = (par.children.length);
+            for (i = 0; i < count; i++) {
+              e = par.children(i);
+              if (e.tagName == "PRE") {
+                e.id = "";
+                if (i < (count-1)) {
+                  var e2 = par.children(i + 1);
+                  if (e2.tagName == "PRE") {
+                    e.insertAdjacentText("beforeEnd", e2.innerText+"\n");
+                    e2.removeNode(true);
+                    count = count-1;
+                    i = i-1;
+                  }
+                }
+              }
+            }
+          }
+        }
+        else {
+          n = document.createElement("DD");
+          par.appendChild(n);
+          n.innerText = e.innerText;
+          e.removeNode(true);
+        }
+      }
+
+    </SCRIPT>
+  </HEAD>
+  <BODY oncontextmenu="return true">
+    <A name="Top">
+    </A>
+    <H2>Mississippian Sandstones Assessment Unit Quarter Mile Cells - National Assessment of Oil and Gas Project - Appalachian Basin (067) Quarter-Mile Cells</H2>
+    <UL>
+      <LI>
+        <A HREF="#Identification_Information">Identification_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Data_Quality_Information">Data_Quality_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Spatial_Data_Organization_Information">Spatial_Data_Organization_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Spatial_Reference_Information">Spatial_Reference_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Entity_and_Attribute_Information">Entity_and_Attribute_Information</A>
+      </LI>
+      <LI>Distribution_Information</LI>
+      <LI STYLE="margin-left:0.3in">
+        <A HREF="#EOA">
+                  Distributor 1</A>
+      </LI>
+      <LI>
+        <A HREF="#ENA">
+                  Distribution_Information 
+                </A>
+      </LI>
+      <LI>
+        <A HREF="#Metadata_Reference_Information">Metadata_Reference_Information</A>
+      </LI>
+    </UL>
+    <A name="Identification_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Identification_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Citation:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Citation_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Originator:</I>United States Geological Survey (USGS)</DT>
+                  <DT>
+                    <I>Publication_Date:</I>2002</DT>
+                  <DT>
+                    <I>Title:</I>
+                  </DT>
+                  <DD>Mississippian Sandstones Assessment Unit Quarter Mile Cells - National Assessment of Oil and Gas Project - Appalachian Basin (067) Quarter-Mile Cells</DD>
+                  <DT>
+                    <I>Geospatial_Data_Presentation_Form:</I>vector digital data</DT>
+                  <DT>
+                    <I>Publication_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Publication_Place:</I>Denver, Colorado</DT>
+                      <DT>
+                        <I>Publisher:</I>U. S. Geological Survey, Central Energy Resources Team</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Online_Linkage:</I>
+                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/noga/servlet/NogaGISResultsServ?subtheme=67&amp;page=gis&amp;vintage=2000">http://certmapper.cr.usgs.gov/noga/servlet/NogaGISResultsServ?subtheme=67&amp;page=gis&amp;vintage=2000</A>
+                  </DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Abstract:</I>
+                </DT>
+                <PRE>Cell maps for each oil and gas assessment unit were created by the USGS as a method for illustrating the degree of exploration, type of production, and distribution of production in an assessment unit or province. Each cell represents a quarter-mile square of the land surface, and the cells are coded to represent whether the wells included within the cell are predominantly oil-producing, gas-producing, both oil and gas-producing, dry, or the type of production of the wells located within the cell is unknown. The well information was initially retrieved from the IHS Energy Group, PI/Dwights PLUS Well Data on CD-ROM, which is a proprietary, commercial database containing information for most oil and gas wells in the U.S.  Cells were developed as a graphic solution to overcome the problem of displaying proprietary PI/Dwights PLUS Well Data. No proprietary data are displayed or included in the cell maps.  The data from PI/Dwights PLUS Well Data were current as of October 2001 when the cell maps were created in 2002.</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Purpose:</I>
+                </DT>
+                <PRE>The purpose of the cell map is to display the exploration maturity, type of production, and distribution of production in quarter-mile cells in each of the oil and gas assessment units and each of the provinces defined for the National Assessment of Oil and Gas Project.</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Supplemental_Information:</I>
+                </DT>
+                <PRE>Oil and gas assessment units within province 067 (Appalachian Basin) are listed here by assessment unit number and name:
+&gt;Number  Name
+&gt;50670101 Rome Trough
+&gt;50670201 Lower Paleozoic Carbonates 
+&gt;50670301 Lower Paleozoic Carbonates in Thrust Belt
+&gt;50670302 Knox Unconformity
+&gt;50670303 Black River-Trenton Hydrothermal Dolomite
+&gt;50670304 Lockport Dolomite
+&gt;50670361 Clinton-Medina Basin Center
+&gt;50670362 Clinton-Medina Transitional Northeast
+&gt;50670363 Clinton-Medina Transitional
+&gt;50670364 Tuscarora Basin Center
+&gt;50670401 Oriskany Sandstone-Structural
+&gt;50670402 Oriskany Sandstone-Stratigraphic
+&gt;50670403 Greenbrier Limestone
+&gt;50670404 Mississippian Sandstones
+&gt;50670461 Greater Big Sandy
+&gt;50670462 Northwestern Ohio Shale
+&gt;50670463 Devonian Siltstone and Shale
+&gt;50670464 Marcellus Shale
+&gt;50670465 Catskill Sandstones and Siltstone
+&gt;50670466 Berea Sandstone
+&gt;50670581 Pocahontas Basin
+&gt;50670582 East Dunkard (Folded)
+&gt;50670583 West Dunkard (Unfolded)
+&gt;50670584 Central Appalachian Shelf
+&gt;50670585 Appalachain Anthracite and Semi-Anthracite
+&gt;50670681 Cahaba Basin
+
+The following is a description of the Online Linkage URLs:
+
+http://certmapper.cr.usgs.gov/noga/servlet/NogaGISResultsServ?subtheme=67&amp;page=gis&amp;vintage=2000  -  GIS Data Download Page for Province 67
+         </PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Time_Period_of_Content:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Time_Period_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Single_Date/Time:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Calendar_Date:</I>2002</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DIV>
+                <DT>
+                  <I>Currentness_Reference:</I>
+                </DT>
+                <PRE>publication date</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Status:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Progress:</I>Complete</DT>
+              <DT>
+                <I>Maintenance_and_Update_Frequency:</I>As needed</DT>
+            </DL>
+          </DD>
+          <DT>
+            <I>Spatial_Domain:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Bounding_Coordinates:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>West_Bounding_Coordinate:</I>-88.50</DT>
+                  <DT>
+                    <I>East_Bounding_Coordinate:</I>-73.00</DT>
+                  <DT>
+                    <I>North_Bounding_Coordinate:</I>45.00</DT>
+                  <DT>
+                    <I>South_Bounding_Coordinate:</I>32.00</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Keywords:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Theme:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Theme_Keyword_Thesaurus:</I>Central Energy Resources Team Keyword Thesaurus</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>National Assessment of Oil and Gas</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>USGS World Energy Region 5</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Energy Resources</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Oil</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Natural Gas</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Resource Assessment</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Earth Science</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Natural Resources</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>U.S. Geological Survey</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>USGS</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Geology</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Assessment Unit</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Milici, Robert C.</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Cells</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Theme:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Theme_Keyword_Thesaurus:</I>ArcIMS Metadata Server Theme Codes</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>geoscientificInformation</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Theme:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Theme_Keyword_Thesaurus:</I>Gateway to the Earth draft 9 28-Jun-2002</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Oil shale resources</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Oil sand resources</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Coalbed methane resources</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Gas hydrate resources</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Natural gas resources</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Economic geology</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Place:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Place_Keyword_Thesaurus:</I>none</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>United States</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>USGS World Energy Region 5</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Appalachian Basin</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>AL</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>GA</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>KY</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>MD</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>NJ</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>NY</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>NC</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>OH</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>PA</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>TN</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>VA</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>WV</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Place:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Place_Keyword_Thesaurus:</I>Augmented FIPS 10-4 and FIPS 6-4, version 1.0</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>US01 = Alabama</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>US13 = Georgia</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>US21 = Kentucky</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>US24 = Maryland</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>US34 = New Jersey</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>US36 = New York</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>US37 = North Carolina</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>US39 = Ohio</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>US42 = Pennsylvania</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>US47 = Tennessee</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>US51 = Virginia</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>US54 = West Virginia</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Place:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Place_Keyword_Thesaurus:</I>USGS Oil and Gas Provinces (NOGA-95)</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>67 = Appalachian Basin</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Place:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Place_Keyword_Thesaurus:</I>USGS Oil and Gas Total Petroleum Systems (NOGA-2000)</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>506701 = Conasauga-Rome/Conasauga</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>506702 = Sevier-Knox Trenton</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>506703 = Utica-Lower Paleozoic</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>506704 = Devonian Shale-Middle and Upper Paleozoic</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>506705 = Carboniferous Coal-Bed Gas</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>506706 = Pottsville Coal-Bed Gas</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Place:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Place_Keyword_Thesaurus:</I>USGS Oil and Gas Assessment Units (NOGA-2000)</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>50670101 = Rome Trough</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>50670201 = Lower Paleozoic Carbonates </DT>
+                  <DT>
+                    <I>Place_Keyword:</I>50670301 = Lower Paleozoic Carbonates in Thrust Belt</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>50670302 = Knox Unconformity</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>50670303 = Black River-Trenton Hydrothermal Dolomite</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>50670304 = Lockport Dolomite</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>50670361 = Clinton-Medina Basin Center</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>50670362 = Clinton-Medina Transitional Northeast</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>50670363 = Clinton-Medina Transitional</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>50670364 = Tuscarora Basin Center</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>50670401 = Oriskany Sandstone-Structural</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>50670402 = Oriskany Sandstone-Stratigraphic</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>50670403 = Greenbrier Limestone</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>50670404 = Mississippian Sandstones</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>50670461 = Greater Big Sandy</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>50670462 = Northwestern Ohio Shale</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>50670463 = Devonian Siltstone and Shale</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>50670464 = Marcellus Shale</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>50670465 = Catskill Sandstones and Siltstone</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>50670466 = Berea Sandstone</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>50670581 = Pocahontas Basin</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>50670582 = East Dunkard (Folded)</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>50670583 = West Dunkard (Unfolded)</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>50670584 = Central Appalachian Shelf</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>50670585 = Appalachain Anthracite and Semi-Anthracite</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>50670681 = Cahaba Basin</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Access_Constraints:</I>none</DT>
+          <DIV>
+            <DT>
+              <I>Use_Constraints:</I>
+            </DT>
+            <PRE>none</PRE>
+          </DIV>
+          <DT>
+            <I>Point_of_Contact:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Person_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Person:</I>Christopher J. Schenk</DT>
+                      <DT>
+                        <I>Contact_Organization:</I>U.S. Geological Survey, Central Energy Resources Team</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Position:</I>Geologist</DT>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>U.S. Geological Survey, Box 25046, MS 939, Denver Federal Center</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Denver</DT>
+                      <DT>
+                        <I>State_or_Province:</I>Colorado</DT>
+                      <DT>
+                        <I>Postal_Code:</I>80225</DT>
+                      <DT>
+                        <I>Country:</I>USA</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>(303) 236-5796</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>schenk@usgs.gov</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DIV>
+            <DT>
+              <I>Data_Set_Credit:</I>
+            </DT>
+            <PRE>Biewick, L.R.H., Weiler, S. and Skinner, C.C.</PRE>
+          </DIV>
+          <DT>
+            <I>Native_Data_Set_Environment:</I>
+          </DT>
+          <DD>ARC/INFO version 8.2</DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Data_Quality_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Data_Quality_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Attribute_Accuracy:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Attribute_Accuracy_Report:</I>
+                </DT>
+                <PRE>The cell locations and cell attributes were visually compared to the hard-copy map:  Mast, R. F., Root, D.H., Williams, L.P., Beeman, W.R., and Barnett, D.L., 1998, Areas of historical oil and gas exploration and production in the conterminous United States: U.S. Geological Survey Oil and Gas Investigations Map I-2582, 1 sheet; http://energy.cr.usgs.gov/oilgas/noga/oilgasmap.htm.</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DIV>
+            <DT>
+              <I>Logical_Consistency_Report:</I>
+            </DT>
+            <PRE>The accuracy of the cells, as created by the Arc Macro Language (AML) program of L.R.H. Biewick, S. Weiler and C.C. Skinner, depends upon the accuracy of the oil and gas well information in the 2001 version of the IHS Energy Group, PI/Dwights PLUS Well Data. For the National Assessment of Oil and Gas Project, the assumption was made that the data in PI/Dwights PLUS were of sufficient accuracy for such a national-scale analysis.</PRE>
+          </DIV>
+          <DIV>
+            <DT>
+              <I>Completeness_Report:</I>
+            </DT>
+            <PRE>The cells were defined using the 2001 well data in the IHS Energy Group, PI/Dwights PLUS. The PI/Dwights PLUS Well Data contains over two million, nine hundred thousand wells for the U.S., which, although not a complete tabulation of all U.S. wells, is the most complete well database available for the United States.</PRE>
+          </DIV>
+          <DT>
+            <I>Positional_Accuracy:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Horizontal_Positional_Accuracy:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Horizontal_Positional_Accuracy_Report:</I>
+                    </DT>
+                    <PRE>A visual comparison was made using a sampling of cell locations and cell attributes with well locations and attributes. In particular, the values of latitude and longitude for the wells in PI/Dwights PLUS Well Data were assumed to be accurate.</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Lineage:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>IHS Energy Group</DT>
+                          <DT>
+                            <I>Publication_Date:</I>2001</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>PI/Dwights PLUS Well Data on CD-ROM</DD>
+                          <DT>
+                            <I>Publication_Information:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Publication_Place:</I>Denver, Colorado</DT>
+                              <DT>
+                                <I>Publisher:</I>IHS Energy Group</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>Digital</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Single_Date/Time:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Calendar_Date:</I>200109</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>200109</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>PI/Dwights PLUS Well Data on CD-ROM</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>Lat./Long. Points, Final Well Class</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>
+The province geologist mapped the Assessment Unit boundary on a hard copy base map at 1:750,000 provided by the project that contained data from IHS Energy Group, PI/Dwights PLUS Well Data (1999, 2000 and 2001 updates), and the Nehring Significant Oil and Gas Field File (1999 update).  The province geologist then plotted all other available geologic and geophysical well data and information on the hard copy base map to assist in mapping the Assessment Unit boundary.  Following review, the Assessment Unit boundary was digitally transferred from the hard copy base map using Arcedit.
+</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Process_Date:</I>2001</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>Oil and gas well data for each assessment unit were run through an Arc Macro Language (AML) program written by L.R.H. Biewick, S. Weiler, and C.C. Skinner. This program aggregated and converted the 2001 PI/Dwights PLUS Well Data into quarter-mile cells and latitude-longitude points that represent the center-points of the quarter-mile cells.  The assessment unit cells were then assigned an attribute based on the type of production of the wells located within the cell.  Region, province, total petroleum system, and assessment unit codes and names were appended to the file using lookup information acquired from tables created for the National Assessment of Oil and Gas Project.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Process_Date:</I>2002</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>Metadata imported.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Source_Used_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>P:\prov67\spatial\doc\au67cg.xml</DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Spatial_Data_Organization_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Spatial_Data_Organization_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Direct_Spatial_Reference_Method:</I>Vector</DT>
+          <DT>
+            <I>Point_and_Vector_Object_Information:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>SDTS_Terms_Description:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>SDTS_Point_and_Vector_Object_Type:</I>Complete chain</DT>
+                  <DT>
+                    <I>Point_and_Vector_Object_Count:</I>37556</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>SDTS_Terms_Description:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>SDTS_Point_and_Vector_Object_Type:</I>Entity point</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>SDTS_Terms_Description:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>SDTS_Point_and_Vector_Object_Type:</I>GT-polygon composed of chains</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>SDTS_Terms_Description:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>SDTS_Point_and_Vector_Object_Type:</I>Point</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Spatial_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Spatial_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Horizontal_Coordinate_System_Definition:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Geographic:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Latitude_Resolution:</I>0.000001</DT>
+                  <DT>
+                    <I>Longitude_Resolution:</I>0.000001</DT>
+                  <DT>
+                    <I>Geographic_Coordinate_Units:</I>Decimal degrees</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Geodetic_Model:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Horizontal_Datum_Name:</I>North American Datum of 1983</DT>
+                  <DT>
+                    <I>Ellipsoid_Name:</I>Geodetic Reference System 80</DT>
+                  <DT>
+                    <I>Semi-major_Axis:</I>6378137.0</DT>
+                  <DT>
+                    <I>Denominator_of_Flattening_Ratio:</I>298.257222</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Entity_and_Attribute_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Entity_and_Attribute_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>au"assessunitnum"cg.pat or au"assessunitnum"cg.dbf</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>Polygon Attribute Table.  For each assessment unit, "assessunitnum" is replaced with the assessment unit number in either a file, au"assessunitnum"g.pat, or a table, au"assessunitnum"g.dbf.  To keep the size of filenames less than 10 characters, "assessunitnum" does not include the first 2 characters of the region/province number.</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>U.S. Geological Survey</DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>PROV_NAME</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Province Name</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>U.S. Geological Survey Energy Resource Provinces</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Appalachian Basin</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>TPSCODE</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Total Petroleum System Code</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>U.S. Geological Survey Energy Resource Total Petroleum Systems</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>506701</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Conasauga-Rome/Conasauga</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>506702</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Sevier-Knox Trenton</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>506703</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Utica-Lower Paleozoic</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>506704</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Carboniferous Coal-Bed Gas </PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>506705</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Carboniferous Coal-Bed Gas</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>506706</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Pottsville Coal-Bed Gas</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>Coordinates defining the features.</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>TPSNAME</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Total Petroleum System Name</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>U.S. Geological Survey Energy Resource Total Petroleum Systems</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Conasauga-Rome/Conasauga</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Sevier-Knox Trenton</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Utica-Lower Paleozoic</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Carboniferous Coal-Bed Gas</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Carboniferous Coal-Bed Gas</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Pottsville Coal-Bed Gas</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>ASSESSCODE</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Assessment Unit Code</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>U.S. Geological Survey Energy Resource Assessment Units</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>50670101</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Rome Trough</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>50670201</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Lower Paleozoic Carbonates</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>50670301</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Lower Paleozoic Carbonates in Thrust Belt</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>50670302</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Knox Unconformity</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>50670303</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Black River-Trenton Hydrothermal Dolomite</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>50670304</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Lockport Dolomite</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>50670361</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Clinton-Medina Basin Center</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>50670362</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Clinton-Medina Transitional Northeast</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>50670363</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Clinton-Medina Transitional</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>50670364</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Tuscarora Basin Center</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>50670401</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Oriskany Sandstone-Structural</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>50670402</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Oriskany Sandstone-Stratigraphic</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>50670403</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Greenbrier Limestone</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>50670404</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Mississippian Sandstones</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>50670461</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Greater Big Sandy</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>50670462</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Northwestern Ohio Shale</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>50670463</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Devonian Siltstone and Shale</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>50670464</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Marcellus Shale</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>50670465</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Catskill Sandstones and Siltstone</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>50670466</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Berea Sandstone</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>50670581</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Pocahontas Basin</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>50670582</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>East Dunkard (Folded)</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>50670583</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>West Dunkard (Unfolded)</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>50670584</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Central Appalachian Shelf</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>50670585</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Appalachian Anthracite and Semi-Anthracite</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>50670681 = </DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Cahaba Basin</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>ASSESSNAME</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Assessment Unit Name</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>U.S. Geological Survey Energy Resource Assessment Units</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Rome Trough</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Lower Paleozoic Carbonates</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Lower Paleozoic Carbonates in Thrust Belt</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Knox Unconformity</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Black River-Trenton Hydrothermal Dolomite</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Lockport Dolomite</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Clinton-Medina Basin Center</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Clinton-Medina Transitional Northeast</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Clinton-Medina Transitional</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Tuscarora Basin Center</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Oriskany Sandstone-Structural</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Oriskany Sandstone-Stratigraphic</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Greenbrier Limestone</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Mississippian Sandstones</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Greater Big Sandy</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Northwestern Ohio Shale</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Devonian Siltstone and Shale</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Marcellus Shale</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Catskill Sandstones and Siltstone</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Berea Sandstone</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Pocahontas Basin</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>East Dunkard (Folded)</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>West Dunkard (Unfolded)</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Central Appalachian Shelf</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Appalachain Anthracite and Semi-Anthracite</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Cahaba Basin</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>Coordinates defining the features.</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>CELLSYMB</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Production Status</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>U.S. Geological Survey</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>1</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Cell contains at least one productive oil well, but no productive gas wells (green).</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>2</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Cell contains at least one productive gas well, but no productive oil wells (red).</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>3</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Cell contains at least one productive oil well and at least one productive gas well or one well producing both oil and gas (purple).</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>4</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>The type of production of the wells located within the cell is unknown, or the cell contains no producing wells (charcoal).</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>PROVCODE</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Internal feature number.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>ESRI</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>Sequential unique whole numbers that are automatically generated.</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>PROV_NAME</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Feature geometry.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>ESRI</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>Coordinates defining the features.</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>TPSCODE</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>TPSNAME</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Internal feature number.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>ESRI</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>Sequential unique whole numbers that are automatically generated.</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>ASSESSCODE</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Feature geometry.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>ESRI</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>Coordinates defining the features.</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>ASSESSNAME</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>REG_NUM</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Region Number</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>U.S. Geological Survey Energy Resource World Regions</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>5</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>North America</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>REG_NAME</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Region Name</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>U.S. Geological Survey Energy Resource World Regions</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>North America</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>Coordinates defining the features.</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>PROVCODE</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Province Code</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>U.S. Geological Survey Energy Resource Provinces</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>5067</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Appalachian Basin</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A NAME="EOA">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Distribution_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Distributor:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Person_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>Pennsylvania Spatial Data Access (PASDA)</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>pasda@psu.edu</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Resource_Description:</I>Downloadable Data</DT>
+          <DIV>
+            <DT>
+              <I>Distribution_Liability:</I>
+            </DT>
+            <PRE>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</PRE>
+          </DIV>
+          <DT>
+            <I>Standard_Order_Process:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Digital_Form:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Digital_Transfer_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Transfer_Size:</I>5.016</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A NAME="ENA">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Distribution_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Distributor:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>USGS Information Services</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>Box 25286 Denver Federal Center</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Denver</DT>
+                      <DT>
+                        <I>State_or_Province:</I>Colorado</DT>
+                      <DT>
+                        <I>Postal_Code:</I>80225</DT>
+                      <DT>
+                        <I>Country:</I>USA</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>1-888-ASK-USGS</DT>
+                  <DT>
+                    <I>Contact_Facsimile_Telephone:</I>303-202-4693</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>ask@usgs.gov</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Resource_Description:</I>Downloadable Data</DT>
+          <DIV>
+            <DT>
+              <I>Distribution_Liability:</I>
+            </DT>
+            <PRE>This publication was prepared by an agency of the United States Government. Neither the United States Government nor any agency thereof, nor any of their employees, makes any warranty, expressed or implied, or assumes any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process disclosed in this report, or represents that its use would not infringe privately owned rights. Reference therein to any specific commercial product, process, or service by trade name, trademark, manufacturer, or otherwise does not necessarily constitute or imply its endorsement, recommendation, or favoring by the United States Government or any agency thereof.
+
+Although all data and software published are used by the U.S. Geological Survey, no warranty, expressed or implied, is made by the U.S. Geological Survey as to the accuracy of the data and related materials and (or) the functioning of the software. The act of distribution shall not constitute any such warranty, and no responsibility is assumed by the U.S. Geological Survey in the use of these data, software, or related materials.</PRE>
+          </DIV>
+          <DT>
+            <I>Standard_Order_Process:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Digital_Form:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Digital_Transfer_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Format_Name:</I>Shapefile</DT>
+                      <DIV>
+                        <DT>
+                          <I>Format_Information_Content:</I>
+                        </DT>
+                        <PRE>Assessment unit geographic features and attribute data</PRE>
+                      </DIV>
+                      <DT>
+                        <I>File_Decompression_Technique:</I>unzip</DT>
+                      <DT>
+                        <I>Transfer_Size:</I>5.016</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Digital_Transfer_Option:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Online_Option:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Computer_Contact_Information:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Network_Address:</I>
+                              </DT>
+                              <DD>
+                                <DL>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/shape/au670101cg.zip">http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/shape/au670101cg.zip</A>
+                                  </DT>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/shape/au670201cg.zip">http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/shape/au670201cg.zip</A>
+                                  </DT>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/shape/au670301cg.zip">http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/shape/au670301cg.zip</A>
+                                  </DT>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/shape/au670302cg.zip">http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/shape/au670302cg.zip</A>
+                                  </DT>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/shape/au670303cg.zip">http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/shape/au670303cg.zip</A>
+                                  </DT>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/shape/au670304cg.zip">http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/shape/au670304cg.zip</A>
+                                  </DT>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/shape/au670361cg.zip">http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/shape/au670361cg.zip</A>
+                                  </DT>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/shape/au670362cg.zip">http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/shape/au670362cg.zip</A>
+                                  </DT>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/shape/au670363cg.zip">http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/shape/au670363cg.zip</A>
+                                  </DT>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/shape/au670364cg.zip">http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/shape/au670364cg.zip</A>
+                                  </DT>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/shape/au670401cg.zip">http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/shape/au670401cg.zip</A>
+                                  </DT>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/shape/au670402cg.zip">http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/shape/au670402cg.zip</A>
+                                  </DT>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/shape/au670403cg.zip">http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/shape/au670403cg.zip</A>
+                                  </DT>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/shape/au670404cg.zip">http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/shape/au670404cg.zip</A>
+                                  </DT>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/shape/au670461cg.zip">http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/shape/au670461cg.zip</A>
+                                  </DT>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/shape/au670462cg.zip">http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/shape/au670462cg.zip</A>
+                                  </DT>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/shape/au670463cg.zip">http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/shape/au670463cg.zip</A>
+                                  </DT>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/shape/au670464cg.zip">http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/shape/au670464cg.zip</A>
+                                  </DT>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/shape/au670465cg.zip">http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/shape/au670465cg.zip</A>
+                                  </DT>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/shape/au670466cg.zip">http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/shape/au670466cg.zip</A>
+                                  </DT>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/shape/au670581cg.zip">http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/shape/au670581cg.zip</A>
+                                  </DT>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/shape/au670582cg.zip">http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/shape/au670582cg.zip</A>
+                                  </DT>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/shape/au670583cg.zip">http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/shape/au670583cg.zip</A>
+                                  </DT>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/shape/au670584cg.zip">http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/shape/au670584cg.zip</A>
+                                  </DT>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/shape/au670585cg.zip">http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/shape/au670585cg.zip</A>
+                                  </DT>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/shape/au670681cg.zip">http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/shape/au670681cg.zip</A>
+                                  </DT>
+                                </DL>
+                              </DD>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Access_Instructions:</I>
+                          </DT>
+                          <DD>The URL's above link to individual Assessment Unit cells.  For example, au670101cg.zip links to quarter-mile cells for Assessment Unit 50670101.</DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Digital_Form:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Digital_Transfer_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Format_Name:</I>ArcInfo Export File</DT>
+                      <DT>
+                        <I>Format_Version_Number:</I>8.0</DT>
+                      <DIV>
+                        <DT>
+                          <I>Format_Information_Content:</I>
+                        </DT>
+                        <PRE>Assessment unit geographic features and attribute data</PRE>
+                      </DIV>
+                      <DT>
+                        <I>Transfer_Size:</I>5.016</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Digital_Transfer_Option:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Online_Option:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Computer_Contact_Information:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Network_Address:</I>
+                              </DT>
+                              <DD>
+                                <DL>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/export/au670101cg.e00">http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/export/au670101cg.e00</A>
+                                  </DT>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/export/au670201cg.e00">http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/export/au670201cg.e00</A>
+                                  </DT>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/export/au670301cg.e00">http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/export/au670301cg.e00</A>
+                                  </DT>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/export/au670302cg.e00">http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/export/au670302cg.e00</A>
+                                  </DT>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/export/au670303cg.e00">http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/export/au670303cg.e00</A>
+                                  </DT>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/export/au670304cg.e00">http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/export/au670304cg.e00</A>
+                                  </DT>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/export/au670361cg.e00">http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/export/au670361cg.e00</A>
+                                  </DT>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/export/au670362cg.e00">http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/export/au670362cg.e00</A>
+                                  </DT>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/export/au670363cg.e00">http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/export/au670363cg.e00</A>
+                                  </DT>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/export/au670364cg.e00">http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/export/au670364cg.e00</A>
+                                  </DT>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/export/au670401cg.e00">http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/export/au670401cg.e00</A>
+                                  </DT>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/export/au670402cg.e00">http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/export/au670402cg.e00</A>
+                                  </DT>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/export/au670403cg.e00">http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/export/au670403cg.e00</A>
+                                  </DT>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/export/au670404cg.e00">http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/export/au670404cg.e00</A>
+                                  </DT>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/export/au670461cg.e00">http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/export/au670461cg.e00</A>
+                                  </DT>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/export/au670462cg.e00">http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/export/au670462cg.e00</A>
+                                  </DT>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/export/au670463cg.e00">http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/export/au670463cg.e00</A>
+                                  </DT>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/export/au670464cg.e00">http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/export/au670464cg.e00</A>
+                                  </DT>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/export/au670465cg.e00">http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/export/au670465cg.e00</A>
+                                  </DT>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/export/au670466cg.e00">http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/export/au670466cg.e00</A>
+                                  </DT>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/export/au670581cg.e00">http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/export/au670581cg.e00</A>
+                                  </DT>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/export/au670582cg.e00">http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/export/au670582cg.e00</A>
+                                  </DT>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/export/au670583cg.e00">http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/export/au670583cg.e00</A>
+                                  </DT>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/export/au670584cg.e00">http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/export/au670584cg.e00</A>
+                                  </DT>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/export/au670585cg.e00">http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/export/au670585cg.e00</A>
+                                  </DT>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/export/au670681cg.e00">http://certmapper.cr.usgs.gov/data/noga00/prov67/spatial/export/au670681cg.e00</A>
+                                  </DT>
+                                </DL>
+                              </DD>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Access_Instructions:</I>
+                          </DT>
+                          <DD>The URL's above link to individual Assessment Unit cells.  For example, au670101cg.e00 links to quarter-mile cells for Assessment Unit 50670101.</DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Digital_Form:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Digital_Transfer_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Format_Name:</I>Image Map Service (prov67_2000)</DT>
+                      <DT>
+                        <I>Format_Version_Number:</I>4.0</DT>
+                      <DIV>
+                        <DT>
+                          <I>Format_Specification:</I>
+                        </DT>
+                        <PRE>ArcIMS Image Map Service</PRE>
+                      </DIV>
+                      <DIV>
+                        <DT>
+                          <I>Format_Information_Content:</I>
+                        </DT>
+                        <PRE>A web-based interactive mapping system that accesses an ArcIMS Map Service running on certmapper.cr.usgs.gov.</PRE>
+                      </DIV>
+                      <DT>
+                        <I>Transfer_Size:</I>5.016</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Digital_Transfer_Option:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Online_Option:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Computer_Contact_Information:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Network_Address:</I>
+                              </DT>
+                              <DD>
+                                <DL>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://certmapper.cr.usgs.gov/noga/servlet/NogaMapViewerBroker?province=67&amp;Vintage=2000">http://certmapper.cr.usgs.gov/noga/servlet/NogaMapViewerBroker?province=67&amp;Vintage=2000</A>
+                                  </DT>
+                                </DL>
+                              </DD>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Access_Instructions:</I>
+                          </DT>
+                          <DD>This URL links to a web-based interactive mapping system that accesses an ArcIMS Image Map Service.  The mapservice can also be accessed using any custom client that adheres to the protocol specified through ArcXML.</DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Fees:</I>None</DT>
+              <DIV>
+                <DT>
+                  <I>Ordering_Instructions:</I>
+                </DT>
+                <PRE>These products can be downloaded individually using any one of the Network_Resource_Name URLs above. Each of these URLs provide access to various formats of these data.</PRE>
+              </DIV>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Metadata_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Metadata_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Metadata_Date:</I>20020722</DT>
+          <DT>
+            <I>Metadata_Review_Date:</I>20020730</DT>
+          <DT>
+            <I>Metadata_Contact:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>U.S. Geological Survey, Central Energy Resources Team, Data Management Project</DT>
+                      <DT>
+                        <I>Contact_Person:</I>Denise Dundon</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Position:</I>GIS Specialist</DT>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>U.S. Geological Survey, Box 25046, MS 939, Denver Federal Center</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Denver</DT>
+                      <DT>
+                        <I>State_or_Province:</I>Colorado</DT>
+                      <DT>
+                        <I>Postal_Code:</I>80225</DT>
+                      <DT>
+                        <I>Country:</I>USA</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>REQUIRED: The telephone number by which individuals can speak to the organization or individual.</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>datamgt@usgs.gov</DT>
+                  <DT>
+                    <I>Contact Instructions:</I>
+                  </DT>
+                  <DIV>
+                    <PRE>For inquiries regarding this document, please include the metadata contact person's name, dataset name, and publication series and number.</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Metadata_Standard_Name:</I>FGDC Content Standards for Digital Geospatial Metadata</DT>
+          <DT>
+            <I>Metadata_Standard_Version:</I>FGDC-STD-001-1998</DT>
+          <DT>
+            <I>Metadata_Time_Convention:</I>local time</DT>
+          <DT>
+            <I>Metadata_Extensions:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Online_Linkage:</I>
+                <A TARGET="viewer" HREF=""></A>
+              </DT>
+              <DT>
+                <I>Profile_Name:</I>ESRI Metadata Profile</DT>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+  </BODY>
+</HTML>
+		</form>
+	</body>
+</HTML>

@@ -1,0 +1,1897 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+	<HEAD>
+		<title>Pennsylvania Spatial Data Access | Full Metadata</title>
+		<meta name="GENERATOR" content="Microsoft Visual Studio.NET 7.0">
+		<meta name="CODE_LANGUAGE" content="Visual Basic 7.0">
+		<meta name="vs_defaultClientScript" content="JavaScript">
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+	    <link rel="shortcut icon" href="http://maps.pasda.psu.edu/Images/favicon.ico" type="image/x-icon" />
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-41373351-5', 'psu.edu');
+          ga('send', 'pageview');
+
+        </script>
+</HEAD>
+	<body MS_POSITIONING="GridLayout">
+		<form method="post" action="./FullMetadataDisplay.aspx?file=FEMA_NFHL_10_DE_20170307.xml" id="Form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEzNDA3MDMyNjVkZCi1cbXMhfZI+elmwl4oTersdOt9nxHHv5HGNLdvg2y4" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="D999016F" />
+			<HTML>
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <SCRIPT type="text/javascript">
+
+      function fix(e) {
+        var par = e.parentNode;
+        e.id = "";
+        e.style.marginLeft = "0.42in";
+        var pos = e.innerText.indexOf("\n");
+        if (pos > 0) {
+          while (pos > 0) {
+            var t = e.childNodes(0);
+            var n = document.createElement("PRE");
+            var s = t.splitText(pos);
+            e.insertAdjacentElement("afterEnd", n);
+            n.appendChild(s);
+            n.style.marginLeft = "0.42in";
+            e = n;
+            pos = e.innerText.indexOf("\n");
+          }
+          var count = (par.children.length);
+          for (var i = 0; i < count; i++) {
+            e = par.children(i);
+            if (e.tagName == "PRE") {
+              pos = e.innerText.indexOf(">");
+              if (pos != 0) {
+                n = document.createElement("DD");
+                e.insertAdjacentElement("afterEnd", n);
+                n.innerText = e.innerText;
+                e.removeNode(true);
+              }
+            }
+          }
+          if (par.children.tags("PRE").length > 0) {
+            count = (par.children.length);
+            for (i = 0; i < count; i++) {
+              e = par.children(i);
+              if (e.tagName == "PRE") {
+                e.id = "";
+                if (i < (count-1)) {
+                  var e2 = par.children(i + 1);
+                  if (e2.tagName == "PRE") {
+                    e.insertAdjacentText("beforeEnd", e2.innerText+"\n");
+                    e2.removeNode(true);
+                    count = count-1;
+                    i = i-1;
+                  }
+                }
+              }
+            }
+          }
+        }
+        else {
+          n = document.createElement("DD");
+          par.appendChild(n);
+          n.innerText = e.innerText;
+          e.removeNode(true);
+        }
+      }
+
+    </SCRIPT>
+  </HEAD>
+  <BODY oncontextmenu="return true">
+    <A name="Top">
+    </A>
+    <H2>National Flood Hazard Layer (NFHL)</H2>
+    <UL>
+      <LI>
+        <A HREF="#Identification_Information">Identification_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Data_Quality_Information">Data_Quality_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Spatial_Reference_Information">Spatial_Reference_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Entity_and_Attribute_Information">Entity_and_Attribute_Information</A>
+      </LI>
+      <LI>Distribution_Information</LI>
+      <LI STYLE="margin-left:0.3in">
+        <A HREF="#ECA">
+                  Distributor 1</A>
+      </LI>
+      <LI>
+        <A HREF="#EAA">
+                  Distribution_Information 
+                </A>
+      </LI>
+      <LI>
+        <A HREF="#Metadata_Reference_Information">Metadata_Reference_Information</A>
+      </LI>
+    </UL>
+    <A name="Identification_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Identification_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Citation:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Citation_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Originator:</I>Federal Emergency Management Agency</DT>
+                  <DT>
+                    <I>Publication_Date:</I>20170307</DT>
+                  <DT>
+                    <I>Title:</I>
+                  </DT>
+                  <DD>National Flood Hazard Layer (NFHL)</DD>
+                  <DT>
+                    <I>Edition:</I>Version 1.1.1.0</DT>
+                  <DT>
+                    <I>Geospatial_Data_Presentation_Form:</I>FEMA-NFHL</DT>
+                  <DT>
+                    <I>Publication_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Publication_Place:</I>Washington, D.C.</DT>
+                      <DT>
+                        <I>Publisher:</I>Federal Emergency Management Agency</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Online_Linkage:</I>
+                    <A TARGET="viewer" HREF="https://msc.fema.gov">https://msc.fema.gov</A>
+                  </DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Abstract:</I>
+                </DT>
+                <PRE>The National Flood Hazard Layer (NFHL) data incorporates all Flood Insurance Rate Map (FIRM) databases published by the Federal Emergency Management Agency (FEMA), and any Letters of Map Revision (LOMRs) that have been issued against those databases since their publication date. It is updated on a monthly basis. The FIRM Database is the digital, geospatial version of the flood hazard information shown on the published paper FIRMs.  
+
+The FIRM Database depicts flood risk information and supporting data used to develop the risk data. The primary risk classifications used are the 1-percent-annual-chance flood event, the 0.2-percent-annual-chance flood event, and areas of minimal flood risk. The FIRM Database is derived from Flood Insurance Studies (FISs), previously published FIRMs, flood hazard analyses performed in support of the FISs and FIRMs, and new mapping data, where available. The FISs and FIRMs are published by FEMA.
+
+The NFHL is available as State or US Territory data sets.  Each State or Territory data set consists of all FIRM Databases and corresponding LOMRs available on the publication date of the data set. 
+
+The specification for the horizontal control of FIRM Databases is consistent with those required for mapping at a scale of 1:12,000. This file is georeferenced to the Earth's surface using the Geographic Coordinate System (GCS) and North American Datum of 1983.</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Purpose:</I>
+                </DT>
+                <PRE>The FIRM is the basis for floodplain management, mitigation, and insurance activities for the National Flood Insurance Program (NFIP). Insurance applications include enforcement of the mandatory purchase requirement of the Flood Disaster Protection Act, which "... requires the purchase of flood insurance by property owners who are being assisted by Federal programs or by Federally supervised, regulated or insured agencies or institutions in the acquisition or improvement of land facilities located or to be located in identified areas having special flood hazards, " Section 2 (b) (4) of the Flood Disaster Protection Act of 1973. In addition to the identification of Special Flood Hazard Areas (SFHAs), the risk zones shown on the FIRMs are the basis for the establishment of premium rates for flood coverage offered through the NFIP. The FIRM Database presents the flood risk information depicted on the FIRM in a digital format suitable for use in electronic mapping applications. The FIRM Database serves to archive the information collected during the Flood Risk Project.</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Time_Period_of_Content:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Time_Period_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Single_Date/Time:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Calendar_Date:</I>20170307</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DIV>
+                <DT>
+                  <I>Currentness_Reference:</I>
+                </DT>
+                <PRE>Publication Date</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Status:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Progress:</I>In work</DT>
+              <DT>
+                <I>Maintenance_and_Update_Frequency:</I>Monthly</DT>
+            </DL>
+          </DD>
+          <DT>
+            <I>Spatial_Domain:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Bounding_Coordinates:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>West_Bounding_Coordinate:</I>-172</DT>
+                  <DT>
+                    <I>East_Bounding_Coordinate:</I>147</DT>
+                  <DT>
+                    <I>North_Bounding_Coordinate:</I>72</DT>
+                  <DT>
+                    <I>South_Bounding_Coordinate:</I>-15</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Keywords:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Theme:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Theme_Keyword_Thesaurus:</I>NGDA Portfolio Themes</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>NGDA</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>National Geospatial Data Asset</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Elevation Theme</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Theme:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Theme_Keyword_Thesaurus:</I>ISO 19115 Topic Category</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>hydrology</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>environment</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>inlandWaters</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>structure</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>transportation</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>elevation</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Theme:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Theme_Keyword_Thesaurus:</I>FEMA NFIP Topic Category</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>FIRM</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>FEMA Flood Hazard Zone</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>FIRM Database</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Special Flood Hazard Area</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Flood Insurance Rate Map</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>CBRS</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Coastal Barrier Resources System</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Riverine Flooding</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Coastal Flooding</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>NFIP</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Base Flood Elevation</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>SFHA</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Floodway</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Place:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Place_Keyword_Thesaurus:</I>None</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Alabama</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Alaska</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>American Samoa</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Arizona</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Arkansas</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>California</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Colorado</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Connecticut</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Delaware</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>District of Columbia</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Federated State of Micronesia</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Florida</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Georgia</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Guam</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Hawaii</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Idaho</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Illinois</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Indiana</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Iowa</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Kansas</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Kentucky</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Louisiana</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Maine</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Marshall Islands</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Maryland</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Massachusetts</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Michigan</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Minnesota</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Mississippi</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Missouri</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Montana</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Nebraska</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Nevada</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>New Hampshire</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>New Jersey</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>New Mexico</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>New York</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>North Carolina</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>North Dakota</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Northern Mariana Islands</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Ohio</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Oklahoma</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Oregon</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Palau</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Pennsylvania</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Puerto Rico</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Rhode Island</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>South Carolina</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>South Dakota</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Tennessee</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Texas</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Utah</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Vermont</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>U.S. Minor Islands</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Virgin Islands</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Virginia</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Washington</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>West Virginia</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Wisconsin</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Wyoming</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Access_Constraints:</I>None</DT>
+          <DIV>
+            <DT>
+              <I>Use_Constraints:</I>
+            </DT>
+            <PRE>The hardcopy FIRM and FIRM Database and the accompanying FIS are the official designation of SFHAs and Base Flood Elevations (BFEs) for the NFIP. For the purposes of the NFIP, changes to the flood risk information published by FEMA may only be performed by FEMA and through the mechanisms established in the NFIP regulations (44 CFR Parts 59-78). These digital data are produced in conjunction with the hardcopy FIRMs and generally match the hardcopy map exactly. Acknowledgement of FEMA would be appreciated in products derived from these data.</PRE>
+          </DIV>
+          <DT>
+            <I>Point_of_Contact:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>Federal Emergency Management Agency</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>500 C Street, S.W.</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Washington</DT>
+                      <DT>
+                        <I>State_or_Province:</I>District of Columbia</DT>
+                      <DT>
+                        <I>Postal_Code:</I>20472</DT>
+                      <DT>
+                        <I>Country:</I>USA</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>1-877-336-2627</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>mscservices@riskmapcds.com</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Native_Data_Set_Environment:</I>
+          </DT>
+          <DD>Original data development environment may vary.  Finishing of the data is done using Esri's ArcGIS software.  The geodatabase was created using ArcGIS version 10.1.</DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Data_Quality_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Data_Quality_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Attribute_Accuracy:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Attribute_Accuracy_Report:</I>
+                </DT>
+                <PRE>The NFHL incorporates all FIRM Databases published by FEMA and any LOMRs that have been issued against those databases since their publication date.  The NFHL consists of vector files and associated attributes produced in conjunction with the hardcopy FEMA FIRM. The published effective FIRM and FIRM Database are issued as the official designation of the SFHAs. As such they are adopted by local communities and form the basis for administration of the NFIP. For these purposes they are authoritative. Provisions exist in the regulations for public review, appeals and corrections of the flood risk information shown to better match real world conditions. As with any engineering analysis of this type, variation from the estimated flood heights and floodplain boundaries is possible. Details of FEMA's requirements for the FISs and flood mapping process that produces these data are available in the Guidelines and Standards for Flood Risk Analysis and Mapping. Attribute accuracy was tested by manual comparison of source graphics with hardcopy plots and a symbolized display on an interactive computer graphic system. 
+Independent quality control testing of the individual FIRM Database components of the NFHL was also performed.
+To obtain more detailed information in areas where Base Flood Elevations (BFEs) and/or floodways have been determined, users are encouraged to consult the Flood Profiles and Floodway Data and/or Summary of Stillwater Elevations tables contained within the FIS reports that accompany the individual FIRM Database components of the NFHL. Users should be aware that BFEs shown in the S_BFE table may represent rounded whole-foot elevations. These BFEs are intended for flood insurance rating purposes only and should not be used as the sole source of flood elevation information. Accordingly, flood elevation data presented in the FIS report must be used in conjunction with the FIRM for purposes of construction and/or floodplain management. The 1-percent-annual-chance water-surface elevations shown in the S_XS table match the regulatory elevations shown in the FIS report.</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DIV>
+            <DT>
+              <I>Logical_Consistency_Report:</I>
+            </DT>
+            <PRE>When FEMA revises an FIS, adjacent studies are checked to ensure agreement between flood elevations at the boundaries. Likewise flood elevations at the confluence of streams studied independently are checked to ensure agreement at the confluence. The FIRM and the FIS are developed together and care is taken to ensure that the elevations and other features shown on the flood profiles in the FIS agree with the information shown on the FIRM. However, the elevations as shown on the FIRM may represent rounded whole-foot elevations. They must be shown so that a profile recreated from the elevations on the FIRM will match the FIS profiles within one half of one foot.</PRE>
+          </DIV>
+          <DIV>
+            <DT>
+              <I>Completeness_Report:</I>
+            </DT>
+            <PRE>Data contained in the NFHL reflects the content of the source materials. Features may have been eliminated or generalized on the source graphic, due to scale and legibility constraints. With new mapping, FEMA plans to maintain full detail in the spatial data it produces. However, older information is often transferred from existing maps where some generalization has taken place. Flood risk data are developed for communities participating in the NFIP for use in insurance rating and for floodplain management. Flood hazard areas are determined using statistical analyses of records of river flow, storm tides, and rainfall; information obtained through consultation with the communities; floodplain topographic surveys; and hydrological and hydraulic analysis. Generally, regulatory water surface elevations and/or regulatory floodways are published only for developed or developing areas of communities. For areas where little or no development is expected to occur, FEMA may generate flood risk data without published water surface elevations.  Typically, only drainage areas that are greater than one square mile and with an average of one foot of flood depth or greater are studied.
+
+Note: The NFHL reflects the most current information available when the distribution data set was created. Currently, not all areas of a State or Territory have effective FIRM Database data. As a result, users may need to refer to the effective FIRM for effective flood hazard information.</PRE>
+          </DIV>
+          <DT>
+            <I>Positional_Accuracy:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Horizontal_Positional_Accuracy:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Horizontal_Positional_Accuracy_Report:</I>
+                    </DT>
+                    <PRE>The NFHL consists of vector files and associated attributes produced in conjunction with the hardcopy FEMA FIRM. The published effective FIRM and FIRM Database are issued as the official designation of the SFHAs. As such they are adopted by local communities and form the basis for administration of the NFIP. For these purposes they are authoritative. Provisions exist in the regulations for public review, appeals and corrections of the flood risk information shown to better match real world conditions. As with any engineering analysis of this type, variation from the estimated flood heights and floodplain boundaries is possible. Details of FEMA's requirements for the FISs and flood mapping process that produces these data are available in the Guidelines and Standards for Flood Risk Analysis and Mapping. Horizontal accuracy was tested by manual comparison of source graphics with hardcopy plots and a symbolized display on an interactive computer graphic system. Independent quality control testing of the individual FIRM Database components of the NFHL was also performed.</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Vertical_Positional_Accuracy:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Vertical_Positional_Accuracy_Report:</I>
+                    </DT>
+                    <PRE>The NFHL consists of vector files and associated attributes produced in conjunction with the hardcopy FEMA FIRM. The published effective FIRM and FIRM Database are issued as the official designation of the SFHAs. As such they are adopted by local communities and form the basis for administration of the NFIP. For these purposes they are authoritative. Provisions exist in the regulations for public review, appeals and corrections of the flood risk information shown to better match real world conditions. As with any engineering analysis of this type, variation from the estimated flood heights and floodplain boundaries is possible. Details of FEMA's requirements for the FISs and flood mapping process that produces these data are available in the Guidelines and Standards for Flood Risk Analysis and Mapping. 
+
+The reliability of the floodplain boundary delineation is quantified by comparing the computed flood elevation to the ground elevation at the mapped floodplain boundary.  The tolerance for how precisely the flood elevation and the ground elevation must match varies based on the flood risk class, which is a function of population, population density, and/or anticipated growth in floodplain areas.  A horizontal accuracy of +/- 38 feet is used to determine the compliance with the vertical tolerances defined for each risk class.  The range of differences between the ground elevation (defined from the topographic data used for the Flood Risk Project) and the computed flood elevation is between +/- 1.0 foot at the 95% confidence interval for areas with high population within the floodplain and/or high anticipated growth and Special Flood Hazard Areas (SFHAs) with high flood risk to +/- one-half the contour interval at the 85% confidence interval for areas with low population and densities within the floodplain and small or no anticipated growth and SFHAs with low flood risk. Independent quality control testing of the individual FIRM Database components of the NFHL was also performed.</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Lineage:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>The NFHL dataset is a compilation of effective FIRM Databases (a collection of the digital data that are used in GIS systems for creating new Flood Insurance Rate Maps) and Letters of Map Change (Letters of Map Amendment and Letters of Map Revision only) that create a seamless GIS data layer for a State or Territory. It is updated on a monthly basis. 
+
+The FIRM Databases are compiled in conjunction with the hardcopy FIRMs and the final FIS reports. The specifics of the hydrologic and hydraulic analyses performed are detailed in the FIS reports available for each jurisdiction. The results of these studies are submitted in digital format to FEMA. These data and unrevised data from effective FIRMs are compiled onto the base map used for FIRM publication and checked for accuracy and compliance with FEMA standards. As new FIRM Databases are received the individual FIRM layers are sewn into the nationwide layers of the NFHL.  LOMRs for the FIRM Databases in the NFHL are cut directly into the NFHL data layers as they are being produced and finalized.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Process_Date:</I>20150130</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Spatial_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Spatial_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Horizontal_Coordinate_System_Definition:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Geographic:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Latitude_Resolution:</I>1.3096e-009</DT>
+                  <DT>
+                    <I>Longitude_Resolution:</I>1.3096e-009</DT>
+                  <DT>
+                    <I>Geographic_Coordinate_Units:</I>Decimal degrees</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Geodetic_Model:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Horizontal_Datum_Name:</I>North American Datum of 1983</DT>
+                  <DT>
+                    <I>Ellipsoid_Name:</I>Geodetic Reference System 80</DT>
+                  <DT>
+                    <I>Semi-major_Axis:</I>6378137.0</DT>
+                  <DT>
+                    <I>Denominator_of_Flattening_Ratio:</I>298.257222101</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Vertical_Coordinate_System_Definition:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Altitude_System_Definition:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Altitude_Datum_Name:</I>North American Vertical Datum of 1988 and National Geodetic Vertical Datum of 1929</DT>
+                  <DT>
+                    <I>Altitude_Resolution:</I>0.03</DT>
+                  <DT>
+                    <I>Altitude_Distance_Units:</I>feet</DT>
+                  <DT>
+                    <I>Altitude_Encoding_Method:</I>Attribute values</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Entity_and_Attribute_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Entity_and_Attribute_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>S_Alluvial_Fan</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>Location and attributes for alluvial fan areas shown on the FIRM.</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>FEMA FIRM Database Technical Reference (available in the FEMA Library at http://www.fema.gov/media-library/assets/documents/34519).</DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>S_Base_Index</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>Location and attributes for a tiling index for raster data used for the FIRM base map.</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>FEMA FIRM Database Technical Reference (available in the FEMA Library at http://www.fema.gov/media-library/assets/documents/34519).</DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>S_BFE</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>Location and attributes for base flood elevations lines shown on the FIRM.</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>FEMA FIRM Database Technical Reference (available in the FEMA Library at http://www.fema.gov/media-library/assets/documents/34519).</DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>S_CBRS</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>Location and attributes for Coastal Barrier Resource System units shown on the FIRM.</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>FEMA FIRM Database Technical Reference (available in the FEMA Library at http://www.fema.gov/media-library/assets/documents/34519).</DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>S_Cst_Gage</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>Location and attributes for the coastal gages for the study area.</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>FEMA FIRM Database Technical Reference (available in the FEMA Library at http://www.fema.gov/media-library/assets/documents/34519).</DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>S_Cst_Tsct_Ln</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>Location and attributes for coastal transect lines shown on the FIRM.</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>FEMA FIRM Database Technical Reference (available in the FEMA Library at http://www.fema.gov/media-library/assets/documents/34519).</DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>S_Datum_Conv_Pt</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>Location and attributes for points used to calculate vertical datum conversion factors.</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>FEMA FIRM Database Technical Reference (available in the FEMA Library at http://www.fema.gov/media-library/assets/documents/34519).</DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>S_FIRM_Pan</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>Location and attributes for FIRM hardcopy map panels.</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>FEMA FIRM Database Technical Reference (available in the FEMA Library at http://www.fema.gov/media-library/assets/documents/34519).</DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>S_Fld_Haz_Ar</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>Location and attributes flood insurance risk zones shown on the FIRM.</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>FEMA FIRM Database Technical Reference (available in the FEMA Library at http://www.fema.gov/media-library/assets/documents/34519).</DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>S_Fld_Haz_Ln</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>Location and attributes for boundaries of flood insurance risk zones shown on the FIRM.</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>FEMA FIRM Database Technical Reference (available in the FEMA Library at http://www.fema.gov/media-library/assets/documents/34519).</DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>S_Gage</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>Location and attributes for riverine gages used to determine discharges for the study area.</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>FEMA FIRM Database Technical Reference (available in the FEMA Library at http://www.fema.gov/media-library/assets/documents/34519).</DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>S_Gen_Struct</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>Location and attributes for flood control structures shown on the FIRM.</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>FEMA FIRM Database Technical Reference (available in the FEMA Library at http://www.fema.gov/media-library/assets/documents/34519).</DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>S_HWM</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>Location and attributes for historic high water marks for the study area.</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>FEMA FIRM Database Technical Reference (available in the FEMA Library at http://www.fema.gov/media-library/assets/documents/34519).</DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>S_Hydro_Reach</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>Location and attributes for lines that represent the connectivity between the subbasins and flow direction between nodes within the study area.</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>FEMA FIRM Database Technical Reference (available in the FEMA Library at http://www.fema.gov/media-library/assets/documents/34519).</DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>S_Label_Ld</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>Location and attributes for leader lines for labels shown on the FIRM.</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>FEMA FIRM Database Technical Reference (available in the FEMA Library at http://www.fema.gov/media-library/assets/documents/34519).</DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>S_Label_Pt</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>Location and attributes for labels shown on the FIRM.</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>FEMA FIRM Database Technical Reference (available in the FEMA Library at http://www.fema.gov/media-library/assets/documents/34519).</DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>S_Levee</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>A spatial dataset consisting of lines that represent the centerlines of levees.</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>FEMA FIRM Database Technical Reference (available in the FEMA Library at http://www.fema.gov/media-library/assets/documents/34519).</DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>S_LiMWA</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>A spatial data set consisting of lines that depict the limit of 18-inch or greater coastal waves in a Coastal AE Zone.</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>FEMA FIRM Database Technical Reference (available in the FEMA Library at http://www.fema.gov/media-library/assets/documents/34519).</DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>S_LOMR</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>A spatial data set consisting of polygons that depict effective LOMRs that have been incorporated into the NFHL since the last publication of the FIRM panel for the area.</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>FEMA FIRM Database Technical Reference (available in the FEMA Library at http://www.fema.gov/media-library/assets/documents/34519).</DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>S_Nodes</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>Location and attributes of points that depict locations of computed discharges for the 10-, 2-, 1-, and 0.2-percent-annual-chance floods.</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>FEMA FIRM Database Technical Reference (available in the FEMA Library at http://www.fema.gov/media-library/assets/documents/34519).</DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>S_PFD_Ln</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>Location and attributes for the primary frontal dune features for the coastal study area.</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>FEMA FIRM Database Technical Reference (available in the FEMA Library at http://www.fema.gov/media-library/assets/documents/34519).</DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>S_PLSS_Ar</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>Location and attributes of sections, townships and ranges shown on the FIRM.</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>FEMA FIRM Database Technical Reference (available in the FEMA Library at http://www.fema.gov/media-library/assets/documents/34519).</DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>S_Pol_Ar</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>Location and attributes for political jurisdictions shown on the FIRM.</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>FEMA FIRM Database Technical Reference (available in the FEMA Library at http://www.fema.gov/media-library/assets/documents/34519).</DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>S_Profil_BasLn</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>A spatial data set consisting of lines showing the flow path used for floodplain modeling and mapping.</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>FEMA FIRM Database Technical Reference (available in the FEMA Library at http://www.fema.gov/media-library/assets/documents/34519).</DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>S_Riv_Mrk</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>Location and attributes for river mile markers shown on the FIRM.</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>FEMA FIRM Database Technical Reference (available in the FEMA Library at http://www.fema.gov/media-library/assets/documents/34519).</DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>S_Stn_Start</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>A spatial data set consisting of points indicating the location of the reference point that was used as the origin for distance measurements along streams and rivers.</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>FEMA FIRM Database Technical Reference (available in the FEMA Library at http://www.fema.gov/media-library/assets/documents/34519).</DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>S_Subbasins</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>Location and attributes for subbasins used in the hydrologic analysis.</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>FEMA FIRM Database Technical Reference (available in the FEMA Library at http://www.fema.gov/media-library/assets/documents/34519).</DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>S_Submittal_Info</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>A spatial data set consisting of polygons depicting the extents of the studied area.</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>FEMA FIRM Database Technical Reference (available in the FEMA Library at http://www.fema.gov/media-library/assets/documents/34519).</DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>S_Topo_Confidence</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>A spatial dataset consisting of polygons depicting areas of low confidence topographic data.</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>FEMA FIRM Database Technical Reference (available in the FEMA Library at http://www.fema.gov/media-library/assets/documents/34519).</DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>S_Trnsport_Ln</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>Location and attributes for roads, railroads and other transportation features shown on the FIRM.</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>FEMA FIRM Database Technical Reference (available in the FEMA Library at http://www.fema.gov/media-library/assets/documents/34519).</DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>S_Tsct_Basln</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>A spatial data set consisting of lines that represent the 0.0-foot elevation contour used for coastal modeling and mapping.</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>FEMA FIRM Database Technical Reference (available in the FEMA Library at http://www.fema.gov/media-library/assets/documents/34519).</DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>S_Wtr_Ar</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>Location and attributes for hydrography features shown on the FIRM.</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>FEMA FIRM Database Technical Reference (available in the FEMA Library at http://www.fema.gov/media-library/assets/documents/34519).</DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>S_Wtr_Ln</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>Location and attributes for hydrography features shown on the FIRM.</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>FEMA FIRM Database Technical Reference (available in the FEMA Library at http://www.fema.gov/media-library/assets/documents/34519).</DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>S_XS</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD>Location and attributes for cross-section lines in the area covered by the FIRM.</DD>
+                  <DT>
+                    <I>Entity_Type_Definition_Source:</I>
+                  </DT>
+                  <DD>FEMA FIRM Database Technical Reference (available in the FEMA Library at http://www.fema.gov/media-library/assets/documents/34519).</DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Overview_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Entity_and_Attribute_Overview:</I>
+                </DT>
+                <PRE>The NFHL is made up of several data themes containing both spatial and attribute information. These data together represent the current flood risk for the subject area as identified by FEMA. The attribute tables include SFHA locations, flood zone designations, BFEs, political entities, cross-section locations, FIRM panel information, and other data related to the NFIP.</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Entity_and_Attribute_Detail_Citation:</I>
+                </DT>
+                <PRE>FEMA's FIRM Database Technical Reference contains a detailed description of each attribute code and a reference to other relevant information.</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Entity_and_Attribute_Detail_Citation:</I>
+                </DT>
+                <PRE>The following tables may be included in this data set: L_Comm_Info L_Comm_Revis  L_Cst_Model  L_Cst_Struct L_Cst_Tsct_Elev L_ManningsN  L_Meetings  L_MT2_LOMR  L_Mtg_POC  L_Pan_Revis  L_Pol_FHBM  L_Profil_Bkwtr_El  L_Profil_Label L_Profil_Panel  L_Source_Cit  L_Summary_Discharges L_Summary_Elevations  L_Survey_Pt  L_XS_Elev  L_XS_Struct S_Alluvial_Fan  S_Base_Index  S_BFE  S_CBRS  S_Cst_Gage S_Cst_Tsct_Ln  S_Datum_Conv_Pt  S_FIRM_Pan  S_Fld_Haz_Ar S_Fld_Haz_Ln  S_Gage  S_Gen_Struct  S_HWM  S_Hydro_Reach S_Label_Ld  S_Label_Pt  S_Levee  S_LiMWA  S_LOMR S_Nodes  S_PFD_Ln S_PLSS_Ar  S_Pol_Ar  S_Profil_Basln  S_Riv_Mrk  S_Stn_Start S_Subbasins  S_Submittal_Info  S_Topo_Confidence  S_Trnsport_Ln S_Tsct_Basln  S_Wtr_Ar  S_Wtr_Ln  S_XS  Study_Info</PRE>
+              </DIV>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A NAME="ECA">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Distribution_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Distributor:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>FEMA, Flood Map Service Center</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>P.O. Box 3617</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Oakton</DT>
+                      <DT>
+                        <I>State_or_Province:</I>Virginia</DT>
+                      <DT>
+                        <I>Postal_Code:</I>22124</DT>
+                      <DT>
+                        <I>Country:</I>USA</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>1-877-336-2627</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>mscservices@riskmapcds.com</DT>
+                  <DT>
+                    <I>Contact Instructions:</I>
+                  </DT>
+                  <DIV>
+                    <PRE>Data requests must include the name and FIPS code of each State or Territory covered by the request, along with an MSC account number if applicable.</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DIV>
+            <DT>
+              <I>Distribution_Liability:</I>
+            </DT>
+            <PRE>No warranty expressed or implied is made by FEMA regarding the utility of the data on any other system nor shall the act of distribution constitute any such warranty.</PRE>
+          </DIV>
+          <DT>
+            <I>Standard_Order_Process:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Digital_Form:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Digital_Transfer_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Format_Name:</I>Esri Shapefile</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Digital_Transfer_Option:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Online_Option:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Computer_Contact_Information:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Network_Address:</I>
+                              </DT>
+                              <DD>
+                                <DL>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://msc.fema.gov">http://msc.fema.gov</A>
+                                  </DT>
+                                </DL>
+                              </DD>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Digital_Form:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Digital_Transfer_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Format_Name:</I>fGDB</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Digital_Transfer_Option:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Online_Option:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Computer_Contact_Information:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Network_Address:</I>
+                              </DT>
+                              <DD>
+                                <DL>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="http://msc.fema.gov">http://msc.fema.gov</A>
+                                  </DT>
+                                </DL>
+                              </DD>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Fees:</I>Contact Distributor</DT>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A NAME="EAA">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Distribution_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Distributor:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>Pennsylvania Spatial Data Access (PASDA)</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>115 Land and Water building</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>University Park</DT>
+                      <DT>
+                        <I>State_or_Province:</I>Pennsylvania</DT>
+                      <DT>
+                        <I>Postal_Code:</I>16802</DT>
+                      <DT>
+                        <I>Country:</I>United States</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>(814) 865 - 8792</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>pasda@psu.edu</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DIV>
+            <DT>
+              <I>Distribution_Liability:</I>
+            </DT>
+            <PRE>    The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</PRE>
+          </DIV>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Metadata_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Metadata_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Metadata_Date:</I>20150130</DT>
+          <DT>
+            <I>Metadata_Contact:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Person_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Person:</I>Flood Map Service Center</DT>
+                      <DT>
+                        <I>Contact_Organization:</I>Federal Emergency Management Agency</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>500 C Street, S.W.</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Washington</DT>
+                      <DT>
+                        <I>State_or_Province:</I>District of Columbia</DT>
+                      <DT>
+                        <I>Postal_Code:</I>20472</DT>
+                      <DT>
+                        <I>Country:</I>USA</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>1-877-336-2627</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>mscservices@riskmapcds.com</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Metadata_Standard_Name:</I>FGDC Content Standards for Digital Geospatial Metadata</DT>
+          <DT>
+            <I>Metadata_Standard_Version:</I>FGDC-STD-001-1998</DT>
+          <DT>
+            <I>Metadata_Extensions:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Online_Linkage:</I>
+                <A TARGET="viewer" HREF="http://hazards.fema.gov">http://hazards.fema.gov</A>
+              </DT>
+              <DT>
+                <I>Online_Linkage:</I>
+                <A TARGET="viewer" HREF="http://www.epsg.org">http://www.epsg.org</A>
+              </DT>
+              <DT>
+                <I>Profile_Name:</I>FEMA NFIP Metadata Content and Format Standard</DT>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+  </BODY>
+</HTML>
+		</form>
+	</body>
+</HTML>

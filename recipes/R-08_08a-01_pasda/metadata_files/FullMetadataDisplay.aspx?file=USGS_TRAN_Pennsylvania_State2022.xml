@@ -1,0 +1,1601 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+	<HEAD>
+		<title>Pennsylvania Spatial Data Access | Full Metadata</title>
+		<meta name="GENERATOR" content="Microsoft Visual Studio.NET 7.0">
+		<meta name="CODE_LANGUAGE" content="Visual Basic 7.0">
+		<meta name="vs_defaultClientScript" content="JavaScript">
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+	    <link rel="shortcut icon" href="http://maps.pasda.psu.edu/Images/favicon.ico" type="image/x-icon" />
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-41373351-5', 'psu.edu');
+          ga('send', 'pageview');
+
+        </script>
+</HEAD>
+	<body MS_POSITIONING="GridLayout">
+		<form method="post" action="./FullMetadataDisplay.aspx?file=USGS_TRAN_Pennsylvania_State2022.xml" id="Form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEzNDA3MDMyNjVkZCi1cbXMhfZI+elmwl4oTersdOt9nxHHv5HGNLdvg2y4" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="D999016F" />
+			<HTML>
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <SCRIPT type="text/javascript">
+
+      function fix(e) {
+        var par = e.parentNode;
+        e.id = "";
+        e.style.marginLeft = "0.42in";
+        var pos = e.innerText.indexOf("\n");
+        if (pos > 0) {
+          while (pos > 0) {
+            var t = e.childNodes(0);
+            var n = document.createElement("PRE");
+            var s = t.splitText(pos);
+            e.insertAdjacentElement("afterEnd", n);
+            n.appendChild(s);
+            n.style.marginLeft = "0.42in";
+            e = n;
+            pos = e.innerText.indexOf("\n");
+          }
+          var count = (par.children.length);
+          for (var i = 0; i < count; i++) {
+            e = par.children(i);
+            if (e.tagName == "PRE") {
+              pos = e.innerText.indexOf(">");
+              if (pos != 0) {
+                n = document.createElement("DD");
+                e.insertAdjacentElement("afterEnd", n);
+                n.innerText = e.innerText;
+                e.removeNode(true);
+              }
+            }
+          }
+          if (par.children.tags("PRE").length > 0) {
+            count = (par.children.length);
+            for (i = 0; i < count; i++) {
+              e = par.children(i);
+              if (e.tagName == "PRE") {
+                e.id = "";
+                if (i < (count-1)) {
+                  var e2 = par.children(i + 1);
+                  if (e2.tagName == "PRE") {
+                    e.insertAdjacentText("beforeEnd", e2.innerText+"\n");
+                    e2.removeNode(true);
+                    count = count-1;
+                    i = i-1;
+                  }
+                }
+              }
+            }
+          }
+        }
+        else {
+          n = document.createElement("DD");
+          par.appendChild(n);
+          n.innerText = e.innerText;
+          e.removeNode(true);
+        }
+      }
+
+    </SCRIPT>
+  </HEAD>
+  <BODY oncontextmenu="return true">
+    <A name="Top">
+    </A>
+    <H2>USGS National Transportation Dataset (NTD) for Pennsylvania (published 20220723)</H2>
+    <UL>
+      <LI>
+        <A HREF="#Identification_Information">Identification_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Data_Quality_Information">Data_Quality_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Spatial_Data_Organization_Information">Spatial_Data_Organization_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Spatial_Reference_Information">Spatial_Reference_Information</A>
+      </LI>
+      <LI>Distribution_Information</LI>
+      <LI STYLE="margin-left:0.3in">
+        <A HREF="#ECA">
+                  Distributor 1</A>
+      </LI>
+      <LI>
+        <A HREF="#EAA">
+                  Distribution_Information 
+                </A>
+      </LI>
+      <LI>
+        <A HREF="#Metadata_Reference_Information">Metadata_Reference_Information</A>
+      </LI>
+    </UL>
+    <A name="Identification_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Identification_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Citation:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Citation_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Originator:</I>U.S. Geological Survey, National Geospatial Technical Operations Center</DT>
+                  <DT>
+                    <I>Publication_Date:</I>20220723</DT>
+                  <DT>
+                    <I>Title:</I>
+                  </DT>
+                  <DD>USGS National Transportation Dataset (NTD) for Pennsylvania (published 20220723)</DD>
+                  <DT>
+                    <I>Geospatial_Data_Presentation_Form:</I>vector digital data</DT>
+                  <DT>
+                    <I>Publication_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Publication_Place:</I>Reston, VA</DT>
+                      <DT>
+                        <I>Publisher:</I>U.S. Geological Survey</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Online_Linkage:</I>
+                    <A TARGET="viewer" HREF="https://www.pasda.psu.edu/">https://www.pasda.psu.edu/</A>
+                  </DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Abstract:</I>
+                </DT>
+                <PRE>Layers of geospatial data include roads, airports, trails, and railroads.</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Purpose:</I>
+                </DT>
+                <PRE>The geospatial data are from selected National Map data holdings and other government sources.</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Supplemental_Information:</I>
+                </DT>
+                <PRE>This dataset contains transportation layers.</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Time_Period_of_Content:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Time_Period_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Range_of_Dates/Times:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Beginning_Date:</I>20220723</DT>
+                      <DT>
+                        <I>Ending_Date:</I>20220723</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DIV>
+                <DT>
+                  <I>Currentness_Reference:</I>
+                </DT>
+                <PRE>publication date</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Status:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Progress:</I>Complete</DT>
+              <DT>
+                <I>Maintenance_and_Update_Frequency:</I>Irregular</DT>
+            </DL>
+          </DD>
+          <DT>
+            <I>Spatial_Domain:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Bounding_Coordinates:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>West_Bounding_Coordinate:</I>-80.51985</DT>
+                  <DT>
+                    <I>East_Bounding_Coordinate:</I>-74.68956</DT>
+                  <DT>
+                    <I>North_Bounding_Coordinate:</I>42.51607</DT>
+                  <DT>
+                    <I>South_Bounding_Coordinate:</I>39.7198</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Keywords:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Theme:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Theme_Keyword_Thesaurus:</I>ISO 19115 Topic Category</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>transportation</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Theme:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Theme_Keyword_Thesaurus:</I>None</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Roads</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Airports</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Airstrips</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Railways</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Airport Complex</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Airport Point</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Airport Runway</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Geographic names</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Trail</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Transportation</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Waterway</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Trails</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>National Transportation Dataset (NTD)</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>State</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Esri Shapefile</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Place:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Place_Keyword_Thesaurus:</I>Geographic Names Information System</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>United States</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>US</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>PA</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Pennsylvania</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Adams County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Allegheny County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Armstrong County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Beaver County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Bedford County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Berks County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Blair County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Bradford County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Bucks County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Butler County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Cambria County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Cameron County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Carbon County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Centre County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Chester County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Clarion County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Clearfield County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Clinton County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Columbia County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Crawford County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Cumberland County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Dauphin County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Delaware County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Elk County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Erie County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Fayette County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Forest County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Franklin County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Fulton County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Greene County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Huntingdon County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Indiana County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Jefferson County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Juniata County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Lackawanna County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Lancaster County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Lawrence County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Lebanon County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Lehigh County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Luzerne County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Lycoming County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>McKean County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Mercer County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Mifflin County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Monroe County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Montgomery County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Montour County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Northampton County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Northumberland County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Perry County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Philadelphia County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Pike County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Potter County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Schuylkill County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Snyder County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Somerset County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Sullivan County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Susquehanna County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Tioga County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Union County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Venango County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Warren County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Washington County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Wayne County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Westmoreland County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Wyoming County</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>York County</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Access_Constraints:</I>None</DT>
+          <DIV>
+            <DT>
+              <I>Use_Constraints:</I>
+            </DT>
+            <PRE>None. However, users should be aware that temporal changes may have occurred since this data set was collected and that some parts
+			of this data may no longer represent actual surface conditions. Users should not use this data for critical applications without a full
+			awareness of its limitations. Acknowledgment of the U.S. Geological Survey would be appreciated for products derived from these
+			data.</PRE>
+          </DIV>
+          <DT>
+            <I>Point_of_Contact:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>U.S. Geological Survey, National Geospatial Technical Operations</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>1-888-ASK-USGS (1-888-275-8747)</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>http://www.usgs.gov/ask/</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Browse_Graphic:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Browse_Graphic_File_Name:</I>
+                <A TARGET="viewer" HREF="https://prd-tnm.s3.amazonaws.com/StagedProducts/Tran/Shape/TRAN_Pennsylvania_State_Shape.jpg">https://prd-tnm.s3.amazonaws.com/StagedProducts/Tran/Shape/TRAN_Pennsylvania_State_Shape.jpg</A>
+              </DT>
+              <DT>
+                <I>Browse_Graphic_File_Description:</I>
+              </DT>
+              <DD>Thumbnail JPG image</DD>
+              <DT>
+                <I>Browse_Graphic_File_Type:</I>JPEG</DT>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Data_Quality_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Data_Quality_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Attribute_Accuracy:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Attribute_Accuracy_Report:</I>
+                </DT>
+                <PRE>Content is derived from USGS national geospatial databases. The data is owned and hosted by the USGS, but does not preclude
+				using data sources owned and hosted by other organizations, provided that these sources have been approved by the USGS data
+				program.</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DIV>
+            <DT>
+              <I>Logical_Consistency_Report:</I>
+            </DT>
+            <PRE>The data was extracted and updated according to standards set by the USGS.</PRE>
+          </DIV>
+          <DIV>
+            <DT>
+              <I>Completeness_Report:</I>
+            </DT>
+            <PRE>Each layer is extracted from the USGS national geospatial databases.</PRE>
+          </DIV>
+          <DT>
+            <I>Positional_Accuracy:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Horizontal_Positional_Accuracy:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Horizontal_Positional_Accuracy_Report:</I>
+                    </DT>
+                    <PRE>This product is compiled to meet National Map Accuracy Standards (NMAS). NMAS horizontal accuracy requires that at least 90
+					percent of well-defined points tested are within 0.02 inch of the true position.</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Vertical_Positional_Accuracy:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Vertical_Positional_Accuracy_Report:</I>
+                    </DT>
+                    <PRE>Vertical accuracy is not applicable to this dataset.</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Lineage:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>Federal Railroads Administration</DT>
+                          <DT>
+                            <I>Publication_Date:</I>2011</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>Transportation, FRA Railroads</DD>
+                          <DT>
+                            <I>Geospatial_Data_Presentation_Form:</I>Vector digital data</DT>
+                          <DT>
+                            <I>Other_Citation_Details:</I>
+                          </DT>
+                          <DD>Railroads are acquired annually from the FRA. Rail lines and sidings are converted into the National Transportation Dataset. The rail lines layer represents the freight lines of the nation's railroad system. The data set covers all 50 states and the District of Columbia, as well as territories and possessions of the United States. No rail lines exist in American Samoa, Guam, Northern Mariana Islands, and the Virgin Islands of the US.</DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Scale_Denominator:</I>24000</DT>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>digital data</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_of_Dates/Times:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Beginning_Date:</I>2016</DT>
+                              <DT>
+                                <I>Ending_Date:</I>2016</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>publication date</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>Federal Railroads Administration</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>Main track centerlines</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>Federal Aviation Administration</DT>
+                          <DT>
+                            <I>Publication_Date:</I>2012</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>Transportation, FAA Airports, Runways, Seaplane Bases, Heliports</DD>
+                          <DT>
+                            <I>Geospatial_Data_Presentation_Form:</I>Vector digital data</DT>
+                          <DT>
+                            <I>Other_Citation_Details:</I>
+                          </DT>
+                          <DD>Airport points and runway polygons are for Federal Aviation Administration (FAA)-recognized public and private airports in the United States. USGS updates the National Transportation Dataset (NTD) airports, runways, heliports, and seaplane bases approximately bi-monthly using change detection of FAA aviation files.  In April 2020, USGS started creating the seaplane base and heliport layers. FAA is the primary source for seaplane bases and heliports. The National Geospatial-Intelligence Agency provided heliport updates for IN, KY, MI, MS, OH, and TN. Digital data were inspected for attribute accuracy, spatial accuracy, and completeness.</DD>
+                          <DT>
+                            <I>Online_Linkage:</I>
+                            <A TARGET="viewer" HREF="http://www.faa.gov">http://www.faa.gov</A>
+                          </DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Scale_Denominator:</I>24000</DT>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>digital data</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_of_Dates/Times:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Beginning_Date:</I>2011</DT>
+                              <DT>
+                                <I>Ending_Date:</I>2012</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>publication date</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>Transportation - Airports</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>runways</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>Various government agencies and volunteer organizations</DT>
+                          <DT>
+                            <I>Publication_Date:</I>2020</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>Transportation, Recreational Trails</DD>
+                          <DT>
+                            <I>Geospatial_Data_Presentation_Form:</I>Vector digital data</DT>
+                          <DT>
+                            <I>Other_Citation_Details:</I>
+                          </DT>
+                          <DD>Recreational trails were first added to US Topo maps in 2013. The trails displayed on the US Topo are from multiple government agencies. Accuracy and currency vary by source and are the responsibility of the data owner. USGS evaluates the authoritativeness of the source but does not independently verify data accuracy. USGS does not modify the trails data except to remove duplicate trails and in some cases trails coincident with roads. Users should always consult local agencies for the most current trail information.                         
+							This is not a complete dataset and is subject to change at any time. Content will be added as data become available from land management agencies and other authoritative sources. This metadata section documents data sources for all maps, not this specific map. Trails listed here may not be present on all relevant maps due to schedule differences between data delivery and US Topo production schedules. US Topo does not portray access and travel management information about specific trails. Feature-level metadata is not provided in the US Topo product and there is no link between a line on the map and the source of that specific trail.  
+							Trails on federal lands were provided by U.S. Forest Service (USFS), National Park Service (NPS), U.S. Fish and Wildlife Service (USFWS), Bureau of Land Management (BLM), and the Tennessee Valley Authority (TVA). The sources of National Scenic Trails (NST) include: Continental Divide NST provided by the Continental Divide Trail Coalition in cooperation with the USFS; New England NST provided by NPS and the Appalachian Mountain Club; Ice Age NST provided by the volunteer organization Ice Age Trail Alliance in cooperation with NPS and Wisconsin Department of Natural Resources; Pacific Crest NST provided by USFS; Appalachian NST published by the Appalachian Trail Conservancy in cooperation with NPS and USFS; North Country NST provided by NPS; Arizona NST data published by AZGEO Clearinghouse in cooperation with USFS; Pacific Northwest NST provided by USFS; Natchez Trace NST provided by NPS; Florida NST provided by the USFS; Potomac Heritage NST provided by NPS. National Scenic Trails will have breaks in the network. This is due to lack of coverage provided by the trail source or a removal of trails coincident with roads. In some cases, USGS will replace a segment of NST on federal or state lands if the land management agency provides a more accurate trail centerline than the original NST source. The replaced segment will be designated as a National Scenic Trail. 
+							Trails from state partners are included and provided by the State departments of Natural Resources, Parks and Recreation, Parks and Wildlife, or similar departments. This data includes AK, AL, AR, CA, CO, CT, DC, DE, FL, HI, IA, ID, IN, KY, MA, MD, MI, MO, NC, ND, NE, NJ, NY, OH, PA, SD, TN, TX, UT, VA, VT, WA, WI, WV.  Additional state partner data will be integrated into the Trails dataset over time and may not be listed here. 
+							Some US Topo products may display trails provided by the International Mountain Bicycling Association (IMBA); however, IMBA trails are being phased out of USGS products and will not be shown on future versions of the map.</DD>
+                          <DT>
+                            <I>Online_Linkage:</I>
+                            <A TARGET="viewer" HREF="https://nationalmap.usgs.gov">https://nationalmap.usgs.gov</A>
+                          </DT>
+                          <DT>
+                            <I>Online_Linkage:</I>
+                            <A TARGET="viewer" HREF="https://www.nps.gov/subjects/nationaltrailssystem/index.htm">https://www.nps.gov/subjects/nationaltrailssystem/index.htm</A>
+                          </DT>
+                          <DT>
+                            <I>Online_Linkage:</I>
+                            <A TARGET="viewer" HREF="http://www.pnts.org">http://www.pnts.org</A>
+                          </DT>
+                          <DT>
+                            <I>Online_Linkage:</I>
+                            <A TARGET="viewer" HREF="https://www.fws.gov/gis/data/national/">https://www.fws.gov/gis/data/national/</A>
+                          </DT>
+                          <DT>
+                            <I>Online_Linkage:</I>
+                            <A TARGET="viewer" HREF="https://data.fs.usda.gov/geodata/edw/datasets.php?dsetCategory=transportation">https://data.fs.usda.gov/geodata/edw/datasets.php?dsetCategory=transportation</A>
+                          </DT>
+                          <DT>
+                            <I>Online_Linkage:</I>
+                            <A TARGET="viewer" HREF="https://landscape.blm.gov/geoportal/catalog/BLMNational/BLMNational.page">https://landscape.blm.gov/geoportal/catalog/BLMNational/BLMNational.page</A>
+                          </DT>
+                          <DT>
+                            <I>Online_Linkage:</I>
+                            <A TARGET="viewer" HREF="https://appalachiantrail.org/">https://appalachiantrail.org/</A>
+                          </DT>
+                          <DT>
+                            <I>Online_Linkage:</I>
+                            <A TARGET="viewer" HREF="http://www.iceagetrail.org/">http://www.iceagetrail.org/</A>
+                          </DT>
+                          <DT>
+                            <I>Online_Linkage:</I>
+                            <A TARGET="viewer" HREF="https://agic.az.gov/agic/geospatial-data-collections-and-resources">https://agic.az.gov/agic/geospatial-data-collections-and-resources</A>
+                          </DT>
+                          <DT>
+                            <I>Online_Linkage:</I>
+                            <A TARGET="viewer" HREF="https://continentaldividetrail.org/">https://continentaldividetrail.org/</A>
+                          </DT>
+                          <DT>
+                            <I>Online_Linkage:</I>
+                            <A TARGET="viewer" HREF="https://www.pnt.org/">https://www.pnt.org/</A>
+                          </DT>
+                          <DT>
+                            <I>Online_Linkage:</I>
+                            <A TARGET="viewer" HREF="https://newenglandtrail.org/">https://newenglandtrail.org/</A>
+                          </DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Scale_Denominator:</I>24000</DT>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>digital data</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_of_Dates/Times:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Beginning_Date:</I>2006</DT>
+                              <DT>
+                                <I>Ending_Date:</I>2020</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>publication date</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>Recreational Trails</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>Trail centerline, trail name, trail use type; availability of trail name and use type varies by source.</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>U.S. Census Bureau, Geography Division</DT>
+                          <DT>
+                            <I>Publication_Date:</I>2014</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>Transportation, Census Roads</DD>
+                          <DT>
+                            <I>Geospatial_Data_Presentation_Form:</I>vector digital data</DT>
+                          <DT>
+                            <I>Other_Citation_Details:</I>
+                          </DT>
+                          <DD>Dataset source is Census Bureau MAF/TIGER database extracts in the form of TIGER/Line Shapefiles. The TIGER/Line shapefiles and related database files are an extract of selected geographic and cartographic information from the U.S.  Census Bureau's Master Address File/Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) Database (MTDB). The MTDB represents a seamless national file with no overlaps or gaps between parts, however, each TIGER/Line shapefile is designed to stand alone as an independent dataset, or they can be combined to cover the entire nation. The U.S. Geological Survey filters Census roads to remove driveways and short local unnamed road segments which are less than 500 feet in length. The USGS National Transportation Dataset functional road classification system is applied to the Census datasets. The functional road class includes, limited access highway, secondary highway, local connector, local road, 4wd, tunnel, ferry route, and closed. Closed roads were approved in 2020 to align with USFS schema and will be incorporated into the NTD in 2021. The original TIGER/Line Shapefile products are not copyrighted however TIGER/Line and Census TIGER are registered trademarks of the U.S. Census Bureau. The horizontal spatial accuracy information present in the TIGER/Line shapefiles is provided for the purposes of statistical analysis and census operations only and the data may not be suitable for high-precision measurement applications. Full metadata for TIGER/Line shapefiles is available from U.S. Census Bureau.</DD>
+                          <DT>
+                            <I>Online_Linkage:</I>
+                            <A TARGET="viewer" HREF="http://www.census.gov/geo/maps-data/data/tiger.html">http://www.census.gov/geo/maps-data/data/tiger.html</A>
+                          </DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Scale_Denominator:</I>24000</DT>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>digital data</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_of_Dates/Times:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Beginning_Date:</I>2013</DT>
+                              <DT>
+                                <I>Ending_Date:</I>2018</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>publication date</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>Roads - Census</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>Road centerlines, route numbers, road classification, street names</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>Alaska Railroad Corporation</DT>
+                          <DT>
+                            <I>Publication_Date:</I>2012</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>Transportation, ARC Railroads</DD>
+                          <DT>
+                            <I>Geospatial_Data_Presentation_Form:</I>Vector digital data</DT>
+                          <DT>
+                            <I>Other_Citation_Details:</I>
+                          </DT>
+                          <DD>This record applies to Alaska data only. Railroad data is provided by the Alaska Railroad Corporation and may not include other owner's rail features. Unpublished data provided directly to USGS. Current as of 2012. For more information,  contact Alaska Railroad Corporation, 327 W. Ship Creek Ave., Anchorage, AK. 99501, phone 907-265-3100, or email grunwaldm@akrrr.com</DD>
+                          <DT>
+                            <I>Online_Linkage:</I>
+                            <A TARGET="viewer" HREF=""></A>
+                          </DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Scale_Denominator:</I>25000</DT>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>digital data</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_of_Dates/Times:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Beginning_Date:</I>2012</DT>
+                              <DT>
+                                <I>Ending_Date:</I>2012</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>publication date</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>Railroads - Alaska Railroad Corporation</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>Main track centerlines</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>Alaska Department of Transportation</DT>
+                          <DT>
+                            <I>Publication_Date:</I>2013</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>Transportation, AK DOT Roads</DD>
+                          <DT>
+                            <I>Geospatial_Data_Presentation_Form:</I>Vector digital data</DT>
+                          <DT>
+                            <I>Other_Citation_Details:</I>
+                          </DT>
+                          <DD>This record applies to Alaska data only. Roads gathered from various state and local sources, integrated by the Alaska Department of Transportation (ADOT) and provided to USGS for use in USGS map products. This specific road dataset is unpublished, but earlier versions are published on the ADOT web site.</DD>
+                          <DT>
+                            <I>Online_Linkage:</I>
+                            <A TARGET="viewer" HREF="http://www.dot.state.ak.us/stwdplng/mapping/">http://www.dot.state.ak.us/stwdplng/mapping/</A>
+                          </DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Scale_Denominator:</I>25000</DT>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>digital data</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Range_of_Dates/Times:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Beginning_Date:</I>2013</DT>
+                              <DT>
+                                <I>Ending_Date:</I>2013</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>publication date</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>Roads - Alaska Department of Transportation</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>Road centerlines, road classification, street names</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>All geospatial content is taken from national geospatial databases under the stewardship of USGS data programs. The NAIP
+					imagery is provided by a seamless tile service that delivers image data at the resolution and quality of the source imagery. The
+					raster and vector data, including grids and collar information, are processed using ESRI ArcGIS software and exported. Map
+					formatting is performed using a custom application, which includes post-processing to embed the metadata XML document.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Process_Date:</I>20121105</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Spatial_Data_Organization_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Spatial_Data_Organization_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Direct_Spatial_Reference_Method:</I>Vector</DT>
+          <DT>
+            <I>Point_and_Vector_Object_Information:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>SDTS_Terms_Description:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>SDTS_Point_and_Vector_Object_Type:</I>Entity point</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>SDTS_Terms_Description:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>SDTS_Point_and_Vector_Object_Type:</I>Void polygon composed of rings</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>SDTS_Terms_Description:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>SDTS_Point_and_Vector_Object_Type:</I>Complete chain</DT>
+                  <DT>
+                    <I>Point_and_Vector_Object_Count:</I>6</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Spatial_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Spatial_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Horizontal_Coordinate_System_Definition:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Geographic:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Latitude_Resolution:</I>0.00001</DT>
+                  <DT>
+                    <I>Longitude_Resolution:</I>0.00001</DT>
+                  <DT>
+                    <I>Geographic_Coordinate_Units:</I>Decimal degrees</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Geodetic_Model:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Horizontal_Datum_Name:</I>North American Datum of 1983</DT>
+                  <DT>
+                    <I>Ellipsoid_Name:</I>Geodetic Reference System 80</DT>
+                  <DT>
+                    <I>Semi-major_Axis:</I>6378137</DT>
+                  <DT>
+                    <I>Denominator_of_Flattening_Ratio:</I>298.2572221</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A NAME="ECA">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Distribution_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Distributor:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>U.S. Geological Survey, National Geospatial Technical Operations Center</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>1400 Independence Road</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Rolla</DT>
+                      <DT>
+                        <I>State_or_Province:</I>MO</DT>
+                      <DT>
+                        <I>Postal_Code:</I>65401</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>Box 25046 Denver Federal Center</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Lakewood</DT>
+                      <DT>
+                        <I>State_or_Province:</I>CO</DT>
+                      <DT>
+                        <I>Postal_Code:</I>80225</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>1-888-ASK-USGS (1-888-275-8747)</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>http://www.usgs.gov/ask/</DT>
+                  <DT>
+                    <I>Hours_of_Service:</I>Monday through Friday 8:00 AM to 4:00 PM</DT>
+                  <DT>
+                    <I>Contact Instructions:</I>
+                  </DT>
+                  <DIV>
+                    <PRE>Metadata information can also be obtained through online services using The National Map Viewer, at
+					http://nationalmap.usgs.gov or EarthExplorer, at http://earthexplorer.usgs.gov or Ask USGS at http://www.usgs.gov/ask.</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Resource_Description:</I>Downloadable Data</DT>
+          <DIV>
+            <DT>
+              <I>Distribution_Liability:</I>
+            </DT>
+            <PRE>No liability for content or accuracy is presumed by USGS for data.</PRE>
+          </DIV>
+          <DT>
+            <I>Standard_Order_Process:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Digital_Form:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Digital_Transfer_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Format_Name:</I>Esri Shapefile</DT>
+                      <DT>
+                        <I>Format_Version_Number:</I>None</DT>
+                      <DIV>
+                        <DT>
+                          <I>Format_Information_Content:</I>
+                        </DT>
+                        <PRE>Spatial objects with unique identifiers and coordinate data.</PRE>
+                      </DIV>
+                      <DT>
+                        <I>File_Decompression_Technique:</I>ZIP lossless data compression has been applied using a DEFLATE algorithm.</DT>
+                      <DT>
+                        <I>Transfer_Size:</I>285.3</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Digital_Transfer_Option:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Online_Option:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Computer_Contact_Information:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Network_Address:</I>
+                              </DT>
+                              <DD>
+                                <DL>
+                                  <DT>
+                                    <I>Network_Resource_Name:</I>
+                                    <A TARGET="viewer" HREF="https://prd-tnm.s3.amazonaws.com/StagedProducts/Tran/Shape/TRAN_Pennsylvania_State_Shape.zip">https://prd-tnm.s3.amazonaws.com/StagedProducts/Tran/Shape/TRAN_Pennsylvania_State_Shape.zip</A>
+                                  </DT>
+                                </DL>
+                              </DD>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Fees:</I>None</DT>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A NAME="EAA">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Distribution_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Distributor:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>Pennsylvania Spatial Data Access (PASDA)</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>115 Land and Water Building</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>University Park</DT>
+                      <DT>
+                        <I>State_or_Province:</I>Pennsylvania</DT>
+                      <DT>
+                        <I>Postal_Code:</I>16802</DT>
+                      <DT>
+                        <I>Country:</I>United States</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>(814) 865 - 8792</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>pasda@psu.edu</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DIV>
+            <DT>
+              <I>Distribution_Liability:</I>
+            </DT>
+            <PRE>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</PRE>
+          </DIV>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Metadata_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Metadata_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Metadata_Date:</I>20220723</DT>
+          <DT>
+            <I>Metadata_Review_Date:</I>20211001</DT>
+          <DT>
+            <I>Metadata_Future_Review_Date:</I>20221001</DT>
+          <DT>
+            <I>Metadata_Contact:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>U.S. Geological Survey, National Geospatial Technical Operations Center</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>1400 Independence Road</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Rolla</DT>
+                      <DT>
+                        <I>State_or_Province:</I>MO</DT>
+                      <DT>
+                        <I>Postal_Code:</I>65401</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>Box 25046 Denver Federal Center</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Lakewood</DT>
+                      <DT>
+                        <I>State_or_Province:</I>CO</DT>
+                      <DT>
+                        <I>Postal_Code:</I>80225</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>1-888-ASK-USGS (1-888-275-8747)</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>http://www.usgs.gov/ask/</DT>
+                  <DT>
+                    <I>Hours_of_Service:</I>Monday through Friday 8:00 AM to 4:00 PM</DT>
+                  <DT>
+                    <I>Contact Instructions:</I>
+                  </DT>
+                  <DIV>
+                    <PRE>Metadata information can also be obtained through online services using The National Map Viewer, at
+					http://nationalmap.usgs.gov or EarthExplorer, at http://earthexplorer.usgs.gov or Ask USGS at http://www.usgs.gov/ask.</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Metadata_Standard_Name:</I>FGDC Content Standard for Digital Geospatial Metadata</DT>
+          <DT>
+            <I>Metadata_Standard_Version:</I>FGDC-STD-001-1998</DT>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+  </BODY>
+</HTML>
+		</form>
+	</body>
+</HTML>

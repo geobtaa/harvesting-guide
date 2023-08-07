@@ -1,0 +1,972 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+	<HEAD>
+		<title>Pennsylvania Spatial Data Access | Full Metadata</title>
+		<meta name="GENERATOR" content="Microsoft Visual Studio.NET 7.0">
+		<meta name="CODE_LANGUAGE" content="Visual Basic 7.0">
+		<meta name="vs_defaultClientScript" content="JavaScript">
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+	    <link rel="shortcut icon" href="http://maps.pasda.psu.edu/Images/favicon.ico" type="image/x-icon" />
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-41373351-5', 'psu.edu');
+          ga('send', 'pageview');
+
+        </script>
+</HEAD>
+	<body MS_POSITIONING="GridLayout">
+		<form method="post" action="./FullMetadataDisplay.aspx?file=NLCD_2014_Tree_Canopy_Cover_PA_v2021-4.xml" id="Form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEzNDA3MDMyNjVkZCi1cbXMhfZI+elmwl4oTersdOt9nxHHv5HGNLdvg2y4" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="D999016F" />
+			<HTML>
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <SCRIPT type="text/javascript">
+
+      function fix(e) {
+        var par = e.parentNode;
+        e.id = "";
+        e.style.marginLeft = "0.42in";
+        var pos = e.innerText.indexOf("\n");
+        if (pos > 0) {
+          while (pos > 0) {
+            var t = e.childNodes(0);
+            var n = document.createElement("PRE");
+            var s = t.splitText(pos);
+            e.insertAdjacentElement("afterEnd", n);
+            n.appendChild(s);
+            n.style.marginLeft = "0.42in";
+            e = n;
+            pos = e.innerText.indexOf("\n");
+          }
+          var count = (par.children.length);
+          for (var i = 0; i < count; i++) {
+            e = par.children(i);
+            if (e.tagName == "PRE") {
+              pos = e.innerText.indexOf(">");
+              if (pos != 0) {
+                n = document.createElement("DD");
+                e.insertAdjacentElement("afterEnd", n);
+                n.innerText = e.innerText;
+                e.removeNode(true);
+              }
+            }
+          }
+          if (par.children.tags("PRE").length > 0) {
+            count = (par.children.length);
+            for (i = 0; i < count; i++) {
+              e = par.children(i);
+              if (e.tagName == "PRE") {
+                e.id = "";
+                if (i < (count-1)) {
+                  var e2 = par.children(i + 1);
+                  if (e2.tagName == "PRE") {
+                    e.insertAdjacentText("beforeEnd", e2.innerText+"\n");
+                    e2.removeNode(true);
+                    count = count-1;
+                    i = i-1;
+                  }
+                }
+              }
+            }
+          }
+        }
+        else {
+          n = document.createElement("DD");
+          par.appendChild(n);
+          n.innerText = e.innerText;
+          e.removeNode(true);
+        }
+      }
+
+    </SCRIPT>
+  </HEAD>
+  <BODY oncontextmenu="return true">
+    <A name="Top">
+    </A>
+    <H2>NLCD CONUS 2014 Tree Canopy Cover</H2>
+    <UL>
+      <LI>
+        <A HREF="#Identification_Information">Identification_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Data_Quality_Information">Data_Quality_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Spatial_Data_Organization_Information">Spatial_Data_Organization_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Entity_and_Attribute_Information">Entity_and_Attribute_Information</A>
+      </LI>
+      <LI>Distribution_Information</LI>
+      <LI STYLE="margin-left:0.3in">
+        <A HREF="#ECA">
+                  Distributor 1</A>
+      </LI>
+      <LI>
+        <A HREF="#EAA">
+                  Distribution_Information 
+                </A>
+      </LI>
+      <LI>
+        <A HREF="#Metadata_Reference_Information">Metadata_Reference_Information</A>
+      </LI>
+    </UL>
+    <A name="Identification_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Identification_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Citation:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Citation_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Originator:</I>U.S. Geological Survey, Customer Services Representative</DT>
+                  <DT>
+                    <I>Publication_Date:</I>20230401</DT>
+                  <DT>
+                    <I>Title:</I>
+                  </DT>
+                  <DD>NLCD CONUS 2014 Tree Canopy Cover</DD>
+                  <DT>
+                    <I>Edition:</I>v2021-4</DT>
+                  <DT>
+                    <I>Geospatial_Data_Presentation_Form:</I>raster digital data</DT>
+                  <DT>
+                    <I>Series_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Series_Name:</I>NLCD Tree Canopy Cover</DT>
+                      <DT>
+                        <I>Issue_Identification:</I>none</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Abstract:</I>
+                </DT>
+                <PRE>The USDA Forest Service (USFS) builds two versions of percent tree canopy cover data, in order to serve needs of multiple user communities. These datasets encompass conterminous United States (CONUS), Coastal Alaska, Hawaii, and Puerto Rico and U.S. Virgin Islands (PRUSVI). The two versions of data within the v2021-4 TCC product suite include: The initial model outputs referred to as the Science data; And a modified version built for the National Land Cover Database and referred to as NLCD data. The NLCD product suite includes data for years 2011, 2013, 2016, 2019 and 2021. The NCLD data are processed to remove small interannual changes from the annual TCC timeseries, and to mask TCC pixels that are known to be 0 percent TCC, non-tree agriculture, and water. A small interannual change is defined as a TCC change less than an increase or decrease of 10 percent compared to a TCC baseline value established in a prior year. The initial TCC baseline value is the mean of 2008-2010 TCC data. For each year following 2011, on a pixel-wise basis TCC values are updated to a new baseline value if an increase or decrease of 10 percent TCC occurs relative to the 2008-2010 TCC baseline value. If no increase or decrease greater than 10 percent TCC occurs relative to the 2008-2010 baseline, then the 2008-2010 TCC baseline value is caried through to the next year in the timeseries. Pixel values range from  0 to  100 percent. The non-processing area is represented by value 254, and the background is represented by the value 255. The Science and NLCD tree canopy cover data are accessible for multiple user communities, through multiple channels and platforms. For information on the Science data and processing steps see the Science metadata. Information on the NLCD data and processing steps are included here.  </PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Purpose:</I>
+                </DT>
+                <PRE>The goal of this project is to provide CONUS and OCONUS with complete, current and consistent public domain tree canopy cover information.</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Supplemental_Information:</I>
+                </DT>
+                <PRE>Corner Coordinates (center of pixel, meters): upper left: -2493045.0 (X), 3310005.0 (Y); lower right: 2342655.0 (X), 177285.0 (Y).</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Time_Period_of_Content:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Time_Period_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Range_of_Dates/Times:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Beginning_Date:</I>20140601</DT>
+                      <DT>
+                        <I>Ending_Date:</I>20140901</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DIV>
+                <DT>
+                  <I>Currentness_Reference:</I>
+                </DT>
+                <PRE>The Multi-Resolution Land Characteristics continental United States study area without Alaska</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Status:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Progress:</I>Complete</DT>
+              <DT>
+                <I>Maintenance_and_Update_Frequency:</I>As needed</DT>
+            </DL>
+          </DD>
+          <DT>
+            <I>Spatial_Domain:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Bounding_Coordinates:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>West_Bounding_Coordinate:</I>-130.23282801589895</DT>
+                  <DT>
+                    <I>East_Bounding_Coordinate:</I>-73.59459648889016</DT>
+                  <DT>
+                    <I>North_Bounding_Coordinate:</I>48.70739591304975</DT>
+                  <DT>
+                    <I>South_Bounding_Coordinate:</I>22.07673063066848</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Keywords:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Theme:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Theme_Keyword_Thesaurus:</I>None</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Tree Density</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Digital Spatial Data</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Tree Canopy Cover</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Continuous</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Percent Tree Canopy</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Remote Sensing</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>GIS</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Change</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Landsat</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Sentinel-2</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>LandTrendr</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Theme:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Theme_Keyword_Thesaurus:</I>NGDA Portfolio Themes</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>NGDA</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>National Geospatial Data Asset</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Theme:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Theme_Keyword_Thesaurus:</I>ISO 19115 Category</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>BaseMaps</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>EarthCover</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Imagery</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>Environment</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Theme:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Theme_Keyword_Thesaurus:</I>ISO 19115 Topic Categories</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>environment</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>imageryBaseMapsEarthCover</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Place:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Place_Keyword_Thesaurus:</I>None</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>U.S.</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>USA</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>United States of America</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Lower 48</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Conterminous United States</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>CONUS</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>United States of America</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Access_Constraints:</I>None</DT>
+          <DIV>
+            <DT>
+              <I>Use_Constraints:</I>
+            </DT>
+            <PRE>These data were collected using funding from the U.S. Government and can be used without additional permissions or fees. If you use these data in a publication, presentation, or other research product please use the following citation:USDA Forest Service. 2023. USFS NLCD Percent Tree Canopy CONUS v2021-4. Sioux Falls, SD.</PRE>
+          </DIV>
+          <DT>
+            <I>Point_of_Contact:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>U.S. Geological Survey</DT>
+                      <DT>
+                        <I>Contact_Person:</I></DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Position:</I>Customer Services Representative</DT>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>47914 252nd Street</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Sioux Falls</DT>
+                      <DT>
+                        <I>State_or_Province:</I>SD</DT>
+                      <DT>
+                        <I>Postal_Code:</I>57198-0001</DT>
+                      <DT>
+                        <I>Country:</I>US</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>605-594-6151</DT>
+                  <DT>
+                    <I>Contact_Facsimile_Telephone:</I>605-594-6589</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>custserv@usgs.gov</DT>
+                  <DT>
+                    <I>Hours_of_Service:</I>0800 - 1600 CT, M - F (-6h VST/-5h CDT GMT)</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DIV>
+            <DT>
+              <I>Data_Set_Credit:</I>
+            </DT>
+            <PRE>Funding for this project was provided by the U.S. Forest Service (USFS). RedCastle Resources produced the dataset under contract to the USFS Geospatial Technology and Applications Center.</PRE>
+          </DIV>
+          <DT>
+            <I>Security_Information:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Security_Classification_System:</I>none</DT>
+              <DT>
+                <I>Security_Classification:</I>Unclassified</DT>
+              <DT>
+                <I>Security_Handling_Description:</I>n/a</DT>
+            </DL>
+          </DD>
+          <DT>
+            <I>Native_Data_Set_Environment:</I>
+          </DT>
+          <DD>Google Earth Engine v0.1.321; GDAL 3.4.3</DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Data_Quality_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Data_Quality_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Attribute_Accuracy:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Attribute_Accuracy_Report:</I>
+                </DT>
+                <PRE>Model performance metrics including mean of squared residuals and percent variability explained were obtained from the 54 random forest regression models (Breiman, 2001; R Core Team 2020), that were used to derive tree canopy cover estimates. The maximum mean of squared residuals was 206.5 and the minimum was 91.3. The maximum percent variability explained was 89.7 and the minimum was 60.1. All model performance metrics can be found in a supplemental accuracy text file included.</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DIV>
+            <DT>
+              <I>Logical_Consistency_Report:</I>
+            </DT>
+            <PRE>All years are modeled separately. As such, measurements from one year to another are not inherently dependent on other years</PRE>
+          </DIV>
+          <DIV>
+            <DT>
+              <I>Completeness_Report:</I>
+            </DT>
+            <PRE>Data extend across the lower 48 conterminous United States</PRE>
+          </DIV>
+          <DT>
+            <I>Lineage:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>The USFS Forest Inventory and Analysis (FIA) program photo-interpreted percent tree canopy cover (TCC) response data. Photointerpretation (PI) measured TCC using a custom ArcGIS plug-in tool (Goeking et al., 2012) from 105-point grids placed in 90x90 squares centered on USFS FIA plot design. A total of 55,242 PI plots were used in TCC modeling.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Process_Date:</I>20120101</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>Creation of cropland data layer (CDL) binary mask. The annual binary agriculture data were produced by classifying all non-tree CDL crops as agriculture and everything else as non-agriculture.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Process_Date:</I>20130101</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>Two sets of annual medoid composites were created. Set 1 does not include any Landsat 7 data occurring after 2002. Set 2 includes all available Landsat 7 data through 2015. To generate annual composites Landsat and Sentinel 2 imagery were collected from 1984-2022 from Julian day 153-273 for 1984-2015, and Julian day 182-244 for 2016-2022. Landsat 7 imagery were used from 1999-2002, and not used after 2002 due to scan line correction failure in 2003. For Landsat image collections, the CFmask cloud masking algorithm, an implementation of Fmask 2.0 was applied (Zhu and Woodcock 2012; Foga et al., 2017), and the cloudScore algorithm (Chastain et al., 2019). For Sentinel-2 data, the s2Cloudless algorithm was used to mask clouds (Zupanc, 2017). We used the Temporal Dark Outlier Mask (TDOM) method to mask cloud shadows in both Landsat and Sentinel-2 (Chastain et al., 2019). For each year, the annual geometric medoid was computed to summarize the data into a single annual composite for each of the 54 tiles that span the CONUS.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Process_Date:</I>20221001</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>The Landsat-based detection of Trends in Disturbance and Recovery (LandTrendr) temporal segmentation algorithm was applied to the two sets of composite time series in Google Earth Engine (GEE) (Kennedy et al., 2018; Cohen et al., 2018). The resulting two sets of LandTrendr time-series fitted values were used as independent predictor variables in random forest models (Breiman 2001). Stripping artifacts were observed in preliminary modeling of TCC when LandTrendr set 2 visible bands - derived from composite set 2 data that includes all Landsat 7 data through 2015 - were included as predictor layers. To avoid stripping artifacts the visible bands from LandTrendr set 2 fitted values were not used in modeling.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Process_Date:</I>20221015</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>Creation of Digital Elevation Model (DEM) derivatives. A CONUS-wide terrain dataset used a predictor layer was provided by the USGS 3D Elevation Program (U.S. Geological Survey, 2019). Slope, aspect, and the sine and cosine of aspect were calculated for each pixel following industry standards.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Process_Date:</I>20220901</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>Creation of the National Land Cover Database (NLCD) TCC dataset (main process). The NLCD dataset is generated from the FS Science product. The FS Science 2011 TCC dataset was created for the CONUS. For CONUS, 54 tiles were used in a 5x5 moving window where model calibration data was gathered from the moving windows and random forest models were created. The random forest models were applied applied to the center tiles. The final dataset is a mosaic of TCC values for all the moving window tiles.Six major steps were employed to map TCC and produce the NLCD product: 1) collection of reference data, 2) acquisition and/or creation of predictor layers, 3) calibration of random forests regression models for each mapping area using response data and predictor layers, 4) application of those models to predict per-pixel TCC across the entire mapping area, 5) a series of data quality filtering steps to generate the NCLD TCC product, and 6) exporting NLCD images from Google Earth Engine (GEE) to local computers for further post-processing that includes the creation of the CONUS-wide mosaic. The methodology is described further below, in the technical methods document (Housman et al., 2023), and in an upcoming manuscript in preparation (Heyer et al., 2023). For the NLCD product, additional post-processing steps were performed.Step 1: Reference data, consisting of estimated TCC at each of the 63,010 FIA plot locations, were generated via aerial image interpretation of high spatial resolution images collected and supplied by the U.S. Forest Service Forest Inventory and Analysis (FIA) program. The spatial distribution of the sample points follows the FIA systematic grid (Brand et al. 2000). Low quality FIA PI observations were removed for a total of 55,242 FIA plots used in modelingStep 2: Predictor layers include two sets of LandTrendr fitted images spectral derivatives. Set 1 (no Landsat 7 data after 2002) includes all optical bands and indices. Set 2 (includes all Landsat 7 data through 2015) excludes Landsat 7 visible bands to avoid stripping artifacts. Other predictor layers include a binary agriculture layer (1=agriculture, 0 = non-agriculture), elevation data, and terrain derivatives (slope, aspect, sine of aspect, cosine of aspect). The processes for creating the derived layers are described separately (see related Process Steps).Step 3: For each 480 km x 480 km moving window tile, a random forest model was built from 2011 response and predictor data that fell over a 5x5 tile neighborhood for that tile. For each model, the variable selection R package VSURF (Genuer et al., 2015) was used to determine the number of variables to randomly sample at tree splits (mtry). Models were generated locally using the random forest regression algorithm "sklearn.ensemble.RandomForestRegressor" from the Scikit-Learn package in python (Pedregosa et al. 2011).Step 4: In GEE, models were applied to each tile for CONUS, producing a 2-layered Science image. The first layer was the random forests mean predicted TCC value and the second layer was the standard error, which is the per-pixel standard error of the random forests regression predictions from the individual regression trees.Step 5: From the Science TCC product the NLCD TCC product was generated following a series of post-processing steps, including various masking of non-treed pixels, a minimum-mapping unit (MMU) to reduce single pixel speckle, and a process to reduce interannual noise. For masking, a three-year moving window tree mask was produced from the Landscape Change and Monitoring System (LCMS) landcover product tree classes (Housman et al., 2022). A three-year moving window ensured TCC predictions in forested pixels were used. Next, the annual Crop Data Layer (CDL) (USDA National Agricultural Statistics Service Cropland Data Layer, 2007-2022) and the NLCD water layers from 2011, 2013, 2016 and 2019 (Dewitz and U.S. Geological Survey, 2021) were used to mask non-treed agricultural crops and water from the three-year moving window LCMS tree masks. To reduce single pixel speckle a one way (pixels can be converted from tree to non-tree but not visa versa) MMU was then applied to the LCMS tree masks outside of urban areas. The MMU-updated treed pixels (less than 4 pixels) surrounded by non-treed pixels to non-treed pixels. In order to avoid masking highly fragmented tree cover common over urban areas, a separate urban tree mask was produced. The urban TCC mask includes the TIGER U.S. Census Block 2018 data, LCMS land use developed data, and statistic that normalized the expected error, which we refer to as tau (Coulston et al., 2016), calculated for each CONUS 5x5 tile moving window processing area. The TIGER and LCMS developed data were used to separate urban TCC from non-urban TCC. The tau statistic at the 87 percentile percent confidence level (or quantile) was used to threshold the TCC values. If a TCC value subtracted from the tau multiplied by the standard error value was less than 0, the TCC value was changed to 0. The final urban TCC mask was the combination of the TIGER, LCMS land use developed data and tau thresholded mask. The LCMS tree mask and urban TCC masks were applied to annual TCC images to produce the NLCD TCC v2021-4 product. For each image, the non-area processing value is 254, and the background value is 255.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Process_Date:</I>20230201</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Spatial_Data_Organization_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Spatial_Data_Organization_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Direct_Spatial_Reference_Method:</I>Raster</DT>
+          <DT>
+            <I>Raster_Object_Information:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Raster_Object_Type:</I>Grid Cell</DT>
+              <DT>
+                <I>Row_Count:</I>161190</DT>
+              <DT>
+                <I>Column_Count:</I>104424</DT>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Entity_and_Attribute_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Entity_and_Attribute_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>nlcd_tcc_conus_2014_v2021-4.tif</DT>
+                  <DT>
+                    <I>Entity_Type_Definition:</I>
+                  </DT>
+                  <DD> Percent tree canopy cover</DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I> OID</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE> ObjectID Field</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I> Value</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE> Percent tree canopy cover</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I> Count</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE> Total number of pixels per classification</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I> Blue</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE> Color ramp red value</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I> Green</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE> Color ramp green value</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I> Red</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE> Color ramp blue value</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A NAME="ECA">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Distribution_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Distributor:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>U.S. Geological Survey</DT>
+                      <DT>
+                        <I>Contact_Person:</I></DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Position:</I>Customer Services Representative</DT>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>47914 252nd Street</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Sioux Falls</DT>
+                      <DT>
+                        <I>State_or_Province:</I>SD</DT>
+                      <DT>
+                        <I>Postal_Code:</I>57198-0001</DT>
+                      <DT>
+                        <I>Country:</I>US</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>605-594-6151</DT>
+                  <DT>
+                    <I>Contact_Facsimile_Telephone:</I>605-594-6589</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>custserv@usgs.gov</DT>
+                  <DT>
+                    <I>Hours_of_Service:</I>0800 - 1600 MT, M – F</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Resource_Description:</I>Downloadable data</DT>
+          <DIV>
+            <DT>
+              <I>Distribution_Liability:</I>
+            </DT>
+            <PRE>The USDA Forest Service makes no warranty, expressed or implied, including the warranties of merchantability and fitness for a particular purpose, nor assumes any legal liability or responsibility for the accuracy, reliability, completeness or utility of these geospatial data, or for the improper or incorrect use of these geospatial data. These geospatial data and related maps or graphics are not legal documents and are not intended to be used as such. The data and maps may not be used to determine title, ownership, legal descriptions or boundaries, legal jurisdiction, or restrictions that may be in place on either public or private land. Tree Canopy Cover changes may or may not be depicted on the data and maps, and land users should exercise due caution. The data are dynamic and may change over time. The user is responsible to verify the limitations of the geospatial data and to use the data accordingly.</PRE>
+          </DIV>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A NAME="EAA">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Distribution_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Distributor:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>Pennsylvania Spatial Data Access (PASDA)</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>115 Land and Water building</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>University Park</DT>
+                      <DT>
+                        <I>State_or_Province:</I>Pennsylvania</DT>
+                      <DT>
+                        <I>Postal_Code:</I>16802</DT>
+                      <DT>
+                        <I>Country:</I>United States</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>(814) 865 - 8792</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>pasda@psu.edu</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DIV>
+            <DT>
+              <I>Distribution_Liability:</I>
+            </DT>
+            <PRE>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation</PRE>
+          </DIV>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Metadata_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Metadata_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Metadata_Date:</I>20230401</DT>
+          <DT>
+            <I>Metadata_Contact:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>U.S. Geological Survey</DT>
+                      <DT>
+                        <I>Contact_Person:</I></DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Position:</I>Customer Services Representative</DT>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>47914 252nd Street</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Sioux Falls</DT>
+                      <DT>
+                        <I>State_or_Province:</I>SD</DT>
+                      <DT>
+                        <I>Postal_Code:</I>57198-0001</DT>
+                      <DT>
+                        <I>Country:</I>US</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>605-594-6151</DT>
+                  <DT>
+                    <I>Contact_Facsimile_Telephone:</I>605-594-6589</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>custserv@usgs.gov</DT>
+                  <DT>
+                    <I>Hours_of_Service:</I>0800 - 1600 MT, M – F</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Metadata_Standard_Name:</I>FGDC Content Standard for Digital Geospatial Metadata</DT>
+          <DT>
+            <I>Metadata_Standard_Version:</I>FGDC-STD-001-1998</DT>
+          <DT>
+            <I>Metadata_Time_Convention:</I>local time</DT>
+          <DT>
+            <I>Metadata_Access_Constraints:</I>The USDA Forest Service makes no warranty, expressed or implied, including the warranties of merchantability and fitness for a particular purpose, nor assumes any legal liability or responsibility for the accuracy, reliability, completeness or utility of these geospatial data, or for the improper or incorrect use of these geospatial data. These geospatial data and related maps or graphics are not legal documents and are not intended to be used as such. The data and maps may not be used to determine title, ownership, legal descriptions or boundaries, legal jurisdiction, or restrictions that may be in place on either public or private land. Tree Canopy Cover changes may or may not be depicted on the data and maps, and land users should exercise due caution. The data are dynamic and may change over time. The user is responsible to verify the limitations of the geospatial data and to use the data accordingly.</DT>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+  </BODY>
+</HTML>
+		</form>
+	</body>
+</HTML>

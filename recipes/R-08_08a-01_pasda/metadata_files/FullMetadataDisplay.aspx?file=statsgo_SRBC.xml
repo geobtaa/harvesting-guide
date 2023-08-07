@@ -1,0 +1,2899 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+	<HEAD>
+		<title>Pennsylvania Spatial Data Access | Full Metadata</title>
+		<meta name="GENERATOR" content="Microsoft Visual Studio.NET 7.0">
+		<meta name="CODE_LANGUAGE" content="Visual Basic 7.0">
+		<meta name="vs_defaultClientScript" content="JavaScript">
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+	    <link rel="shortcut icon" href="http://maps.pasda.psu.edu/Images/favicon.ico" type="image/x-icon" />
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-41373351-5', 'psu.edu');
+          ga('send', 'pageview');
+
+        </script>
+</HEAD>
+	<body MS_POSITIONING="GridLayout">
+		<form method="post" action="./FullMetadataDisplay.aspx?file=statsgo_SRBC.xml" id="Form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEzNDA3MDMyNjVkZCi1cbXMhfZI+elmwl4oTersdOt9nxHHv5HGNLdvg2y4" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="D999016F" />
+			<HTML>
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <SCRIPT type="text/javascript">
+
+      function fix(e) {
+        var par = e.parentNode;
+        e.id = "";
+        e.style.marginLeft = "0.42in";
+        var pos = e.innerText.indexOf("\n");
+        if (pos > 0) {
+          while (pos > 0) {
+            var t = e.childNodes(0);
+            var n = document.createElement("PRE");
+            var s = t.splitText(pos);
+            e.insertAdjacentElement("afterEnd", n);
+            n.appendChild(s);
+            n.style.marginLeft = "0.42in";
+            e = n;
+            pos = e.innerText.indexOf("\n");
+          }
+          var count = (par.children.length);
+          for (var i = 0; i < count; i++) {
+            e = par.children(i);
+            if (e.tagName == "PRE") {
+              pos = e.innerText.indexOf(">");
+              if (pos != 0) {
+                n = document.createElement("DD");
+                e.insertAdjacentElement("afterEnd", n);
+                n.innerText = e.innerText;
+                e.removeNode(true);
+              }
+            }
+          }
+          if (par.children.tags("PRE").length > 0) {
+            count = (par.children.length);
+            for (i = 0; i < count; i++) {
+              e = par.children(i);
+              if (e.tagName == "PRE") {
+                e.id = "";
+                if (i < (count-1)) {
+                  var e2 = par.children(i + 1);
+                  if (e2.tagName == "PRE") {
+                    e.insertAdjacentText("beforeEnd", e2.innerText+"\n");
+                    e2.removeNode(true);
+                    count = count-1;
+                    i = i-1;
+                  }
+                }
+              }
+            }
+          }
+        }
+        else {
+          n = document.createElement("DD");
+          par.appendChild(n);
+          n.innerText = e.innerText;
+          e.removeNode(true);
+        }
+      }
+
+    </SCRIPT>
+  </HEAD>
+  <BODY oncontextmenu="return true">
+    <A name="Top">
+    </A>
+    <H2>State Soil Geographic (STATSGO) Database for the Susquehanna River Basin</H2>
+    <UL>
+      <LI>
+        <A HREF="#Identification_Information">Identification_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Data_Quality_Information">Data_Quality_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Spatial_Data_Organization_Information">Spatial_Data_Organization_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Spatial_Reference_Information">Spatial_Reference_Information</A>
+      </LI>
+      <LI>
+        <A HREF="#Entity_and_Attribute_Information">Entity_and_Attribute_Information</A>
+      </LI>
+      <LI>Distribution_Information</LI>
+      <LI STYLE="margin-left:0.3in">
+        <A HREF="#EPA">
+                  Distributor 1</A>
+      </LI>
+      <LI>
+        <A HREF="#EAA">
+                  Distribution_Information 
+                </A>
+      </LI>
+      <LI>
+        <A HREF="#Metadata_Reference_Information">Metadata_Reference_Information</A>
+      </LI>
+    </UL>
+    <A name="Identification_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Identification_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Citation:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Citation_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Originator:</I>SRBC</DT>
+                  <DT>
+                    <I>Publication_Date:</I>20060424</DT>
+                  <DT>
+                    <I>Title:</I>
+                  </DT>
+                  <DD>State Soil Geographic (STATSGO) Database for the Susquehanna River Basin</DD>
+                  <DT>
+                    <I>Geospatial_Data_Presentation_Form:</I>vector digital data</DT>
+                  <DT>
+                    <I>Publication_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Publication_Place:</I>Harrisburg, PA</DT>
+                      <DT>
+                        <I>Publisher:</I>SRBC</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Online_Linkage:</I>
+                    <A TARGET="viewer" HREF="http://www.pasda.psu.edu">http://www.pasda.psu.edu</A>
+                  </DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Abstract:</I>
+                </DT>
+                <PRE>This dataset is a digital general soil association
+map for the Susquehanna River Basin (2006 boundary) developed by the 
+National Cooperative Soil Survey.  It
+consists of a broad based inventory of soils and nonsoil areas
+that occur in a repeatable pattern on the landscape and that
+can be cartographically shown at the scale mapped.  The soil
+maps for STATSGO are compiled by generalizing more detailed
+soil survey maps.  Where more detailed soil survey maps are
+not available, data on geology, topography, vegetation, and
+climate are assembled, together with Land Remote Sensing
+Satellite (LANDSAT) images.  Soils of like areas are studied,
+and the probable classification and extent of the soils are
+determined.
+
+Map unit composition for a STATSGO map is determined by
+transecting or sampling areas on the more detailed maps and
+expanding the data statistically to characterize the whole map
+unit.
+
+This data set consists of georeferenced digital map data and
+computerized attribute data.  The map data are collected in 1-
+by 2-degree topographic quadrangle units and merged and
+distributed as statewide coverages.  The soil map units are
+linked to attributes in the Map Unit Interpretations Record
+relational data base which gives the proportionate extent of
+the component soils and their properties.</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Purpose:</I>
+                </DT>
+                <PRE>Dataset developed to fit the needs of the Susquehanna River Basin Commission and is intended for educational display purposes only.</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Supplemental_Information:</I>
+                </DT>
+                <PRE>Largest scale to be used when displaying the data- 1:100,000</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Time_Period_of_Content:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Time_Period_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Single_Date/Time:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Calendar_Date:</I>1994</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DIV>
+                <DT>
+                  <I>Currentness_Reference:</I>
+                </DT>
+                <PRE>ground condition</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DT>
+            <I>Status:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Progress:</I>Complete</DT>
+              <DT>
+                <I>Maintenance_and_Update_Frequency:</I>As needed</DT>
+            </DL>
+          </DD>
+          <DT>
+            <I>Spatial_Domain:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Bounding_Coordinates:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>West_Bounding_Coordinate:</I>-78.982832</DT>
+                  <DT>
+                    <I>East_Bounding_Coordinate:</I>-74.561829</DT>
+                  <DT>
+                    <I>North_Bounding_Coordinate:</I>43.000893</DT>
+                  <DT>
+                    <I>South_Bounding_Coordinate:</I>39.524844</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Keywords:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Theme:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Theme_Keyword_Thesaurus:</I>ISO Metadata Standard 19115.3</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>soils</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>General Soils Map</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>State Soil Geographic</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>STATSGO</DT>
+                  <DT>
+                    <I>Theme_Keyword:</I>geoscientificinformation</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Place:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Place_Keyword:</I>Pennsylvania</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Susquehanna River Basin</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>Maryland</DT>
+                  <DT>
+                    <I>Place_Keyword:</I>New York</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Access_Constraints:</I>No access constraints, dataset is available for public use.</DT>
+          <DIV>
+            <DT>
+              <I>Use_Constraints:</I>
+            </DT>
+            <PRE>The U.S. Department of Agriculture, Soil
+Conservation Service should be acknowledged as the data
+source in products derived from these data.
+
+STATSGO was designed primarily for regional, multicounty,
+river basin, State, and multistate resource planning,
+management, and monitoring.  STATSGO data are not detailed
+enough to make interpretations at a county level.  This soil
+survey product is not designed for use as a primary
+regulatory tool in permitting or citing decisions, but may be
+used as a reference source.  The use of these data is not
+restricted and may be interpreted by organizations, agencies,
+units of government, or others; however, they are responsible
+for its appropriate application.  Federal, State, or local
+regulatory bodies are not to reassign to the Soil
+Conservation Service any authority for the decisions that
+they make.  The Soil Conservation Service will not perform
+any evaluations of these maps for purposes related solely to
+state or local regulatory programs.
+
+When STATSGO data are overlayed with other data layers, such
+as land use data, caution must be used in generating
+statistics on the co-occurence of the land use data with the
+soil data.  The composition of the STATSGO map unit can be
+characterized independently for the land use and for the soil
+component, but there are no data on their joint occurrence at
+a more detailed level.  Analysis of the overlayed data should
+be on a map polygon basis.
+
+Additional political, watershed, or other boundaries may be
+intersected with the soil data.  Although the composition of
+each political and watershed unit may be described in terms
+of the STATSGO map units, information is not available to
+assign the components to the boundary units with full
+accuracy.  As with the land use categories, the analysis
+should be restricted to the classified components.
+
+The approximate minimum area delineated is 625 hectares
+(1,544 acres), which is represented on a 1:250,000-scale map
+by an area approximately 1 cm by 1 cm (0.4 inch by 0.4 inch).
+Linear delineations are not less than 0.5 cm (0.2 inch) in
+width.  The number of delineations per 1:250,000 quadrangle
+typically is 100 to 200, but may range up to 400.
+Delineations depict the dominant soils making up the
+landscape.  Other dissimilar soils, too small to be
+delineated, are present within a delineation.
+
+Digital enlargements of these maps to scales greater than at
+which they were originally mapped can cause misinterpretation
+of the data.  If enlarged, maps do not show the small areas
+of contrasting soils that could have been shown at a larger
+scale.  The depicted soil boundaries, interpretations, and
+analysis derived from them do not eliminate the need for
+onsite sampling, testing, and detailed study of specific
+sites for intensive uses.  Thus, these data and their
+interpretations are intended for planning purposes only.
+
+Attribute data for some data elements may be incomplete or
+missing.  Where data are unavailable, a mask should be used
+to exclude the area from analysis.
+
+Digital data files are periodically updated.  Files are
+dated, and users are responsible for obtaining the latest
+version of the data.
+
+SRBC Use Constraints- For educational/demonstration purposes only.  The Originator, Publisher, and Distributor exclude any and all implied warranties and make no warranty or representation with respect to the data files or accompanying documentation, including quality, performance, merchantability or fitness for a particular purpose. These data files and documentation are provided "as is" and the User assumes the entire risk as to their quality and performance.
+These data are not to be redistributed for commercial profit.  Reproduction or redistribution of this digital dataset without permission of the Originator/Publisher is expressly forbidden.  The Originator and Publisher should be clearly cited in any product derived from this data.  Any modifications to this data must be described in any digital or hardcopy product derived from this data.
+</PRE>
+          </DIV>
+          <DT>
+            <I>Point_of_Contact:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Person_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Person:</I>Brydon H. Lidle, III</DT>
+                      <DT>
+                        <I>Contact_Organization:</I>Susquehanna River Basin Commission</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Position:</I>Section Chief, Information Technology and GIS</DT>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>1721 North Front Street</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Harrisburg</DT>
+                      <DT>
+                        <I>State_or_Province:</I>Pennsylvania</DT>
+                      <DT>
+                        <I>Postal_Code:</I>17102-2391</DT>
+                      <DT>
+                        <I>Country:</I>USA</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>717-238-0423</DT>
+                  <DT>
+                    <I>Contact_Facsimile_Telephone:</I>717-238-2436</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>blidle@srbc.net</DT>
+                  <DT>
+                    <I>Hours_of_Service:</I>M - F, 8 AM to 4 PM</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DIV>
+            <DT>
+              <I>Data_Set_Credit:</I>
+            </DT>
+            <PRE>
+U.S. Department of Agriculture, Soil
+Conservation Service
+</PRE>
+          </DIV>
+          <DT>
+            <I>Native_Data_Set_Environment:</I>
+          </DT>
+          <DD>Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 4; ESRI ArcCatalog 9.0.0.535</DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Data_Quality_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Data_Quality_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Attribute_Accuracy:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Attribute_Accuracy_Report:</I>
+                </DT>
+                <PRE>
+Attribute Accuracy Report: Attribute accuracy is tested by
+manual comparison of the source with hard copy plots and/or
+symbolized display of the map data on an interactive computer
+graphic system.  Selected  attributes that cannot be visually
+verified on plots or on screen are interactively queried and
+verified on screen.  In addition, the attributes are tested
+against a master set of valid attributes.  All attribute data
+conform to the attribute codes in the signed classification
+and correlation document and amendments and are current as of
+the date of digitizing.
+</PRE>
+              </DIV>
+            </DL>
+          </DD>
+          <DIV>
+            <DT>
+              <I>Logical_Consistency_Report:</I>
+            </DT>
+            <PRE>
+Certain node/geometry and
+topology (GT)-polygon/chain relationships are collected or
+generated to satisfy topological requirements.  (The
+GT-polygon corresponds to the soil delineation).  Some of
+these requirements include:  chains must begin and end at
+nodes, chains must connect to each other at nodes, chains do
+not extend through nodes, left and right GT-polygons are
+defined for each chain element and are consistent throughout,
+and the chains representing the limits of the file (neatline)
+are free of gaps.  The tests of logical consistency are
+performed using vendor software.  The neatline is generated by
+connecting the explicitly entered four corners of the digital
+file.  All data outside the enclosed region are ignored and
+all data crossing these geographically straight lines are
+clipped at the neatline.  Data within a specified tolerance of
+the neatline are snapped to the neatline.  Neatline
+straightening aligns the digitized edges of the digital data
+with the generated neatline (i.e., with the longitude/latitude
+lines in geographic coordinates).  All internal polygons are
+tested for closure with vendor software and are checked on
+hard copy plots.  All data are checked for common soil lines
+(i.e., adjacent polygons with the same label).  Quadrangles
+are edge matched within the state, merged into a statewide
+data sets, and then edge matched to adjacent state data sets.
+Edge locations do not deviate from centerline to centerline by
+more than 0.01 inches.
+</PRE>
+          </DIV>
+          <DIV>
+            <DT>
+              <I>Completeness_Report:</I>
+            </DT>
+            <PRE>
+A map unit is a collection of areas
+defined and named the same in terms of their soil and/or
+nonsoil areas.  Each map unit differs in some respect from
+all others in a survey area and is uniquely identified.  Each
+individual area is a delineation.  Each map unit consists of
+one to 21 components.
+
+In those few areas where detailed maps did not exist,
+reconnaissance soil surveys were combined with data on
+geology, topography, vegetation, climate, and remote sensing
+images to delineate map units and estimate the percentages of
+components.  The STATSGO map unit components are soil series
+phases, and their percent composition represents the estimated
+areal proportion of each within STATSGO map unit.  The
+composition for a map unit is generalized to represent the
+statewide extent of that map unit and not the extent of any
+single map unit delineation.  These specifications provide a
+nationally consistent representation of STATSGO attribute
+data.
+
+The actual composition and interpretive purity of the map unit
+delineations were based on statistical analysis of transect
+data.  The composition was largely determined by measuring
+transects on detailed soil survey maps.  The number of
+transects used was proportional to the relative size, number,
+and complexity of the delineations.  The combined data on the
+length of the map units crossed by the transects were used to
+determine the percentages of the different soil and nonsoil
+areas in each map unit.
+
+Specific limits were established on the classification of
+soils and the design and name of map units.  These limits are
+outlined in U.S. Department of Agriculture. 1975. Soil
+Taxonomy  A basic system of soil classification for making and
+interpreting soil surveys. Soil Conserv. Serv., U.S. Dep.
+Agric. Handb. 436.; U.S. Department of Agriculture. 1992. Keys
+to Soil Taxonomy. SMSS Technical Monograph No. 19. Soil Surv.
+Staff, Soil Conserv. Serv.; U.S. Department of Agriculture.
+1993. National Soil Survey Handbook, title 430-VI. Soil Surv.
+Staff, Soil Conserv. Serv.; and U.S. Department of
+Agriculture. 1993. Soil Survey Manual. Soil Surv. Staff, U.S.
+Dep. Agric. Handbook 18.
+
+Adherence to National Cooperative Soil Survey standards
+and procedures is based on peer review, quality control, and
+quality assurance.  Quality control is outlined in documents
+that reside with the Soil Conservation Service state soil
+</PRE>
+          </DIV>
+          <DT>
+            <I>Positional_Accuracy:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Horizontal_Positional_Accuracy:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Horizontal_Positional_Accuracy_Report:</I>
+                    </DT>
+                    <PRE>
+Horizontal Positional Accuracy Report: The accuracy of
+these digital data is based upon their compilation to base
+maps that meet National Map Accuracy Standards.  The
+difference in positional accuracy between the map unit
+boundaries in the field and their digitized map locations
+is unknown.  The locational acuracy of soil delineations on
+the ground varies with the transition between map units.
+For example, in areas where changes in soils, climate,
+topography, and geology occur subtly across a portion of a
+state, the transition between soil map unit boundaries will
+be gradual.  Where these features change abruptly, such as
+from an area of foothills to a lake plain, the transition
+will be very narrow.  Soil delineation boundaries were
+digitized within 0.01 inches of their locations on the
+digitizing source.  The digital map elements are edge
+matched between data sets.  The data along each state
+boundary are matched against the data for the adjacent
+state.  Edge locations generally do not deviate from
+centerline to centerline by more than 0.01 inch.
+</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Lineage:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>U.S Department of Agriculture, Soil Conservation Service</DT>
+                          <DT>
+                            <I>Publication_Date:</I>publication date</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>multiple soil survey publications</DD>
+                          <DT>
+                            <I>Geospatial_Data_Presentation_Form:</I>map</DT>
+                          <DT>
+                            <I>Publication_Information:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Publication_Place:</I>Washington, D.C.</DT>
+                              <DT>
+                                <I>Publisher:</I>U.S. Government Printing Office</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>paper</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>publication date</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>SCS1</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>
+base information for development of
+map unit delineations and transect data for naming
+map units
+</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>U.S Department of Agriculture, Soil Conservation Service</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>multiple reconnaissance, county, and State general soild maps</DD>
+                          <DT>
+                            <I>Geospatial_Data_Presentation_Form:</I>map</DT>
+                          <DT>
+                            <I>Publication_Information:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Publication_Place:</I>Washington, D.C.</DT>
+                              <DT>
+                                <I>Publisher:</I>U.S. Government Printing Office</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>paper</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>publication date</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>SCS2</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>
+reference information for
+development of map unit delineations and transect
+data for naming map units where detailed surveys did
+not exist
+</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>U.S. Geological Survey</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>multiple maps</DD>
+                          <DT>
+                            <I>Geospatial_Data_Presentation_Form:</I>map</DT>
+                          <DT>
+                            <I>Publication_Information:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Publication_Place:</I>Reston, Virginia</DT>
+                              <DT>
+                                <I>Publisher:</I>U.S. Geological Survey</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Scale_Denominator:</I>250000</DT>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>stable-base material</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>publication date</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>USGS1</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>
+base materials for compilation of
+map unit delineation linework
+</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>U.S Department of Agriculture, Soil Conservation Service</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>multiple compiled mylar overlays of map unit delineations, unpublished</DD>
+                          <DT>
+                            <I>Geospatial_Data_Presentation_Form:</I>annotated overlay</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>stable-base material</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>unknown</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>SCS3</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>digitizing source</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Source_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Source_Citation:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Citation_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Originator:</I>U.S. Department of Agriculture, Soil Conservation Service</DT>
+                          <DT>
+                            <I>Publication_Date:</I>1994</DT>
+                          <DT>
+                            <I>Title:</I>
+                          </DT>
+                          <DD>State Soil Geographic (STATSGO) Database</DD>
+                          <DT>
+                            <I>Geospatial_Data_Presentation_Form:</I>vector digital data</DT>
+                          <DT>
+                            <I>Publication_Information:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Publication_Place:</I>Fort Worth, Texas</DT>
+                              <DT>
+                                <I>Publisher:</I>U.S. Department of Agriculture, Soil Conservation Service</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Other_Citation_Details:</I>
+                          </DT>
+                          <DD>State Soil Scientist: 717 782 3889
+
+Suite 340, One Credit Union Place
+Harrisburg, PA 17110</DD>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Scale_Denominator:</I>100000</DT>
+                  <DT>
+                    <I>Type_of_Source_Media:</I>shapefile</DT>
+                  <DT>
+                    <I>Source_Time_Period_of_Content:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Time_Period_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Single_Date/Time:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Calendar_Date:</I>1994</DT>
+                            </DL>
+                          </DD>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Source_Currentness_Reference:</I>
+                      </DT>
+                      <DD>publication date</DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Source_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>soilsfinal_repro3.shp</DD>
+                  <DIV>
+                    <DT>
+                      <I>Source_Contribution:</I>
+                    </DT>
+                    <PRE>NY, PA, and MD statewide soil coverage used to clip to the Basin.</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>
+Process Description: Map unit composition was determined by
+transecting or sampling areas on the more detailed soil
+maps and expanding the data statistically to characterize
+the whole map unit.
+</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Source_Used_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>SCS1</DD>
+                  <DT>
+                    <I>Process_Date:</I>1994</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>
+Process Description: Soil map unit lines and symbols were
+drafted in red pencil on a mylar overlay that was punch
+registered to fit the mylar USGS 1:250,000-scale
+topographic quadrangle.  A detailed and complete edit was
+performed on all overlays before digitizing.  The soil
+delineation overlays were raster scanned at a scanning
+resolution of at least 0.01 inches and converted to a
+vector format or were manually digitized on a digitizing
+tablet with a resolution of at least 0.001 inches.  Four
+control points corresponding to the four corners of the
+quadrangles were used for registration during data
+collection.  The control points were either explicitly
+entered or developed by the software.  The data sets were
+edge matched and merged into statewide coverages.  A
+detailed and complete edit was performed on all digital
+data.
+</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Source_Used_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>USGS1, SCS3</DD>
+                  <DT>
+                    <I>Process_Date:</I>1994</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>
+Copy select STATSGO database files and rename under working directory.
+1.	Copy Maryland database STATSGO files Comp.dbf and Taxclass.dbf from L:/srbcgis/data/new/soils/md/Md/Spatial to L:/srbcgis/data/new/soils/work.
+2.	Rename to MD_comp.dbf and MD_Taxclass.dbf in work directory.
+3.	Copy Pennsylvania database STATSGO files Comp.dbf and Taxclass.dbf from L:/srbcgis/data/new/soils/pa/Pa/Spatial to L:/srbcgis/data/new/soils/work.
+4.	Rename to PA_comp.dbf and PA_Taxclass.dbf in work directory.
+5.	Copy New York database STATSGO files Comp.dbf and Taxclass.dbf from L:/srbcgis/data/new/soils/ny/Ny/Spatial to L:/srbcgis/data/new/soils/work.
+6.	Rename to NY_comp.dbf and NY_Taxclass.dbf in work directory.
+</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Process_Date:</I>20010613</DT>
+                  <DT>
+                    <I>Process_Time:</I>1830</DT>
+                  <DT>
+                    <I>Process_Contact:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Contact_Person_Primary:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Contact_Person:</I>Robert Edwards</DT>
+                              <DT>
+                                <I>Contact_Organization:</I>Susquehanna River Basin Commission (SRBC)</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Contact_Position:</I>GIS Coordinator</DT>
+                          <DT>
+                            <I>Contact_Voice_Telephone:</I>717-238-0425</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>
+Revision of STATE Comp.dbf files
+
+1.	Load MD_comp.dbf file into MS-Excel.
+2.	Sort database on attribute seqnum and delete rows where seqnum was greater than or equal to 2.
+3.	Save file as MD_comprev.dbf
+4.	Load PA_comp.dbf file into MS-Excel.
+5.	Sort database on attribute seqnum and delete rows where seqnum was greater than or equal to 2.
+6.	Save file as PA_comprev.dbf
+7.	Load NY_comp.dbf file into MS-Excel.
+8.	Sort database on attribute seqnum and delete rows where seqnum was greater than or equal to 2.
+9.	Save file as NY_comprev.dbf
+</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Process_Date:</I>20010613</DT>
+                  <DT>
+                    <I>Process_Time:</I>1850</DT>
+                  <DT>
+                    <I>Process_Contact:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Contact_Person_Primary:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Contact_Person:</I>Robert Edwards</DT>
+                              <DT>
+                                <I>Contact_Organization:</I>Susquehanna River Basin Commission (SRBC)</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Contact_Position:</I>GIS Coordinator</DT>
+                          <DT>
+                            <I>Contact_Voice_Telephone:</I>717-238-0425</DT>
+                          <DT>
+                            <I>Contact_Facsimile_Telephone:</I>717-238-2436</DT>
+                          <DT>
+                            <I>Contact_Electronic_Mail_Address:</I>redwards@srbc.net</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>
+Create State STATSGO ArcView 3.2 Shape files from ArcInfo coverage files with attributes State Comprev.dbf tables.
+
+1.	Open ArcView 3.2 and add ArcInfo Statsgo themes for MD, PA, and NY in the spatial directory of the respective state, e.g.,  L:/srbcgis/data/new/soils/ny/Ny/Spatial in the case of New York.
+2.	Completed Table Join function in Arcview with respective theme:
+a.	Attributes of MD spatial table to MD_Comprev.dbf on common attribute MuID.
+b.	Attributes of PA spatial table to PA_Comprev.dbf on common attribute MuID.
+c.	Attributes of NY spatial table to NY_Comprev.dbf on common attribute MuID.
+3. Convert to shapefile each joined table theme and save shapefiles as mdcomp.shp, pacomp.shp, and nycomp.shp in path L:/srbcgis/data/new/soils/work
+</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Process_Date:</I>20010613</DT>
+                  <DT>
+                    <I>Process_Time:</I>1940</DT>
+                  <DT>
+                    <I>Process_Contact:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Contact_Person_Primary:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Contact_Person:</I>Robert Edwards</DT>
+                              <DT>
+                                <I>Contact_Organization:</I>Susquehanna River Basin Commission (SRBC)</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Contact_Position:</I>redwards@srbc.net</DT>
+                          <DT>
+                            <I>Contact_Voice_Telephone:</I>717-238-0425</DT>
+                          <DT>
+                            <I>Contact_Facsimile_Telephone:</I>717-238-2436</DT>
+                          <DT>
+                            <I>Contact_Electronic_Mail_Address:</I>redwards@srbc.net</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>
+Create State STATSGO ArcView 3.2 Shape files containing the state comprev.dbf attributes with state taxclass.dbf attributes.
+
+1.	Open ArcView 3.2 and add shapefiles mdcomp.shp, pacomp.shp, and nycomp.shp from path L:/srbcgis/data/new/soils/work
+2.	Add table to project for respective state taxclass.dbf: MD_taxclass.dbf, PA_taxclass.dbf, and NY_taxclass.dbf.
+3.	Completed Table Join function in Arcview with respective theme:
+a.	Attributes of mdcomp.shp spatial table to MD_taxclass.dbf on common attribute Clascode.
+b.	Attributes of pacomp.shp spatial table to PA_taxclass.dbf on common attribute Clascode.
+c.	Attributes of nycomp.shp spatial table to NY_taxclass.dbf on common attribute Clascode.
+4. Convert to shapefile each joined table theme and save shapefiles as mdcomptax.shp, pacomptax.shp, and nycomptax.shp in path L:/srbcgis/data/new/soils/work
+</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Process_Date:</I>20010613</DT>
+                  <DT>
+                    <I>Process_Time:</I>2015</DT>
+                  <DT>
+                    <I>Process_Contact:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Contact_Person_Primary:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Contact_Person:</I>Robert Edward</DT>
+                              <DT>
+                                <I>Contact_Organization:</I>Susquehanna River Basin Commission (SRBC)</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Contact_Position:</I>GIS Coordinator</DT>
+                          <DT>
+                            <I>Contact_Voice_Telephone:</I>717-238-0425</DT>
+                          <DT>
+                            <I>Contact_Electronic_Mail_Address:</I>redwards@srbc.net</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>
+Merge state themes
+
+1.	Open ArcView 3.2 and add shapefiles mdcomptax.shp, pacomptax.shp, and nycompytax.shp from path L:/srbcgis/data/new/soils/work to a view.
+2.	Use the Xtools-Merge themes option to create one shape file named midatlsoils.shp
+3.	Open table attributes of midatlsoils.shp and edit table properties to turn off selected attributes.
+4.	Convert the midatlsoils.shp to soilsfinal.shp
+</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Process_Date:</I>20010613</DT>
+                  <DT>
+                    <I>Process_Time:</I>2035</DT>
+                  <DT>
+                    <I>Process_Contact:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Contact_Person_Primary:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Contact_Person:</I>Robert Edwards</DT>
+                              <DT>
+                                <I>Contact_Organization:</I>Susquehanna River Basin Commission (SRBC)</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Contact_Position:</I>GIS Coordinator</DT>
+                          <DT>
+                            <I>Contact_Voice_Telephone:</I>717-238-0425</DT>
+                          <DT>
+                            <I>Contact_Electronic_Mail_Address:</I>redwards@srbc.net</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>
+Correct for anomalies
+
+Based on Bob Edwards' findings:
+1.	Polygon with attributes of Area = 0.004245, Perimeter = 0.311092, Muid = PA087, Segnum = 1, Compname  = Mt. Airy, and Compkind = S was updated to reflect the Clascode, Class, Order, Suborder, Grtgroup, Subgroup values from the polygon with attributes of Area = 0.000630, Perimeter = 0.170455, Muid = MD032, Segnum = 1, Compname = Baile, Compkind = S.
+2.	Polygon with attributes of Area = 0.000009, Perimaeter = 0.017646, Muid = Md032, Segnum = 1, Compname = Baile, Compkind = S was updated to reflect the Clascode, Class, Order, Suborder, Grtgroup, Subgroup values from the polygon with attributes of Area = 0.043993, Perimeter = 1.743269, Mudid = PA097, Segnum = 1, Compname = Mt. Airy, and Compkind = S.
+</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Process_Date:</I>20010617</DT>
+                  <DT>
+                    <I>Process_Contact:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Contact_Person_Primary:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Contact_Person:</I>Robert Edwards</DT>
+                              <DT>
+                                <I>Contact_Organization:</I>Susquehanna River Basin Commission (SRBC)</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Contact_Position:</I>GIS Coordinator</DT>
+                          <DT>
+                            <I>Contact_Voice_Telephone:</I>717-238-0425</DT>
+                          <DT>
+                            <I>Contact_Facsimile_Telephone:</I>717-238-2436</DT>
+                          <DT>
+                            <I>Contact_Electronic_Mail_Address:</I>redwards@srbc.net</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>
+Reprojection
+
+1.	Preprojected soilsfinal.shp to Geographic or unprojected and renamed it to soilsfinal_repro2.shp.
+2.	Converted soilsfinal_repro2.shp from NAD27 to NAD83 using TransNAD.  Renamed to copy of soilsfinal_repro2.shp.
+3.	Clipped copy of soilsfinal_repro2.shp to the hy_wshed_Susquehanna.shp shapefile created by the Susquehanna River Basin Commission.  Renamed shapefile to soilsfinal_clip2.shp.
+</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Process_Date:</I>20010614</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>Converted shapefile to a coverage in ArcToolbox 8.1.  Assigned Geographic, NAD83 projection.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Process_Date:</I>20021112</DT>
+                  <DT>
+                    <I>Process_Contact:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Contact_Person_Primary:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Contact_Person:</I>Donna Gavin</DT>
+                              <DT>
+                                <I>Contact_Organization:</I>Susquehanna River Basin Commission (SRBC)</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Contact_Position:</I>GIS Analyst</DT>
+                          <DT>
+                            <I>Contact_Address:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Address_Type:</I>mailing and physical address</DT>
+                              <DIV>
+                                <DT>
+                                  <I>Address:</I>
+                                </DT>
+                                <PRE>1721 North Front Street</PRE>
+                              </DIV>
+                              <DT>
+                                <I>City:</I>Harrisburg</DT>
+                              <DT>
+                                <I>State_or_Province:</I>Pa.</DT>
+                              <DT>
+                                <I>Postal_Code:</I>17055</DT>
+                              <DT>
+                                <I>Country:</I>USA</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Contact_Voice_Telephone:</I>717-238-0425</DT>
+                          <DT>
+                            <I>Contact_Facsimile_Telephone:</I>717-238-2436</DT>
+                          <DT>
+                            <I>Contact_Electronic_Mail_Address:</I>dgavin@srbcnet</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>Due to changes in the Susquehanna River Basin boundary, this file had to be re-clipped to the 2006 version of the basin boundary.  The shapefile "Copy of soilsfinal_repro2" was found on disk 418 of the SRBC library.  This file was mentioned in process step 9.  This shapefile was reprojected to SRBC projection (NAD83 Albers Equal Area Conic) and called soilsfinal_repro3.shp.  It was brought into ArcMap and verified as the base layer for the original SRBC stratsgo.shp soils dataset.  Soilsfinal_repro3.shp was then clipped to the 2006 version of the Basin boundary.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Source_Used_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>soilsfinal_repro3.shp</DD>
+                  <DT>
+                    <I>Process_Date:</I>20060424</DT>
+                  <DT>
+                    <I>Source_Produced_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>statsgo.shp</DD>
+                  <DT>
+                    <I>Process_Contact:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Information:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Contact_Person_Primary:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Contact_Person:</I>Jeff Zimmerman, Jr.</DT>
+                              <DT>
+                                <I>Contact_Organization:</I>SRBC</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Contact_Position:</I>GIS Specialist</DT>
+                          <DT>
+                            <I>Contact_Voice_Telephone:</I>717-238-0425</DT>
+                          <DT>
+                            <I>Contact_Electronic_Mail_Address:</I>jzimmerman@srbc.net</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>Dataset moved.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Source_Used_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>L:\srbcgis\Projects\Basin_Update\Completed_Datasets\statsgo_New</DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Process_Step:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DIV>
+                    <DT>
+                      <I>Process_Description:</I>
+                    </DT>
+                    <PRE>Dataset copied.</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Source_Used_Citation_Abbreviation:</I>
+                  </DT>
+                  <DD>L:\srbcgis\data\soils\statsgo</DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Spatial_Data_Organization_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Spatial_Data_Organization_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Direct_Spatial_Reference_Method:</I>Vector</DT>
+          <DT>
+            <I>Point_and_Vector_Object_Information:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>SDTS_Terms_Description:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>SDTS_Point_and_Vector_Object_Type:</I>G-polygon</DT>
+                  <DT>
+                    <I>Point_and_Vector_Object_Count:</I>1017</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>SDTS_Terms_Description:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>SDTS_Point_and_Vector_Object_Type:</I>Label point</DT>
+                  <DT>
+                    <I>Point_and_Vector_Object_Count:</I>1150</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>SDTS_Terms_Description:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>SDTS_Point_and_Vector_Object_Type:</I>GT-polygon composed of chains</DT>
+                  <DT>
+                    <I>Point_and_Vector_Object_Count:</I>1154</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>SDTS_Terms_Description:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>SDTS_Point_and_Vector_Object_Type:</I>Point</DT>
+                  <DT>
+                    <I>Point_and_Vector_Object_Count:</I>4</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Spatial_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Spatial_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Horizontal_Coordinate_System_Definition:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Planar:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Map_Projection:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Map_Projection_Name:</I>Albers Conical Equal Area</DT>
+                      <DT>
+                        <I>Albers_Conical_Equal_Area:</I>
+                      </DT>Albers Conical Equal Area<DD><DL><DT><I>Standard_Parallel:</I>40.000000</DT><DT><I>Standard_Parallel:</I>43.000000</DT><DT><I>Longitude_of_Central_Meridian:</I>-77.000000</DT><DT><I>Latitude_of_Projection_Origin:</I>39.000000</DT><DT><I>False_Easting:</I>0.000000</DT><DT><I>False_Northing:</I>0.000000</DT></DL></DD></DL>
+                  </DD>
+                  <DT>
+                    <I>Planar_Coordinate_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Planar_Coordinate_Encoding_Method:</I>coordinate pair</DT>
+                      <DT>
+                        <I>Coordinate_Representation:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Abscissa_Resolution:</I>0.001024</DT>
+                          <DT>
+                            <I>Ordinate_Resolution:</I>0.001024</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Planar_Distance_Units:</I>meters</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Geodetic_Model:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Horizontal_Datum_Name:</I>North American Datum of 1983</DT>
+                  <DT>
+                    <I>Ellipsoid_Name:</I>Geodetic Reference System 80</DT>
+                  <DT>
+                    <I>Semi-major_Axis:</I>6378137.000000</DT>
+                  <DT>
+                    <I>Denominator_of_Flattening_Ratio:</I>298.257222</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Entity_and_Attribute_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Entity_and_Attribute_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Detailed_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Entity_Type:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Entity_Type_Label:</I>statsgo_New</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>FID</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Internal feature number.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>ESRI</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>Sequential unique whole numbers that are automatically generated.</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>SUBORDER</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>USDA-assigned feature code</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>USDA</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>character</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Code for the taxonomic SUBORDER category of the record.  AAQ 	Aqualfs; ABO Boralfs; AUD 	Udalfs; EAQ 	Aquents; EOR Orthents; EPS Psamments; HHE Hemists; HSA Saprists; IAQ Aquepts; IOC Ochrepts; MAQ Aquolls; SAQ 	Aquods; SOR 	Orthods; UAQ Aquults; UUD Udults</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Ending_Date_of_Attribute_Values:</I>1995</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>GRTGROUP</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>USDA-assigned feature code</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>USDA</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>character</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Code for the taxonomic GREAT GROUP category.  AAQFR Fragiaqualfs; AAQOC Ochraqualfs; ABOGL Glossoboralfs; AUDFR Fragiudalfs; AUDHA Hapludalfs; EAQFL Fluvaquents; EAQHA Haplaquents; EAQSU Sulfaquents; EORUD Udorthents; EPSQU Quartzipsamments; EPSUD Udipsamments; HHESI Sulfihemists; HAS	Saprists; HSABO Borosaprists; HSAME Medisaprists; IAQFR Fragiaquepts; IAQHP Haplaquepts; IOCDY Dystrochrepts; IOCEU Eutrochrepts; IOCFR Fragiochrepts; MAQHA Haplaquolls; SAQHA Haplaquods; SORCR Cryorthods; SORFR Fragiorthods; SORHA Haplorthods; UAQOC Ochraquults; UAQUM Umbraquults; UUDFR Fragiudults; UUDHA Hapludults; UUDKH anhapludults; UUDPA Paleudults</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Ending_Date_of_Attribute_Values:</I>1995</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>Shape</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Feature geometry.</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>ESRI</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>Coordinates defining the features.</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>AREA</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Area in square meters</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>SRBC</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>Positive real numbers that are automatically generated.</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>PERIMETER</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Perimeter in meters</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>SRBC</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Unrepresentable_Domain:</I>
+                      </DT>
+                      <DD>Positive real numbers that are automatically generated.</DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>MUID</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>USDA-assigned feature code</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>USDA</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>character</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>STATSGO map unit id</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Ending_Date_of_Attribute_Values:</I>1995</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>SEQNUM</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>USDA-assigned feature number</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>USDA</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>Integer</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>sequential number</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Ending_Date_of_Attribute_Values:</I>1995</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>COMPNAME</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>USDA-assigned feature number</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>USDA</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>characte</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>The name of the component of the map unit.</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Ending_Date_of_Attribute_Values:</I>1995</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>SUBGROUP</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>USDA-assigned feature code</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>USDA</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>character</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Code for the taxonomic SUBGROUP category of the record.  AA typic; AE aeric; AL10 alfic; AQ06 aquic; AQ18 aquic dystric; DY02 dystric; DY04 dystric fluventic; EN entic; EU eutric; FL02 fluvaquentic; FL06 fluventic; GL02 glossaquic; GL16 glossoboric; HE hemic; HU humic; LI02 lithic; MO mollic; OC ochreptic; PS02 psammentic; RU02 ruptic-alfic; TE terric; UD03 udollic; UL ultic</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Ending_Date_of_Attribute_Values:</I>1995</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>COMPKIND</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>USDA-assigned feature code</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>USDA</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>character</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Code identifying the kind of component of the map unit. (e.g., Series, Family, Taxon, etc.)  G - Taxon above family; M - Miscellaneous area; S - Series</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Ending_Date_of_Attribute_Values:</I>1995</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>CLASCODE</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>USDA-assigned feature code</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>USDA</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>character</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>Code for the taxonomic classification for the soil.  Definition of codes are in the taxclass table.</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Ending_Date_of_Attribute_Values:</I>1995</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>CLASS</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>USDA-assigned feature name</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>USDA</PRE>
+                  </DIV>
+                  <DT>
+                    <I>Attribute_Domain_Values:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Enumerated_Domain:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Enumerated_Domain_Value:</I>character</DT>
+                          <DIV>
+                            <DT>
+                              <I>Enumerated_Domain_Value_Definition:</I>
+                            </DT>
+                            <PRE>The taxonomic classification (name) of the soil.</PRE>
+                          </DIV>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Ending_Date_of_Attribute_Values:</I>1995</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>ORDER_</DT>
+                </DL>
+              </DD>
+              <DT>
+                <I>Attribute:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Attribute_Label:</I>SQM</DT>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition:</I>
+                    </DT>
+                    <PRE>Area in square miles</PRE>
+                  </DIV>
+                  <DIV>
+                    <DT>
+                      <I>Attribute_Definition_Source:</I>
+                    </DT>
+                    <PRE>SRBC</PRE>
+                  </DIV>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Overview_Description:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DIV>
+                <DT>
+                  <I>Entity_and_Attribute_Overview:</I>
+                </DT>
+                <PRE>
+Attributes:
+
+MUID
+
+SEQNUM
+
+COMPNAME
+
+COMPKIND
+
+G	Taxon above family
+M	Miscellaneous area
+S	Series
+
+CLASCODE
+
+CLASS
+
+ORDER
+A	Alfisols
+E	Entisols
+H	Histosols
+I	Inceptisols
+M	Mollisols
+S	Spodosols
+U	Ultisols
+
+SUBORDER
+
+AAQ 	Aqualfs
+ABO 	Boralfs
+AUD 	Udalfs
+EAQ 	Aquents
+EOR 	Orthents
+EPS 	Psamments
+HHE 	Hemists
+HSA 	Saprists
+IAQ 	Aquepts
+IOC 	Ochrepts
+MAQ 	Aquolls
+SAQ 	Aquods
+SOR 	Orthods
+UAQ 	Aquults
+UUD 	Udults
+
+GRTGROUP
+
+AAQFR Fragiaqualfs
+AAQOC Ochraqualfs
+ABOGL Glossoboralfs
+AUDFR Fragiudalfs
+AUDHA Hapludalfs
+EAQFL Fluvaquents
+EAQHA Haplaquents
+EAQSU Sulfaquents
+EORUD Udorthents
+EPSQU Quartzipsamments
+EPSUD Udipsamments
+HHESI Sulfihemists
+HAS	Saprists
+HSABO Borosaprists
+HSAME Medisaprists
+IAQFR Fragiaquepts
+IAQHP Haplaquepts
+IOCDY Dystrochrepts
+IOCEU Eutrochrepts
+IOCFR Fragiochrepts
+MAQHA Haplaquolls
+SAQHA Haplaquods
+SORCR Cryorthods
+SORFR Fragiorthods
+SORHA Haplorthods
+UAQOC Ochraquults
+UAQUM Umbraquults
+UUDFR Fragiudults
+UUDHA Hapludults
+UUDKH Kanhapludults
+UUDPA Paleudults
+
+SUBGROUP
+
+AA typic
+AE aeric
+AL10 alfic
+AQ06 aquic
+AQ18 aquic dystric
+DY02 dystric
+DY04 dystric fluventic
+EN entic
+EU eutric
+FL02 fluvaquentic
+FL06 fluventic
+GL02 glossaquic
+GL16 glossoboric
+HE hemic
+HU humic
+LI02 lithic
+MO mollic
+OC ochreptic
+PS02 psammentic
+RU02 ruptic-alfic
+TE terric
+UD03 udollic
+UL ultic
+
+Entity_and_Attribute_Detail_Citation  U.S. Department of Agriculture. 1995. State Soil Geographic (STATSGO) Data Base Data Use Information. National Soil Survey Center, Natural Resources Conservation Sevice, Miscellaneous Publication Number 1492. http://www.ftw.nrcs.usda.gov/pdf/statsgo_db.pdf
+</PRE>
+              </DIV>
+              <DIV>
+                <DT>
+                  <I>Entity_and_Attribute_Detail_Citation:</I>
+                </DT>
+                <PRE>
+U.S. Department of Agriculture. 1975. Soil Taxonomy: A basic
+system of soil classification for making and interpreting
+soil surveys. Soil Conserv. Serv., U.S. Dep. Agric. Handb. 436.
+
+U.S. Department of Agriculture. 1992. Keys to Soil Taxonomy.
+SMSS Technical Monograph No. 19. Soil Surv. Staff, Soil
+Conserv. Serv.
+
+U.S. Department of Agriculture. 1993. National Soil Survey
+Handbook, title 430-VI. Soil Surv. Staff, Soil Conserv. Serv.
+
+U.S. Department of Agriculture. 1993. Soil Survey Manual.
+Soil Surv. Staff, U.S. Dep. Agric. Handbook 18.
+
+U.S. Department of Agriculture. 1993. National Soil Survey
+Handbook, title 430-VI. Soil Surv. Staff, Soil Conserv. Serv.
+
+U.S. Department of Agriculture. 1994. State Soil Geographic
+(STATSGO) Data Base: Data use information. Soil Conserv. Serv.
+
+U.S. Department of Agriculture. State Soil Survey Database
+Data Dictionary. Soil Conserv. Serv.
+</PRE>
+              </DIV>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A NAME="EPA">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Distribution_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Distributor:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>SRBC</DT>
+                      <DT>
+                        <I>Contact_Person:</I>Brydon H. Lidle, III</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Position:</I>Section Chief, Information Technology and GIS</DT>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>1721 North Front Street</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Harrisburg</DT>
+                      <DT>
+                        <I>State_or_Province:</I>PA</DT>
+                      <DT>
+                        <I>Postal_Code:</I>17102-2391</DT>
+                      <DT>
+                        <I>Country:</I>USA</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>717-238-0423</DT>
+                  <DT>
+                    <I>Contact_Facsimile_Telephone:</I>717-238-2436</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>blidle@srbc.net</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Resource_Description:</I>Downloadable Data</DT>
+          <DIV>
+            <DT>
+              <I>Distribution_Liability:</I>
+            </DT>
+            <PRE>
+Although these data have been processed
+successfully on a computer system at the U.S Department of
+Agriculture, no warranty expressed or implied is made by the
+Agency regarding the utility of the data on any other
+system, nor shall the act of distribution constitute any such
+warranty.  The U.S. Department of Agriculture will warrant the
+delivery of this product in computer-readable format, and will
+offer appropriate adjustment of credit when the product
+is determined unreadable by correctly adjusted computer input
+peripherals, or when the physical medium is delivered in
+damaged condition.  Request for adjustment of credit must be
+made within 90 days from the date of this shipment from the
+ordering site.
+
+The U.S. Department of Agriculture, nor any of its agencies
+are liable for misuse of the data.  It is also not liable for
+damage, transmission of viruses, or computer contamination
+through the distribution of these data sets.  The U.S.
+Department of Agriculture prohibits discrimination in its
+programs on the basis of race, color, national origin, sex,
+religion, age, disability, political beliefs, and marital or
+familial status.  (Not all prohibited bases apply to all
+programs.)
+</PRE>
+          </DIV>
+          <DT>
+            <I>Standard_Order_Process:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Digital_Form:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Digital_Transfer_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Format_Name:</I>DLG</DT>
+                      <DT>
+                        <I>Format_Version_Date:</I>19920508</DT>
+                      <DIV>
+                        <DT>
+                          <I>Format_Specification:</I>
+                        </DT>
+                        <PRE>Optional</PRE>
+                      </DIV>
+                      <DIV>
+                        <DT>
+                          <I>Format_Information_Content:</I>
+                        </DT>
+                        <PRE>spatial and keys</PRE>
+                      </DIV>
+                      <DT>
+                        <I>Transfer_Size:</I>4.538</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Digital_Form:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Digital_Transfer_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Format_Name:</I>ASCII</DT>
+                      <DIV>
+                        <DT>
+                          <I>Format_Information_Content:</I>
+                        </DT>
+                        <PRE>keys and attributes</PRE>
+                      </DIV>
+                      <DT>
+                        <I>Transfer_Size:</I>4.538</DT>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Digital_Form:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Digital_Transfer_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Format_Name:</I>ARCE</DT>
+                      <DIV>
+                        <DT>
+                          <I>Format_Specification:</I>
+                        </DT>
+                        <PRE>single precision</PRE>
+                      </DIV>
+                      <DIV>
+                        <DT>
+                          <I>Format_Information_Content:</I>
+                        </DT>
+                        <PRE>spatial, keys, and attributes</PRE>
+                      </DIV>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+              <DT>
+                <I>Digital_Form:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Digital_Transfer_Information:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Digital_Transfer_Option:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Offline_Option:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Offline_Media:</I>8mm cartridge tape</DT>
+                          <DT>
+                            <I>Recording_Capacity:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Recording_Density:</I>2.3</DT>
+                              <DT>
+                                <I>Recording_Density_Units:</I>gigabytes</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Recording_Format:</I>tar</DT>
+                        </DL>
+                      </DD>
+                      <DT>
+                        <I>Offline_Option:</I>
+                      </DT>
+                      <DD>
+                        <DL>
+                          <DT>
+                            <I>Offline_Media:</I>1/4-inch cartridge tape</DT>
+                          <DT>
+                            <I>Recording_Capacity:</I>
+                          </DT>
+                          <DD>
+                            <DL>
+                              <DT>
+                                <I>Recording_Density:</I>150</DT>
+                              <DT>
+                                <I>Recording_Density_Units:</I>megabytes</DT>
+                            </DL>
+                          </DD>
+                          <DT>
+                            <I>Recording_Format:</I>tar</DT>
+                        </DL>
+                      </DD>
+                    </DL>
+                  </DD>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A NAME="EAA">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Distribution_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Distributor:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Organization_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Organization:</I>Pennsylvania Spatial Data Access (PASDA) </DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>115 Land and Water building</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>University Park</DT>
+                      <DT>
+                        <I>State_or_Province:</I>Pennsylvania</DT>
+                      <DT>
+                        <I>Postal_Code:</I>16802</DT>
+                      <DT>
+                        <I>Country:</I>United States</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>(814) 865 - 8792 </DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>pasda@psu.edu </DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DIV>
+            <DT>
+              <I>Distribution_Liability:</I>
+            </DT>
+            <PRE>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.
+</PRE>
+          </DIV>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+    <A name="Metadata_Reference_Information">
+      <HR>
+    </A>
+    <DL>
+      <DT>
+        <I>Metadata_Reference_Information:</I>
+      </DT>
+      <DD>
+        <DL>
+          <DT>
+            <I>Metadata_Date:</I>20080613</DT>
+          <DT>
+            <I>Metadata_Review_Date:</I>20060424</DT>
+          <DT>
+            <I>Metadata_Future_Review_Date:</I>None planned</DT>
+          <DT>
+            <I>Metadata_Contact:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Contact_Information:</I>
+              </DT>
+              <DD>
+                <DL>
+                  <DT>
+                    <I>Contact_Person_Primary:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Contact_Person:</I>Jeff Zimmerman, Jr.</DT>
+                      <DT>
+                        <I>Contact_Organization:</I>SRBC</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Position:</I>GIS Specialist</DT>
+                  <DT>
+                    <I>Contact_Address:</I>
+                  </DT>
+                  <DD>
+                    <DL>
+                      <DT>
+                        <I>Address_Type:</I>mailing and physical address</DT>
+                      <DIV>
+                        <DT>
+                          <I>Address:</I>
+                        </DT>
+                        <PRE>1721 N. Front St.</PRE>
+                      </DIV>
+                      <DT>
+                        <I>City:</I>Harrisburg</DT>
+                      <DT>
+                        <I>State_or_Province:</I>Pennsylvania</DT>
+                      <DT>
+                        <I>Postal_Code:</I>17102-2391</DT>
+                      <DT>
+                        <I>Country:</I>USA</DT>
+                    </DL>
+                  </DD>
+                  <DT>
+                    <I>Contact_Voice_Telephone:</I>717-238-0425</DT>
+                  <DT>
+                    <I>Contact_Electronic_Mail_Address:</I>jzimmerman@srbc.net</DT>
+                </DL>
+              </DD>
+            </DL>
+          </DD>
+          <DT>
+            <I>Metadata_Standard_Name:</I>FGDC Content Standards for Digital Geospatial Metadata</DT>
+          <DT>
+            <I>Metadata_Standard_Version:</I>FGDC-STD-001-1998</DT>
+          <DT>
+            <I>Metadata_Time_Convention:</I>local time</DT>
+          <DT>
+            <I>Metadata_Access_Constraints:</I>There are no access constraints for this metadata document</DT>
+          <DT>
+            <I>Metadata_Use_Constraints:</I>
+          </DT>
+          <DD>There are no use constraints for this metadata document.</DD>
+          <DT>
+            <I>Metadata_Extensions:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Online_Linkage:</I>
+                <A TARGET="viewer" HREF="http://www.esri.com/metadata/esriprof80.html">http://www.esri.com/metadata/esriprof80.html</A>
+              </DT>
+              <DT>
+                <I>Profile_Name:</I>ESRI Metadata Profile</DT>
+            </DL>
+          </DD>
+          <DT>
+            <I>Metadata_Extensions:</I>
+          </DT>
+          <DD>
+            <DL>
+              <DT>
+                <I>Online_Linkage:</I>
+                <A TARGET="viewer" HREF="http://www.esri.com/metadata/esriprof80.html">http://www.esri.com/metadata/esriprof80.html</A>
+              </DT>
+              <DT>
+                <I>Profile_Name:</I>ESRI Metadata Profile</DT>
+            </DL>
+          </DD>
+        </DL>
+      </DD>
+    </DL>
+    <A HREF="#Top">Back to Top</A>
+  </BODY>
+</HTML>
+		</form>
+	</body>
+</HTML>
