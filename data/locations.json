@@ -1,0 +1,38 @@
+{
+  "counties_in_pennsylvania": [
+    "Adams", "Allegheny", "Armstrong", "Beaver", "Bedford", "Berks",
+    "Blair", "Bradford", "Bucks", "Butler", "Cambria", "Cameron",
+    "Carbon", "Centre", "Chester", "Clarion", "Clearfield", "Clinton",
+    "Columbia", "Crawford", "Cumberland", "Dauphin", "Delaware", "Elk",
+    "Erie", "Fayette", "Forest", "Franklin", "Fulton", "Greene",
+    "Huntingdon", "Indiana", "Jefferson", "Juniata", "Lackawanna",
+    "Lancaster", "Lawrence", "Lebanon", "Lehigh", "Luzerne", "Lycoming",
+    "McKean", "Mercer", "Mifflin", "Monroe", "Montgomery", "Montour",
+    "Northampton", "Northumberland", "Perry", "Philadelphia", "Pike",
+    "Potter", "Schuylkill", "Snyder", "Somerset", "Sullivan", "Susquehanna",
+    "Tioga", "Union", "Venango", "Warren", "Washington", "Wayne",
+    "Westmoreland", "Wyoming", "York"
+  ],
+  "cities_in_pennsylvania": [
+    "Allentown", "Altoona", "Bethlehem", "Butler", "Carlisle", "Chambersburg",
+    "Chester", "Clairton", "DuBois", "Duquesne", "Easton", "Erie", "Greensburg", "Hanover",
+    "Harrisburg", "Hazleton", "Hermitage", "Johnstown", "Lancaster",
+    "Latrobe", "Lebanon", "Lock Haven", "Lower Merion", "McKeesport",
+    "Meadville", "Monroeville", "Nanticoke", "New Castle", "Norristown",
+    "Philadelphia", "Phoenixville", "Pittsburgh", "Pottstown", "Pottsville",
+    "Reading", "Scranton", "Sharon", "State College", "Uniontown",
+    "Warren", "Washington", "West Chester", "Wilkes-Barre", "Williamsport", "York"
+  ],
+  "state_abbreviations": {
+    "AL": "Alabama", "AK": "Alaska", "AZ": "Arizona", "AR": "Arkansas", "CA": "California",
+    "CO": "Colorado", "CT": "Connecticut", "DE": "Delaware", "FL": "Florida", "GA": "Georgia",
+    "HI": "Hawaii", "ID": "Idaho", "IL": "Illinois", "IN": "Indiana", "IA": "Iowa",
+    "KS": "Kansas", "KY": "Kentucky", "LA": "Louisiana", "ME": "Maine", "MD": "Maryland",
+    "MA": "Massachusetts", "MI": "Michigan", "MN": "Minnesota", "MS": "Mississippi", "MO": "Missouri",
+    "MT": "Montana", "NE": "Nebraska", "NV": "Nevada", "NH": "New Hampshire", "NJ": "New Jersey",
+    "NM": "New Mexico", "NY": "New York", "NC": "North Carolina", "ND": "North Dakota", "OH": "Ohio",
+    "OK": "Oklahoma", "OR": "Oregon", "PA": "Pennsylvania", "RI": "Rhode Island", "SC": "South Carolina",
+    "SD": "South Dakota", "TN": "Tennessee", "TX": "Texas", "UT": "Utah", "VT": "Vermont",
+    "VA": "Virginia", "WA": "Washington", "WV": "West Virginia", "WI": "Wisconsin", "WY": "Wyoming"
+  }
+}

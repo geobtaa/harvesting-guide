@@ -1,0 +1,1 @@
+This directory is for data/metadata used for running code. This may include values for normalizing records, such as place names or creator IDs.
