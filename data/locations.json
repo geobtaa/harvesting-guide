@@ -23,7 +23,45 @@
     "Reading", "Scranton", "Sharon", "State College", "Uniontown",
     "Warren", "Washington", "West Chester", "Wilkes-Barre", "Williamsport", "York"
   ],
-  "state_abbreviations": {
+    
+    
+   "counties_in_wisconsin": [
+    "Adams", "Ashland", "Barron", "Bayfield", "Brown", "Buffalo",
+    "Burnett", "Calumet", "Chippewa", "Clark", "Columbia", "Crawford",
+    "Dane", "Dodge", "Door", "Douglas", "Dunn", "Eau Claire",
+    "Florence", "Fond du Lac", "Fond Du Lac", "Forest", "Grant", "Green", "Green Lake",
+    "Iowa", "Iron", "Jackson", "Jefferson", "Juneau", "Kenosha",
+    "Kewaunee", "La Crosse", "Lacrosse", "Lafayette", "Langlade", "Lincoln",
+    "Manitowoc", "Marathon", "Marinette", "Marquette", "Menominee",
+    "Milwaukee", "Monroe", "Oconto", "Oneida", "Outagamie", "Ozaukee",
+    "Pepin", "Pierce", "Polk", "Portage", "Price", "Racine",
+    "Richland", "Rock", "Rusk", "Sauk", "Sawyer", "Shawano",
+    "Sheboygan", "St. Croix", "St Croix", "Taylor", "Trempealeau", "Vernon", "Vilas",
+    "Walworth", "Washburn", "Washington", "Waukesha", "Waupaca",
+    "Waushara", "Winnebago", "Wood"
+],
+
+    "cities_in_wisconsin": [
+    "Milwaukee", "Washington", "Waukesha", "Appleton", "Outagamie", 
+    "Winnebago", "Eau Claire", "Fitchburg", "Fond du Lac", "Fond Du Lac","Green Bay", "Janesville", 
+    "Kenosha", "La Crosse", "Lacrosse", "Madison", "Oshkosh", "Racine", "Rhinelander", 
+    "Sheboygan", "Superior",
+    "Waukesha", "Wausau", "Wauwatosa", "West Allis", "Wisconsin Rapids"
+],
+
+  "states": [
+    "Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware", "Florida", 
+    "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", "Maine", 
+    "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", 
+    "Nevada", "New Hampshire", "New Jersey", "New Mexico", "New York", "North Carolina", "North Dakota", "Ohio", 
+    "Oklahoma", "Oregon", "Pennsylvania", "Rhode Island", "South Carolina", "South Dakota", "Tennessee", "Texas", 
+    "Utah", "Vermont", "Virginia", "Washington", "West Virginia", "Wisconsin", "Wyoming", "District of Columbia"
+  ],
+  
+  "nations": ["United States", "Canada", "Mexico", "United Kingdom", "France", "Germany", "Italy", "Spain", 
+           "Australia", "Japan", "China", "India", "Brazil", "Russia", "South Africa"],
+    
+      "state_abbreviations": {
     "AL": "Alabama", "AK": "Alaska", "AZ": "Arizona", "AR": "Arkansas", "CA": "California",
     "CO": "Colorado", "CT": "Connecticut", "DE": "Delaware", "FL": "Florida", "GA": "Georgia",
     "HI": "Hawaii", "ID": "Idaho", "IL": "Illinois", "IN": "Indiana", "IA": "Iowa",
