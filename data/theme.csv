@@ -1,0 +1,22 @@
+label,keywords
+Agriculture,farming|agriculture|irrigation|aquaculture|plantations|herding|crops|livestock
+Biology,biota|flora|fauna|wildlife|vegetation|biological|ecology|wilderness|sealife|wetls|habitat
+Boundaries,boundaries|political|administrative
+Climate,climatologyMeteorologyAtmosphere|atmosphere|cloud|weather|climate|atmospheric|precipitation|storm|tornado
+Economy,economy|labour|revenue|commerce|industry|tourism|ecotourism|forestry|fisheries|hunting|minerals
+Elevation,elevation|altitude|bathymetry|LiDAR|slope|topographic|topography|contour
+Environment,environment|pollution|waste|nature|landscape
+Events,natural disasters|concerts|races|protests|arrests|accidents
+Geology,geoscientificInformation|geophysical|minerals|rocks|earthquake|volcanic|volcano|landslides|soils|permafrost|hydrogeology|erosion
+Health,health|disease|illness|hygiene|mental|covid
+Imagery,imageryBaseMapsEarthCover|aerial|orthoimagery|satellite|multispectral
+Inland Waters,inlandWaters|rivers|glaciers|lakes|dams|floods|canals
+Land Cover,imageryBaseMapsEarthCover|forests|wetlands|impervious|land use
+Location,location|addresses|geodetic|control points|postal|place names|populated|schools
+Military,intelligenceMilitary|barracks|surveilliance
+Oceans,oceans|tides|tidal waves|coastal|reefs|coast
+Property,planningCadastre|zoning|cadastral|parcels
+Society,society|population|settlements|anthropology|archaeology|education|traditional beliefs|manners|customs|demographic|recreationalassessments|crime|justice|census|births|pregnancies|age|sex|gender
+Structure,structure|buildings|museums|churches|factories|housing|monuments|shops|towers
+Transportation,transportation|roads|airports|airstrips|airfields|shipping|tunnels|nautical|aeronautical|railway|railroad|streets|centerlines
+Utilities,utilitiesCommunication|Energy|waste systems|hydroelectricity|geothermal|solar|nuclear|energy|sewage|electricity gas|communication|telecommunication|radio
