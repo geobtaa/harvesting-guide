@@ -1,0 +1,813 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: Indiana Geological Survey
+      Originator: Walter Hasenmueller (Compiler)
+      Originator: Paul Irwin (Digital compiler)
+      Originator: Denver Harper (Digital compiler)
+      Originator: Chris Dintaman (Digital compiler)
+      Publication_Date: 20030813
+      Title: SAND_GRAVEL_PITS_ABANDONED_IN: Abandoned Sand and Gravel Pits in Indiana (Indiana Geological Survey, Point Shapefile)
+      Geospatial_Data_Presentation_Form: Vector digital data
+      Publication_Information:
+        Publication_Place: Bloomington
+        Publisher: Indiana Geological Survey
+      Other_Citation_Details:
+        This shapefile was derived from the following unpublished memorandum report of the
+        Indiana Geological Survey (IGS): Hasenmueller, W. A., 2001, Preliminary database of abandoned sand and gravel pits,
+        Coal and Industrial Minerals Section Memorandum Report 98, Indiana Geological Survey, Bloomington, 3 p., and a CD-ROM.
+      Online_Linkage: http://igs.indiana.edu/arcims/statewide/download.html
+
+  Description:
+    Abstract:
+      SAND_GRAVEL_PITS_ABANDONED_IN is a point shapefile that shows the locations of
+      abandoned sand and gravel pits in Indiana. It is derived from an unpublished
+      memorandum report of the Indiana Geological Survey (IGS): Hasenmueller,
+      W. A., 2001, Preliminary database of abandoned sand and gravel pits, Coal and
+      Industrial Minerals Section Memorandum Report 98, Indiana Geological Survey,
+      Bloomington, 3 p., and a CD-ROM.
+
+      NOTE: This shapefile includes 2,275 of 2,515 sand and gravel pit locations from
+      the IGS Abandoned Sand and Gravel Pit Database (titled "PrelimSdGvDB.mdb") that
+      are located in Indiana and for which the documented location is to the nearest
+      quarter quarter section. The 240 pit locations that were excluded did not have adequate
+      quarter quarter section information that could be processed by Geographix software.
+
+      The following discussion is derived from Memorandum Report 98:
+      "The Microsoft Access 2000 database PrelimSdGvDB.mdb on the enclosed CD contains
+      information about abandoned sand and gravel pits in Indiana. The data contained
+      in this database represents a preliminary stage in a comprehensive compilation
+      of abandoned sand and gravel pit data stored in the files of the Mineral Resources
+      Section of the Indiana Geological Survey (IGS). The data were taken from a single
+      Mineral Resources Section file titled "DATA TABULATION CARDS: Sand and Gravel
+      Pits" which documents abandoned sand and gravel pits examined by IGS geologists
+      in the late 1940s and early 1950s. Although these data have been assembled into a
+      simple flat-file database they should not be regarded as a final compilation of
+      the above mentioned file nor should they be regarded as a compilation of all
+      abandoned sand and gravel pit information filed in IGS Mineral Resources Section
+      files. The Mineral Resources Section is providing this preliminary database in
+      response to a request from the Energy Resources Section of the IGS."
+    Purpose:
+      SAND_GRAVEL_PITS_ABANDONED_IN was created to provide a preliminary digital
+      shapefile of abandoned sand and gravel pits in Indiana, suitable for use in
+      a GIS.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 19450625
+        Ending_Date: 19920815
+    Currentness_Reference: 1993
+  Status:
+    Progress: In Work
+    Maintenance_and_Update_Frequency: Continually
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -88.0339
+      East_Bounding_Coordinate: -84.7390
+      North_Bounding_Coordinate: 41.7679
+      South_Bounding_Coordinate: 37.8850
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: IGS Metadata Keyword Thesaurus
+      Theme_Keyword: Indiana Geological Survey (IGS)
+      Theme_Keyword: economic geology
+      Theme_Keyword: industrial mineral
+      Theme_Keyword: sand and gravel
+      Theme_Keyword: sedimentology
+    Theme:
+      Theme_Keyword_Thesaurus: Geography Network Keyword Thesaurus
+      Theme_Keyword: geoscientificInformation
+	  Theme_Keyword: economy
+    Place:
+      Place_Keyword_Thesaurus: None
+      Place_Keyword: Indiana
+      Place_Keyword: Adams County
+      Place_Keyword: Allen County
+      Place_Keyword: Benton County
+      Place_Keyword: Blackford County
+      Place_Keyword: Boone County
+      Place_Keyword: Brown County
+      Place_Keyword: Carroll County
+      Place_Keyword: Cass County
+      Place_Keyword: Clark County
+      Place_Keyword: Clay County
+      Place_Keyword: Clinton County
+      Place_Keyword: Daviess County
+      Place_Keyword: Dearborn County
+      Place_Keyword: Decatur County
+      Place_Keyword: DeKalb County
+      Place_Keyword: Delaware County
+      Place_Keyword: Dubois County
+      Place_Keyword: Elkhart County
+      Place_Keyword: Fayette County
+      Place_Keyword: Fountain County
+      Place_Keyword: Franklin County
+      Place_Keyword: Fulton County
+      Place_Keyword: Gibson County
+      Place_Keyword: Grant County
+      Place_Keyword: Greene County
+      Place_Keyword: Hamilton County
+      Place_Keyword: Hancock County
+      Place_Keyword: Harrison County
+      Place_Keyword: Hendricks County
+      Place_Keyword: Henry County
+      Place_Keyword: Howard County
+      Place_Keyword: Huntington County
+      Place_Keyword: Jackson County
+      Place_Keyword: Jasper County
+      Place_Keyword: Jay County
+      Place_Keyword: Jefferson County
+      Place_Keyword: Johnson County
+      Place_Keyword: Knox County
+      Place_Keyword: Kosciusko County
+      Place_Keyword: Lagrange County
+      Place_Keyword: Lake County
+      Place_Keyword: LaPorte County
+      Place_Keyword: Lawrence County
+      Place_Keyword: Madison County
+      Place_Keyword: Marion County
+      Place_Keyword: Marshall County
+      Place_Keyword: Miami County
+      Place_Keyword: Montgomery County
+      Place_Keyword: Morgan County
+      Place_Keyword: Newton County
+      Place_Keyword: Noble County
+      Place_Keyword: Ohio County
+      Place_Keyword: Owen County
+      Place_Keyword: Parke County
+      Place_Keyword: Perry County
+      Place_Keyword: Pike County
+      Place_Keyword: Porter County
+      Place_Keyword: Posey County
+      Place_Keyword: Pulaski County
+      Place_Keyword: Putnam County
+      Place_Keyword: Randolph County
+      Place_Keyword: Rush County
+      Place_Keyword: Shelby County
+      Place_Keyword: Spencer County
+      Place_Keyword: St Joseph County
+      Place_Keyword: Starke County
+      Place_Keyword: Steuben County
+      Place_Keyword: Sullivan County
+      Place_Keyword: Switzerland County
+      Place_Keyword: Tippecanoe County
+      Place_Keyword: Tipton County
+      Place_Keyword: Union County
+      Place_Keyword: Vanderburgh County
+      Place_Keyword: Vermillion County
+      Place_Keyword: Vigo County
+      Place_Keyword: Wabash County
+      Place_Keyword: Warren County
+      Place_Keyword: Warrick County
+      Place_Keyword: Washington County
+      Place_Keyword: Wayne County
+      Place_Keyword: Wells County
+      Place_Keyword: White County
+      Place_Keyword: Whitley County
+  Access_Constraints:
+    This file is available to anyone, but access may be contingent on written request, specific terms
+    relevant to the agency or person making the request, and (or) current freedom of information
+    statutes in the state of Indiana.
+  Use_Constraints:
+    DATA DISCLAIMER
+
+    This data set was compiled by Indiana University, Indiana Geological Survey, using data believed to be accurate;
+    however, a degree of error is inherent in all data. This product is distributed "AS-IS" without warranties of any
+    kind, either expressed or implied, including but not limited to warranties of suitability to a particular purpose or
+    use. No attempt has been made in either the design or production of these data to define the limits or jurisdiction
+    of any federal, state, or local government. These data are intended for use only at the published scale or smaller
+    and are for reference purposes only. They are not to be construed as a legal document or survey instrument. A
+    detailed on-the-ground survey and historical analysis of a single site may differ from these data.
+
+    COPYRIGHT 2003, THE TRUSTEES OF INDIANA UNIVERSITY,
+    INDIANA GEOLOGICAL SURVEY, ALL RIGHTS RESERVED
+
+    The information on these media is proprietary to Indiana University, Indiana Geological Survey. Any
+    copying, adaptation, distribution, public performance, or public display of this information without the
+    express written consent of Indiana University, Indiana Geological Survey is discouraged.
+
+    CREDIT
+
+    It is required that the Indiana Geological Survey be cited in any products generated from this data.
+    The following source citation must be included: SAND_GRAVEL_PITS_ABANDONED_IN: Abandoned Sand and Gravel Pits
+    in Indiana (Indiana Geological Survey, Point Shapefile).
+
+    WARRANTY
+
+    Indiana University, Indiana Geological Survey warrants that the media on which this product is stored
+    will be free from defect in materials and workmanship for ninety (90) days from the date of acquisition.
+    If such a defect is found, return the media to Publication Sales, Indiana Geological Survey, 611 North
+    Walnut Grove, Bloomington, Indiana 47405 2208, and it will be replaced free of charge.
+
+    LIMITATION OF WARRANTIES AND LIABILITY
+
+    Except for the expressed warranty above, the product is provided "AS IS", without any other warranties
+    or conditions, expressed or implied, including, but not limited to, warranties for product quality, or
+    suitability to a particular purpose or use. The risk or liability resulting from the use of this product is
+    assumed by the user. Indiana University, Indiana Geological Survey shares no liability with product
+    users indirect, incidental, special, or consequential damages whatsoever, including, but not limited to,
+    loss of revenue or profit, lost or damaged data or other commercial or economic loss. Indiana University,
+    Indiana Geological Survey is not responsible for claims by a third party. The maximum aggregate liability
+    to the original purchaser shall not exceed the amount paid by you for the product.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: Indiana Geological Survey
+      Contact_Address:
+        Address_Type: Mailing and physical address
+        Address: 611 North Walnut Grove
+        City: Bloomington
+        State_or_Province: Indiana
+        Postal_Code: 47405-2208
+        Country: USA
+      Contact_Voice_Telephone: 812-855-7636
+      Contact_Facsimile_Telephone: 812-855-2862
+      Contact_Electronic_Mail_Address: IGSinfo@indiana.edu
+      Hours_of_Service: 0800 to 1700 Eastern Standard Time
+      Contact_Instructions: Monday through Friday, except holidays
+
+  Native_Data_Set_Environment: ESRI ArcGIS 8.3 shapefile format, approximately 2.4 Mb.
+
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report:
+      The sand and gravel pit sites included in this shapefile were identified by IGS field
+      geologists or taken from literature sources judged to be reliable by IGS geologists.
+  Logical_Consistency_Report:
+    Duplicate features may exist in this data set. Sand and gravel pits which were abandoned and
+    reopened under a new name may be represented more than once in the data set.
+  Completeness_Report:
+    This shapefile includes 2,275 of 2,515 sand and gravel pit locations from the IGS Abandoned Sand and Gravel
+    Pit Database (titled "PrelimSdGvDB.mdb") that are located in Indiana and for which the documented
+    location is to the nearest quarter quarter section. The 240 pit locations that were excluded did not have adequate
+    quarter quarter section information that could be processed by Geographix software.
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report:
+        Most of the quarry location coordinates were obtained using Geographix Software and a land grid developed
+        by White Star, Inc. (Denver, CO). The locations will be no more precise than the third quarter section,
+        or the number of quarter sections in the field named "Qtr".
+    Vertical_Positional_Accuracy:
+      Vertical_Positional_Accuracy_Report:
+        Stratigraphic measurements are in feet. Measurements are reported to the nearest 0.1 foot. The precision
+        of the original data varies from measurement to the nearest 0.1 foot to estimate to the nearest 10 feet.
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Indiana Geological Survey
+          Publication_Date: 2001
+          Title:
+            Preliminary Database of Abandoned Sand and Gravel Pits,
+            Coal and Industrial Minerals Section Memorandum Report No. 98.
+          Geospatial_Data_Presentation_Form: Tabular digital data
+          Publication_Information:
+            Publication_Place: Bloomington, Indiana
+            Publisher: Indiana Geological Survey
+      Type_of_Source_Media: CD-ROM
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 19450625
+            Ending_Date: 19920815
+        Source_Currentness_Reference: 1993
+      Source_Citation_Abbreviation: PrelimSndGvDB.mdb
+      Source_Contribution: SAND_GRAVEL_PITS_ABANDONED_IN was extracted from the Preliminary Database of Abandoned Sand and Gravel Pits.
+    Process_Step:
+      Process_Description:
+        Information about abandoned sand and gravel pits in Indiana was obtained by IGS geologists from literature
+        sources, public records, and visits to sand and gravel pit sites. These data were compiled into
+        a file named "Database of Abandoned Sand and Gravel Pits.txt." The Database of Abandoned Sand and Gravel Pits in Indiana was
+        converted to a Microsoft Access database (referred to as the "Preliminary Abandoned Sand and Gravel Pits Database").
+      Process_Date: 20000905
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Organization: Indiana Geological Survey
+            Contact_Person: Walter A. Hasenmueller
+          Contact_Position: Research Scientist
+          Contact_Address:
+            Address_Type: Mailing and physical address
+            Address: 611 North Walnut Grove
+            City: Bloomington
+            State_or_Province: Indiana
+            Postal_Code: 47405-2208
+            Country: USA
+          Contact_Voice_Telephone: 812-855-1365
+          Contact_Facsimile_Telephone: 812-855-2862
+          Contact_Electronic_Mail_Address: whasenmu@indiana.edu
+          Hours_of_Service: 0800 to 1700 Eastern Standard Time
+          Contact_Instructions: Monday through Friday, except holidays
+    Process_Step:
+      Process_Description:
+        The field Qtr from the SdGvDb table was parsed into two new fields, qtr1 and qtr2.
+        A new field, qtr3, was added to more precisely describe some of the locations, such
+        as "C NW." A text file was then created with locations using the Congressional Land
+        Survey System (section, township, and range); this text file was processed with
+        GES97 software, GeoGraphix, Inc., using a land grid created by White Star Corp. to
+        obtain coordinate locations in UTM Zone 16 NAD27. This data was imported back into
+        PrelimSdGvDB.mdb and joined with the SdGvDb table to create the table SG3. Two queries
+        were created to count the number of locations from the original file and the number
+        of locations that now had coordinate values. A new table, nocoords, was created from
+        the results of these queries. A new Access database, S_G.mdb, was created and the tables
+        SG3 and nocoords were imported into this database.
+      Source_Used_Citation_Abbreviation: PrelimSndGvDB.mdb
+      Process_Date: 20001220
+      Source_Produced_Citation_Abbreviation: S_G.mdb
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Organization: Indiana Geological Survey
+            Contact_Person: Paul Irwin
+          Contact_Position: GIS Technician
+          Contact_Address:
+            Address_Type: Mailing and physical address
+            Address: 611 North Walnut Grove
+            City: Bloomington
+            State_or_Province: Indiana
+            Postal_Code: 47405-2208
+            Country: USA
+          Contact_Voice_Telephone: 812-855-5812
+          Contact_Facsimile_Telephone: 812-855-2862
+          Contact_Electronic_Mail_Address: irwinp@indiana.edu
+          Hours_of_Service: 0800 to 1700 Eastern Standard Time
+          Contact_Instructions: Monday through Friday, except holidays
+    Process_Step:
+      Process_Description:
+        A Microsoft Access table named "SG3" within the database named "S_G.MDB" was exported as
+        a DBase IV file named "SG3.DBF." SG3.DBF was then added as a table to an ESRI ArcView 3.3
+        View. The Add Event Theme function was used to add the data to the view, and the
+        Convert to Shapefile function was used to save the data as a shapefile named "SG3_NAD27.SHP."
+
+        The shapefile was edited in ESRI ArcView 3.3 to eliminate 240 records for which no UTM values were
+        available. The fields named "Utmx27" and "Utmy27" were then deleted. SG3_NAD27.SHP was then re-projected
+        to UTM Zone 16 NAD83, using the Define Projection Wizard and the Project Wizard of ESRI ArcToolbox 8.3,
+        and the resulting shapefile was named "SAND_GRAVEL_PITS_ABANDONED_IN.SHP."
+      Source_Used_Citation_Abbreviation: S_G.MDB
+      Process_Date: 20030813
+      Source_Produced_Citation_Abbreviation: SAND_GRAVEL_PITS_ABANDONED_IN.SHP
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Organization: Indiana Geological Survey
+            Contact_Person: Denver Harper
+          Contact_Position: Geologist
+          Contact_Address:
+            Address_Type: Mailing and physical address
+            Address: 611 North Walnut Grove
+            City: Bloomington
+            State_or_Province: Indiana
+            Postal_Code: 47405-2208
+            Country: USA
+          Contact_Voice_Telephone: 812-855-1369
+          Contact_Facsimile_Telephone: 812-855-2862
+          Contact_Electronic_Mail_Address: dharper@indiana.edu
+          Hours_of_Service: 0800 to 1700 Eastern Standard Time
+          Contact_Instructions: Monday through Friday, except holidays
+    Process_Step:
+      Process_Description:
+        This metadata was pre-parsed and parsed using CNS (Chew and Spit) and
+        MP (Metadata Parser) software written by Peter N. Schweitzer (United
+        States Geological Survey).  The errors generated by MP were all
+        addressed and corrected, except that no values were assigned to
+        "Abscissa_Resolution" and "Ordinate_Resolution."
+      Process_Date: 20030909
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Organization: Indiana Geological Survey
+            Contact_Person: Chris Dintaman
+          Contact_Position: GIS Specialist
+          Contact_Address:
+            Address_Type: Mailing and physical address
+            Address: 611 North Walnut Grove
+            City: Bloomington
+            State_or_Province: Indiana
+            Postal_Code: 47405-2208
+            Country: USA
+          Contact_Voice_Telephone: 812-856-5654
+          Contact_Facsimile_Telephone: 812-855-2862
+          Contact_Electronic_Mail_Address: cdintama@indiana.edu
+          Hours_of_Service: 0800 to 1700 Eastern Standard Time
+          Contact_Instructions: Monday through Friday, except holidays
+
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Point
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Point
+      Point_and_Vector_Object_Count: 2275
+
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: Universal Transverse Mercator
+        Universal_Transverse_Mercator:
+          UTM_Zone_Number: 16
+          Transverse_Mercator:
+            Scale_Factor_at_Central_Meridian: 0.999600
+            Longitude_of_Central_Meridian: -87.000000
+            Latitude_of_Projection_Origin: 0.000000
+            False_Easting: 500000.000000
+            False_Northing: 0.000000
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: Row and column
+        Coordinate_Representation:
+          Abscissa_Resolution:
+          Ordinate_Resolution:
+        Planar_Distance_Units: Meters
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: GRS 80
+      Semi-major_Axis: 6378137.0000000
+      Denominator_of_Flattening_Ratio: 298.26
+
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: Sand_gravel_pits_abandoned_in.dbf
+      Entity_Type_Definition: Shapefile Attribute Table
+      Entity_Type_Definition_Source: None
+    Attribute:
+      Attribute_Label: Count
+      Attribute_Definition: Auto number assigned by Access
+      Attribute_Definition_Source: IGS Memorandum Report 98
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 1
+          Range_Domain_Maximum: 2517
+    Attribute:
+      Attribute_Label: Sgnum
+      Attribute_Definition: Database number
+      Attribute_Definition_Source: IGS Memorandum Report 98
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character Field
+    Attribute:
+      Attribute_Label: Qtr
+      Attribute_Definition: Quartering of section
+      Attribute_Definition_Source: IGS Memorandum Report 98
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character Field
+    Attribute:
+      Attribute_Label: Qtr3
+      Attribute_Definition: Smallest quarter of section
+      Attribute_Definition_Source: IGS, Paul Irwin
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character Field
+    Attribute:
+      Attribute_Label: Qtr2
+      Attribute_Definition: Intermediate quarter of section
+      Attribute_Definition_Source: IGS, Paul Irwin
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character Field
+    Attribute:
+      Attribute_Label: Qtr1
+      Attribute_Definition: Largest quarter of section
+      Attribute_Definition_Source: IGS, Paul Irwin
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character Field
+    Attribute:
+      Attribute_Label: Cnty
+      Attribute_Definition: County
+      Attribute_Definition_Source: IGS Memorandum Report 98
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character Field
+    Attribute:
+      Attribute_Label: Quad
+      Attribute_Definition: Name of USGS 7.5-minute quadrangle
+      Attribute_Definition_Source: IGS Memorandum Report 98
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character Field
+    Attribute:
+      Attribute_Label: Date_
+      Attribute_Definition: Date data was recorded
+      Attribute_Definition_Source: IGS Memorandum Report 98
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Date Field
+    Attribute:
+      Attribute_Label: Styp
+      Attribute_Definition: Survey type
+      Attribute_Definition_Source: IGS Memorandum Report 98
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: sec
+          Enumerated_Domain_Value_Definition: Section
+          Enumerated_Domain_Value_Definition_Source: IGS Memorandum Report 98
+    Attribute:
+      Attribute_Label: Snum
+      Attribute_Definition: Survey number
+      Attribute_Definition_Source: IGS Memorandum Report 98
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 1
+          Range_Domain_Maximum: 36
+    Attribute:
+      Attribute_Label: Tnum
+      Attribute_Definition: Township number
+      Attribute_Definition_Source: IGS Memorandum Report 98
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 1
+          Range_Domain_Maximum: 38
+    Attribute:
+      Attribute_Label: Tdir
+      Attribute_Definition: Township direction
+      Attribute_Definition_Source: IGS Memorandum Report 98
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: N
+          Enumerated_Domain_Value_Definition: North
+          Enumerated_Domain_Value_Definition_Source: IGS Memorandum Report 98
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: S
+          Enumerated_Domain_Value_Definition: South
+          Enumerated_Domain_Value_Definition_Source: IGS Memorandum Report 98
+    Attribute:
+      Attribute_Label: Rnum
+      Attribute_Definition: Range number
+      Attribute_Definition_Source: IGS Memorandum Report 98
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 1
+          Range_Domain_Maximum: 15
+    Attribute:
+      Attribute_Label: Rdir
+      Attribute_Definition: Range direction
+      Attribute_Definition_Source: IGS Memorandum Report 98
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: E
+          Enumerated_Domain_Value_Definition: East
+          Enumerated_Domain_Value_Definition_Source: IGS Memorandum Report 98
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: W
+          Enumerated_Domain_Value_Definition: West
+          Enumerated_Domain_Value_Definition_Source: IGS Memorandum Report 98
+    Attribute:
+      Attribute_Label: Dpth
+      Attribute_Definition: Depth of pit (interpreted)
+      Attribute_Definition_Source: IGS Memorandum Report 98
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 100
+    Attribute:
+      Attribute_Label: Dpthnt
+      Attribute_Definition: Depth note, observed depth of pit
+      Attribute_Definition_Source: IGS Memorandum Report 98
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character Field
+    Attribute:
+      Attribute_Label: Acres
+      Attribute_Definition: Area of pit in acres derived from "Size"
+      Attribute_Definition_Source: IGS Memorandum Report 98
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 800
+    Attribute:
+      Attribute_Label: Sizent
+      Attribute_Definition: Size note, description of pit size
+      Attribute_Definition_Source: IGS Memorandum Report 98
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character Field
+    Attribute:
+      Attribute_Label: Size
+      Attribute_Definition: Size, observed size of pit
+      Attribute_Definition_Source: IGS Memorandum Report 98
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character Field
+    Attribute:
+      Attribute_Label: Obdn
+      Attribute_Definition: Overburden thickness derived from "Obdnnt"
+      Attribute_Definition_Source: IGS Memorandum Report 98
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 66.2
+    Attribute:
+      Attribute_Label: Obdnnt
+      Attribute_Definition: Overburden note, observed overburden thickness
+      Attribute_Definition_Source: IGS Memorandum Report 98
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character Field
+    Attribute:
+      Attribute_Label: Sdgvthk
+      Attribute_Definition: Sand and gravel thickness, derived from "Sdgvthknt"
+      Attribute_Definition_Source: IGS Memorandum Report 98
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 150
+    Attribute:
+      Attribute_Label: Sdgvthknt
+      Attribute_Definition: Sand and gravel note, observed sand and gravel thickness
+      Attribute_Definition_Source: IGS Memorandum Report 98
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character Field
+    Attribute:
+      Attribute_Label: Location
+      Attribute_Definition: Description of location
+      Attribute_Definition_Source: IGS Memorandum Report 98
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character Field
+    Attribute:
+      Attribute_Label: Company
+      Attribute_Definition: Company name
+      Attribute_Definition_Source: IGS Memorandum Report 98
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character Field
+    Attribute:
+      Attribute_Label: Pitnme
+      Attribute_Definition: Pit name
+      Attribute_Definition_Source: IGS Memorandum Report 98
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character Field
+    Attribute:
+      Attribute_Label: Address
+      Attribute_Definition: Address
+      Attribute_Definition_Source: IGS Memorandum Report 98
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character Field
+    Attribute:
+      Attribute_Label: Management
+      Attribute_Definition: Management
+      Attribute_Definition_Source: IGS Memorandum Report 98
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character Field
+    Attribute:
+      Attribute_Label: Coown
+      Attribute_Definition: Company owner
+      Attribute_Definition_Source: IGS Memorandum Report 98
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character Field
+    Attribute:
+      Attribute_Label: Lndown
+      Attribute_Definition: Land owner
+      Attribute_Definition_Source: IGS Memorandum Report 98
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character Field
+    Attribute:
+      Attribute_Label: Acreage
+      Attribute_Definition: Acreage, presumed to be land holdings not pit area
+      Attribute_Definition_Source: IGS Memorandum Report 98
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character Field
+    Attribute:
+      Attribute_Label: Products
+      Attribute_Definition: Products
+      Attribute_Definition_Source: IGS Memorandum Report 98
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character Field
+    Attribute:
+      Attribute_Label: Dayprod
+      Attribute_Definition: Daily production
+      Attribute_Definition_Source: IGS Memorandum Report 98
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character Field
+    Attribute:
+      Attribute_Label: Prod1948
+      Attribute_Definition: Production in 1948
+      Attribute_Definition_Source: IGS Memorandum Report 98
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character Field
+    Attribute:
+      Attribute_Label: Cumton
+      Attribute_Definition: Cumulative tons of production derived from "Cumyds"
+      Attribute_Definition_Source: IGS Memorandum Report 98
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character Field
+    Attribute:
+      Attribute_Label: Cumyds
+      Attribute_Definition: Cumulative yards produced
+      Attribute_Definition_Source: IGS Memorandum Report 98
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character Field
+    Attribute:
+      Attribute_Label: Cumulative
+      Attribute_Definition: Cumulative production stated in various units
+      Attribute_Definition_Source: IGS Memorandum Report 98
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character Field
+    Attribute:
+      Attribute_Label: Capacity
+      Attribute_Definition: Daily capacity
+      Attribute_Definition_Source: IGS Memorandum Report 98
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character Field
+    Attribute:
+      Attribute_Label: Geologist
+      Attribute_Definition: Geologist who made observations
+      Attribute_Definition_Source: IGS Memorandum Report 98
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character Field
+    Attribute:
+      Attribute_Label: Source
+      Attribute_Definition: Source of some or all of recorded data
+      Attribute_Definition_Source: IGS Memorandum Report 98
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character Field
+    Attribute:
+      Attribute_Label: Dateopn
+      Attribute_Definition: Date opened
+      Attribute_Definition_Source: IGS Memorandum Report 98
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character Field
+    Attribute:
+      Attribute_Label: Dateclo
+      Attribute_Definition: Date closed
+      Attribute_Definition_Source: IGS Memorandum Report 98
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character Field
+    Attribute:
+      Attribute_Label: Wet
+      Attribute_Definition: Pit condition (wet)
+      Attribute_Definition_Source: IGS Memorandum Report 98
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character Field
+    Attribute:
+      Attribute_Label: Dry
+      Attribute_Definition: Pit condition (dry)
+      Attribute_Definition_Source: IGS Memorandum Report 98
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character Field
+
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: Indiana Geological Survey
+        Contact_Person: Publication Sales
+      Contact_Position: Clerk
+      Contact_Address:
+        Address_Type: Mailing and physical address
+        Address: 611 North Walnut Grove
+        City: Bloomington
+        State_or_Province: Indiana
+        Postal_Code: 47405 2208
+        Country: USA
+      Contact_Voice_Telephone: 812 855 7636
+      Contact_Facsimile_Telephone: 812 855 2862
+      Contact_Electronic_Mail_Address: IGSinfo@indiana.edu
+      Hours_of_Service: 0800 to 1700 Eastern Standard Time
+      Contact_Instructions: Monday through Friday, except holidays
+  Resource_Description: Downloadable Data
+  Distribution_Liability:
+    COPYRIGHT 2003, THE TRUSTEES OF INDIANA UNIVERSITY,
+    INDIANA GEOLOGICAL SURVEY, ALL RIGHTS RESERVED
+
+    The information on these media is proprietary to Indiana University, Indiana Geological Survey. Any
+    copying, adaptation, distribution, public performance, or public display of this information without the
+    express written consent of Indiana University, Indiana Geological Survey is discouraged.
+
+    CREDIT
+
+    It is required that the Indiana Geological Survey be cited in any products generated from this data.
+    The following source citation must be included: SAND_GRAVEL_PITS_ABANDONED_IN: Abandoned Sand and Gravel Pits
+    in Indiana (Indiana Geological Survey, Point Shapefile).
+
+    WARRANTY
+
+    Indiana University, Indiana Geological Survey warrants that the media on which this product is stored
+    will be free from defect in materials and workmanship for ninety (90) days from the date of acquisition.
+    If such a defect is found, return the media to Publication Sales, Indiana Geological Survey, 611 North
+    Walnut Grove, Bloomington, Indiana 47405 2208, and it will be replaced free of charge.
+
+    LIMITATION OF WARRANTIES AND LIABILITY
+
+    Except for the expressed warranty above, the product is provided "AS IS", without any other warranties
+    or conditions, expressed or implied, including, but not limited to, warranties for product quality, or
+    suitability to a particular purpose or use. The risk or liability resulting from the use of this product is
+    assumed by the user. Indiana University, Indiana Geological Survey shares no liability with product
+    users indirect, incidental, special, or consequential damages whatsoever, including, but not limited to,
+    loss of revenue or profit, lost or damaged data or other commercial or economic loss. Indiana University,
+    Indiana Geological Survey is not responsible for claims by a third party. The maximum aggregate liability
+    to the original purchaser shall not exceed the amount paid by you for the product.
+
+Metadata_Reference_Information:
+  Metadata_Date: 20030813
+  Metadata_Review_Date: 20040407
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Organization: Indiana Geological Survey
+        Contact_Person: Chris Dintaman
+      Contact_Position: GIS Specialist
+      Contact_Address:
+        Address_Type: Mailing and physical address
+        Address: 611 North Walnut Grove
+        City: Bloomington
+        State_or_Province: Indiana
+        Postal_Code: 47405-2208
+        Country: USA
+      Contact_Voice_Telephone: 812-856-5654
+      Contact_Facsimile_Telephone: 812-855-2862
+      Contact_Electronic_Mail_Address: cdintama@indiana.edu
+      Hours_of_Service: 0800 to 1700 Eastern Standard Time
+      Contact_Instructions: Monday through Friday, except holidays
+  Metadata_Standard_Name: FGDC CSDGM
+  Metadata_Standard_Version: FGDC-STD-001-1998
+
