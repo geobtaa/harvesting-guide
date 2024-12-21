@@ -1,5 +1,32 @@
 {
-  "counties_in_pennsylvania": [
+
+"counties_in_minnesota" : [
+    "Aitkin", "Anoka", "Becker", "Beltrami", "Benton", "Big Stone",
+    "Blue Earth", "Brown", "Carlton", "Carver", "Cass", "Chippewa",
+    "Chisago", "Clay", "Clearwater", "Cook", "Cottonwood", "Crow Wing",
+    "Dakota", "Dodge", "Douglas", "Faribault", "Fillmore", "Freeborn",
+    "Goodhue", "Grant", "Hennepin", "Houston", "Hubbard", "Isanti",
+    "Itasca", "Jackson", "Kanabec", "Kandiyohi", "Kittson", "Koochiching",
+    "Lac qui Parle", "Lake", "Lake of the Woods", "Le Sueur", "Lincoln",
+    "Lyon", "Mahnomen", "Marshall", "Martin", "McLeod", "Meeker",
+    "Mille Lacs", "Morrison", "Mower", "Murray", "Nicollet", "Nobles",
+    "Norman", "Olmsted", "Otter Tail", "Pennington", "Pine", "Pipestone",
+    "Polk", "Pope", "Ramsey", "Red Lake", "Redwood", "Renville",
+    "Rice", "Rock", "Roseau", "St. Louis", "Scott", "Sherburne",
+    "Sibley", "Stearns", "Steele", "Stevens", "Swift", "Todd",
+    "Traverse", "Wabasha", "Wadena", "Waseca", "Washington", "Watonwan",
+    "Wilkin", "Winona", "Wright", "Yellow Medicine"
+]
+
+"cities_in_minnesota" : [
+    "Minneapolis", "St. Paul", "Rochester", "Duluth", "Bloomington",
+    "Brooklyn Park", "Plymouth", "Woodbury", "St. Cloud", "Eagan",
+    "Maple Grove", "Eden Prairie", "Coon Rapids", "Burnsville", "Blaine",
+    "Lakeville", "Minnetonka", "Apple Valley", "Edina", "St. Louis Park","Twin Cities"
+]
+
+
+"counties_in_pennsylvania": [
     "Adams", "Allegheny", "Armstrong", "Beaver", "Bedford", "Berks",
     "Blair", "Bradford", "Bucks", "Butler", "Cambria", "Cameron",
     "Carbon", "Centre", "Chester", "Clarion", "Clearfield", "Clinton",
