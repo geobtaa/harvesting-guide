@@ -24,7 +24,7 @@ def transform_spatial_coverage(row, state_abbreviations):
     }
 
     # Replace commas with pipes, then split the string into individual place names
-    places = str(row['Place Names']).replace(',', '|').split('|')
+    places = str(row['Creator']).replace(',', '|').split('|')
     transformed_places = []
 
     for place in places:
