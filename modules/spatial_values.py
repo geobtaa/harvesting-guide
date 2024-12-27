@@ -22,7 +22,7 @@ def match_and_append_values(df, csv_data):
 
     Args:
         df (pandas.DataFrame): The input DataFrame with a 'Creator' column.
-        csv_data (pandas.DataFrame): DataFrame loaded from the CSV with fields Bounding Box, Geometry, and GeoNames ID.
+        csv_data (pandas.DataFrame): DataFrame loaded from the CSV with fields Bounding Box, Geometry, and GeoNames
 
     Returns:
         pandas.DataFrame: Updated DataFrame with appended fields.
